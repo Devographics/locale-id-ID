@@ -27,7 +27,7 @@ translations:
       t: Bagaimana anda memposisikan element di layar?
 
     - key: sections.shapes_graphics.title
-      t: Shapes & Graphics
+      t: Bentuk & Grafik
     - key: sections.shapes_graphics.description
       t: Mengontrol bentuk dan tampilan element.
 
@@ -57,7 +57,7 @@ translations:
       t: Fitur CSS lainnya.
 
     - key: sections.units_selectors.title
-      t: Units & Selectors
+      t: Unit & Selektor
     - key: sections.units_selectors.description
       t: Uji pengetahuan anda tentang CSS unit dan selectors.
 
@@ -75,7 +75,7 @@ translations:
       t: Pustaka yang memberi anda komponen dan gaya yang siap pakai.
 
     - key: sections.css_frameworks_others.title # TODO
-      t: Other CSS Frameworks
+      t: Kerangka CSS Lainnya
 
     - key: sections.css_methodologies.title
       t: Metodologi CSS
@@ -83,7 +83,7 @@ translations:
       t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
 
     - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+      t: CSS Methodologies Lainnya
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
@@ -91,7 +91,7 @@ translations:
       t: Pustaka yang membantu mengintegrasikan CSS ke dalam kode Javascript.
 
     - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+      t: Pustaka CSS-in-JS Lainnya
 
     - key: sections.environments.title
       t: Lingkungan
