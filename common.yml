@@ -44,7 +44,7 @@ translations:
     - key: general.preview_survey
       t: Pratinjau Survei »
     - key: general.finish_survey
-      t: Selesaikan Survei »
+      t: Selesaikan Survei
     - key: general.survey_closed
       t: Survei ini sekarang ditutup.
     - key: general.survey_results
