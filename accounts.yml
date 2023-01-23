@@ -82,4 +82,4 @@ translations:
   - key: accounts.token_verified
     t: Token berhasil diverifikasi, mengarahkan...
   - key: accounts.your_surveys
-      t: Survei Anda
+    t: Survei Anda

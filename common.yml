@@ -181,9 +181,9 @@ translations:
     - key: sponsors.with_support_from
       t: Dengan dukungan istimewa dari
     - key: sponsors.our_partners
-      t: Mitra Kita
+      t: Mitra Kami
     - key: sponsors.become_partner
-      t: Menjadi Mitra kita
+      t: Menjadi Mitra Kami
 
     # 404
     - key: notfound.title
@@ -566,27 +566,37 @@ translations:
 
     # Disability Status
     - key: options.disability_status.visual_impairments
-      t: 'Gangguan Penglihatan (Seperti: kebutaan, buta warna, DLL.)'
+      t: > 
+        'Gangguan Penglihatan (Seperti: kebutaan, buta warna, DLL.)'
     - key: options.disability_status.hearing_impairments
-      t: 'Gangguan Pendengaran (Seperti: tuli, Tinnitus, DLL.)'
+      t: >
+        'Gangguan Pendengaran (Seperti: tuli, Tinnitus, DLL.)'
     - key: options.disability_status.mobility_impairments
-      t: 'Gangguan Mobilitas (Seperti: Artritis, carpal tunnel, DLL.)'
+      t: >
+        'Gangguan Mobilitas (Seperti: Artritis, carpal tunnel, DLL.)'
     - key: options.disability_status.cognitive_impairments
-      t: 'Gangguan Kognitif (Seperti: cemas, Disleksia, DLL.)'
+      t: >
+        'Gangguan Kognitif (Seperti: cemas, Disleksia, DLL.)'
     - key: options.disability_status.not_listed
-      t: Tidak disebutkan
+      t: >
+        Tidak disebutkan
 
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
-      t: Gangguan Penglihatan
+      t: >
+        Gangguan Penglihatan
     - key: options.disability_status.hearing_impairments
-      t: Gangguan Pendengaran
+      t: >
+        Gangguan Pendengaran
     - key: options.disability_status.mobility_impairments
-      t: Gangguan Mobilitas
+      t: >
+        Gangguan Mobilitas
     - key: options.disability_status.cognitive_impairments
-      t: Gangguan Kognitif
+      t: >
+        Gangguan Kognitif
     - key: options.disability_status.not_listed
-      t: Tidak disebutkan
+      t: >
+        Tidak disebutkan
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -937,7 +947,7 @@ translations:
         Kami juga berpikir bahwa penting untuk mengumpulkan informasi ini untuk membantu mengukur dan mengembangkan
         survei ini dalam hal inklusivitas dan representatif. 
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: Ras & Etnis
     - key: user_info.race_ethnicity.description
@@ -971,10 +981,11 @@ translations:
     - key: user_info.email
       t: Email Anda
     - key: user_info.email.description
-      t: Anda telah mengisi survei ini secara anonim. jika Anda mau, Anda bisa menambahkan email agar bisa mengakses data Anda nantinya, dan akan diberitahukan jika hasil survei sudah diterbitkan. 
+      t: >
+          Anda telah mengisi survei ini secara anonim. jika Anda mau, Anda bisa menambahkan email agar bisa mengakses data Anda nantinya, dan akan diberitahukan jika hasil survei sudah diterbitkan. 
     - key: user_info.email.note
       t: >
-          kita tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, Kami akan membuat identitas anonim yang unik lalu menghapus email Anda dari data kami.
+          Kami tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, Kami akan membuat identitas anonim yang unik lalu menghapus email Anda dari data kami.
     - key: user_info.country
       t: Negara Anda
     - key: user_info.country.description
@@ -1035,7 +1046,7 @@ translations:
       t: Apakah Anda ingin diberitahu saat hasil surveinya diterbitkan?
     - key: user_info.email_temporary.note
       t: >
-        kita tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, 
+        Kami tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, 
         data email anda akan dikirim kepada pihak ketiga dan akan dihapus dari data kami.
 
     # how can we improve the survey?
