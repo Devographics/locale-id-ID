@@ -9,60 +9,113 @@ translations:
       t: Mengapa saya perlu membuat akun?
     - key: general.create_account_reasons
       t: >
-          Kami meminta Anda untuk membuat akun untuk:
+          Kami meminta Anda membuat akun untuk:
 
           - Menghindari tanggapan ganda
 
           - Memberi Anda akses ke data Anda
 
-          - Simpan sesi Anda saat Anda pergi
+          - Menyimpan data sesi Anda
 
-          - Memberi tahu Anda saat hasilnya ditayangkan
+          - Memberi tahu Anda saat hasilnya sudah ditayangkan
     - key: general.survey_closed
       t: >
-          Maaf, survei sekarang ditutup! Anda masih dapat meninjau data anda, namun anda tidak dapat mengubahnya.
+          Maaf, survei sudah ditutup! Anda masih dapat meninjau data Anda, namun Anda tidak dapat mengubahnya.
     - key: general.survey_read_only
       t: >
-          Anda sekarang melihat survei ini dalam mode read-only.
+          Anda hanya dapat melihat survei ini.
+    - key: general.survey_preview
+      t: >
+          Survei ini dalam mode peninjauan. Semua pertanyaan dan subjek akan berubah, 
+          dan semua data masuk akan dihapus saat survei yang sebenarnya dimulai. 
+
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Kembali</a> ke halaman survei utama untuk memulai atau melanjutkan sesi.
+          <a href="{link}">Kembali</a> ke halaman survei untuk memulai atau melanjutkan sesi.
+    - key: general.take_survey
+      t: Isi survei {name}
 
     # surveys
     - key: general.open_surveys
-      t: Buka survei
+      t: Survei yang terbuka
     - key: general.no_open_surveys
-      t: Tidak ada survei yang dibuka saat ini.
+      t: Belum ada survei yang dibuka saat ini.
     - key: general.closed_surveys
-      t: Tutup Survei
+      t: Survei yang tertutup
+    - key: general.no_closed_surveys
+      t: Belum ada survei yang ditutup saat ini.
+    - key: general.preview_surveys
+      t: Pratinjau Survei
+    - key: general.no_preview_surveys
+      t: Belum ada survei untuk dipratinjau.
     - key: general.start_survey
       t: Mulai Survei »
     - key: general.continue_survey
       t: Lanjutkan Survei »
     - key: general.review_survey
       t: Tinjau Survei »
-    - key: general.preview_survey
+    - key: general.preview_surveys
       t: Pratinjau Survei »
     - key: general.finish_survey
       t: Selesaikan Survei
+    - key: general.next_section
+      t: Bagian selanjutnya
+    - key: general.previous_section
+      t: Bagian sebelumnya
     - key: general.survey_closed
-      t: Survei ini sekarang ditutup.
+      t: Survei ini telah ditutup.
     - key: general.survey_results
       t: Lihat hasil survei »
     - key: general.surveys_available_languages
-      t: 'Survei tersedia di:'
+      t: 'Survei tersedia dalam:'
     - key: general.help_us_translate
       t: Bantu kami menerjemahkan survei »
     - key: general.translators
       t: Penerjemah
     - key: general.translation_help
       t: Bantuan Terjemahan
+    - key: general.newly_added
+      t: Baru ditambahkan tahun ini
+    - key: general.new
+      t: Baru
+    - key: general.devographics_banner
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> adalah nama baru dari kolektif yang mengurus survei State of JavaScript, CSS, dan GraphQL.
+    
+    # credits
+    - key: credits.thanks
+      t: Terima kasih khusus
+    - key: credits.contributors
+      t: Kontributor
+    - key: credits.contributors.description
+      t: Terima kasih kepada mereka yang telah membantu kami mendesain survei ini.
+    - key: credits.accessibility
+      t: Konsultasi Aksesibilitas
+    - key: credits.survey_design
+      t: Desain Survei
+    - key: credits.logo_design
+      t: Desain Logo
+    - key: credits.mobile_testing
+      t: Uji coba perangkat ponsel
+    - key: credits.data_visualizations
+      t: Visualisasi Data
+    - key: credits.repo_architecture
+      t: Arsitektur Repo
+    - key: credits.code_refactoring
+      t: Kode Refaktor
+    - key: credits.data_processing
+      t: Pemrosesan Data
+    - key: credits.back_end_development
+      t: Pengembangan Back-End
+
+    # support
+    - key: general.support_from
+      t: Dengan dukungan dari
 
     # footer
     - key: general.privacy_policy
       t: Kebijakan Privasi
     - key: general.leave_issue
-      t: Pertanyaan? Menemukan bug? <a href="{link}" target="_blank">tinggalkan sebuah masalah</a>.
+      t: Pertanyaan? Menemukan bug? <a href="{link}" target="_blank">laporkan</a>.
     - key: general.emoji_icons
       t: Ikon emoji oleh <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -73,18 +126,27 @@ translations:
       t: >
           Catatan : semua pertanyaan bersifat opsional, tidak diperlukan untuk menyelesaikan 100%.
     - key: general.data_is_saved
-      t: Data anda disimpan setiap kali anda menavigasi ke bagian sebelumnya ada berikutnya
-
+      t: Data anda disimpan setiap kali anda melakukan navigasi
+    - key: general.close_nav
+      t: Tutup menu
+    - key: general.open_nav
+      t: Buka menu
+    - key: general.more_actions
+      t: Lebih banyak aksi
+    - key: general.skip_to_content
+      t: Lompat menuju konten
+      
     # thanks
     - key: general.back
       t: Kembali
     - key: general.thanks
       t: >
-          Terima kasih telah mengisi survei!
+          Terima kasih telah mengisi survei! Data anda telah tersimpan.
 
-          Data anda disimpan. Anda dapat meninjau atau mengubahnya hingga survei ditutup.
-          Selain itu, anda dapat membantu kami menyebarkan berita dengan membagikan survei ini. Setiap hal diperhitungkan,
-          dan itu akan membantu membuat data seimbang lebih representatif.
+
+          Anda dapat membantu kami dengan membagikan survei ini. Jawaban setiap pengguna sangat berarti,
+          dan itu akan membantu membuat data 
+          jadi lebih representatif:
     - key: thanks.learn_more_about
       t: 'Beberapa fitur yang mungkin ingin anda pelajari lebih lanjut:'
     - key: thanks.knowledge_score
@@ -92,8 +154,7 @@ translations:
     - key: thanks.score_explanation
       t: >
           Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
-          <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei, yaitu 
-          menempatkan anda di peringkat <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei, yaitu menempatkan anda di peringkat <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           dari semua responden.
     - key: thanks.share_on_twitter
       t: Bagikan di Twitter
@@ -103,14 +164,48 @@ translations:
     # share
     - key: general.share_subject
       t: >
-          {surveyName} survei
+          Survei {surveyName}
     - key: general.share_text
       t: >
-          Survei {surveyName} tahun ini sekarang dibuka! {link}
+          Survei {surveyName} tahun ini telah dibuka! {link}
 
     # forms
     - key: forms.select_option
       t: Pilih opsi
+    - key: forms.clear_field
+      t: Hapus jawaban
+    - key: forms.more_options
+      t: Lihat lebih banyak
+
+    # partners & sponsors
+    - key: sponsors.with_support_from
+      t: Dengan dukungan istimewa dari
+    - key: sponsors.our_partners
+      t: Mitra Kita
+    - key: sponsors.become_partner
+      t: Menjadi Mitra kita
+
+    # 404
+    - key: notfound.title
+      t: 404 tidak ditemukan
+    - key: notfound.description
+      t: Maaf, kami tidak dapat menemukan apa yang Anda cari. 
+
+    # other
+    - key: general.join_discord
+      t: Gabung dengan <a href="{link}">Discord</a> kami. 
+    - key: general.translator_mode
+      t: Tekan option/alt untuk mengaktifkan mode terjemahan. 
+    - key: general.charts_nivo
+      t: Bagan dibuat dengan <a href="{link}">Nivo</a>.
+    - key: general.made_by_devographics
+      t: Dibuat oleh <a href="{link}">Devographics</a>
+    - key: general.view_code_example
+      t: Lihat contoh kode
+    - key: general.feature_code_example
+      t: "contoh kode **{featureName}**"
+    - key: general.code_example
+      t: Contoh kode
 
     ###########################################################################
     # Nav
@@ -128,7 +223,12 @@ translations:
     - key: sections.user_info.title
       t: Tentang Anda
     - key: sections.user_info.description
-      t: Mari mengenal diri anda yang sebenarnya.
+      t: Mari mengenal lebih jauh tentang Anda.
+
+    - key: sections.features.title
+      t: Fitur
+    - key: sections.features.description
+      t: sintaksis, kata kunci, dan fitur bahasa pemrograman lainnya.
 
     - key: sections.resources.title
       t: Sumber
@@ -143,7 +243,10 @@ translations:
     - key: sections.other_tools.title
       t: Alat Lainnya
     - key: sections.other_tools.description
-      t: Untuk alat & teknologi ini, cukup periksa yang anda gunakan secara teratur.
+      t: Cukup pilih alat dan teknologi yang sering anda gunakan.
+
+    - key: sections.report.title
+      t: Laporan trend
 
     ###########################################################################
     # Options
@@ -151,47 +254,47 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Tidak pernah mendengarnya/Tidak yakin apakah itu
+      t: 🤷 Saya tidak pernah mendengarnya/Tidak yakin itu apa
     - key: options.features.heard
-      t: ✅ Tahu apa itu, tapi belum pernah menggunakannya
+      t: ✅ Saya tahu, tapi belum pernah menggunakannya
     - key: options.features.used
-      t: 👍 Saya sudah menggunakannya
+      t: 👍 Saya sudah pernah menggunakannya
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Tidak pernah mendengarnya/Tidak yakin apakah itu
+      t: Saya tidak pernah mendengarnya/Tidak yakin itu apa
     - key: options.features.heard.label
-      t: Tahu apa itu, tapi belum pernah menggunakannya
+      t: Saya tahu, tapi belum pernah menggunakannya
     - key: options.features.used.label
-      t: Saya sudah menggunakannya
+      t: Saya sudah pernah menggunakannya
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Tidak pernah mendengarnya
+      t: Belum pernah mendengarnya
     - key: options.features.heard.short
       t: Tahu tentang itu
     - key: options.features.used.short
-      t: Telah menggunakannya
+      t: Sudah pernah menggunakannya
 
     # patterns
     - key: options.patterns.use_never
-      t: Hampir selalu dihindari
+      t: Hampir tidak digunakan sama sekali
     - key: options.patterns.use_sparingly
-      t: Gunakan dengan hemat
+      t: Sedikit digunakan
     - key: optionspatterns..use_neutral
       t: Netral
     - key: options.patterns.use_frequently
-      t: Gunakan sesering mungkin
+      t: Sering digunakan
     - key: options.patterns.use_always
-      t: Gunakan sebanyak yang saya bisa
+      t: Selalu digunakan
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Tidak pernah mendengarnya/Tidak yakin apakah itu
+      t: 🤷 Saya tidak pernah mendengarnya/Tidak yakin itu apa
     - key: options.tools.interested
-      t: ✅ Pernah mendengarnya > ingin belajar
+      t: ✅ Pernah mendengarnya > Tertarik untuk mempelajarinya
     - key: options.tools.not_interested
-      t: 🚫 Mendengarnya > Tidak tertarik
+      t: 🚫 Mengetahuinya > Tidak tertarik
     - key: options.tools.would_use
       t: 👍 Digunakan > Akan digunakan lagi
     - key: options.tools.would_not_use
@@ -199,11 +302,11 @@ translations:
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Tidak pernah mendengarnya/Tidak yakin apakah itu
+      t: Saya tidak pernah mendengarnya/Tidak yakin itu apa
     - key: options.tools.interested.legend
-      t: Pernah mendengarnya > ingin belajar
+      t: Pernah mendengarnya > Tertarik untuk mempelajarinya
     - key: options.tools.not_interested.legend
-      t: Mendengarnya > Tidak tertarik
+      t: Mengetahuinya > Tidak tertarik
     - key: options.tools.would_use.legend
       t: Digunakan > Akan digunakan lagi
     - key: options.tools.would_not_use.legend
@@ -219,7 +322,7 @@ translations:
     - key: options.tools.would_use.short
       t: Akan digunakan lagi
     - key: options.tools.would_not_use.short
-      t: Tidak akan digunakan
+      t: Tidak akan digunakan lagi
 
     # happiness
     - key: options.happiness.0
@@ -231,6 +334,18 @@ translations:
     - key: options.happiness.3
       t: Senang
     - key: options.happiness.4
+      t: Sangat Senang
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Sangat Tidak Senang
+    - key: options.happiness.1.short
+      t: Tidak Senang
+    - key: options.happiness.2.short
+      t: Netral
+    - key: options.happiness.3.short
+      t: Senang
+    - key: options.happiness.4.short
       t: Sangat Senang
 
     # opinions
@@ -245,9 +360,45 @@ translations:
     - key: options.opinions.4
       t: Sangat Setuju
 
+    # age
+    - key: options.age.range_less_than_10
+      t: Dibawah 11 tahun
+    - key: options.age.range_10_18
+      t: 11-18 tahun
+    - key: options.age.range_18_24
+      t: 19-24 tahun
+    - key: options.age.range_25_34
+      t: 25-34 tahun
+    - key: options.age.range_35_44
+      t: 35-44 tahun
+    - key: options.age.range_45_54
+      t: 45-54 tahun
+    - key: options.age.range_55_64
+      t: 55-64 tahun
+    - key: options.age.range_more_than_65
+      t: Diatas 64 tahun
+
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<=10'
+    - key: options.age.range_10_18.short
+      t: 11-18
+    - key: options.age.range_18_24.short
+      t: 19-24
+    - key: options.age.range_25_34.short
+      t: 25-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Kurang dari satu tahun
+      t: Kurang dari 1 tahun
     - key: options.years_of_experience.range_1_2
       t: 1 sampai 2 tahun
     - key: options.years_of_experience.range_2_5
@@ -261,21 +412,21 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: '<1 tahun'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2
+      t: 1-2 tahun
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5
+      t: 2-5 tahun
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10
+      t: 5-10 tahun
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20
+      t: 10-20 tahun
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20'
+      t: '>20 tahun'
 
     # company size
     - key: options.company_size.range_1
-      t: Satu karyawan
+      t: 1 karyawan
     - key: options.company_size.range_1_5
       t: 1 sampai 5 karyawan
     - key: options.company_size.range_5_10
@@ -293,7 +444,7 @@ translations:
 
     # company size (short versions)
     - key: options.company_size.range_1.short
-      t: 1
+      t: '1'
     - key: options.company_size.range_1_5.short
       t: 1-5
     - key: options.company_size.range_5_10.short
@@ -327,7 +478,7 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '$0'
+      t: $0
     - key: options.yearly_salary.range_0_10.short
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30.short
@@ -340,6 +491,316 @@ translations:
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200.short
       t: '>$200k'
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: Tidak ada
+    - key: options.proficiency.1
+      t: Pemula
+    - key: options.proficiency.2
+      t: Menengah
+    - key: options.proficiency.3
+      t: Tingkat lanjut
+    - key: options.proficiency.4
+      t: Ahli
+
+    # Gender
+    - key: options.gender.female
+      t: Perempuan
+    - key: options.gender.male
+      t: Laki-laki
+
+    # Gender (short)
+    - key: options.gender.female.short
+      t: Perempuan
+    - key: options.gender.male.short
+      t: Laki-laki
+
+    # Race & Ethnicity
+    - key: options.race_ethnicity.white_european
+      t: Putih atau Keturunan Eropa
+    - key: options.race_ethnicity.south_asian
+      t: Asia Selatan
+    - key: options.race_ethnicity.south_east_asian
+      t: Asia Tenggara
+    - key: options.race_ethnicity.hispanic_latin
+      t: Hispanik atau Latino/Latina/Latinx
+    - key: options.race_ethnicity.east_asian
+      t: Asia Timur
+    - key: options.race_ethnicity.middle_eastern
+      t: Timur Tengah
+    - key: options.race_ethnicity.black_african
+      t: Hitam atau Keturunan Afrika
+    - key: options.race_ethnicity.multiracial
+      t: Multiras
+    - key: options.race_ethnicity.biracial
+      t: Biracial
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: Penduduk Asli Amerika, Penduduk Kepulauan Pasifik, atau Penduduk Asli Australia
+    - key: options.race_ethnicity.not_listed
+      t: Tidak disebutkan
+
+    # Race & Ethnicity (short)
+    - key: options.race_ethnicity.white_european.short
+      t: Berkulit Putih
+    - key: options.race_ethnicity.south_asian.short
+      t: Asia Selatan
+    - key: options.race_ethnicity.south_east_asian.short
+      t: Asia Tenggara
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Hispanik/Latin
+    - key: options.race_ethnicity.east_asian.short
+      t: Asia Timur
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Timur Tengah
+    - key: options.race_ethnicity.black_african.short
+      t: Berkulit Hitam/Keturunan Afrika
+    - key: options.race_ethnicity.multiracial.short
+      t: Multirasial
+    - key: options.race_ethnicity.biracial.short
+      t: Biracial
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: Asli Amerika/Penduduk Pasifik/Asli Australia
+    - key: options.race_ethnicity.not_listed.short
+      t: Tidak disebutkan
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: 'Gangguan Penglihatan (Seperti: kebutaan, buta warna, DLL.)'
+    - key: options.disability_status.hearing_impairments
+      t: 'Gangguan Pendengaran (Seperti: tuli, Tinnitus, DLL.)'
+    - key: options.disability_status.mobility_impairments
+      t: 'Gangguan Mobilitas (Seperti: Artritis, carpal tunnel, DLL.)'
+    - key: options.disability_status.cognitive_impairments
+      t: 'Gangguan Kognitif (Seperti: cemas, Disleksia, DLL.)'
+    - key: options.disability_status.not_listed
+      t: Tidak disebutkan
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: Gangguan Penglihatan
+    - key: options.disability_status.hearing_impairments
+      t: Gangguan Pendengaran
+    - key: options.disability_status.mobility_impairments
+      t: Gangguan Mobilitas
+    - key: options.disability_status.cognitive_impairments
+      t: Gangguan Kognitif
+    - key: options.disability_status.not_listed
+      t: Tidak disebutkan
+
+    # Form Factors
+    - key: options.form_factors.desktop
+      t: Desktop
+    - key: options.form_factors.keyboard_only
+      t: Desktop dengan hanya menggunakan keyboard
+    - key: options.form_factors.smartphone
+      t: Gawai
+    - key: options.form_factors.feature_phone
+      t: Ponsel
+    - key: options.form_factors.tablet
+      t: Tablet
+    - key: options.form_factors.smart_watch
+      t: Jam Tangan Pintar
+    - key: options.form_factors.tv
+      t: TV
+    - key: options.form_factors.gaming_console
+      t: Konsol Gim
+    - key: options.form_factors.screen_reader
+      t: Pembaca Layar
+    - key: options.form_factors.print
+      t: Print
+    - key: options.form_factors.testing_tools
+      t: Alat Pengujian (Axe, Lighthouse, DLL.)
+    - key: options.form_factors.vision_simulator
+      t: Simulator Pengubah Penglihatan (Buta Warna, DLL.)
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Toko Online & Ritel
+    - key: options.industry_sector.news_media
+      t: Berita, Media Massa, & Menulis Blog
+    - key: options.industry_sector.healthcare
+      t: Kesehatan
+    - key: options.industry_sector.finance
+      t: Keuangan
+    - key: options.industry_sector.programming_tools
+      t: Pemrograman & Peralatan Teknis
+    - key: options.industry_sector.socialmedia
+      t: Media Sosial
+    - key: options.industry_sector.marketing_tools
+      t: Pemasaran/Penjualan/Alat Analisa
+    - key: options.industry_sector.education
+      t: Edukasi
+    - key: options.industry_sector.real_estate
+      t: Perumahan
+    - key: options.industry_sector.government
+      t: Pemerintahan
+    - key: options.industry_sector.entertainment
+      t: Dunia Hiburan
+    - key: options.industry_sector.consulting
+      t: Konsultan & Jasa
+    - key: options.industry_sector.travel
+      t: Perjalanan
+    - key: options.industry_sector.insurance
+      t: Asuransi
+    - key: options.industry_sector.logistics
+      t: Logistik
+    - key: options.industry_sector.energy
+      t: Energi
+    - key: options.industry_sector.telecommunications
+      t: Telekomunikasi
+    - key: options.industry_sector.student
+      t: Pendidikan
+    - key: options.industry_sector.hospitality
+      t: Hospitality
+    - key: options.industry_sector.cyber_security
+      t: Keamanan Siber
+    - key: options.industry_sector.construction
+      t: Konstruksi
+    - key: options.industry_sector.automotive
+      t: Otomotif
+    - key: options.industry_sector.agriculture
+      t: Pertanian
+    - key: options.industry_sector.transport
+      t: Transportasi
+    - key: options.industry_sector.manufacturing
+      t: Manufaktur
+
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: Dokumentasi
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: Apakah mudah dipelajari/Jelas dokumentasinya?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Hype & Momentum
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: Apakah sedang menarik banyak perhatian?
+    - key: options.tool_evaluation.user_base_size
+      t: Banyaknya Pengguna
+    - key: options.tool_evaluation.user_base_size.description
+      t: Apakah ini opsi yang baik dengan laporan lengkap?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: Pengalaman dari para pengembang
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: Apakah terdapat alat pengembangan yang bagus, ekosistem yang luas, DLL.?
+    - key: options.tool_evaluation.performance_user_experience
+      t: Pengalaman Pengguna
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: Apakah ini membantu membuat pengalaman pengguna yang halus, dan cepat?
+    - key: options.tool_evaluation.creator_team
+      t: Kreator & Tim
+    - key: options.tool_evaluation.creator_team.description
+      t: Apakah ini dibelakangi oleh tim terkenal, pendanaan bagus, atau berpengalaman?
+    - key: options.tool_evaluation.accessibility_features
+      t: Fitur Aksesibilitas
+    - key: options.tool_evaluation.accessibility_features.description
+      t: Apakah bagus jika digunakan untuk membuat pengalaman aksesibilitas untuk semua pengguna?
+    - key: options.tool_evaluation.community_inclusivity
+      t: Komunitas & Inklusivitas
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: Apakah terdapat komunitas yang menyambutmu dengan baik?
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: Navigasi Keyboard
+    - key: options.accessibility_features.compliant_contrast
+      t: Kontras WCAG-compliant
+    - key: options.accessibility_features.focus_indicators
+      t: Indikator Fokus
+    - key: options.accessibility_features.skip_to_content_link
+      t: tautan Skip-to-content
+    - key: options.accessibility_features.color_themes
+      t: Tema warna (Mode gelap, mode kontras tinggi, DLL.)
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Fitur Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: Teks Alternatif
+    - key: options.accessibility_features.semantic_markup
+      t: Markup Semantik
+    - key: options.accessibility_features.aria_attributes
+      t: Atribut ARIA HTML
+    
+    # learning methods
+    - key: options.first_steps.books
+      t: Buku
+    - key: options.first_steps.videos
+      t: Video & Screencast
+    - key: options.first_steps.school
+      t: Sekolah & Sekolah Tinggi
+    - key: options.first_steps.courses_free
+      t: Kursus Daring (Gratis)
+    - key: options.first_steps.courses_paid
+      t: Kursus Daring (Berbayar)
+    - key: options.first_steps.podcasts
+      t: Podcast
+    - key: options.first_steps.bootcamp
+      t: Bootcamp Coding
+    - key: options.first_steps.on_the_job
+      t: Praktek Kerja
+    - key: options.first_steps.self_directed
+      t: Belajar Sendiri (Google, Stack Overflow, DLL.)
+    - key: options.first_steps.mentoring
+      t: Mentoring
+    - key: options.first_steps.blogs
+      t: Blog
+    - key: options.first_steps.view_source
+      t: Melihat Sumbernya
+    - key: options.first_steps.documentation
+      t: Dokumentasi
+    - key: options.first_steps.trial_and_error
+      t: Trial & Error
+    - key: options.first_steps.forums
+      t: Forum
+
+    # degree
+    - key: options.higher_education_degree.no_degree
+      t: 'Tidak ada'
+    - key: options.higher_education_degree.yes_related
+      t: Ada, dan relevan dengan pekerjaan saat ini
+    - key: options.higher_education_degree.yes_unrelated
+      t: Ada, tetapi tidak relevan dengan pekerjaan saat ini
+
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: 'Tidak ada'
+    - key: options.higher_education_degree.yes_related.short
+      t: Ada, dan relevan dengan pekerjaan saat ini
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Ada, tapi tidak relevan dengan pekerjaan saat ini
+
+    # employment_status
+    - key: options.employment_status.full_time
+      t: Penuh Waktu
+    - key: options.employment_status.student
+      t: Pelajar
+    - key: options.employment_status.self_employed
+      t: Freelancer
+    - key: options.employment_status.contractor
+      t: Kontrak
+    - key: options.employment_status.part_time
+      t: Paruh Waktu
+    - key: options.employment_status.retired
+      t: Pensiun
+
+    # email_temporary (receive updates?)
+    - key: options.email_temporary.yes
+      t: Iya, kirim Saya email jika hasil survei sudah diterbitkan
+
+    # usage type
+    - key: options.usage_type.professionally
+      t: Secara profesional
+    - key: options.usage_type.student
+      t: Sebagai Pelajar
+    - key: options.usage_type.hobby
+      t: Sebagai Hobi
+
+     # source
+    - key: options.source.angular_community
+      t: Komunitas Angular
+    - key: options.source.work
+      t: Pekerjaan
+    - key: options.source.word_of_mouth
+      t: Dari mulut ke mulut
 
     # job titles
     - key: options.job_title.cto
@@ -362,9 +823,8 @@ translations:
       t: Pengembang/Insinyur Back-end
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
-      t: Tidak dapat menulis Javascript apa pun
+      t: Tidak dapat menulis Javascript sama sekali
     - key: options.javascript_proficiency.1
       t: Menulis pernyataan Javascript atau jQuery yang singkat dan sederhana
     - key: options.javascript_proficiency.2
@@ -375,7 +835,6 @@ translations:
       t: Menangani pola front-end lanjutan (manajemen keadaan, data loading, etc.)
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: Hampir tidak ada pengetahuan tentang CSS
     - key: options.css_proficiency.1
@@ -388,7 +847,6 @@ translations:
       t: Mampu menata seluruh front-end dari awal mengikuti metodologi yang konsisten
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: Tidak dapat menangani pekerjaan back-end apa pun
     - key: options.backend_proficiency.1
@@ -399,72 +857,6 @@ translations:
       t: Menyiapkan seluruh back-end dari awal (Go, Node.js, dll.)
     - key: options.backend_proficiency.4
       t: Mampu menangani arsitektur multi-server atau layanan mikro yang kompleks
-
-    # Proficiency (generic versions)
-    - key: options.proficiency.0
-      t: Tidak ada
-    - key: options.proficiency.1
-      t: Pemula
-    - key: options.proficiency.2
-      t: Menengah
-    - key: options.proficiency.3
-      t: Lanjutan
-    - key: options.proficiency.4
-      t: Ahli
-
-    # Gender
-
-    - key: options.gender.female
-      t: Perempuan
-    - key: options.gender.male
-      t: Pria
-    - key: options.gender.non_binary
-      t: Jenis kelamin non-biner/ketiga 
-    - key: options.gender.prefer_not_to_say
-      t: Memilih untuk tidak menjawab
-
-    # Race & Ethnicity
-
-    # CONTINUE FROM HERE
-
-    - key: options.race_ethnicity.white_european
-      t: Putih atau Keturunan Eropa
-    - key: options.race_ethnicity.south_asian
-      t: Asia Selatan
-    - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic atau Latino/Latina
-    - key: options.race_ethnicity.east_asian
-      t: Asia Timur
-    - key: options.race_ethnicity.middle_eastern
-      t: Timur Tengah
-    - key: options.race_ethnicity.black_african
-      t: Hitam atau Keturunan Afrika
-    - key: options.race_ethnicity.multiracial
-      t: Multiras
-    - key: options.race_ethnicity.biracial
-      t: Biracial
-    - key: options.race_ethnicity.native_american_islander_australian
-      t: Penduduk Asli Amerika, Penduduk Kepulauan Pasifik, atau Penduduk Asli Australia
-
-    # Form Factors
-    - key: options.form_factors.desktop
-      t: Desktop
-    - key: options.form_factors.smartphone
-      t: Smartphone
-    - key: options.form_factors.feature_phone
-      t: Feature phone
-    - key: options.form_factors.tablet
-      t: Tablet
-    - key: options.form_factors.smart_watch
-      t: Smartwatch
-    - key: options.form_factors.tv
-      t: TV
-    - key: options.form_factors.gaming_console
-      t: Gaming console
-    - key: options.form_factors.screen_reader
-      t: Screen reader
-    - key: options.form_factors.print
-      t: Print
 
     ###########################################################################
     # Tools
@@ -484,6 +876,12 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: Umur
+    - key: user_info.age.description
+      t: Berapa umur Anda?
 
     # years of experience
     - key: user_info.years_of_experience
@@ -505,19 +903,17 @@ translations:
 
     # job title
     - key: user_info.job_title
-      t: Judul Pekerjaan
+      t: Posisi dalam pekerjaan
     - key: user_info.job_title.description
       t: Bagaimana cara anda memperkenalkan diri?
 
     # javascript proficiency
-
     - key: user_info.javascript_proficiency
       t: Kecakapan JavaScript
     - key: user_info.javascript_proficiency.description
       t: Seberapa mahir anda di JavaScript?
 
     # css proficiency
-
     - key: user_info.css_proficiency
       t: Kecakapan CSS
     - key: user_info.css_proficiency.description
@@ -532,22 +928,132 @@ translations:
     # gender
     - key: user_info.gender
       t: Jenis Kelamin
+    - key: user_info.gender.description
+      t: >
+        Mana dari pilihan ini yang mendeskripsikan tentang dirimu? Pilih salah satu.
+    - key: user_info.gender.note
+      t: >
+        Kami sadar bahwa mengumpulkan dan menerbitkan informasi ini bisa menjadi sangat sensitif, 
+        Kami juga berpikir bahwa penting untuk mengumpulkan informasi ini untuk membantu mengukur dan mengembangkan
+        survei ini dalam hal inklusivitas dan representatif. 
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: Ras & Etnis
+    - key: user_info.race_ethnicity.description
+      t: >
+        Mana dari pilihan ini yang mendeskripsikan tentang dirimu? Pilih yang sesuai.
+    - key: user_info.race_ethnicity.note
+      t: >
+        Kami sadar bahwa mengumpulkan dan menerbitkan informasi ini bisa menjadi sangat sensitif, 
+        Kami juga berpikir bahwa penting untuk mengumpulkan informasi ini untuk membantu mengukur dan mengembangkan
+        survei ini dalam hal inklusivitas dan representatif. 
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+        Dalam mentaati aturan lokal, pengumpulan data 
+        Ras atau Etnis telah ditiadakan untuk negara Anda.
+
+    # disability status
+    - key: user_info.disability_status
+      t: Status Disabilitas
+    - key: user_info.disability_status.description
+      t: >
+        Mana dari pilihan disabilitas ini yang pernah Anda alami? Pilih yang sesuai.
+        Catatan bahwa ini bisa termasuk disabilitas sementara ataupun cedera.
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: Disabilitas Lain
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: Bagaimana anda mengetahui tentang survei ini?
+      t: Bagaimana Anda mengetahui tentang survei ini?
     - key: user_info.email
       t: Email Anda
+    - key: user_info.email.description
+      t: Anda telah mengisi survei ini secara anonim. jika Anda mau, Anda bisa menambahkan email agar bisa mengakses data Anda nantinya, dan akan diberitahukan jika hasil survei sudah diterbitkan. 
+    - key: user_info.email.note
+      t: >
+          kita tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, Kami akan membuat identitas anonim yang unik lalu menghapus email Anda dari data kami.
     - key: user_info.country
       t: Negara Anda
+    - key: user_info.country.description
+      t: Di mana tempat tinggal anda sekarang?
+
+    - key: user_info.github_username
+      t: Username akun GitHub Anda
+    - key: user_info.github_username.description
+      t: >
+        Nantinya Kami mungkin akan menggunakan username Github untuk 
+        melihat repo dan mendapatkan informasi publik yang tersedia.
+    - key: user_info.twitter_username
+      t: Username akun Twitter Anda
+    - key: user_info.twitter_username.description
+      t: >
+        Nantinya Kami mungkin akan menggunakan username Twitter untuk 
+        melihat aktivitas Twitter dan mendapatkan informasi publik yang tersedia
+        (Seperti daftar oang yang anda ikuti).
+
+    - key: user_info.industry_sector
+      t: Sektor Industri
+    - key: user_info.industry_sector.description
+      t: Anda sedang bekerja pada sektor industri apa?
+    - key: user_info.industry_sector.others
+      t: Sektor Industri Lainnya
+    - key: user_info.industry_sector.others.description
+      t: Sektor industri lainnya yang tidak disebutkan di atas.
+
+    - key: usage.industry_sector
+      aliasFor: user_info.industry_sector
+    - key: usage.industry_sector.description
+      aliasFor: user_info.industry_sector.description
+    - key: usage.industry_sector.others
+      aliasFor: user_info.industry_sector.others
+    - key: usage.industry_sector.others.description
+      aliasFor: user_info.industry_sector.description
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: Gelar Akademik
+    - key: user_info.higher_education_degree.description
+      t: Apakah Anda memiliki Gelar Akademik?
+
+    # employment status
+    - key: user_info.employment_status
+      t: Status Pekerjaan
+    - key: user_info.employment_status.description
+      t: Apa status pekerjaan anda yang sekarang?
+    
+    # completion
+    - key: user_info.completion_stats
+      t: Penyelesaian Survei
+    - key: user_info.completion_stats.description
+      t: Seberapa banyak responden survei melakukan pengisian data?
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: Apakah Anda ingin diberitahu saat hasil surveinya diterbitkan?
+    - key: user_info.email_temporary.note
+      t: >
+        kita tidak menyimpan data personal apa pun, jadi setelah Anda menulis email, 
+        data email anda akan dikirim kepada pihak ketiga dan akan dihapus dari data kami.
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: Bagaimana cara Kami bisa mengembangkan survei ini?
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Pustaka
+    - key: tools_others.libraries.description
+      t: Pustaka apa yang biasanya anda gunakan?
+    - key: tools_others.libraries.others
+      t: Pustaka Lainnya
+    - key: tools_others.libraries.others.description
+      t: Jawaban lain.
 
     - key: tools_others.text_editors
       t: Editor Teks
@@ -586,7 +1092,7 @@ translations:
       t: Jawaban Lain.
 
     - key: tools_others.non_js_languages
-      t: Bukan Bahasa Javascript
+      t: Selain Bahasa Javascript
     - key: tools_others.non_js_languages.description
       t: Bahasa pemrograman lain apa yang anda gunakan?
     - key: tools_others.non_js_languages.others
@@ -594,15 +1100,34 @@ translations:
     - key: tools_others.non_js_languages.others.description
       t: Jawaban lain.
 
+    - key: tools_others.javascript_flavors
+      t: Varian JavaScript
+    - key: tools_others.javascript_flavors.description
+      t: Bahasa yang mengubah menjadi kode JavaScript
+    - key: tools_others.javascript_flavors.others
+      t: Varian JavaScript Lainnya
+    - key: tools_others.javascript_flavors.others.description
+      t: Jawaban lain.
+
     ###########################################################################
     # Resources
     ###########################################################################
+
+    # first steps
+    - key: resources.first_steps
+      t: Metode Belajar Pertama
+    - key: resources.first_steps.description
+      t: Saat pertama kali mencoba, bagaimana caramu belajar menulis kode?
+    - key: resources.first_steps.others
+      t: Metode belajar pertama Lainnya
+    - key: resources.first_steps.others.description
+      t: Jawaban lain.
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: Blog & Majalah
     - key: resources.blogs_news_magazines.description
-      t: Blog/Majalah/dll, apa yang anda baca?
+      t: Blog/Majalah/DLL, mana yang anda baca?
     - key: resources.blogs_news_magazines.others
       t: Blog & Majalah Lainnya
     - key: resources.blogs_news_magazines.others.description
@@ -612,7 +1137,7 @@ translations:
     - key: resources.sites_courses
       t: Situs & Kursus
     - key: resources.sites_courses.description
-      t: Situs/Kursus/dll, apa yang anda lihat?
+      t: Situs/Kursus/DLL, mana yang anda coba?
     - key: resources.sites_courses.others
       t: Situs & Kursus Lain
     - key: resources.sites_courses.others.description
@@ -627,3 +1152,34 @@ translations:
       t: Podcast lain
     - key: resources.podcasts.others.description
       t: Jawaban lain.
+
+    # people
+    - key: resources.people
+      t: Orang
+    - key: resources.people.description
+      t: Orang yang anda dengarkan, ikuti, atau yang ada sorot.
+    - key: resources.people.others
+      t: Orang Lainnya
+    - key: resources.people.others.description
+      t: Jawaban lain.
+    - key: resources.people.others
+      t: Orang
+    - key: resources.people.others.description
+      t: >
+        Orang yang anda dengarkan, ikuti, atau yang ada sorot karena karyanya.
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Survei Lainnya
+    - key: resources.other_surveys.description
+      t: Survei pengembang apa saja yang Anda ikuti?
+    - key: resources.other_surveys.others
+      t: Survei tambahan yang tidak disebutkan di atas
+    
+    # video creators
+    - key: resources.video_creators
+      t: Kreator Video
+    - key: resources.video_creators.description
+      t: Siapa Kreator yang anda ikuti pada platform seperti YouTube, Twitch, TikTok, DLL. 
+    - key: resources.video_creators.others
+      t: Kreator Video Lain

@@ -54,6 +54,10 @@ translations:
     t: Daftar
   - key: accounts.sign_in
     t: Masuk
+  - key: accounts.switch_to_sign_up
+    t: Belum punya akun? Daftar
+  - key: accounts.switch_to_sign_in
+    t: Sudah punya akun? Masuk
   - key: accounts.sign_out
     t: Keluar
   - key: accounts.cancel
@@ -68,7 +72,14 @@ translations:
     t: Silahkan masuk atau daftar untuk memulai.
   - key: accounts.logged_in_as
     t: Masuk sebagai {email}
+  - key: accounts.logged_in_as_guest
+    t: Masuk sebagai tamu
   - key: accounts.questions
     t: >
-        Jika anda memiliki pertanyaan tentang bagaimana kami menggunakan data anda,
-        atau ingin kami untuk menghapus data anda, silahkan <a href="mailto:hello@stateofjs.com">hubungi kami</a>.
+        Jika Anda memiliki pertanyaan tentang bagaimana kami menggunakan data Anda,
+        atau ingin kami untuk menghapus data Anda, 
+        silahkan <a href="mailto:hello@stateofjs.com">hubungi kami</a>.
+  - key: accounts.token_verified
+    t: Token berhasil diverifikasi, mengarahkan...
+  - key: accounts.your_surveys
+      t: Survei Anda
