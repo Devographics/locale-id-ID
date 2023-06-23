@@ -37,7 +37,7 @@ translations:
     - key: tabs.by_experience
       t: Berdasarkan Pengalaman
     - key: tabs.by_degree
-      t: Berdasarkan Gelar
+      t: Berdasarkan Gelar Akademik
     - key: tabs.by_salary
       t: Berdasarkan Gaji
     - key: tabs.by_gender
