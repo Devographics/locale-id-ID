@@ -4,6 +4,45 @@ translations:
     # General
     ###########################################################################
 
+     - key: results.start
+      t: Mulai
+
+    - key: page.previous
+      t: "Sebelumnya:"
+    - key: page.next
+      t: "Selanjutnya:"
+
+    - key: general.netlify_link
+      t: Dihost di <a href="{link}">Netlify</a>.
+
+    - key: general.completion_percentage
+      t: "Persentase penyelesaian:"
+
+    - key: sponsors.thanks
+      t: Terima kasih kepada partner kami atas dukungannya!
+
+    - key: sponsors.learn_more
+      t: Pelajari lebih lanjut.
+
+    - key: tabs.all_respondents
+      t: Semua responden
+    - key: tabs.main_answers
+      t: Jawaban teratas
+    - key: tabs.other_answers
+      t: Jawaban lainnya
+    - key: tabs.share
+      t: Bagikan
+    - key: tabs.by_country
+      t: Berdasarkan Negara
+    - key: tabs.by_experience
+      t: Berdasarkan Pengalaman
+    - key: tabs.by_degree
+      t: Berdasarkan Gelar
+    - key: tabs.by_salary
+      t: Berdasarkan Gaji
+    - key: tabs.by_gender
+      t: Berdasarkan Jenis Kelamin
+
     ###########################################################################
     # Features
     ###########################################################################
