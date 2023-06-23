@@ -44,6 +44,62 @@ translations:
       t: Berdasarkan Jenis Kelamin
 
     ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Bahasa
+    - key: user_info.locale.description
+      t: Apa bahasa yang digunakan responden saat mengisi survey?
+    - key: user_info.locale.note
+      t: >
+        Data ini dikumpulkan secara otomatis berdasarkan pengaturan responden saat mengisi survey:
+        Bahasa yang digunakan oleh kurang dari 20 responden tidak ditampilkan.
+
+    - key: user_info.source
+      t: Sumber
+    - key: user_info.source.description
+      t: Bagaimana responden tahu mengenai survey ini?
+    - key: user_info.source.note
+      t: Sumber yang digunakan responden dihitung berdasarkan data referrer, data tracking URL dan jawaban sendiri.
+
+    - key: user_info.gender_by_country
+      t: Jenis Kelamin berdasarkan Negara
+    - key: user_info.gender_by_country.description
+      t: Distribusi jenis kelamin berdasarkan negara dengan setidaknya 100 responden, diurutkan dari "jenis kelamin terbanyak" (setiap key jenis kelamin diberi nilai integer dengan urutan naik).
+      t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+
+    - key: user_info.years_of_experience_by_salary
+      t: Tahun Pengalaman berdasarkan Range Gaji
+    - key: user_info.years_of_experience_by_salary.description
+      t: Tahun pengalaman berdasarkan range gaji.
+
+    - key: user_info.yearly_salary_by_country
+      t: Gaji berdasarkan Negara
+    - key: user_info.yearly_salary_by_country.description
+      t: Distribusi gaji tahunan berdasarkan negara dengan setidaknya 100 responen, diurutkan dari gaji yang terbesar.
+
+    - key: user_info.yearly_salary_by_degree
+      t: Gaji berdasarkan Gelar Akademik
+    - key: user_info.yearly_salary_by_degree.description
+      t: Distribusi gaji tahunan berdasarkan gelar akademik, diurutkan dari gaji yang terbesar.
+
+    - key: user_info.yearly_salary_by_experience
+      t: Gaji berdasarkan Pengalaman
+    - key: user_info.yearly_salary_by_experience.description
+      t: Distribusi gaji tahunan berdasarkan pengalaman, diurutkan dari gaji yang terbesar.
+
+    - key: user_info.race_ethnicity_by_years_of_experience
+      t: Ras & Etnis berdasarkan Tahun Pengalaman
+    - key: user_info.race_ethnicity_by_years_of_experience.description
+      t: Distribusi ras & etnis berdasarkan tahun pengalaman, diurutkan dari pengalaman yang terkecil.
+
+    - key: user_info.higher_education_degree_by_gender
+      t: Gelar Akademik by Jenis Kelamin
+    - key: user_info.higher_education_degree_by_gender.description
+      t: Distribusi gelar akademik berdasarkan jenis kelamin.
+
+    ###########################################################################
     # Features
     ###########################################################################
 
