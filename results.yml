@@ -44,6 +44,122 @@ translations:
       t: Berdasarkan Jenis Kelamin
 
     ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.interest
+      t: Ketertarikan
+    - key: options.experience_ranking.usage
+      t: Penggunaan
+
+    - key: options.features_mode.grouped
+      t: Pengelompokkan
+    - key: options.features_mode.awareness_rank
+      t: Berdasarkan Awareness
+    - key: options.features_mode.usage_rank
+      t: Berdasarkan Penggunaan
+    - key: options.features_mode.usage_ratio_rank
+      t: Berdasarkan Rasio
+
+    - key: options.features_simplified.know_it
+      t: Tahu
+    - key: options.features_simplified.used_it
+      t: Pernah menggunakan
+    - key: options.features_simplified.usage_ratio
+      t: Rasio
+
+    - key: options.quadrant.assess
+      t: TINJAU
+    - key: options.quadrant.assess.long
+      t: |
+        TINJAU: Penggunaan rendah, retensi tinggi. Low usage, high retention. Teknologi layak untuk diperhatikan.
+    - key: options.quadrant.adopt
+      t: ADOPSI
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPSI: Penggunaan tinggi, retensi tinggi. Teknologi aman untuk diadopsi.
+    - key: options.quadrant.avoid
+      t: HINDARI
+    - key: options.quadrant.avoid.long
+      t: |
+        HINDARI: Penggunaan rendah, retensi rendah. Teknologi mungkin sebaiknya dihindari untuk saat ini.
+    - key: options.quadrant.analyze
+      t: ANALISIS
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALISIS: Penggunaan tinggi, retensi rendah. Tinjau kembali teknologi apabila anda sedang menggunakannya.
+
+    - key: options.quadrant.1
+      t: 1
+    - key: options.quadrant.1.long
+      t: |
+        1: Penggunaan rendah, retensi tinggi. Low usage, high retention. Teknologi layak untuk diperhatikan.
+    - key: options.quadrant.2
+      t: 2
+    - key: options.quadrant.2.long
+      t: |
+        2: Penggunaan tinggi, retensi tinggi. Teknologi aman untuk diadopsi.
+    - key: options.quadrant.3
+      t: 3
+    - key: options.quadrant.3.long
+      t: |
+        3:  Penggunaan rendah, retensi rendah. Teknologi yang sulit untuk direkomendasikan.
+    - key: options.quadrant.4
+      t: 4
+    - key: options.quadrant.4.long
+      t: |
+        4: Penggunaan tinggi, retensi rendah. Tinjau kembali teknologi apabila anda sedang menggunakannya.
+
+    - key: ranges.selector.years_of_experience
+      t: Pengalaman
+    - key: ranges.selector.yearly_salary
+      t: Gaji
+    - key: ranges.selector.company_size
+      t: Ukuran Perusahaan
+
+    # other learning methods
+    - key: options.first_steps.blogs
+      t: Blog
+    - key: options.first_steps.forums
+      t: Forum
+    - key: options.first_steps.view_source
+      t: Lihat sumber
+    - key: options.first_steps.documentation
+      t: Dokumentasi
+
+    # other disablities
+    - key: options.disability_status_others.autism
+      t: Autisme
+    - key: options.disability_status_others.glasses
+      t: Kacamata
+    - key: options.disability_status_others.old
+      t: Usia Tua
+    - key: options.disability_status_others.back_pain
+      t: Sakit Punggung
+    - key: options.disability_status_others.epilepsy
+      t: Epilepsi
+    - key: options.disability_status_others.aspergers
+      t: Asperger
+    - key: options.disability_status_others.color_blindness
+      t: Buta Warna
+    - key: options.disability_status_others.anxiety
+      t: Kecemasan
+    - key: options.disability_status_others.dyslexia
+      t: Disleksia
+    - key: options.disability_status_others.migraine
+      t: Migraine
+    - key: options.disability_status_others.speech_impairment
+      t: Gangguan Bicara
+    - key: options.disability_status_others.chronic_pain
+      t: Sakit Kronis
+    - key: options.disability_status_others.chronic_fatigue
+      t: Kelelahan Kronis
+    - key: options.disability_status_others.crohn
+      t: Penyakit Crohn
+    - key: options.disability_status_others.depression
+      t: Depresi
+
+    ###########################################################################
     # User Info
     ###########################################################################
 
