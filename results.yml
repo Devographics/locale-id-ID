@@ -358,6 +358,55 @@ translations:
       t: Teknologi
 
     ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Bagikan
+    - key: share.options
+      t: Pilihan
+    - key: share.preview
+      t: Pratinjau sosial media
+    - key: share.site.title
+      t: Discover the {siteTitle} results
+    - key: share.site.twitter_text
+      t: "Discover the {siteTitle} results {link} {hashtag}"
+    - key: share.site.subject
+      t: "{siteTitle} Survey Results"
+    - key: share.site.body
+      t: "Here are some interesting survey results: {link}"
+    - key: share.block.twitter_text
+      t: "{hashtag} {year}: {title} {link}"
+    - key: share.block.subject
+      t: "{siteTitle} Survey Results"
+    - key: share.block.body
+      t: "Here are some interesting survey results ({title}): {link}"
+    - key: share.twitter
+      t: Bagikan Twitter
+    - key: share.facebook
+      t: Bagikan Facebook
+    - key: share.linkedin
+      t: Bagikan LinkedIn
+    - key: share.email
+      t: Bagikan melalui email
+    - key: share.image
+      t: Ambil gambar
+    - key: share.link
+      t: Link ke bagian ini
+    - key: share.url
+      t: Dapatkan link
+    - key: share.close
+      t: Tutup
+
+    ###########################################################################
+    # Views
+    ###########################################################################
+    - key: views.viz
+      t: Grafik
+    - key: views.table
+      t: Tabel
+
+    ###########################################################################
     # Filters
     ###########################################################################
 
