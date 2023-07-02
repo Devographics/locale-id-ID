@@ -4,7 +4,7 @@ translations:
     # General
     ###########################################################################
 
-     - key: results.start
+    - key: results.start
       t: Mulai
 
     - key: page.previous
@@ -67,7 +67,6 @@ translations:
       t: Jenis Kelamin berdasarkan Negara
     - key: user_info.gender_by_country.description
       t: Distribusi jenis kelamin berdasarkan negara dengan setidaknya 100 responden, diurutkan dari "jenis kelamin terbanyak" (setiap key jenis kelamin diberi nilai integer dengan urutan naik).
-      t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
 
     - key: user_info.years_of_experience_by_salary
       t: Tahun Pengalaman berdasarkan Range Gaji
@@ -100,6 +99,73 @@ translations:
       t: Distribusi gelar akademik berdasarkan jenis kelamin.
 
     ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Inggris
+    - key: options.locale.ca-ES
+      t: Catalonia
+    - key: options.locale.es-ES
+      t: Spanyol
+    - key: options.locale.ru-RU
+      t: Rusia
+    - key: options.locale.fr-FR
+      t: Perancis
+    - key: options.locale.zh-Hant
+      t: Tiongkok (Tradisional)
+    - key: options.locale.de-DE
+      t: Jerman
+    - key: options.locale.cs-CZ
+      t: Ceko
+    - key: options.locale.pt-PT
+      t: Portugal
+    - key: options.locale.pt-BR
+      t: Portugal (Brasil)
+    - key: options.locale.it-IT
+      t: Italia
+    - key: options.locale.sv-SE
+      t: Swedia
+    - key: options.locale.tr-TR
+      t: Turkiye
+    - key: options.locale.id-ID
+      t: Indonesia
+    - key: options.locale.hi-IN
+      t: India
+    - key: options.locale.zh-Hans
+      t: Tiongkok (Sederhana)
+    - key: options.locale.ja-JP
+      t: Jepang
+    - key: options.locale.ua-UA
+      t: Ukraina
+    - key: options.locale.pl-PL
+      t: Polandia
+    - key: options.locale.fa-IR
+      t: Persia
+    - key: options.locale.nl-NL
+      t: Belanda
+    - key: options.locale.ko-KR
+      t: Korea
+    - key: options.locale.ro-RO
+      t: Romania
+    - key: options.locale.am-ET
+      t: Amhara
+    - key: options.locale.ar-EG
+      t: Arab
+    - key: options.locale.el-GR
+      t: Yunani
+    - key: options.locale.gl-ES
+      t: Galicia
+    - key: options.locale.hr-HR
+      t: Croasia
+    - key: options.locale.hu-HU
+      t: Hungaria
+    - key: options.locale.sk-SK
+      t: Slovakia
+    - key: options.locale.vi-VN
+      t: Vietnam
+
+    ###########################################################################
     # Features
     ###########################################################################
 
@@ -108,9 +174,15 @@ translations:
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
-      t: CanIUse
+      t: Can I use
     - key: features.specification_link
       t: Spesifikasi W3C
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Skor Pengetahuan
+    - key: features.knowledge_score.description
+      t: Dari semua fitur yang disebutkan di dalam survey, berapa banyak yang diketahui oleh responden?
 
     ###########################################################################
     # Tools & Methodologies
