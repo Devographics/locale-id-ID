@@ -158,6 +158,45 @@ translations:
       t: Penyakit Crohn
     - key: options.disability_status_others.depression
       t: Depresi
+    
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Pengenalan
+
+    - key: sections.demographics.title
+      t: Demografi
+
+    - key: sections.technologies.title
+      t: Teknologi
+
+    - key: sections.libraries.title
+      t: Library
+
+    - key: sections.conclusion.title
+      t: Kesimpulan
+
+    - key: sections.about.title
+      t: Tentang
+
+    - key: sections.how_to_help.title
+      t: Bagaimana Anda dapat Membantu
+
+    - key: sections.support.title
+      t: Dukung Kami
+    - key: sections.support.description
+      t: >
+        Kami menjalankan survey ini sebagai projek sampingan, tapi agar dapat membuat
+        projek ini berkelanjutan, kami selalu mencari rekan yang dapat mendukung kami,
+        baik secara finansial maupun dengan membantu kemi menyebarkan survey ini.
+        Apabila anda merasa dapat membantu kami dengan cara apapun, jangan ragu untuk [menghubungi kami](mailto:hello@stateofjs.com)!
+
+    - key: sections.awards.title
+      t: Penghargaan
+    - key: sections.awards.description
+      t: Hal yang menonjol tahun ini.
 
     ###########################################################################
     # User Info
