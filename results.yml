@@ -199,3 +199,101 @@ translations:
       t: Homepage
     - key: tools.npm_link
       t: NPM
+    - key: tools.technology
+      t: Teknologi
+
+    ###########################################################################
+    # Filters
+    ###########################################################################
+
+    - key: filters.compare_data
+      t: Bandingkan Data
+    - key: filters.docs
+      t: Dokumentasi
+    - key: filters.compare_chart
+      t: Bandingkan “{chartName}”
+    - key: filters.filters.description
+      t: |
+        Dengan mengkombinasikan filter demografi, anda dapat membuat hingga empat **seri data kustom** untuk
+        memuat dan membandingkan data tersebut dengan data yang berasal dari pertanyaan ini.
+    - key: filters.facets.description
+      t: |
+        Pilih variabel untuk melihat rincian setiap bar yang dibagi dalam suatu "aspek".
+    - key: filters.grid_mode
+      t: Bersebelahan
+    - key: filters.combined_mode
+      t: Dikombinasikan
+    - key: filters.facet_mode
+      t: Aspek
+    - key: filters.facet
+      t: "Aspek:"
+
+    - key: filters.series.heading
+      t: Seri data {index}
+    - key: filters.series.add
+      t: Tambah Seri data…
+    - key: filters.series.delete
+      t: Hapus Seri data
+    - key: filters.series.year
+      t: |
+        {year} data
+    - key: filters.series.show_default
+      t: |
+        Lihat seri data bawaan
+    - key: filters.series.no_data
+      t: Tidak ada data
+
+    - key: filters.condition.add
+      t: Tambah Filter
+    - key: filters.condition.delete
+      t: Hapus Filter
+    - key: filters.condition.and
+      t: dan
+    - key: filters.operators.eq
+      t: adalah
+    - key: filters.operators.in
+      t: merupakan salah satu dari
+    - key: filters.operators.nin
+      t: bukan salah satu dari
+    - key: filters.value.add
+      t: Tambah Nilai
+    - key: filters.value.delete
+      t: Hapus Nilai
+
+    - key: filters.legend.default
+      t: Default
+
+    - key: filters.cancel
+      t: Batal
+    - key: filters.submit
+      t: Perbarui Chart
+    - key: filters.copy_link
+      t: Salin link untuk filter ini
+
+    - key: filters.presets.title
+      t: "Preset:"
+    - key: filters.presets.save
+      t: Simpan filter ini sebagai preset…
+    - key: filters.presets.delete
+      t: Hapus Preset
+    - key: filters.presets.enter_name
+      t: |
+        Masukkan nama untuk preset baru anda:
+    - key: filters.presets.previous_years
+      t: Tahun Sebelumnya
+    - key: filters.presets.gender
+      t: Jenis Kelamin
+    - key: filters.presets.top_countries
+      t: Negara Teratas
+    - key: filters.presets.salary_low_high
+      t: |
+        Gaji Rendah vs Tinggi
+    - key: filters.presets.experience_low_high
+      t: |
+        Sedikit vs Banyak Pengalaman
+    - key: filters.presets.company_size_low_high
+      t: |
+        Perusahaan Kecil vs Besar
+
+    - key: filters.facet.select
+      t: Pilih aspek…
