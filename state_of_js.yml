@@ -1,207 +1,974 @@
 locale: id-ID
 namespace: js
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.state_of_js.intro
-      t: >
-          Dunia JavaScript dapat menggunakan cukup banyak klasifikasi.
+  - key: general.state_of_js.intro
+    t: >
+        Dunia Javascript membutuhkan klasifikasi.
 
-          Sejak 2016, survei ini telah mengumpulkan
-          data dari lebih dari 20.000 pengembang setiap tahun untuk mengidentifikasi tren saat ini dan yang akan datang.
 
-          Ikuti survei dan bantu kami mencari tahu pustaka mana yang 
-          akan dipelajari selanjutnya, yang memiliki peringkat kepuasan terbaik, dan banyak lagi.
+        Sejak 2016, survei ini telah mengumpulkan
+        data dari 20.000+ pengembang setiap tahunnya untuk mengidentifikasi tren saat ini dan yang akan datang.
 
-    ###########################################################################
-    # Sections
-    ###########################################################################
 
-    - key: sections.syntax.title
-      t: Syntax
-    - key: sections.syntax.description
-      t: Tata bahasa JavaScript
+        Ikuti survei dan bantu kami mencari tahu pustaka mana yang 
+        akan dipelajari oleh para pengembang, yang memiliki tingkat kepuasan terbaik, dan banyak lagi.
 
-    - key: sections.language.title
-      t: Bahasa
-    - key: sections.language.description
-      t: Kosakata JavaScript
+  - key: general.state_of_js.title
+    t: Survei State of Javascript untuk pengembang
 
-    - key: sections.data_structures.title
-      t: Struktur Data
-    - key: sections.data_structures.description
-      t: Bagaimana anda menyimpan dan memanipulasi data.
+  - key: general.state_of_js.description
+    t: Survei tahunan pengembang untuk ekosistem Javascript
 
-    - key: sections.browser_apis.title
-      t: Browser API
-    - key: sections.browser_apis.description
-      t: Fitur-fitur yang disediakan oleh browser.
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.other_features.title
-      t: Fitur Lainnya
-    - key: sections.other_features.description
-      t: Teknology dan pola lainnya
+  - key: sections.syntax.title
+    t: Sintaks
+  - key: sections.syntax.description
+    t: Tata bahasa Javascript
 
-    - key: sections.patterns.title
-      t: Pattern
-    - key: sections.patterns.description
-      t: Bagaimana anda lebih suka menulis kode
+  - key: sections.language.title
+    t: Bahasa
+  - key: sections.language.description
+    t: Kosakata Javascript
 
-    - key: sections.javascript_flavors.title
-      t: JavaScript Flavors
-    - key: sections.javascript_flavors.description
-      t: Bahasa yang dikompilasi ke JavaScript
+  - key: sections.data_structures.title
+    t: Struktur Data
+  - key: sections.data_structures.description
+    t: Bagaimana anda menyimpan dan memanipulasi data.
 
-    - key: sections.front_end_frameworks.title
-      t: Kerangka Front-end
-    - key: sections.front_end_frameworks.description
-      t: Kerangka front-end dan pustaka
+  - key: sections.browser_apis.title
+    t: Browser API
+  - key: sections.browser_apis.description
+    t: Fitur-fitur yang disediakan oleh browser.
 
-    - key: sections.datalayer.title
-      t: Lapisan Data
-    - key: sections.datalayer.description
-      t: Memuat dan mengelola data aplikasi anda 
+  - key: sections.other_features.title
+    t: Fitur Lainnya
+  - key: sections.other_features.description
+    t: Teknology dan pola lainnya
 
-    - key: sections.back_end_frameworks.title
-      t: Kerangka Back-end
-    - key: sections.back_end_frameworks.description
-      t: JavaScript di server
+  - key: sections.patterns.title
+    t: Pola
+  - key: sections.patterns.description
+    t: Bagaimana anda lebih suka menulis kode
 
-    - key: sections.testing.title
-      t: Pengujian
-    - key: sections.testing.description
-      t: Alat untuk menguji kode anda
+  - key: sections.javascript_flavors.title
+    t: Varian Javascript
+  - key: sections.javascript_flavors.description
+    t: Bahasa yang dikompilasi ke Javascript
 
-    - key: sections.mobile_desktop.title
-      t: Mobile & Desktop
-    - key: sections.mobile_desktop.description
-      t: JavaScript untuk perangkat selular dan aplikasi desktop
+  - key: sections.front_end_frameworks.title
+    t: Kerangka Front-end
+  - key: sections.front_end_frameworks.description
+    t: Kerangka Front-end dan pustaka
 
-    ###########################################################################
-    # Options
-    ###########################################################################
+  - key: sections.datalayer.title
+    t: Lapisan Data
+  - key: sections.datalayer.description
+    t: Memuat dan mengelola data aplikasi anda
+    
+  - key: sections.rendering_frameworks.title
+    t: Kerangka Rendering
+  - key: sections.rendering_frameworks.description
+    t: Kerangka yang fokus untuk menampilkan dan menyediakan aplikasi Anda
 
-    # CSS for print
-    - key: options.css_for_print.0
-      t: Saya (hampir) tidak pernah menulis style print
-    - key: options.css_for_print.1
-      t: Saya sesekali menulis style print
-    - key: options.css_for_print.2
-      t: Saya menulis style print untuk sebagian besar proyek
-    - key: options.css_for_print.3
-      t: Saya fokus terutama pada CSS untuk print
+  - key: sections.back_end_frameworks.title
+    t: Kerangka Back-end
+  - key: sections.back_end_frameworks.description
+    t: Javascript di server
 
-    # CSS for email
-    - key: options.css_for_email.0
-      t: Saya (hampir) tidak pernah menulis CSS untuk email klien
-    - key: options.css_for_email.1
-      t: Saya terkadang menulis CSS untuk email klien
-    - key: options.css_for_email.2
-      t: Saya menulis CSS untuk email klien untuk sebagian besar proyek
-    - key: options.css_for_email.3
-      t: Saya fokus utama pada CSS untuk email klien
+  - key: sections.testing.title
+    t: Pengujian
+  - key: sections.testing.description
+    t: Alat untuk menguji kode anda
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  - key: sections.mobile_desktop.title
+    t: Mobile & Desktop
+  - key: sections.mobile_desktop.description
+    t: Javascript untuk perangkat selular dan aplikasi desktop
+  
+  - key: sections.build_tools.title
+    t: Alat Build
+  - key: sections.build_tools.description
+    t: Kompilasi & bundling kode
 
-    # syntax
-    - key: features.destructuring
-      t: Destructuring
-    - key: features.spread_operator
-      t: Spread operator
-    - key: features.arrow_functions
-      t: Arrow Functions
+  - key: sections.monorepo_tools.title
+    t: Alat Monorepo
+  - key: sections.monorepo_tools.description
+    t: Alat yang digunakan untuk mengatur monorepo Javascript.
+  
+  - key: sections.tools_others.title
+    t: Alat lainnya
+  - key: sections.tools_others.description
+    t: Alat Javascript lainnya
+  
+  - key: sections.other_tools.title
+    t: Alat lainnya
+  - key: sections.other_tools.description
+    t: Untuk alat & teknologi ini, pilih yang selalu anda gunakan.
 
-    # language
-    - key: features.proxies
-      t: Proxies
-    - key: features.async_await
-      t: Async/Await
-    - key: features.promises
-      t: Promises
-    - key: features.decorators
-      t: Decorators
-    - key: features.decorators.description
-      t: >
-          Dalam form sederhana, dekorator hanyalah salah satu cara untuk membungkus
-          sebuah bagian kode dengan yang lain - secara harfiah "decorating"
+  - key: sections.resources_js.title
+    t: Sumber
+  - key: sections.resources_js.description
+    t: Sumber Javascript apa saja yang Anda pakai?
+  
+  - key: sections.usage_js.title
+    t: Pemakaian
+  - key: sections.usage_js.description
+    t: Bagaimana cara anda memakai Javascript
 
-    # data structures
-    - key: features.maps
-      t: Maps
-    - key: features.sets
-      t: Sets
-    - key: features.typed_arrays
-      t: Typed Arrays
-    - key: array_prototype_flat
-      t: Array.prototype.flat
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
 
-    # browser apis
-    - key: features.service_workers
-      t: Service Workers
-    - key: features.local_storage
-      t: LocalStorage
-    - key: features.i18n
-      t: i18n
-    - key: features.web_components
-      t: Komponen Web
-    - key: features.web_audio
-      t: API Audio Web
-    - key: features.webgl
-      t: WebGL
-    - key: features.web_animations
-      t: API Animasi Web
-    - key: features.webrtc
-      t: WebRTC
-    - key: features.web_speech
-      t: Web Speech API
-    - key: features.webvr
-      t: WebVR
-    - key: features.websocket
-      t: Websocket
-    - key: features.fetch
-      t: Fetch API
+  - key: features.features_intro
+    t: >
+      Selamat datang di survei! Pada bagian pertama ini,
+      kita fokus pada **fitur** apa saja dari Javascript yang Anda ketahui.
+      Dan jika Anda tahu tapi belum pernah mencobanya, itu juga tidak masalah!
 
-    # other features
-    - key: features.pwa
-      t: Progressive Web Apps (PWA)
-    - key: features.wasm
-      t: WebAssembly (WASM)
+  - key: tools.tools_intro
+    t: >
+      Pada beberapa bagian selanjutnya, kita akan fokus pada **pustaka** dan **kerangka** yang membuat 
+      ekosistem Javascript. Beritahu kita apa yang membuat Anda semangat memakainya!
 
-    # patterns
-    - key: patterns.object_oriented_programming
-      t: Object-Oriented Programming
-    - key: features.functional_programming
-      t: Functional Programming
-    - key: features.reactive_programming
-      t: Reactive Programming
+  ###########################################################################
+  # Options
+  ###########################################################################
+  
+  # JS pain points
+  # - key: options.top_js_pain_points.browser_interoperability
+  #   t: Browser Compatibility
+  # - key: options.js_pain_points.browser_interoperability.description
+  #   t: Differences between Chrome, Safari, Firefox, etc.
+  # - key: options.js_pain_points.animations
+  #   t: Animations
+  # - key: options.js_pain_points.animations.description
+  #   t: Managing animations, transitions, etc. using Javascript.
+  # - key: options.js_pain_points.form_handling
+  #   t: Form Handling
+  # - key: options.js_pain_points.form_handling.description
+  #   t: Creating forms, managing their state and errors, and saving their data.
+  - key: options.js_pain_points.state_management
+    t: Manajemen State
+  - key: options.js_pain_points.state_management.description
+    t: Mengelola state data global dalam aplikasi kompleks.
+  # - key: options.js_pain_points.performance_issues
+  #   t: Performance Issues
+  # - key: options.js_pain_points.performance_issues.description
+  #   t: Bundle sizes, slow loading, and other performance issues.
+  - key: options.js_pain_points.managing_dependencies
+    t: Mengelola Dependency
+  - key: options.js_pain_points.managing_dependencies.description
+    t: Mengelola dependency, versi paket dan ukuran bundle.
+  - key: options.js_pain_points.architecture
+    t: Arsitektur Kode
+  - key: options.js_pain_points.architecture.description
+    t: Menata dan merawat basis kode Anda.
+  - key: options.js_pain_points.finding_packages
+    t: Mencari paket
+  - key: options.js_pain_points.finding_packages.description
+    t: Mencari dan mengevaluasi paket Javascript.
+  - key: options.js_pain_points.writing_modules
+    t: Menulis Modul
+  - key: options.js_pain_points.writing_modules.description
+    t: Menulis modul Javascript dan membagikannya sebagai paket.
+  - key: options.js_pain_points.debugging
+    t: Debugging
+  - key: options.js_pain_points.debugging.description
+    t: Mencari tahu dan menyelesaikan masalah dalam basis kode Anda.
+  - key: options.js_pain_points.async_code
+    t: Kode async
+  - key: options.js_pain_points.async_code.description
+    t: Menangani fungsi asinkron.
+  - key: options.js_pain_points.modules_management
+    t: Mengelola Modul
+  - key: options.js_pain_points.modules_management.description
+    t: Menulis dan mengimpor modul.
+  - key: options.js_pain_points.date_management
+    t: Mengelola Waktu
+  - key: options.js_pain_points.date_management.description
+    t: Menangani dan memanipulasi tanggal dan waktu.
+  # - key: options.js_pain_points.xxx
+  #   t:
+  # - key: options.js_pain_points.xxx.description
+  #   t:
 
-    ###########################################################################
-    # Opinions
-    ###########################################################################
+  - key: options.top_js_pain_points.state_management
+    aliasFor: options.js_pain_points.state_management
+  - key: options.top_js_pain_points.state_management.description
+    aliasFor: options.js_pain_points.state_management.description
+  - key: options.top_js_pain_points.managing_dependencies
+    aliasFor: options.js_pain_points.managing_dependencies
+  - key: options.top_js_pain_points.managing_dependencies.description
+    aliasFor: options.js_pain_points.managing_dependencies.description
+  - key: options.top_js_pain_points.architecture
+    aliasFor: options.js_pain_points.architecture
+  - key: options.top_js_pain_points.architecture.description
+    aliasFor: options.js_pain_points.architecture.description
+  - key: options.top_js_pain_points.finding_packages
+    aliasFor: options.js_pain_points.finding_packages
+  - key: options.top_js_pain_points.finding_packages.description
+    aliasFor: options.js_pain_points.finding_packages.description
+  - key: options.top_js_pain_points.writing_modules
+    aliasFor: options.js_pain_points.writing_modules
+  - key: options.top_js_pain_points.writing_modules.description
+    aliasFor: options.js_pain_points.writing_modules.description
+  - key: options.top_js_pain_points.debugging
+    aliasFor: options.js_pain_points.debugging
+  - key: options.top_js_pain_points.debugging.description
+    aliasFor: options.js_pain_points.debugging.description
+  - key: options.top_js_pain_points.async_code
+    aliasFor: options.js_pain_points.async_code
+  - key: options.top_js_pain_points.async_code.description
+    aliasFor: options.js_pain_points.async_code.description
+  - key: options.top_js_pain_points.modules_management
+    aliasFor: options.js_pain_points.modules_management
+  - key: options.top_js_pain_points.modules_management.description
+    aliasFor: options.js_pain_points.modules_management.description
+  - key: options.top_js_pain_points.date_management
+    aliasFor: options.js_pain_points.date_management
+  - key: options.top_js_pain_points.date_management.description
+    aliasFor: options.js_pain_points.date_management.description
 
-    - key: opinions.js_moving_in_right_direction
-      t: JavaScript bergerak ke arah yang benar
+  - key: options.top_js_pain_points.build_tools
+    t: Alat Build
+  - key: options.top_js_pain_points.typing
+    t: Menulis Type
+  - key: options.top_js_pain_points.typescript
+    t: TypeScript
+  - key: options.top_js_pain_points.esm_cjs
+    t: ESM vs CJS
+  - key: options.top_js_pain_points.testing
+    t: Pengujian
+  - key: options.top_js_pain_points.performance
+    t: Performa
+  - key: options.top_js_pain_points.too_many_choices
+    t: Terlalu banyak pilihan
+  - key: options.top_js_pain_points.react
+    t: React
+  - key: options.top_js_pain_points.bundlers
+    t: Bundler
+  - key: options.top_js_pain_points.complexity
+    t: Kompleksitas
+  - key: options.top_js_pain_points.standard_library
+    t: Pustaka standar
+  - key: options.top_js_pain_points.tooling
+    t: Peralatan
+  - key: options.top_js_pain_points.dependencies
+    t: Dependency
+  - key: options.top_js_pain_points.security
+    t: Keamanan
+  - key: options.top_js_pain_points.slow
+    t: Lambat
 
-    - key: opinions.building_js_apps_overly_complex
-      t: Saat ini, membuat aplikasi JavaScript terlalu rumit
+  # JS missing features
+  - key: options.currently_missing_from_js.static_typing
+    t: Type statis
+  - key: options.currently_missing_from_js.static_typing.description
+    t: Type bawaan; atau komentar bergaya TypeScript
+  - key: options.currently_missing_from_js.standard_library
+    t: Standar Pustaka
+  - key: options.currently_missing_from_js.standard_library.description
+    t: Sebuah standar pustaka dari utilitas umum
+  - key: options.currently_missing_from_js.pattern_matching
+    t: Membandingkan Pola
+  - key: options.currently_missing_from_js.pattern_matching.description
+    t: Sebuah keyword `match` baru untuk membandingkan pola objek.
+  - key: options.currently_missing_from_js.pipe_operator
+    t: Operator Pipa
+  - key: options.currently_missing_from_js.pipe_operator.description
+    t: Sebuah operator `|>` baru untuk memberikan hasil fungsi ke fungsi lainnya.
+  - key: options.currently_missing_from_js.decorators
+    t: Dekorator
+  - key: options.currently_missing_from_js.decorators.description
+    t: Dekorator digunakan untuk metaprogram dan menambahkan fungsionalitas pada sebuah nilai.
+  - key: options.currently_missing_from_js.immutable_data_structures
+    t: Struktur Data Immutable
+  - key: options.currently_missing_from_js.immutable_data_structures.description
+    t: Sebuah struktur data immutable mendalam yang baru seperti `Record` dan `Tuple`.
+  - key: options.currently_missing_from_js.better_date_management
+    t: Pengelola tanggal yang lebih baik
+  - key: options.currently_missing_from_js.better_date_management.description
+    t: Sebuah objek `Temporal` baru untuk mengelola tanggal dan waktu.
+  - key: options.currently_missing_from_js.observable
+    t: Observable
+  - key: options.currently_missing_from_js.observable.description
+    t: Type `Observable` baru sebagai model untuk sumber data push-based.
+  # - key: options.currently_missing_from_js.xxx
+  #   t:
+  # - key: options.currently_missing_from_js.xxx.description
+  #   t:
 
-    - key: opinions.js_over_used_online
-      t: JavaScript digunakan secara berlebihan
+  - key: options.top_currently_missing_from_js.static_typing
+    aliasFor: options.currently_missing_from_js.static_typing
+  - key: options.top_currently_missing_from_js.static_typing.description
+    aliasFor: options.currently_missing_from_js.static_typing.description
+  - key: options.top_currently_missing_from_js.standard_library
+    aliasFor: options.currently_missing_from_js.standard_library
+  - key: options.top_currently_missing_from_js.standard_library.description
+    aliasFor: options.currently_missing_from_js.standard_library.description
+  - key: options.top_currently_missing_from_js.pattern_matching
+    aliasFor: options.currently_missing_from_js.pattern_matching
+  - key: options.top_currently_missing_from_js.pattern_matching.description
+    aliasFor: options.currently_missing_from_js.pattern_matching.description
+  - key: options.top_currently_missing_from_js.pipe_operator
+    aliasFor: options.currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.pipe_operator.description
+    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.decorators
+    aliasFor: options.currently_missing_from_js.decorators
+  - key: options.top_currently_missing_from_js.decorators.description
+    aliasFor: options.currently_missing_from_js.decorators.description
+  - key: options.top_currently_missing_from_js.immutable_data_structures
+    aliasFor: options.currently_missing_from_js.immutable_data_structures
+  - key: options.top_currently_missing_from_js.immutable_data_structures.description
+    aliasFor: options.currently_missing_from_js.immutable_data_structures.description
+  - key: options.top_currently_missing_from_js.better_date_management
+    aliasFor: options.currently_missing_from_js.better_date_management
+  - key: options.top_currently_missing_from_js.better_date_management.description
+    aliasFor: options.currently_missing_from_js.better_date_management.description
+  - key: options.top_currently_missing_from_js.observable
+    aliasFor: options.currently_missing_from_js.observable
+  - key: options.top_currently_missing_from_js.observable.description
+    aliasFor: options.currently_missing_from_js.observable.description
+  
+  - key: options.top_currently_missing_from_js.static_typing
+    t: Type statis
+  - key: options.top_currently_missing_from_js.standard_library
+    t: Standar Pustaka
+  - key: options.top_currently_missing_from_js.operator_overloading
+    t: Operator Overloading
+  - key: options.top_currently_missing_from_js.immutable
+    t: Struktur Data Immutable
+  - key: options.top_currently_missing_from_js.deep_clone
+    t: Deep Clone
+  - key: options.top_currently_missing_from_js.enums
+    t: Enum
+  - key: options.top_currently_missing_from_js.decorators
+    t: Dekorator
+  - key: options.top_currently_missing_from_js.multithreading
+    t: Multithread
+  - key: options.top_currently_missing_from_js.pipe_operator
+    t: Operator Pipa
+  - key: options.top_currently_missing_from_js.native_observables
+    t: Observable Bawaan
 
-    - key: opinions.enjoy_building_js_apps
-      t: Saya menikmati membangun aplikasi JavaScript
+  # What do you use JS for?
+  - key: options.what_do_you_use_js_for.frontend_development
+    t: Pengembangan Frontend
+  - key: options.what_do_you_use_js_for.backend_development
+    t: Pengembangan Development
+  - key: options.what_do_you_use_js_for.data_analysis
+    t: Analisa Data
+  - key: options.what_do_you_use_js_for.machine_learning
+    t: Pembelajaran Mesin
+  - key: options.what_do_you_use_js_for.desktop_apps
+    t: Aplikasi Desktop
+  - key: options.what_do_you_use_js_for.mobile_apps
+    t: Aplikasi Mobile
+  - key: options.what_do_you_use_js_for.embedded_apps
+    t: Aplikasi Tertanam
+  - key: options.what_do_you_use_js_for.game_development
+    t: Pengembangan Gim
+  - key: options.what_do_you_use_js_for.data_visualization
+    t: Visualisasi Data
+  - key: options.what_do_you_use_js_for.graphics_animation
+    t: Grafik & Animasi
+  
+  - key: options.what_do_you_use_js_for.scripting
+    t: Membuat skrip
+  - key: options.what_do_you_use_js_for.command_line_tools
+    t: Alat Command Line
+  - key: options.what_do_you_use_js_for.developer_tooling
+    t: Alat untuk pengembang
+  - key: options.what_do_you_use_js_for.automation
+    t: Otomatisasi
+  - key: options.what_do_you_use_js_for.bots
+    t: Bot
+  - key: options.what_do_you_use_js_for.testing
+    t: Pengujian
+  - key: options.what_do_you_use_js_for.browser_extensions
+    t: Ekstensi Browser
+  - key: options.what_do_you_use_js_for.api
+    t: API
+  - key: options.what_do_you_use_js_for.infrastructure_as_code
+    t: Infrasktuktur sebagai kode
+  - key: options.what_do_you_use_js_for.prototyping
+    t: Prototipe
 
-    - key: opinions.would_like_js_to_be_main_lang
-      t: Saya ingin JavaScript menjadi bahasa pemrograman utama saya
+  # JS App Patterns
 
-    - key: opinions.js_ecosystem_changing_to_fast
-      t: Ekosistem JavaScript berubah terlalu cepat
+  - key: options.js_app_patterns.single_page_app
+    t: Aplikasi Satu Halaman (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Aplikasi yang berjalan sepenuhnya pada browser
+  - key: options.js_app_patterns.multiple_page_app
+    t: Aplikasi Multi Halaman (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Aplikasi yang berjalan sepenuhnya pada server, dengan minim kemampuan sisi klien yang dinamis
+  - key: options.js_app_patterns.static_site_generation
+    t: Pembuatan Situs Statis (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Pre-render konten statis, dengan atau tanpa elemen sisi klien yang dinamis
+  - key: options.js_app_patterns.server_side_rendering
+    t: Rendering Sisi Server (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Menyediakan konten HTML secara dinamis di server sebelum dilakukan rehidrasi pada sisi klien
+  - key: options.js_app_patterns.partial_hydration
+    t: Hidrasi Parsial (Partial Hydration)
+  - key: options.js_app_patterns.partial_hydration.description
+    t: "Hanya melakukan hidrasi pada beberapa komponen di sisi klien (Contoh: Komponen server React)"
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Hidrasi Progresif (Progressive Hydration)
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Mengendalikan urutan hidrasi komponen pada sisi klien
+  - key: options.js_app_patterns.islands_architecture
+    t: Arsitektur Pulau (Islands Architecture)
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Pulau terisolasi yang memiliki kemampuan dinamis dengan berbagai jalur masuk yang dianggap situs statis (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Peningkatan Progresif (Progressive Enhancement)
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Memastikan sebuah aplikasi dapat berjalan bahkan tanpa Javascript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Generation (ISG)
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Dapat menambahkan atau memodifikasi halaman statis secara dinamis bahkan setelah dilakukan build (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Memecah konten yang dibuat oleh server kedalam pecahan yang lebih kecil
+  - key: options.js_app_patterns.resumability
+    t: Resumabilitas
+  - key: options.js_app_patterns.resumability.description
+    t: Serialisasi state yang ada di server agar klien dapat melanjutkan eksekusi tanpa menduplikasi kode.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Mengubah HTML yang terdapat pada edge sebelum mengirimnya ke klien
 
-    - key: opinions.missing_from_js
-      t: Apa yang anda rasakan yang saat ini hilang dari JavaScript?
-    - key: opinions.missing_from_js.description
-      t: Fitur yang ingin anda lihat di JavaScript suatu hari nanti.
+  - key: options.js_app_patterns.micro_frontend
+    t: Mikro Frontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Desain Domain-Driven
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  # slider
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # syntax
+  - key: features.destructuring
+    t: Destructuring
+  - key: features.spread_operator
+    t: Spread operator
+  - key: features.arrow_functions
+    t: Arrow Functions
+  - key: features.nullish_coalescing
+    t: Nullish Coalescing
+  - key: features.optional_chaining
+    t: Optional Chaining
+  - key: features.private_fields
+    t: Private Fields
+
+  # language
+  - key: features.proxies
+    t: Proxies
+  - key: features.async_await
+    t: Async/Await
+  - key: features.promises
+    t: Promises
+  - key: features.decorators
+    t: Decorators
+  - key: features.decorators.description
+    t: >
+        Sederhananya, dekorator adalah salah satu cara untuk membungkus
+        sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
+  - key: features.dynamic_import
+  t: Dynamic Import
+
+  # patterns
+  - key: patterns.object_oriented_programming
+    t: Pemrograman Berbasis Objek
+  - key: features.functional_programming
+    t: Pemrograman Fungsional
+  - key: features.reactive_programming
+    t: Pemrograman Reaktif
+
+  # upcoming features
+  # - key: features.static_typing
+  #   t: Static Typing
+
+  # - key: features.standard_library
+  #   t: Standard Library
+
+  # - key: features.pattern_matching
+  #   t: Pattern Matching
+
+  # - key: features.pipe_operator
+  #   t: Pipe Operator
+
+  # - key: features.immutable_data_structures
+  #   t: Immutable Data Structures
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.angular.description
+    t: >
+      Pertanyaan ini hanya untuk [Angular](https://angular.io/),
+      dan bukan untuk [AngularJS](https://angularjs.org/) yang sudah kadaluarsa.
+
+  - key: tools.best_of_js_projects.note
+    t: >
+      Pustaka dimuat dari [Best of JS](https://bestofjs.org/). 
+      Jika ada proyek yang hilang, Anda bisa [Kirim di sini](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: Pustaka
+  - key: tools_others.libraries.description
+    t: Pustaka apa yang biasa Anda gunakan?
+  - key: tools_others.libraries.others
+    t: Pustaka lain
+  - key: tools_others.libraries.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.text_editors
+    t: Text Editor
+  - key: tools_others.text_editors.description
+    t: Text editor apa yang biasa Anda gunakan?
+  - key: tools_others.text_editors.others
+    t: Text Editor lain
+  - key: tools_others.text_editors.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.utilities
+    t: Utilitas
+  - key: tools_others.utilities.description
+    t: Utilitas atau alat apa yang biasa Anda gunakan?
+  - key: tools_others.utilities.others
+    t: Utilitas lain
+  - key: tools_others.utilities.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.browsers
+    t: Browser
+  - key: tools_others.browsers.description
+    t: Browser apa yang biasanya Anda gunakan untuk melakukan pengembangan?
+  - key: tools_others.browsers.others
+    t: Browser lain
+  - key: tools_others.browsers.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.build_tools
+    t: Alat Build
+  - key: tools_others.build_tools.description
+    t: Alat build apa yang Anda gunakan?
+  - key: tools_others.build_tools.others
+    t: Alat build lain
+  - key: tools_others.build_tools.others.description
+    t: Jawaban lain.
+  
+  - key: tools_others.non_js_languages
+    t: Bahasa selain Javascript
+  - key: tools_others.non_js_languages.description
+    t: Apa bahasa pemrogramman selain Javascript yang Anda gunakan?
+  - key: tools_others.non_js_languages.others
+    t: Bahasa lain
+  - key: tools_others.non_js_languages.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.javascript_flavors
+    t: Varian Javascript
+  - key: tools_others.javascript_flavors.description
+    t: Bahasa yang melakukan kompilasi ke Javascript
+  - key: tools_others.javascript_flavors.others
+    t: Varian Javascript lain
+  - key: tools_others.javascript_flavors.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.runtimes
+    t: Javascript Runtime
+  - key: tools_others.runtimes.description
+    t: Mesin/runtime/eksekusi apa yang biasa ada gunakan?
+  - key: tools_others.runtimes.others
+    t: Runtime lain
+  - key: tools_others.runtimes.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.package_registries
+    t: Paket Registri
+  - key: tools_others.package_registries.description
+    t: Biasanya anda mendapat paket dari Paket registri apa?
+  - key: tools_others.package_registries.others
+    t: Paket Registri lain
+  - key: tools_others.package_registries.others.description
+    t: Jawaban lain.
+
+  - key: tools_others.form_factors
+    aliasFor: environments.form_factors
+  - key: tools_others.form_factors.description
+    aliasFor: environments.form_factors.description
+
+  - key: tools_others.backend_as_a_service
+    t: Penyedia Backend-as-a-Service
+  - key: tools_others.backend_as_a_service.description
+    t: Layanan yang menyimpan data Anda dan memberikan API klien untuk mengaksesnya.
+  - key: tools_others.backend_as_a_service.others
+    t: Penyedia BaaS lainnya
+  
+  - key: tools_others.date_management
+    t: Manajemen Tanggal
+  - key: tools_others.date_management.description
+    t: Pustaka yang membantu dalam manajemen tanggal dan zona waktu.
+  - key: tools_others.date_management.others
+    t: Pustaka manajemen tanggal lainnya
+
+  - key: tools_others.data_visualization
+    t: Visualisasi Data
+  - key: tools_others.data_visualization.description
+    t: Pustaka yang membantu dengan bagan dan visualisasi data lainnya.
+  - key: tools_others.data_visualization.others
+    t: Pustaka visualisasi data lainnya
+  
+  - key: tools_others.graphics_animation
+    t: Grafik & Animasi
+  - key: tools_others.graphics_animation.description
+    t: Pustaka khusus untuk grafik dan animasi.
+  - key: tools_others.graphics_animation.others
+    t: Pustaka grafik & animasi lainnya
+
+  - key: tools_others.data_fetching
+    t: Data Fetching
+  - key: tools_others.data_fetching.description
+    t: Pustaka yang menangani data fetching dan caching.
+  - key: tools_others.data_fetching.others
+    t: Pustaka data fetching lainnya
+
+  - key: other_tools.libraries
+    aliasFor: tools_others.libraries
+  - key: other_tools.libraries.description
+    aliasFor: tools_others.libraries.description
+  - key: other_tools.libraries.others
+    aliasFor: tools_others.libraries.others
+  - key: other_tools.libraries.others.description
+    aliasFor: tools_others.libraries.others.description
+
+  - key: other_tools.text_editors
+    aliasFor: tools_others.text_editors
+  - key: other_tools.text_editors.description
+    aliasFor: tools_others.text_editors.description
+  - key: other_tools.text_editors.others
+    aliasFor: tools_others.text_editors.others
+  - key: other_tools.text_editors.others.description
+    aliasFor: tools_others.text_editors.others.description
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.description
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.description
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
+
+  - key: other_tools.build_tools
+    aliasFor: tools_others.build_tools
+  - key: other_tools.build_tools.description
+    aliasFor: tools_others.build_tools.description
+  - key: other_tools.build_tools.others
+    aliasFor: tools_others.build_tools.others
+  - key: other_tools.build_tools.others.description
+    aliasFor: tools_others.build_tools.others.description
+
+  - key: other_tools.non_js_languages
+    aliasFor: tools_others.non_js_languages
+  - key: other_tools.non_js_languages.description
+    aliasFor: tools_others.non_js_languages.description
+  - key: other_tools.non_js_languages.others
+    aliasFor: tools_others.non_js_languages.others
+  - key: other_tools.non_js_languages.others.description
+    aliasFor: tools_others.non_js_languages.others.description
+
+  - key: other_tools.javascript_flavors
+    aliasFor: tools_others.javascript_flavors
+  - key: other_tools.javascript_flavors.description
+    aliasFor: tools_others.javascript_flavors.description
+  - key: other_tools.javascript_flavors.others
+    aliasFor: tools_others.javascript_flavors.others
+  - key: other_tools.javascript_flavors.others.description
+    aliasFor: tools_others.javascript_flavors.others.description
+
+  - key: tools_others.backend_frameworks
+    aliasFor: sections.back_end_frameworks.title
+  - key: tools_others.backend_frameworks.description
+    t: Frameworks for generating APIs and managing back-ends
+  - key: tools_others.backend_frameworks.others
+    t: Other Back-end Frameworks
+
+  - key: other_tools.runtimes
+    aliasFor: tools_others.runtimes
+  - key: other_tools.runtimes.description
+    aliasFor: tools_others.runtimes.description
+  - key: other_tools.runtimes.others
+    aliasFor: tools_others.runtimes.others
+  - key: other_tools.runtimes.others.description
+    aliasFor: tools_others.runtimes.others.description
+
+  - key: other_tools.package_registries
+    aliasFor: tools_others.package_registries
+  - key: other_tools.package_registries.description
+    aliasFor: tools_others.package_registries.description
+  - key: other_tools.package_registries.others
+    aliasFor: tools_others.package_registries.others
+  - key: other_tools.package_registries.others.description
+    aliasFor: tools_others.package_registries.others.description
+
+  - key: other_tools.form_factors
+    aliasFor: tools_others.form_factors
+  - key: other_tools.form_factors.description
+    aliasFor: tools_others.form_factors.description
+
+  - key: other_tools.backend_as_a_service
+    aliasFor: tools_others.backend_as_a_service
+  - key: other_tools.backend_as_a_service.description
+    aliasFor: tools_others.backend_as_a_service.description
+  - key: other_tools.backend_as_a_service.others
+    aliasFor: tools_others.backend_as_a_service.others
+
+  - key: other_tools.date_management
+    aliasFor: tools_others.date_management
+  - key: other_tools.date_management.description
+    aliasFor: tools_others.date_management.description
+  - key: other_tools.date_management.others
+    aliasFor: tools_others.date_management.others
+
+  - key: other_tools.data_visualization
+    aliasFor: tools_others.data_visualization
+  - key: other_tools.data_visualization.description
+    aliasFor: tools_others.data_visualization.description
+  - key: other_tools.data_visualization.others
+    aliasFor: tools_others.data_visualization.others
+
+  - key: other_tools.graphics_animation
+    aliasFor: tools_others.graphics_animation
+  - key: other_tools.graphics_animation.description
+    aliasFor: tools_others.graphics_animation.description
+  - key: other_tools.graphics_animation.others
+    aliasFor: tools_others.graphics_animation.others
+
+  - key: other_tools.data_fetching
+    aliasFor: tools_others.data_fetching
+  - key: other_tools.data_fetching.description
+    aliasFor: tools_others.data_fetching.description
+  - key: other_tools.data_fetching.others
+    aliasFor: tools_others.data_fetching.others
+
+  - key: other_tools.backend_frameworks
+    aliasFor: tools_others.backend_frameworks
+  - key: other_tools.backend_frameworks.description
+    aliasFor: tools_others.backend_frameworks.description
+  - key: other_tools.backend_frameworks.others
+    aliasFor: tools_others.backend_frameworks.others
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  - key: usage.js_app_patterns
+    t: Pola Aplikasi
+  - key: usage.js_app_patterns.description
+    t: Berikut ini mana arsitektur dan pola rendering yang telah Anda gunakan **pada tahun ini**?
+  - key: usage.js_app_patterns.others
+    t: Pola Aplikasi lain
+
+  - key: usage.what_do_you_use_js_for
+    t: Untuk apa Anda menggunakan Javascript?
+  - key: usage.what_do_you_use_js_for.others
+    t: Contoh kasus pemakaian Javascript lainnya
+
+  - key: usage.js_ts_balance
+    t: Keseimbangan Javascript/TypeScript
+  - key: usage.js_ts_balance.description
+    t: Bagaimana caramu membagi waktu antara menulis kode Javascript dan TypeScript?
+
+  - key: tools_others.edge_runtimes
+    t: Javascript Edge/Serverless Runtime
+  - key: tools_others.edge_runtimes.description
+    t: Edge atau serverless runtime mana yang biasa Anda gunakan?
+  - key: tools_others.edge_runtimes.others
+    t: Edge Runtime lain
+
+  - key: usage.usage_type
+    t: Pemakaian Javascript
+  - key: usage.usage_type.description
+    t: Dalam hal apa anda memilih Javascript sebagai bahasa pemrograman utama?
+  - key: usage.usage_type.others
+    t: Pemakaian lain
+
+  - key: opinions.pick_of_the_year
+    t: “Pilihan tahun ini” versi Anda
+  - key: opinions.pick_of_the_year.description
+    t: Nama fitur, pustaka, halaman web, orang, DLL. yang ingin anda sorot pada tahun ini.
+
+  - key: usage.industry_sector_js
+    aliasFor: usage.industry_sector
+  - key: usage.industry_sector_js.description
+    t: Which industry sector(s) are you using Javascript in?
+  - key: usage.industry_sector_js.others
+    aliasFor: usage.industry_sector.others
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.js_moving_in_right_direction
+    t: Javascript bergerak ke arah yang benar
+
+  - key: opinions.building_js_apps_overly_complex
+    t: Saat ini, membuat aplikasi Javascript terlalu rumit
+
+  - key: opinions.js_over_used_online
+    t: Javascript digunakan secara berlebihan
+
+  - key: opinions.enjoy_building_js_apps
+    t: Saya menikmati membangun aplikasi Javascript
+
+  - key: opinions.would_like_js_to_be_main_lang
+    t: Saya ingin Javascript menjadi bahasa pemrograman utama saya
+
+  - key: opinions.js_ecosystem_changing_to_fast
+    t: Ekosistem Javascript berubah terlalu cepat
+
+  - key: opinions.missing_from_js
+    t: Apa yang anda rasa kurang dari Javascript?
+  - key: opinions.missing_from_js.description
+    t: Fitur yang ingin anda lihat di Javascript suatu hari nanti.
+
+  - key: happiness.front_end_frameworks
+    t: Seberapa senang Anda dengan Kerangka Frontend saat ini?
+  - key: happiness.back_end_frameworks
+    t: Seberapa senang Anda dengan Kerangka Backend saat ini?
+  - key: happiness.testing
+    t: Seberapa senang Anda dengan Alat Pengujian saat ini?
+  - key: happiness.mobile_desktop
+    t: Seberapa senang Anda dengan Kerangka Mobile & Desktop saat ini?
+  - key: happiness.build_tools
+    t: Seberapa senang Anda dengan Alat Build saat ini?
+  - key: happiness.monorepo_tools
+    t: Seberapa senang Anda dengan Alat Monorepo saat ini?
+  - key: happiness.rendering_frameworks
+    t: Seberapa senang Anda dengan Kerangka Rendering saat ini?
+
+  - key: happiness.state_of_the_web
+    t: Seberapa senang Anda dengan teknologi web secara umum?
+
+  - key: happiness.state_of_js
+    t: Seberapa senang Anda dengan Javascript secara umum?
+  
+  # Pain Points
+  - key: opinions.js_pain_points
+    t: Poin Minus Javascript
+  - key: opinions.js_pain_points.description
+    t: Jika ada, pilih aspek dari Javascript yang paling membuat Anda kesulitan.
+  - key: opinions_others.js_pain_points.others
+    t: Poin minus Javascript lainnya
+
+  - key: opinions.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: opinions.top_js_pain_points.description
+    t: Pilih 3 aspek teratas dari Javascript yang paling membuat anda kesulitan.
+  - key: opinions_others.top_js_pain_points.others
+    aliasFor: opinions_others.js_pain_points.others
+  - key: opinions.top_js_pain_points.others
+    aliasFor: opinions_others.js_pain_points.others
+
+  # Missing Features
+  - key: opinions.currently_missing_from_js
+    t: Apa yang Anda rasa kurang dari Javascript?
+  - key: opinions.currently_missing_from_js.description
+    t: Jika ada, pilih fitur dari Javascript yang Anda ingin bisa pakai saat ini.
+  - key: opinions_others.currently_missing_from_js.others
+    t: Fitur lainnya yang kurang
+
+  - key: opinions.top_currently_missing_from_js
+    aliasFor: opinions.currently_missing_from_js
+  - key: opinions.top_currently_missing_from_js.description
+    t: Pilih 3 aspek teratas dari Javascript yang Anda ingin bisa pakai saat ini.
+  - key: opinions_others.top_currently_missing_from_js.others
+    aliasFor: opinions_others.currently_missing_from_js.others
+  - key: opinions.top_currently_missing_from_js.others
+    aliasFor: opinions_others.currently_missing_from_js.others
+
+  # pain points/currently missing (results)
+  - key: js_pain_points.js_pain_points_wins
+    t: Poin Minus Javascript
+  - key: js_pain_points.js_pain_points_wins.description
+    t: Aspek dari Javascript yang paling membuat Anda kesulitan? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
+
+  - key: js_pain_points.js_pain_points_matchups
+    t: Poin Minus Javascript (Pertandingan)
+  - key: js_pain_points.js_pain_points_matchups.description
+    t: Aspek dari Javascript yang paling membuat Anda kesulitan? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
+
+  - key: currently_missing_from_js.currently_missing_from_js_wins
+    t: Fitur yang hilang dari Javascript
+  - key: currently_missing_from_js.currently_missing_from_js_wins.description
+    t: Fitur dari Javascript yang Anda ingin bisa pakai saat ini? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
+
+  - key: currently_missing_from_js.currently_missing_from_js_matchups
+    t: Fitur yang hilang dari Javascript (Pertandingan)
+  - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+    t: Fitur dari Javascript yang Anda ingin bisa pakai saat ini? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_js
+    t: Langkah Pertama Bersama Javascript
+  - key: resources.first_steps_js.description
+    t: Saat pertama mencoba, bagaimana cara Anda belajar Javascript?
