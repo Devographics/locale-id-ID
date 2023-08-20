@@ -12,18 +12,10 @@ translations:
       t: Hubungi kami
 
     - key: homepage.previous_years
-      t: 'Tahun Sebelumnya:'
-
-    - key: homepage.made_by
-      t: 'State of CSS dibuat oleh:'
-    - key: homepage.leave_issue
-      t: Tinggalkan sebuah masalah
-
-    - key: homepage.previous_years
       t: 'Tahun Sebelumnya'
 
     - key: homepage.take_survey
-      t: Ambil Survei
+      t: Ikuti Survei
 
     - key: homepage.view_results
       t: Lihat hasil
@@ -42,15 +34,15 @@ translations:
 
     - key: homepage.survey_preview
       t: Pratinjau Survei
+    
+    - key: homepage.most_recent_survey
+      t: Survei terbaru
 
     - key: homepage.current_survey
       t: Survei yang aktif
 
     - key: homepage.past_surveys
       t: Survei sebelumnya
-
-    - key: homepage.most_recent_survey
-      t: Terbaru
 
     - key: homepage.view_questions
       t: Lihat Pertanyaan
@@ -62,7 +54,7 @@ translations:
     - key: newsletter.stay_tuned
       t: Jangan ketingalan survei berikutnya
     - key: newsletter.leave_your_email
-      t: Tinggalkan email anda dan kami akan memberi tahu anda saat survei berikutnya dilakukkan.
+      t: Tinggalkan email Anda dan Kami akan memberi tahu Anda saat survei berikutnya dibuka.
     - key: newsletter.email
       t: Email Anda
     - key: newsletter.submit
