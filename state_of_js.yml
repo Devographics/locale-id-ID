@@ -514,7 +514,7 @@ translations:
         Sederhananya, dekorator adalah salah satu cara untuk membungkus
         sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
   - key: features.dynamic_import
-  t: Dynamic Import
+    t: Dynamic Import
 
   # patterns
   - key: patterns.object_oriented_programming

@@ -183,8 +183,8 @@ translations:
       dari keseluruhan responden.
   - key: thanks.score_explanation_no_ranking
     t: >
-    Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
-    <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei.
+      Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
+      <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei.
   - key: thanks.share_on_twitter
     t: Bagikan di Twitter
   - key: thanks.share_score_message
