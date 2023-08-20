@@ -182,7 +182,7 @@ translations:
       yang menempatkan anda di peringkat <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       dari keseluruhan responden.
   - key: thanks.score_explanation_no_ranking
-  t: >
+    t: >
     Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
     <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei.
   - key: thanks.share_on_twitter
