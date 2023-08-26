@@ -3,13 +3,13 @@ translations:
   - key: accounts.error_incorrect_password
     t: Kata sandi salah
   - key: accounts.error_email_required
-    t: Email dibutuhkan
+    t: Email harus diisi
   - key: accounts.error_email_already_exists
     t: Email sudah terdaftar
   - key: accounts.error_invalid_email
     t: Email salah
   - key: accounts.error_minchar
-    t: Kata sandi anda terlalu pendek
+    t: Kata sandi terlalu pendek
   - key: accounts.error_unknown
     t: Kesalahan tidak diketahui
   - key: accounts.error_user_not_found
@@ -21,7 +21,7 @@ translations:
   - key: accounts.error_internal_server_error
     t: Kesalahan server internal
   - key: accounts.error_token_expired
-    t: Token penyetel kata sandi tidak valid
+    t: Token pengatur ulang kata sandi tidak valid
   - key: accounts.username_or_email
     t: Nama pengguna atau email
   - key: accounts.enter_username
@@ -65,7 +65,7 @@ translations:
   - key: accounts.info_email_sent
     t: Email terkirim
   - key: accounts.info_password_changed
-    t: Kata sandi berubah
+    t: Kata sandi berhasil diubah
   - key: accounts.please_pick_password
     t: Silahkan pilih kata sandi baru untuk melanjutkan.
   - key: accounts.please_log_in
@@ -79,7 +79,9 @@ translations:
         Jika Anda memiliki pertanyaan tentang bagaimana kami menggunakan data Anda,
         atau ingin kami untuk menghapus data Anda, 
         silahkan <a href="mailto:hello@stateofjs.com">hubungi kami</a>.
+
   - key: accounts.token_verified
     t: Token berhasil diverifikasi, mengarahkan...
+
   - key: accounts.your_surveys
     t: Survei Anda
