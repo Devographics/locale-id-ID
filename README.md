@@ -17,20 +17,24 @@ bersaama dengan anggota tim penerjemah lainnya.
 ### 2. Menemukan hal-hal untuk diterjemahkan
 
 Anda bisa menjelajahi aplikasi untuk mengisi survei, situs hasil survei, dll.
-dan menemukan string yang belum diterjemahkan, atau menggunakan API kami untuk mendapatkan data lebih misalnya persentasi penyelesaian untuk sebuah locale tertentu atau sebuah daftar dari semua string yang belum diterjemahkan:
+dan menemukan string yang belum diterjemahkan, atau menggunakan API kami untuk
+mendapatkan data lebih misalnya persentasi penyelesaian untuk sebuah locale tertentu
+atau sebuah daftar dari semua string yang belum diterjemahkan:
 
 [https://graphiql-internal.devographics.com/]
 
 ### 3. mendapatkan penghargaan
 
 Setiap penerjemah akan dicantumkan namanya di situs manapun yang menggunakan
-hasil penerjemahan, dimulai dari aplikasi untuk mengisi survei. Walaupun ini akan diotomasi lewat API GitHub, untuk sekarang anda dapat menambahkan nama anda di sini:
+hasil penerjemahan, dimulai dari aplikasi untuk mengisi survei. Walaupun ini akan
+diotomasi lewat API GitHub, untuk sekarang anda dapat menambahkan nama anda di sini:
 
 ### 4. Membuat perubahan anda terlihat
 
 Untuk saat ini tidak ada hook terotomasi untuk memperbarui aplikasi produksi
 ketika sudah selesai menerjemahkan, jadi untuk sekarang cara terbaik adalah untuk
-mengirimkan kepada saya sebuah pesan pribadi di Discord untuk memberitahu saya ketika anda sudah selesai.
+mengirimkan kepada saya sebuah pesan pribadi di Discord untuk memberitahu saya ketika
+anda sudah selesai.
 
 ## Berkas-berkas penerjemahan
 
@@ -40,7 +44,7 @@ String-string berikut berkaitan dengan aplikasi yang dipakai untuk mengisi surve
 
 - `surveys.yml`
 - `accounts.yml`
-- `state_of_js_[tahun]_survey.yml`
+- `surveys.yml`
 
 ### Aplikasi hasil
 
