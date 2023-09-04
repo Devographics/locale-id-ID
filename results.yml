@@ -265,51 +265,118 @@ translations:
   - key: user_info.gender_by_country
     t: Jenis Kelamin Berdasarkan Negara
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: Pengelompokkan Jenis kelamin berdasarkan Negara dengan setidaknya 100 responden, diurutkan berdasarkan "Rata-rata Jenis Kelamin" (Setiap kunci jenis kelamin memiliki nilai integer dalam urutan teratas) terbawah.
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: Tahun pengalaman berdasarkan gaji
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: Tahun pengalaman berdasarkan gaji.
 
   - key: user_info.average_income_by_years_of_experience
-    t: Average Income by Years of Experience
+    t: Rata-rata pendapatan berdasarkan tahun pengalaman
   - key: user_info.average_income_by_years_of_experience.description
-    t: Average income by years of experience.
+    t: Rata-rata pendapatan berdasarkan tahun pengalaman.
 
   - key: user_info.average_income_by_company_size
-    t: Average Income by Company Size
+    t: Rata-rata pendapatan berdasarkan ukuran perusahaan
   - key: user_info.average_income_by_company_size.description
-    t: Average income by company size.
+    t: Rata-rata pendapatan berdasarkan ukuran perusahaan.
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: Gaji berdasarkan Negara
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: Pengelompokkan gaji tahunan berdasarkan Negara dengan setidaknya 100 responden, diurutkan berdasarkan rata-rata gaji terendah.
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: Gaji berdasarkan tingkat edukasi
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: Pengelompokkan gaji tahunan berdasarkan tingkat edukasi, diurutkan berdasarkan rata-rata gaji terendah.
 
   - key: user_info.yearly_salary_by_experience
-    t: Salary By Experience
+    t: Gaji berdasarkan pengalaman
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: Pengelompokkan gaji tahunan berdasarkan pengalaman, diurutkan berdasarkan rata-rata gaji terendah.
 
   - key: user_info.yearly_salary_usa_vs_the_world
     t: >
-      Yearly Income: U.S vs World
+      Pendapatan Tahunan: U.S.A vs Seluruh Dunia
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: Ras & Etnik berdasarkan tahun pengalaman
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: Pengelompokkan Ras & Etnik berdasarkan tahun pengalaman, diurutkan berdasarkan rata-rata pengalaman terbanyak.
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: Tingkat edukasi berdasarkan jenis kelamin
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: Pengelompokkan Tingkat edukasi berdasarkan jenis kelamin.
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: English
+  - key: options.locale.ca-ES
+    t: Catalan
+  - key: options.locale.es-ES
+    t: Spanish
+  - key: options.locale.ru-RU
+    t: Russian
+  - key: options.locale.fr-FR
+    t: French
+  - key: options.locale.zh-Hant
+    t: Chinese (Traditional)
+  - key: options.locale.de-DE
+    t: German
+  - key: options.locale.cs-CZ
+    t: Czech
+  - key: options.locale.pt-PT
+    t: Portuguese
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
+  - key: options.locale.it-IT
+    t: Italian
+  - key: options.locale.sv-SE
+    t: Swedish
+  - key: options.locale.tr-TR
+    t: Turkish
+  - key: options.locale.id-ID
+    t: Indonesian
+  - key: options.locale.hi-IN
+    t: Hindi
+  - key: options.locale.zh-Hans
+    t: Chinese (Simplified)
+  - key: options.locale.ja-JP
+    t: Japanese
+  - key: options.locale.ua-UA
+    t: Ukrainian
+  - key: options.locale.pl-PL
+    t: Polish
+  - key: options.locale.fa-IR
+    t: Farsi
+  - key: options.locale.nl-NL
+    t: Dutch
+  - key: options.locale.ko-KR
+    t: Korean
+  - key: options.locale.ro-RO
+    t: Romanian
+  - key: options.locale.am-ET
+    t: Amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+  - key: options.locale.el-GR
+    t: Greek
+  - key: options.locale.gl-ES
+    t: Galician
+  - key: options.locale.hr-HR
+    t: Croatian
+  - key: options.locale.hu-HU
+    t: Hungarian
+  - key: options.locale.sk-SK
+    t: Slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
 
   ###########################################################################
   # Features
@@ -320,9 +387,15 @@ translations:
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: CanIUse
+    t: Can I use
   - key: features.specification_link
     t: Spesifikasi W3C
+  
+  # knowledge score
+  - key: features.knowledge_score
+    t: Skor Pengetahuan
+  - key: features.knowledge_score.description
+    t: berdasarkan semua fitur yang disebutkan dalam survei, seberapa banyak yang Anda ketahui?
 
   ###########################################################################
   # Tools & Methodologies
@@ -339,3 +412,146 @@ translations:
     t: Halaman Utama
   - key: tools.npm_link
     t: NPM
+  - key: tools.technology
+    t: Teknologi
+
+  ###########################################################################
+  # Blocks
+  ###########################################################################
+
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Pemakaian berdasarkan Ukuran Perusahaan
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Untuk setiap teknologi, berikut variasi jawaban di antara responden
+      yang memilih ukuran perusahaan yang berbeda.
+
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Pemakaian berdasarkan Kisaran Gaji
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Untuk setiap teknologi, berikut variasi jawaban di antara responden
+      yang memilih kisaran gaji yang berbeda.
+
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Pemakaian berdasarkan Tahun Pengalaman
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      "Untuk setiap teknologi, berikut variasi jawaban di antara responden yang memilih tahun pengalaman yang berbeda.
+      Catatan: pengalaman yang dimaksud adalah pengalaman secara umum, bukan dengan teknologi yang spesifik."
+
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Halaman Utama
+  - key: blocks.entity.github_link
+    t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: Nama
+  - key: blocks.people.social_links
+    t: Tautan
+  - key: blocks.people.responses
+    t: Tanggapan
+  
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Kardinalitas Penggunaan Teknologi
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+      Untuk setiap bagian, yang diukur berdasarkan **Pemakaian** responden 
+      (berdasarkan jawaban “Akan memakainya lagi”) satu, dua, tiga, DLL. teknologi.
+      balok paling bawah sebagai hasil dari penjumlahan semua balok.
+
+  - key: blocks.cardinality.max
+    t: Jawaban paling umum
+  
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Perubahan
+  - key: blocks.tools_arrows.description
+    t: |
+      Setiap baris diurutkan mulai dari data tahun tersedia terlama. semakin tinggi poin, maka semakin pengguna yang telah memakainya,
+      dan poin yang berada di kanan berarti ada banyak pengguna yang ingin mempelajarinya; atau telah memakainya dan akan memakainya lagi.
+  - key: blocks.tools_arrows.note
+    t: |
+      - Beberapa baris melompati tahun.
+      - Tidak menampilkan teknologi yang baru berumur setahun. 
+      - Rumus kecepatan = (opini terbaru - opini terlama) + (penggunaan terbaru) - (pengunaan terlama)
+      - Kecepatan yang positif berarti pemakaian dan/atau opini positif telah meningkat seiring berjalannya waktu.
+  
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Retensi vs Pemakaian
+  - key: blocks.tools_quadrant.description
+    t: |
+      Bagan ini menampilkan **rasio retensi** setiap teknlogi berdasarkan **jumlah pengguna**.
+      Ini bisa dibagi menjadi 4 kuadran:
+
+        - **PENILAIAN**: Pemakaian rendah, retensi tinggi. Teknologi yang patut diperhatikan.
+
+        - **ADOPSI**: Pemakaian tinggi, retensi tinggi. Teknologi yang aman untuk diadopsi.
+
+        - **HINDARI**: Pemakaian rendah, retensi rendah. Teknologi yang sebaiknya dihindari pada saat ini.
+
+        - **ANALISA**: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
+  
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Alat lainnya
+  - key: blocks.category_other_tools.description
+    t: Alat lainnya dalam kategori ini (jawaban bebas).
+  
+  # tool experience
+  - key: blocks.tool_experience
+    t: "Pengalaman {name}"
+  - key: blocks.tool_experience.description
+    t: Pengalaman responden memakai {name}.
+  
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: Pembagian Positif/Negatif
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+      Bagan ini membagi antara pengalaman positif (“Ingin pelajari”, “Akan memakainya lagi”) vs
+      negatif (“Tidak tertarik”, “Takkan memakainya lagi”) pada
+      kedua sisi dari titik pusat.
+
+      Ketebalan balok melambangkan jumlah responden yang mengetahui sebuah teknologi.
+  
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Daftar Tingkatan Pustaka
+  - key: blocks.tools_tier_list.description
+    t: |
+      Bagan ini mengukur pustaka berdasarkan rasio retensi (persentase pengguna
+      yang akan menggunakan lagi pustaka ini). Catatan: pustaka yang digunakan kurang dari 10% responden 
+      survei tidak akan ditampilkan.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+  
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Pengalaman Seiring Waktu
+  - key: blocks.tools_section_streams.description
+    t: |
+      Ringkasan pendapat tentang teknologi yang disurvei seiring waktu.
+  - key: blocks.tools_section_streams.note
+    t: |
+      Tidak menampilkan teknologi dengan data satu tahun.
