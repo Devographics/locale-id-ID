@@ -132,7 +132,7 @@ translations:
 
   - key: user_info.country_low_vs_high_income.description.css2023
     t: >
-      membagi responden antara pendapatan tinggi dan rendah memberikan daftar negara yang 
+      Membagi responden antara pendapatan tinggi dan rendah menghasilkan daftar negara yang 
       sangat berbeda.
 
   - key: user_info.higher_education_degree_by_gender.description.css2023
@@ -161,7 +161,7 @@ translations:
   - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
     t: >
       Ketika membandingkan gaji di A.S. dengan seluruh dunia, sangat jelas bahwa pengembang 
-      dari A.S. terlalu banyak diwakili di bagian gaji tinggi.
+      dari A.S. terlalu banyak diwakili untuk kelompok gaji tinggi.
 
   ###########################################################################
   # Awards
@@ -188,7 +188,7 @@ translations:
 
   - key: award.most_write_ins_award.comment
     t: |
-      Dengan **{value}** sebutan, browser Arc adalah alat yang paling banyak disebut dalam pertanyaan freeform.
+      Dengan **{value}** sebutan, browser Arc adalah alat yang paling banyak disebut dalam pertanyaan terbuka.
 
   ###########################################################################
   # Conclusion
@@ -204,7 +204,7 @@ translations:
 
       Dari semua fitur ini, saya punya favorit sendiri untuk tahun ini, dan itu adalah `text-wrap: balance`. Fitur ini adalah perbaikan satu garis untuk sebuah permintaan yang saya dapatkan di seluruh karir pengembangan web saya: “bisakah anda membuat headlinenya supaya kata terakhirnya tidak menjadi sebuah yatim?”
 
-      Menarik juga bahwa banyak pengembang yang merasa bahwa membuat animasi ke auto dan tata letak masonry adalah fitur-fitur CSS yang hilang. Adalah benar bahwa sangat susah bagi browser-browser untuk menentukan ukuran elemen (terutama tinggi) ketika tidak disebut secara eksplisi. 
+      Menarik juga bahwa banyak pengembang yang merasa bahwa menganimasikan ke auto dan tata letak masonry adalah fitur-fitur CSS yang hilang. Adalah benar bahwa sangat susah bagi browser-browser untuk menentukan ukuran elemen (terutama tinggi) ketika tidak disebut secara eksplisi. 
 
       Namun seperti yang disebutkan [Lea Verou](https://lea.verou.me/) tahun lalu, dengan berbagai inisiatif seperti [Interop](https://wpt.fyi/interop-2023) yang menyatukan browser-browser, fitur-fitur yang dianggap tidak mungkin awalnya sekarang bisa menjadi realita!
 
@@ -218,7 +218,7 @@ translations:
   - key: picks.my_pick
     t: "Pilihan 2023 Saya: "
   - key: picks.intro
-    t: Kami meminta beberapa anggota dari komunitas CSS untuk membagian “pilihan tahun ini”
+    t: Kami meminta beberapa anggota dari komunitas CSS untuk membagikan “pilihan tahun ini”
 
   # - key: picks.david_east.name
   #   t: CSS Subgrid
@@ -246,7 +246,7 @@ translations:
     t: Penginjil CSS
   - key: picks.kevin_j_powell.description
     t: |
-      Blkog Ahmad menjadi sebuah sumber pengetahuan dan inspirasi, dengan eksplorasi mendalam dari berbagai topik, dengan visualisasi yang bagus dan berbagai kasus penggunaan.
+      Blog Ahmad menjadi sebuah sumber pengetahuan dan inspirasi, dengan eksplorasi mendalam dari berbagai topik, dan juga visualisasi yang bagus dan berbagai kasus penggunaan.
 
   # - key: picks.samuel_kraft.name
   #   t: The `:has()` Selector
@@ -297,12 +297,15 @@ translations:
 
   - key: picks.jhey_tompkins.name
     t: |
-      Selector `:has()`
+      Selektor `:has()`
   - key: picks.jhey_tompkins.bio
-    t: CEO of Fancy CSS
+    t: CEO dari Fancy CSS
   - key: picks.jhey_tompkins.description
     t: |
-      `:has()` adalah sebuah sulap yang anda dapat pakai untuk mengkombinasikan dengan API lain seperti kueri container, anchor positioning, dll. bersamaan. Saya bersemangat untuk melihat bagaimana komunitas dapat menemukan cara-cara yang baru dan inovatif untuk menggunakannya.
+      `:has()` adalah sebuah trik sulap yang anda dapat pakai untuk mengkombinasikan 
+      dengan API lain seperti kueri container, anchor positioning, dll. secara bersamaan. 
+      Saya bersemangat untuk melihat bagaimana komunitas dapat menemukan cara-cara yang 
+      baru dan inovatif untuk menggunakannya.
 
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
@@ -355,8 +358,8 @@ translations:
     t: Pembuat dari Tailwind CSS
   - key: picks.adam_wathan.description
     t: |
-      Sebuah alat pemrosesan CSS yang super cepat, all-in-one yang menangani berbagai hal seperti vendor prefixes, minifikasi, 
-      dan transpilasi fitur-fitur modern, sambil menjadi sebuah plaftform yang untuk para pengembang untuk membuat alat-alat CSS 
+      Sebuah alat pemrosesan CSS yang super cepat, all-in-one yang menangani berbagai hal seperti prefiks vendor, minifikasi, 
+      dan transpilasi fitur-fitur modern, sambil menjadi sebuah plaftform yang bagus untuk para pengembang untuk membuat alat-alat CSS 
       di atasnya.
 
   # - key: picks.christianoliff.bio
@@ -371,8 +374,8 @@ translations:
     t: Pembuat Polypane, browser untuk para pengembang.
   - key: picks.kilian_valkhof.description
     t: |
-      devtools di semua browser adalah sangat kuat. Tip-tip kecil ini 
-      membantu anda memanfaatkan mereka dengan maksimal terlepas dari browser apa yang anda gunakan.
+      Devtools di semua browser adalah sangat kuat. Tip-tip kecil ini 
+      membantu anda memanfaatkan mereka dengan maksimal tak peduli browser apa yang anda gunakan.
 
   - key: picks.ahmad_awais.name
     t: |
@@ -381,9 +384,9 @@ translations:
     t: VP DevRel & anggota pendiri Google Developers Advisory Board
   - key: picks.ahmad_awais.description
     t: |
-      Headlines should dazzle and read like a breeze, even if screens play hard to predict. 
-      I've battled those annoying solo words at line's end (hello, widow words!), 
-      but guess what? Enter text-wrap: balance – one-liner-fix wizardry that's pure magic!
+      Judul utama harus bisa dibaca dengan cepat, bahkan jika layar sulit diprediksi. 
+      Saya telah melawan kata-kata yang terletak di akhir baris itu (halo, kata janda!), 
+      namun coba tebak? Muncullah text-wrap: balance – sebuah trik sihir satu baris yang benar-benar ajaib!
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -466,7 +469,7 @@ translations:
     t: MDN
   - key: quiz.quiz_css_spec.answer
     t: >
-      [CSS Working Group](https://www.w3.org/groups/wg/css) dari W3C mengelola spesifikasi CSS, yangh kemudian diimplementasikan oleh para vendor browser.
+      [CSS Working Group](https://www.w3.org/groups/wg/css) dari W3C mengelola spesifikasi CSS, yang kemudian diimplementasikan oleh para vendor browser.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
 
@@ -477,13 +480,13 @@ translations:
   - key: sponsors.frontendmasters.description
     t: Majukan keterampilan anda dengan berbagai kursus rekayasa front-end yang mendalam dan modern.
   - key: sponsors.polypane.description
-    t: Browser untuk para pengembang yang ambisius. Buat sebuah situs web yang responsif,mudah diakses dan cepat dengan mudah.
+    t: Browser untuk para pengembang yang ambisius. Buat sebuah situs web yang responsif, mudah diakses, dan cepat dengan mudah.
   - key: sponsors.nijibox.description
     t: Konsultasi Pengembangan Produk dan UX di jantung Tokyo.
   - key: sponsors.renderatl.description
     t: Konferensi teknologi terbesar dengan bagian yang khusus untuk Desain & CSS.
   - key: sponsors.google_chrome.description
-    t: Terima kasih kepada tim Google Chrome untuk mendukung pekerjaan kami.
+    t: Terima kasih kepada tim Google Chrome yang telah mendukung pekerjaan kami.
 
   ###########################################################################
   # FAQ/About
@@ -491,7 +494,7 @@ translations:
 
   - key: about.content
     t: >
-      Survei State of CSS 2023 berjalan dari 15 Juni sampai 15 Juli 2023, dan mendapatkan 9,108 respon. Survei ini dikelola oleh [Devographics](https://www.devographics.com/), dengan bantuan dari sebuah tim yang terdiri dari para kontributor dan konsultan sumber terbuka. 
+      Survei State of CSS 2023 berjalan dari 15 Juni sampai 15 Juli 2023, dan mendapatkan 9,108 respon. Survei ini dikelola oleh [Devographics](https://www.devographics.com/), dengan bantuan dari sebuah tim yang terdiri dari para kontributor dan konsultan sumber terbuka.
 
 
       Logo kaos State of CSS dan dirancang dan dianimasikan oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
@@ -505,7 +508,7 @@ translations:
       Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan. 
 
 
-      Selain itu, data survei ini juga digunakan oleh para vendor browser untuk memprioritaskan fitur-fitur dan menginformasikan berbagai inisiatif initiatives seperti [Interop 2023](https://web.dev/interop-2023/).
+      Selain itu, data survei ini juga digunakan oleh para vendor browser untuk memprioritaskan fitur-fitur dan menginformasikan berbagai inisiatif seperti [Interop 2023](https://web.dev/interop-2023/).
 
 
       ### Perancangan Survei 
@@ -514,7 +517,7 @@ translations:
 
       ### Audiens Survei
 
-      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah a dedicated mailing list) dan lalu lintas social media. 
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah milis khusu) dan lalu lintas media sosial. 
 
       ### Pendanaan proyek 
 
@@ -533,7 +536,7 @@ translations:
 
       ### Ikhtisar Teknis
 
-      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana surveinya dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
 
       ### Umpan balik
 
