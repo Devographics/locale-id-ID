@@ -1,34 +1,557 @@
 locale: id-ID
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  - key: results.start
+    t: Mulai
 
-    - key: features.learn_more
-      t: Belajar Lebih Lanjut (MDN)
-    - key: features.mdn_link
-      t: MDN
-    - key: features.caniuse_link
-      t: CanIUse
-    - key: features.specification_link
-      t: Spesifikasi W3C
+  - key: page.previous
+    t: "Sebelumnya:"
+  - key: page.next
+    t: "Selanjutnya:"
 
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
+  - key: general.state_of_css_link
+    t: State of CSS
 
-    # general
-    - key: tools.links
-      t: Links
-    - key: tools.github_link
-      t: GitHub
-    - key: tools.github_stars
-      t: star
-    - key: tools.homepage_link
-      t: Homepage
-    - key: tools.npm_link
-      t: NPM
+  - key: general.netlify_link
+    t: Dihosting oleh <a href="{link}">Netlify</a>.
+
+  - key: general.completion_percentage
+    t: "Persentase penyelesaian:"
+
+  - key: sponsors.thanks
+    t: Terima kasih kepada semua Mitra yang telah mendukung Kami!
+
+  - key: sponsors.learn_more
+    t: Pelajari lebih lanjut.
+
+  - key: tabs.all_respondents
+    t: Semua Responden
+  - key: tabs.main_answers
+    t: Jawaban Utama
+  - key: tabs.other_answers
+    t: Jawaban Lainnya
+  - key: tabs.bracket_wins
+    t: Pemenang
+  - key: tabs.bracket_matchups
+    t: Pertandingan
+  - key: tabs.chart
+    t: Bagan
+  - key: tabs.data
+    t: Data
+  - key: tabs.share
+    t: Bagikan
+  - key: tabs.debug
+    t: Debug
+  - key: tabs.by_country
+    t: Berdasarkan Negara
+  - key: tabs.by_experience
+    t: Berdasarkan Pengalaman
+  - key: tabs.by_degree
+    t: Berdasarkan Gelar
+  - key: tabs.by_salary
+    t: Berdasarkan Gaji
+  - key: tabs.by_gender
+    t: Berdasarkan Jenis Kelamin
+  - key: tabs.by_race_ethnicity
+    t: Berdasarkan Ras & Etnik
+  - key: tabs.low_vs_high_income
+    t: Penghasilan Rendah vs Tinggi
+  - key: tabs.usa_vs_the_world
+    t: Amerika Serikat vs Dunia
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  - key: options.experience_ranking.satisfaction
+    t: Retensi
+  - key: options.experience_ranking.interest
+    t: Ketertarikan
+  - key: options.experience_ranking.usage
+    t: Pemakaian
+  - key: options.experience_ranking.awareness
+    t: Tingkat Kesadaran
+
+  - key: options.features_mode.grouped
+    t: Dikelompokkan
+  - key: options.features_mode.awareness_rank
+    t: Berdasarkan Tingkat Kesadaran
+  - key: options.features_mode.usage_rank
+    t: Berdasarkan Pemakaian
+  - key: options.features_mode.usage_ratio_rank
+    t: Berdasarkan Rasio
+
+  - key: options.features_simplified.know_it
+    t: Mengetahui
+  - key: options.features_simplified.used_it
+    t: Pernah pakai
+  - key: options.features_simplified.usage_ratio
+    t: Rasio
+
+  - key: options.quadrant.assess
+    t: PENILAIAN
+  - key: options.quadrant.assess.long
+    t: |
+      PENILAIAN: Pemakaian rendah, retensi tinggi. Teknologi yang patut diperhatikan.
+  - key: options.quadrant.adopt
+    t: ADOPSI
+  - key: options.quadrant.adopt.long
+    t: |
+      ADOPSI: Pemakaian tinggi, retensi tinggi. Teknologi yang aman untuk diadopsi.
+  - key: options.quadrant.avoid
+    t: HINDARI
+  - key: options.quadrant.avoid.long
+    t: |
+      HINDARI: Pemakaian rendah, retensi rendah. Teknologi yang sebaiknya dihindari pada saat ini.
+  - key: options.quadrant.analyze
+    t: ANALISA
+  - key: options.quadrant.analyze.long
+    t: |
+      ANALISA: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
+
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Pemakaian rendah, retensi tinggi. Teknologi yang patut diperhatikan.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: Pemakaian tinggi, retensi tinggi. Teknologi yang aman untuk diadopsi.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Pemakaian rendah, retensi rendah. Teknologi yang sulit untuk dijadikan rekomendasi.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
+      
+  - key: ranges.selector.years_of_experience
+    t: Pengalaman
+  - key: ranges.selector.yearly_salary
+    t: Gaji
+  - key: ranges.selector.company_size
+    t: Ukuran perusahaan
+
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Blog
+  - key: options.first_steps.forums
+    t: Forum
+  - key: options.first_steps.view_source
+    t: Lihat Sumber
+  - key: options.first_steps.copy_paste
+    t: Copy/paste
+  - key: options.first_steps.trial_and_error
+    t: Trial & Error
+  - key: options.first_steps.documentation
+    t: Dokumentasi
+
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: ADHD
+  - key: options.disability_status_others.autism
+    t: Autisme
+  - key: options.disability_status_others.glasses
+    t: Berkacamata
+  - key: options.disability_status_others.old
+    t: Usia lanjut
+  - key: options.disability_status_others.back_pain
+    t: Sakit Punggung
+  - key: options.disability_status_others.epilepsy
+    t: Epilepsi
+  - key: options.disability_status_others.aspergers
+    t: Asperger
+  - key: options.disability_status_others.color_blindness
+    t: Buta Warna
+  - key: options.disability_status_others.anxiety
+    t: Gangguan Kecemasan
+  - key: options.disability_status_others.dyslexia
+    t: Disleksia
+  - key: options.disability_status_others.diabetes
+    t: Diabetes
+  - key: options.disability_status_others.carpal_tunnel
+    t: Carpal Tunnel
+  - key: options.disability_status_others.migraine
+    t: Migrain
+  - key: options.disability_status_others.speech_impairment
+    t: Gangguan Bicara
+  - key: options.disability_status_others.ocd
+    t: OCD
+  - key: options.disability_status_others.chronic_pain
+    t: Penyakit Kronis
+  - key: options.disability_status_others.chronic_fatigue
+    t: Kelelahan Kronis
+  - key: options.disability_status_others.crohn
+    t: Penyakit Crohn
+  - key: options.disability_status_others.depression
+    t: Depresi
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.introduction.title
+    t: Pengenalan
+
+  - key: sections.demographics.title
+    t: Demographics
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.technologies.title
+    t: Teknologi
+
+  - key: sections.libraries.title
+    t: Pustaka
+
+  - key: sections.conclusion.title
+    t: Kesimpulan
+
+  - key: sections.about.title
+    t: Tentang
+
+  - key: sections.how_to_help.title
+    t: Cara kontribusi
+
+  - key: sections.support.title
+    t: Dukung Kami
+  - key: sections.support.description
+    t: >
+      Kita menjalankan survei ini sebagai proyek sampingan, tetapi untuk mempertahankannya
+      Kami mencari rekan yang bisa mendukung Kami, 
+      baik itu bantuan finansial maupun sekedar menyebarkan tentang Kami.
+      Jika Anda merasa bisa membantu, jangan ragu-ragu untuk [menghubungi kami](mailto:hello@stateofjs.com)!
+
+  - key: sections.awards.title
+    t: Penghargaan
+  - key: sections.awards.description
+    t: Hal yang terkenal pada tahun ini.
+
+  ###########################################################################
+  # User Info
+  ###########################################################################
+
+  - key: user_info.locale
+    t: Bahasa
+  - key: user_info.locale.description
+    t: Bahasa apa yang responden gunakan untuk mengisi survei?
+  - key: user_info.locale.note
+    t: >
+      Data ini disimpan secara otomatis berdasarkan pengaturan yang responden gunakan saat mengisi survei; 
+      Kami tidak menampilkan bahasa yang kurang dari 20 responden.
+
+  - key: user_info.source
+    t: Sumber
+  - key: user_info.source.description
+    t: Darimana responden mengetahui tentang survei ini?
+  - key: user_info.source.note
+    t: Data ini didapat berdasarkan referensi, pelacak URL, dan jawaban oleh responden.
+
+  - key: user_info.source_by_gender
+    t: Sumber Berdasarkan Jenis Kelamin
+
+  - key: user_info.source_by_race_ethnicity
+    t: Sumber Berdasarkan Ras & Etnik
+
+  - key: user_info.gender_by_country
+    t: Jenis Kelamin Berdasarkan Negara
+  - key: user_info.gender_by_country.description
+    t: Pengelompokkan Jenis kelamin berdasarkan Negara dengan setidaknya 100 responden, diurutkan berdasarkan "Rata-rata Jenis Kelamin" (Setiap kunci jenis kelamin memiliki nilai integer dalam urutan teratas) terbawah.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Tahun pengalaman berdasarkan gaji
+  - key: user_info.years_of_experience_by_salary.description
+    t: Tahun pengalaman berdasarkan gaji.
+
+  - key: user_info.average_income_by_years_of_experience
+    t: Rata-rata pendapatan berdasarkan tahun pengalaman
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Rata-rata pendapatan berdasarkan tahun pengalaman.
+
+  - key: user_info.average_income_by_company_size
+    t: Rata-rata pendapatan berdasarkan ukuran perusahaan
+  - key: user_info.average_income_by_company_size.description
+    t: Rata-rata pendapatan berdasarkan ukuran perusahaan.
+
+  - key: user_info.yearly_salary_by_country
+    t: Gaji berdasarkan Negara
+  - key: user_info.yearly_salary_by_country.description
+    t: Pengelompokkan gaji tahunan berdasarkan Negara dengan setidaknya 100 responden, diurutkan berdasarkan rata-rata gaji terendah.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Gaji berdasarkan tingkat edukasi
+  - key: user_info.yearly_salary_by_degree.description
+    t: Pengelompokkan gaji tahunan berdasarkan tingkat edukasi, diurutkan berdasarkan rata-rata gaji terendah.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Gaji berdasarkan pengalaman
+  - key: user_info.yearly_salary_by_experience.description
+    t: Pengelompokkan gaji tahunan berdasarkan pengalaman, diurutkan berdasarkan rata-rata gaji terendah.
+
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Pendapatan Tahunan: U.S.A vs Seluruh Dunia
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Ras & Etnik berdasarkan tahun pengalaman
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Pengelompokkan Ras & Etnik berdasarkan tahun pengalaman, diurutkan berdasarkan rata-rata pengalaman terbanyak.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Tingkat edukasi berdasarkan jenis kelamin
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Pengelompokkan Tingkat edukasi berdasarkan jenis kelamin.
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: English
+  - key: options.locale.ca-ES
+    t: Catalan
+  - key: options.locale.es-ES
+    t: Spanish
+  - key: options.locale.ru-RU
+    t: Russian
+  - key: options.locale.fr-FR
+    t: French
+  - key: options.locale.zh-Hant
+    t: Chinese (Traditional)
+  - key: options.locale.de-DE
+    t: German
+  - key: options.locale.cs-CZ
+    t: Czech
+  - key: options.locale.pt-PT
+    t: Portuguese
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
+  - key: options.locale.it-IT
+    t: Italian
+  - key: options.locale.sv-SE
+    t: Swedish
+  - key: options.locale.tr-TR
+    t: Turkish
+  - key: options.locale.id-ID
+    t: Indonesian
+  - key: options.locale.hi-IN
+    t: Hindi
+  - key: options.locale.zh-Hans
+    t: Chinese (Simplified)
+  - key: options.locale.ja-JP
+    t: Japanese
+  - key: options.locale.ua-UA
+    t: Ukrainian
+  - key: options.locale.pl-PL
+    t: Polish
+  - key: options.locale.fa-IR
+    t: Farsi
+  - key: options.locale.nl-NL
+    t: Dutch
+  - key: options.locale.ko-KR
+    t: Korean
+  - key: options.locale.ro-RO
+    t: Romanian
+  - key: options.locale.am-ET
+    t: Amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+  - key: options.locale.el-GR
+    t: Greek
+  - key: options.locale.gl-ES
+    t: Galician
+  - key: options.locale.hr-HR
+    t: Croatian
+  - key: options.locale.hu-HU
+    t: Hungarian
+  - key: options.locale.sk-SK
+    t: Slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  - key: features.learn_more
+    t: Belajar Lebih Lanjut (MDN)
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: Can I use
+  - key: features.specification_link
+    t: Spesifikasi W3C
+  
+  # knowledge score
+  - key: features.knowledge_score
+    t: Skor Pengetahuan
+  - key: features.knowledge_score.description
+    t: berdasarkan semua fitur yang disebutkan dalam survei, seberapa banyak yang Anda ketahui?
+
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
+
+  # general
+  - key: tools.links
+    t: Tautan
+  - key: tools.github_link
+    t: GitHub
+  - key: tools.github_stars
+    t: Bintang
+  - key: tools.homepage_link
+    t: Halaman Utama
+  - key: tools.npm_link
+    t: NPM
+  - key: tools.technology
+    t: Teknologi
+
+  ###########################################################################
+  # Blocks
+  ###########################################################################
+
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Pemakaian berdasarkan Ukuran Perusahaan
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Untuk setiap teknologi, berikut variasi jawaban di antara responden
+      yang memilih ukuran perusahaan yang berbeda.
+
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Pemakaian berdasarkan Kisaran Gaji
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Untuk setiap teknologi, berikut variasi jawaban di antara responden
+      yang memilih kisaran gaji yang berbeda.
+
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Pemakaian berdasarkan Tahun Pengalaman
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      "Untuk setiap teknologi, berikut variasi jawaban di antara responden yang memilih tahun pengalaman yang berbeda.
+      Catatan: pengalaman yang dimaksud adalah pengalaman secara umum, bukan dengan teknologi yang spesifik."
+
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Halaman Utama
+  - key: blocks.entity.github_link
+    t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: Nama
+  - key: blocks.people.social_links
+    t: Tautan
+  - key: blocks.people.responses
+    t: Tanggapan
+  
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Kardinalitas Penggunaan Teknologi
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+      Untuk setiap bagian, yang diukur berdasarkan **Pemakaian** responden 
+      (berdasarkan jawaban “Akan memakainya lagi”) satu, dua, tiga, DLL. teknologi.
+      balok paling bawah sebagai hasil dari penjumlahan semua balok.
+
+  - key: blocks.cardinality.max
+    t: Jawaban paling umum
+  
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Perubahan
+  - key: blocks.tools_arrows.description
+    t: |
+      Setiap baris diurutkan mulai dari data tahun tersedia terlama. semakin tinggi poin, maka semakin pengguna yang telah memakainya,
+      dan poin yang berada di kanan berarti ada banyak pengguna yang ingin mempelajarinya; atau telah memakainya dan akan memakainya lagi.
+  - key: blocks.tools_arrows.note
+    t: |
+      - Beberapa baris melompati tahun.
+      - Tidak menampilkan teknologi yang baru berumur setahun. 
+      - Rumus kecepatan = (opini terbaru - opini terlama) + (penggunaan terbaru) - (pengunaan terlama)
+      - Kecepatan yang positif berarti pemakaian dan/atau opini positif telah meningkat seiring berjalannya waktu.
+  
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Retensi vs Pemakaian
+  - key: blocks.tools_quadrant.description
+    t: |
+      Bagan ini menampilkan **rasio retensi** setiap teknlogi berdasarkan **jumlah pengguna**.
+      Ini bisa dibagi menjadi 4 kuadran:
+
+        - **PENILAIAN**: Pemakaian rendah, retensi tinggi. Teknologi yang patut diperhatikan.
+
+        - **ADOPSI**: Pemakaian tinggi, retensi tinggi. Teknologi yang aman untuk diadopsi.
+
+        - **HINDARI**: Pemakaian rendah, retensi rendah. Teknologi yang sebaiknya dihindari pada saat ini.
+
+        - **ANALISA**: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
+  
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Alat lainnya
+  - key: blocks.category_other_tools.description
+    t: Alat lainnya dalam kategori ini (jawaban bebas).
+  
+  # tool experience
+  - key: blocks.tool_experience
+    t: "Pengalaman {name}"
+  - key: blocks.tool_experience.description
+    t: Pengalaman responden memakai {name}.
+  
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: Pembagian Positif/Negatif
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+      Bagan ini membagi antara pengalaman positif (“Ingin pelajari”, “Akan memakainya lagi”) vs
+      negatif (“Tidak tertarik”, “Takkan memakainya lagi”) pada
+      kedua sisi dari titik pusat.
+
+      Ketebalan balok melambangkan jumlah responden yang mengetahui sebuah teknologi.
+  
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Daftar Tingkatan Pustaka
+  - key: blocks.tools_tier_list.description
+    t: |
+      Bagan ini mengukur pustaka berdasarkan rasio retensi (persentase pengguna
+      yang akan menggunakan lagi pustaka ini). Catatan: pustaka yang digunakan kurang dari 10% responden 
+      survei tidak akan ditampilkan.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+  
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Pengalaman Seiring Waktu
+  - key: blocks.tools_section_streams.description
+    t: |
+      Ringkasan pendapat tentang teknologi yang disurvei seiring waktu.
+  - key: blocks.tools_section_streams.note
+    t: |
+      Tidak menampilkan teknologi dengan data satu tahun.
