@@ -1,0 +1,385 @@
+locale: id-ID
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React sudah ada cukup lama, dan sudah jelas bahwa React sudah menjadi salah satu framework front-end yang mendominasi. 
+
+      Tapi meski begitu, React masih berevolusi secara cepat, dan komunitasnya sudah melakukan yang terbaik untuk mengikuti perkembangan tersebut. 
+
+      dengan survei pengembang State of React ini, kami berharap untuk bisa mengerti evolusi tersebut, dan membantu para pengembang menemukan jalan mereka dalam ekosistem React yang luas.
+
+  - key: general.state_of_react.description
+    t: Survei pengembang tahunan tentang ekosistem React
+
+  - key: features.features_intro_react
+    t: |
+      Selamat datang di survei ini! Bagian pertama ini adalah tentang mencari tahu
+      API-API React yang anda tahu dan pakai. 
+
+      O iya, kalau anda memberikan kami keterangan lebih tentang jawaban anda, anda cukup mengetuk tombol dengan ikon "komentar"!
+
+  - key: tools.tools_intro_react
+    t: |
+      Beberapa bagian selanjutnya berfokus pada **library** dan **framework** yang menjadi bagian dari 
+      ekosistem React. Beri tahu kami apa yang membuat anda bersemangat!
+
+  # sections
+  - key: sections.components.title
+    t: Komponen
+  - key: sections.components.description
+    t: Komponen-komponen spesial yang diberikan React
+  - key: sections.hooks.title
+    t: Hook
+  - key: sections.hooks.description
+    t: Hook bawaan React
+  - key: sections.other_apis.title
+    t: API-API lain
+  - key: sections.other_apis.description
+    t: API-API dan fitur-fitur lain
+  - key: sections.component_apis.title
+    t: API-API komponen
+  - key: sections.component_apis.description
+    t: API-API untuk memanipulasi komponen
+  - key: sections.legacy_apis.title
+    t: API-API lama
+  - key: sections.legacy_apis.description
+    t: API-API lama dan usang
+
+  - key: sections.state_management.title
+    t: Pengelolaan State
+  - key: sections.state_management.description
+    t: Library untuk mengelola state aplikasi
+  - key: sections.data_loading.title
+    t: Pemuatan Data
+  - key: sections.data_loading.description
+    t: Alat-alat untuk memuat dan mengelola data
+  - key: sections.ui_libraries.title
+    t: Library UI
+  - key: sections.ui_libraries.description
+    t: Library komponen dan UI lainnya.
+  - key: sections.meta_frameworks.title
+    t: Meta Framework
+  - key: sections.meta_frameworks.description
+    t: Framework untuk membantu merender dan menyajikan aplikasi React anda
+  - key: sections.testing.title
+    t: Pengetesan
+  - key: sections.testing.description
+    t: Alat-alat dan library pengetesan
+  - key: sections.mobile_development.title
+    t: Pengembangan seluler
+  - key: sections.mobile_development.description
+    t: Library dan alat-alat untuk pengembangan seluler
+
+  - key: sections.other_tools.title
+    t: Alat-alat lainnya
+  - key: sections.other_tools.description
+    t: Alat-alat dan library React lainnya
+
+  - key: sections.usage_react.title
+    t: Penggunaan
+  - key: sections.usage_react.description
+    t: Bagaimana anda menggunakan React setiap harinya
+
+  # tools
+
+  - key: tools.state_management_others
+    t: Library Pengelolaan State lainnya
+  - key: tools.state_management_happiness
+    t: Kepuasan
+  - key: tools.state_management_happiness.description
+    t: Seberapa puas anda dengan keadaan library pengelolaan state saat ini?
+
+  - key: tools.data_loading_others
+    t: Library Pemuatan Data lainnya
+  - key: tools.data_loading_happiness
+    t: Kepuasan
+  - key: tools.data_loading_happiness.description
+    t: Seberapa puas anda dengan keadaan library pemuatan data saat ini?
+
+  - key: tools.ui_libraries_others
+    t: Library UI lainnya
+  - key: tools.ui_libraries_happiness
+    t: Kepuasan
+  - key: tools.ui_libraries_happiness.description
+    t: Seberapa puas anda dengan keaadaan library UI saat ini?
+
+  - key: tools.meta_frameworks_others
+    t: Meta-Framework lainnya
+  - key: tools.meta_frameworks_happiness
+    t: Kepuasan
+  - key: tools.meta_frameworks_happiness.description
+    t: Seberapa puas anda dengan keadaaan meta-framework saat ini?
+
+  - key: tools.testing_others
+    t: Library untuk pengetesan lainnya
+  - key: tools.testing_happiness
+    t: Kepuasan
+  - key: tools.testing_happiness.description
+    t: Seberapa puas anda dengan keadaaan library saat ini?
+
+  - key: tools.mobile_development_others
+    t: Alat-alat Pengembangan Seluler lainnya
+  - key: tools.mobile_development_happiness
+    t: Kepuasan
+  - key: tools.mobile_development_happiness.description
+    t: Seberapa puas anda dengan keadaaan pengembangan seluler saat ini?
+
+  # other tools
+  - key: other_tools.forms.description
+    t: Library untuk membuat dan validasi form.
+  - key: options.forms.na
+    t: Tidak ada
+
+  - key: other_tools.build_tools
+    t: Build Tool
+  - key: other_tools.build_tools.description
+    t: Bundler dan build tool.
+
+  - key: other_tools.animation
+    t: Animasi
+  - key: other_tools.animation.description
+    t: Library untuk mengelola animasi dan transisi.
+
+  - key: other_tools.auth
+    t: Otentikasi
+  - key: other_tools.auth.description
+    t: Library dan layanan untuk mengelola otentikasi dan akun.
+
+  - key: other_tools.data_visualization
+    t: Visualisasi Data
+  - key: other_tools.data_visualization.description
+    t: Visualisasi Data dan library grafis.
+
+  - key: other_tools.css_tools
+    t: Alat-alat & Library CSS
+  - key: other_tools.css_tools.description
+    t: Library, framework, dan alat-alat CSS, yang anda pakai untuk memberi gaya pada aplikasi React anda.
+
+  - key: other_tools.other_frontend_frameworks
+    t: Framework Front-end lainnya
+  - key: other_tools.other_frontend_frameworks.description
+    t: >
+      Framework front-end lainnya yang dengannya anda memiliki pengalaman bagus, 
+      atau tertarik untuk mempelajari.
+
+  - key: other_tools.hosting
+    t: Layanan Hosting
+  - key: other_tools.hosting.description
+    t: Layanan yang anda pakai untuk hosting aplikasi React anda.
+
+  - key: other_tools.backend_language
+    t: Bahasa-bahasa Back-end
+  - key: other_tools.backend_language.description
+    t: Bahasa back-end mana yang anda pakai untuk menulis aplikasi back-end anda?
+
+  - key: other_tools.other_services
+    t: Layanan lainnya
+  - key: other_tools.other_services.description
+    t: Layanan lainnya yang anda pakai untuk aplikasi React anda.
+
+  - key: other_tools.validation
+    t: Library Validasi Skema
+  - key: other_tools.validation.description
+    t: Library untuk memvalidasi data menggunakan sebuah skema.
+
+  - key: other_tools.ai_tools
+    t: Alat-alat AI
+  - key: other_tools.ai_tools.description
+    t: Alat-alat dan layanan AI yang anda gunakan untuk membantu menulis aplikasi React anda.
+
+  - key: other_tools.renderers
+    t: Renderer React
+  - key: other_tools.renderers.description
+    t: Library yang memungkinkan anda merender aplikasi React ke platform atau lingkungan yang berbeda.
+
+  - key: other_tools.other_tools
+    t: Alat-alat lainnya
+  - key: other_tools.other_tools.description
+    t: Alat-alat lainnya yang anda gunakan untuk mengembangkan aplikasi React anda.
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (CSS polos, “vanilla”)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Mengelola pre-render komponen
+  - key: options.react_pain_points.testing
+    t: Pengetesan
+  - key: options.react_pain_points.data_loading
+    t: Pemuatan data dan operasi async
+  - key: options.react_pain_points.state_management
+    t: Pengelola state (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Menjaga ukuran bundle agar tidak terlalu besar
+  - key: options.react_pain_points.server_rendering
+    t: Server-Side Rendering & Komponen Server
+  - key: options.react_pain_points.css_styling
+    t: CSS & Penggayaan
+  - key: options.react_pain_points.attribute_names
+    t: Nama-nama atribut yang “salah” misalnya `className`, `htmlFor`, etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Event buatan
+  - key: options.react_pain_points.ref_management
+    t: Pengelolaan Ref
+  - key: options.react_pain_points.memoization
+    t: Memoization
+  - key: options.react_pain_points.animations
+    t: Animasi & Transisi
+  - key: options.react_pain_points.forms
+    t: Form
+  - key: options.react_pain_points.typescript
+    t: Kurangnya dukungan TypeScript resmi
+
+  # usage type
+  - key: usage.react_usage_type
+    t: Penggunaan React
+  - key: usage.react_usage_type.description
+    t: dalam konteks apakah anda menggunakan React?
+
+  # react version
+
+  - key: usage.react_version
+    t: Versi React
+  - key: usage.react_version.description
+    t: Versi yang mana yang anda paling sering gunakan setiap harinya?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.not_sure
+    t: Tidak yakin
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Pola-pola aplikasi
+  - key: usage.js_app_patterns.description
+    t: Yang manakah dari pola-pola aplikasi dan rendering ini yang anda gunakan pada **tahun sebelumnya**?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Aplikasi yang berjalan seluruhnya di dalam browser
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Aplikasi yang berjalan seluruhnya di server, ddengan perilaku dinamis sisi klien yang minimal
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Konten statis yang sudah dirender sebelumnya, dengan atau tanpa bagian dinamis sisi klien
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Merender konten HTML secara dinamis di server sebelum mehidrasinya kembali di klien
+  - key: options.js_app_patterns.partial_hydration
+    t: Partial Hydration
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Hanya menghidrasi beberapa komponen di klien (misalnya React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Progressive Hydration
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Mengendalikan urutan hidrasi komponen di klien
+  - key: options.js_app_patterns.islands_architecture
+    t: Islands Architecture
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Pulau-pulau interaktif dengan perilaku dinamis yang terisolasi dengan beberapa entry point (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Progressive Enhancement
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Memastikan aplikasi masih dapat bekerja bahkan tanpa JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Generation
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Bisa menambahkan atau memodifikasi sebuah situs statis bahkan setelah build awal (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Memecah-mecahkan konten yang dirender di server menjadi bagian-bagian yang lebih kecil
+  - key: options.js_app_patterns.resumability
+    t: Resumability
+  - key: options.js_app_patterns.resumability.description
+    t: Menserialisasikan state framework di server supaya klien dapat melanjutkan eksekusi tanpa eksekusi kode yang berulang.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Mengubah HTML yang sudah dirender di edge sebelum mengirimkannya ke klien
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Frontend mikro
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: Untuk apa anda menggunakan React?
+
+  - key: usage.react_pain_points
+    t: Titik Sakit React
+
+  - key: usage.state_of_react
+    t: Seberapa puas anda dengan keadaan React saat ini?
+
+  # new features
+  - key: usage.new_features
+    t: Fitur-fitur baru
+  - key: usage.new_features.description
+    t: Dari manakah dari fitur-fitur di bawah ini yang anda paling tunggu-tunggu?
+
+  - key: options.new_features.asset_loading
+    t: Pemuatan Aset
+  - key: options.new_features.asset_loading.description
+    t: Mengintegrasikan Suspense sepenuhnya dengan loading lifecycle dari stylesheet, fon, dan gambar
+  - key: options.new_features.cache.description
+    t: Sebuah API untuk membantu caching data.
+  - key: options.new_features_react_forget.description
+    t: Sebuah kompilter reaktivitas otomatis untuk React
+  - key: options.new_features.new_docs
+    t: Dokumentasi baru
+  - key: options.new_features.new_docs
+    t: Situs dokumentasi baru React.
+  - key: options.new_features.offscreen_rendering
+    t: Offscreen Rendering
+  - key: options.new_features_offscreen_rendering.description
+    t: Merender layar di latar belakang tanpa biaya performa tambahan.
+  - key: options.new_features.use_hook
+    t: >
+      Hook `use`
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` membuka nilai dari sebuah promise, namun bisa juga digunakan dalam komponen dan Hook biasa, termasuk di klien.
+
+  - key: options.new_features.transition_tracing
+    t: Transition Tracing
+  - key: options.new_features.transition_tracing.description
+    t: Mendeteksi ketika Transisi React menjadi lambat dan menginvestigasi kenapa demikian.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Situs web statis
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Sistem Desain
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Aplikasi Web
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Aplikasi seluler
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Aplikasi Desktop
+
+  # resources
+  - key: resources.first_steps_react
+    t: Langkah-langkah pertama
+  - key: resources.first_steps_react.description
+    t: Sumber-sumber mana yang anda gunakan untuk pertama kali belajar React?
