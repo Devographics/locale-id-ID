@@ -65,8 +65,6 @@ translations:
     t: Tinjau Survei »
   - key: general.review_answers
     t: Tinjau Jawaban »
-  - key: general.preview_surveys
-    t: Pratinjau Survei »
   - key: general.finish_survey
     t: Selesaikan Survei
   - key: general.next_section

@@ -1,83 +1,82 @@
 locale: id-ID
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Hand-coded di Jepang.
-    - key: homepage.leave_issue
-      t: Laporkan sebuah masalah
-    - key: homepage.get_in_touch
-      t: Hubungi kami
+  - key: homepage.hand_coded
+    t: Hand-coded di Jepang.
+  - key: homepage.leave_issue
+    t: Laporkan sebuah masalah
+  - key: homepage.get_in_touch
+    t: Hubungi kami
 
-    - key: homepage.previous_years
-      t: 'Tahun Sebelumnya'
+  - key: homepage.previous_years
+    t: "Tahun Sebelumnya"
 
-    - key: homepage.take_survey
-      t: Ikuti Survei
+  - key: homepage.take_survey
+    t: Ikuti Survei
 
-    - key: homepage.view_results
-      t: Lihat hasil
-    
-    - key: homepage.results_coming_soon
-      t: Hasilnya akan segera hadir…
+  - key: homepage.view_results
+    t: Lihat hasil
 
-    - key: share.help_spread
-      t: Bantu Sebarkan!
+  - key: homepage.results_coming_soon
+    t: Hasilnya akan segera hadir…
 
-    - key: homepage.other_surveys
-      t: 'Survei Lainnya:'
+  - key: share.help_spread
+    t: Bantu Sebarkan!
 
-    - key: homepage.survey_open_now
-      t: Sedang Dibuka
+  - key: homepage.other_surveys
+    t: "Survei Lainnya:"
 
-    - key: homepage.survey_preview
-      t: Pratinjau Survei
-    
-    - key: homepage.most_recent_survey
-      t: Survei terbaru
+  - key: homepage.survey_open_now
+    t: Sedang Dibuka
 
-    - key: homepage.current_survey
-      t: Survei yang aktif
+  - key: homepage.survey_preview
+    t: Pratinjau Survei
 
-    - key: homepage.past_surveys
-      t: Survei sebelumnya
+  - key: homepage.most_recent_survey
+    t: Survei terbaru
 
-    - key: homepage.view_questions
-      t: Lihat Pertanyaan
+  - key: homepage.current_survey
+    t: Survei yang aktif
 
-    - key: homepage.preview_questions
-      t: Pratinjau Pertanyaan
+  - key: homepage.past_surveys
+    t: Survei sebelumnya
 
-    # newsletter
-    - key: newsletter.stay_tuned
-      t: Jangan ketingalan survei berikutnya
-    - key: newsletter.leave_your_email
-      t: Tinggalkan email Anda dan Kami akan memberi tahu Anda saat survei berikutnya dibuka.
-    - key: newsletter.email
-      t: Email Anda
-    - key: newsletter.submit
-      t: Kabari Saya
-    
-    # languages
-    - key: languages.available_languages
-      t: 'Bahasa yang tersedia:'
-    - key: languages.help_us_translate
-      t: Bantu Kami menerjemahkan kedalam bahasa Anda →
-    
-    # partners
-    - key: homepage.with_support_from
-      aliasFor: sponsors.with_support_from
+  - key: homepage.view_questions
+    t: Lihat Pertanyaan
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: Dibuat dengan [Astro](https://astro.build/)
+  - key: homepage.preview_questions
+    t: Pratinjau Pertanyaan
+
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Jangan ketingalan survei berikutnya
+  - key: newsletter.leave_your_email
+    t: Tinggalkan email Anda dan Kami akan memberi tahu Anda saat survei berikutnya dibuka.
+  - key: newsletter.email
+    t: Email Anda
+  - key: newsletter.submit
+    t: Kabari Saya
+
+  # languages
+  - key: languages.available_languages
+    t: "Bahasa yang tersedia:"
+  - key: languages.help_us_translate
+    t: Bantu Kami menerjemahkan kedalam bahasa Anda →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Dibuat dengan [Astro](https://astro.build/)
