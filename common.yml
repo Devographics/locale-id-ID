@@ -18,7 +18,7 @@ translations:
       - Menyimpan data sesi Anda
 
       - Memberi tahu Anda saat hasilnya sudah diterbitkan
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Maaf, survei sudah ditutup! Anda masih dapat meninjau data Anda, namun Anda tidak dapat mengubahnya.
   - key: general.survey_read_only
@@ -642,19 +642,19 @@ translations:
       Tidak disebutkan
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       Gangguan Penglihatan
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       Gangguan Pendengaran
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       Gangguan Mobilitas
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       Gangguan Kognitif
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       Tidak disebutkan
 
@@ -862,7 +862,7 @@ translations:
     t: Berita
   - key: options.first_steps.events
     t: Acara
-  
+
   # learning methods
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
