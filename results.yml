@@ -551,7 +551,994 @@ translations:
     t: Pengalaman Seiring Waktu
   - key: blocks.tools_section_streams.description
     t: |
-      Ringkasan pendapat tentang teknologi yang disurvei seiring waktu.
+      Keseluruhan pendapat tentang teknologi yang disurvei seiring waktu.
   - key: blocks.tools_section_streams.note
     t: |
-      Tidak menampilkan teknologi dengan data satu tahun.
+      Tidak termasuk teknologi dengan data hanya satu tahun.
+
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: Keseluruhan kategori
+  - key: blocks.tools_section_overview.description
+    t: |
+      Keseluruhan pendapat tentang teknologi yang disurvei. segmen yang lebih gelap melambangkan opini positif,
+      sementara segmen yang lebih terang melambangkan sentimen negatif.
+  
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: Peringkat Seiring Waktu
+  - key: blocks.tools_experience_ranking.percentages
+    t: Persentase
+  - key: blocks.tools_experience_ranking.rankings
+    t: Peringkat
+  - key: blocks.tools_experience_ranking.description
+    t: Peringkat rasio retensi, ketertarikan, penggunaan, dan kesadaran.
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      Tidak termasuk teknologi dengan kesadaran kurang dari 10%. Setiap rasio didefinisikan sebagai berikut:
+
+      - Retensi: **akan menggunakan lagi** / (**akan menggunakan lagi** + **tidak akan menggunakan lagi**)
+      - Ketertarikan: **ingin mempelajarinya** / (**ingin mempelajarinya** + **tidak tertarik**)
+      - Pemakaian: (**akan memakainya lagi** + **tidak akan memakainya lagi**) / **total**
+      - Kesadaran: (**total** - **belum pernah mendengarnya**) / **total**
+  
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Rasio Seiring Waktu
+  - key: blocks.tools_experience_linechart.description
+    t: Rasio seiring waktu retensi, ketertarikan, penggunaan, dan kesadaran.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
+  
+  # happiness
+  - key: blocks.happiness
+    t: Keseluruhan Tingkat Kepuasan
+  - key: blocks.happiness.description
+    t: |
+      Dalam skala 1 (Sangat tidak puas) hingga 5 (Sangat puas), seberapa puas para pengembang
+      terhadap keseluruhan kategori yang ada saat ini?
+  
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Tetap terhubung
+  - key: blocks.newsletter.description
+    t: |
+      Jika Anda ingin tahu kapan kita merilis hasil tambahan atau pengumuman edisi tahun berikutnya,
+      tinggalkan email Anda di bawah:
+  - key: blocks.newsletter.email
+    t: Email Anda
+  - key: blocks.newsletter.submit
+    t: Beritahu saya
+  
+  # features_overview
+  - key: blocks.features_overview
+    t: Keseluruhan fitur
+  - key: blocks.features_overview.description
+    t: |
+      Ukuran dari **Lingkar luar** melambangkan jumlah pengguna yang mengetahui tentang sebuah fitur (responden *Mengetahui* + *Pernah pakai*), Sementara
+      **Lingkar dalam** melambangkan pengguna yang sudah pernah memakainya (responden *Pernah pakai*).
+
+      Hover pada masing-masing lingkaran untuk melihat lebih detil, termasuk rasion di antara keduanya.
+    
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Rasio Seiring Waktu
+  - key: blocks.features_experience_linechart.description
+    t: Rasio pemakaian dan kesadaran seiring waktu untuk fitur rating-tertinggi.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Setiap rasio didefinisikan sebagai berikut:
+
+      - Pemakaian: (**Pernah pakai**) / **total**
+      - Kesadaran: (**Pernah pakai** + **Mengetahui**) / **total**
+    
+  - key: blocks.features_experience_ranking
+    t: Peringkat Seiring Waktu
+  - key: blocks.features_experience_ranking.description
+    t: Peringkat pemakaian dan kesadaran seiring waktu.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
+  
+  # export
+  - key: export.export
+    t: Ekspor
+  - key: export.title
+    t: Ekspor data untuk {title}
+  - key: export.nocsv
+    t: Maaf, ekspor CSV tidak tersedia untuk kumpulan data ini.
+  - key: export.graphql
+    t: >
+      Anda dapat menyalin dan menempel query ini ke dalam <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API GraphQL publik</a> Kami.
+  - key: export.export_json
+    t: Dapatkan Data JSON
+  - key: export.export_graphql
+    t: Dapatkan Query GraphQL
+
+  - key: custom_data.heading
+    t: Bagan Khusus
+  - key: custom_data.custom_data
+    t: Data Khusus
+  - key: custom_data.graphql_query
+    t: Query GraphQL
+  - key: custom_data.chart_title
+    t: Bagan Khusus
+  - key: custom_data.submit
+    t: Kirim
+  - key: custom_data.empty_contents
+    t: Silahkan masukkan beberapa data di dalam kolom "Data Khusus".
+  - key: custom_data.edit_title
+    t: Ubah Judul Bagan
+  - key: custom_data.customize
+    t: Kostumisasi Data
+  - key: custom_data.details
+    t: >
+
+      1. Salin konten dari kolom teks "Query GraphQL" dan tempelkan pada panel bagian tengah [GraphQL API explorer](https://graphiql.stateofjs.com/).
+
+      2. Ubah query dengan menambahkan satu atau lebih **filter** menggunakan sidebar explorer. Pastikan keseluruhan struktur data tetap sama.
+
+      3. Dalam menu explorer, klik tombol mainkan ("Eksekusi Query").
+
+      4. Salin dari hasil query yang sudah dimodifikasi (`{ data: … }` ) ke dalam kolom "Data Khusus" di atas lalu klik kirim.
+  
+  # Tools usage variations
+  - key: blocks.tools_usage_variations
+    t: Variasi Pemakaian
+  - key: blocks.tools_usage_variations.description
+    t: |
+      Seberapa banyak perbedaan seperti gaji, tahun pengalaman
+      atau ukuran perusahaan mempengaruhi pemakaian (partisipan yang menjawab antara
+      “Akan memakai lagi” atau “Tidak akan memakai lagi”).
+
+      Garis utama merepresentasikan pemakaian dasar untuk setiap alat dan masing-masing offset
+      terhubung dengan delta dari garis utama pada setiap barisnya. Contohnya
+      alat X memiliki keseluruhan pemakaian 10% dari keseluruhan responden (Baris utama),
+      lalu jika persentasi pengguna memiliki sebanyak 1 sampai 2 tahun pengalaman
+      dengan menggunakan alat ini sebanyak 13% (Dibandingkan kepada keseluruhan pengguna yang memiliki 1 sampai 2
+      tahun pengalaman), dengan begitu kita mendapat delta positif sebesar +3%.
+  - key: blocks.tools_usage_variations.note
+    t: |
+      Perlu diperhatikan bahwa alat yang memiliki tingkat keseluruhan pemakaian yang lebih rendah dapat lebih bervariasi.
+  
+  # Recommended Resources
+  - key: blocks.recommended_resources
+    t: Rekomendasi Sumber
+  - key: blocks.recommended_events
+    t: Rekomendasi Acara
+  
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Peringkat Evaluasi Pustaka
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Faktor apa yang Anda prioritaskan saat melakukan evaluasi sebuah pustaka baru? Hasil akan diurutkan berdasarkan jumlah pertandingan yang dimenangkan.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Peringkat Evaluasi Pustaka (Pertandingan)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Faktor apa yang Anda prioritaskan saat melakukan evaluasi sebuah pustaka baru? Persentase dari babak yang dimenangkan pada bagian kiri dibandikan dengan bagian atas.
+  
+  # other
+  - key: blocks.freeform
+    t: (Pertanyaan bebas)
+  
+  # Reading List
+  - key: features.reading_list
+    t: Daftar Baca
+  - key: features.reading_list.description
+    t: Berapa banyak responden menambahkan masing-masing item ke dalam daftar baca mereka?
+  - key: features.reading_list.note
+    t: >
+      Fitur “Daftar Baca” membolehkan para responden untuk menyimpan item yang ingin mereka pelajari lebih lanjut
+      disaat melakukan pengisian survei; dan akan mendapat rekap
+      pada akhir survei.
+  
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: chart_units.respondents
+    t: "{count} pertanyaan responden ({percentage}% persentase penyelesaian)"
+  - key: chart_units.percentage
+    t: Persentase
+  - key: chart_units.count
+    t: Jumlah
+  - key: chart_units.percentage_question
+    t: "% dari pertanyaan responden"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
+  - key: chart_units.percentage_survey
+    t: "% dari responden survei"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "% dari penampungan"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: Rata-rata {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+    
+  - key: chart_units.percentilesByFacet
+    t: "{axis} Persentil"
+  
+  - key: charts.average
+    t: Rata-rata {axis}
+  - key: charts.mean
+    t: Nilai Rata-rata
+  - key: charts.overall
+    t: Keseluruhan
+  - key: charts.all_respondents
+    t: Seluruh Responden
+  - key: charts.facet_responses
+    t: "{count} tanggapan"
+
+  - key: charts.axis_legends.years_of_experience
+    t: Tahun Pengalaman
+  - key: charts.axis_legends.yearly_salary
+    t: Kisaran Gaji (USD)
+  - key: charts.axis_legends.company_size
+    t: Ukuran Organisasi
+  - key: charts.axis_legends.backend_proficiency
+    t: Keahlian Back-end
+  - key: charts.axis_legends.css_proficiency
+    t: Keahlian CSS
+  - key: charts.axis_legends.javascript_proficiency
+    t: Keahlian JavaScript
+  - key: charts.axis_legends.users_percentage
+    t: Persentase Pengguna
+  - key: charts.axis_legends.users_count
+    t: Jumlah Pengguna
+  - key: charts.axis_legends.users_average
+    t: Rata-rata {axis}
+  - key: charts.axis_legends.interest_percentage
+    t: Ketertarikan %
+  - key: charts.axis_legends.satisfaction_percentage
+    t: Retensi %
+  - key: charts.axis_legends.usage_percentage
+    t: Pemakaian %
+  - key: charts.axis_legends.awareness_percentage
+    t: Kesadaran %
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+  
+  - key: charts.axis_legends.happiness
+    t: Kepuasan
+  - key: charts.axis_legends.knowledge_score
+    t: Fitur yang Diketahui
+  - key: charts.axis_legends.frequency
+    t: Frekuensi
+  - key: charts.axis_legends.age
+    t: Umur
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% dari responden survei"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
+  - key: charts.axis_legends.users_percentage_question
+    t: "% dari pertanyaan responden"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% dari tampungan responden"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+  
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
+  
+  - key: charts.ranges_multiple_diverging_lines.baseline
+    t: Garis Bawah
+  - key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: offset positif
+  - key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: offset negatif
+  
+  - key: charts.tools_arrows.negative_opinion
+    t: Pendapat Negatif
+  - key: charts.tools_arrows.positive_opinion
+    t: Pendapat Positif
+  - key: charts.tools_arrows.have_not_used
+    t: Belum pernah pakai
+  - key: charts.tools_arrows.have_used
+    t: Pernah pakai
+  - key: charts.tools_arrows.x_axis
+    t: Jarak sumbu X
+  - key: charts.tools_arrows.y_axis
+    t: jarak sumbu Y
+  - key: charts.tools_arrows.legend
+    t: Informasi
+  - key: charts.tools_arrows.velocity
+    t: Kecepatan
+  - key: charts.tools_arrows.velocity_positive
+    t: Keseluruhan pendapat positif dan/atau pemakaian seiring waktu
+  - key: charts.tools_arrows.velocity_negative
+    t: Keseluruhan pendapat negatif dan/atau pemakaian seiring waktu
+  - key: charts.tools_arrows.opinions_positive
+    t: Sebagian besar pendapat positif
+  - key: charts.tools_arrows.opinions_negative
+    t: Sebagian besar pendapat negatif
+  - key: charts.tools_arrows.low_usage
+    t: Rendah pemakaian
+  - key: charts.tools_arrows.high_usage
+    t: Tinggi pemakaian
+  - key: charts.tools_arrows.popularity_positive
+    t: Popularitas meningkat
+  - key: charts.tools_arrows.popularity_negative
+    t: Popularitas menurun
+  
+  - key: charts.no_answer
+    t: Tidak menjawab
+  - key: charts.no_answer.short
+    t: Tidak menjawab
+  
+  - key: charts.other_answers
+    t: Lainnya
+  - key: charts.other_answers.short
+    t: Lainnya
+  
+  - key: charts.tick.links
+    t: Tautan
+  
+  - key: charts.resources
+    t: Tautan yang berguna
+  
+  - key: charts.facets_clarification
+    t: >
+      Catatan bahwa persentase yang ditampilkan di atas dipengaruhi oleh seberapa banyak keseluruhan responden
+      yang berada pada setiap grup.
+
+  - key: charts.average_clarification
+    t: >
+      Catatan bahwa rata-rata dihitung berdasarkan titik tengah dari setiap jarak sebagai perkiraan nilai representasi.
+  
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Komentar
+  - key: comments.comments_for
+    t: Komentar untuk “{name}”
+  - key: comments.description
+    t: |
+      Komentar ini dikirim sebagai bagian dari survei 
+      melalui kolom imput opsional di sebelah pertanyaan utama.
+  - key: comments.report_abuse
+    t: Laporkan komentar ini
+  - key: comments.share
+    t: Bagikan komentar
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
+
+  - key: share.share
+    t: Bagikan
+  - key: share.options
+    t: Opsi bagikan
+  - key: share.preview
+    t: Pratinjau Media Sosial
+  - key: share.site.title
+    t: Dapatkan hasil {siteTitle}
+  - key: share.site.twitter_text
+    t: "Dapatkan hasil {siteTitle} {link} {hashtag}"
+  - key: share.site.subject
+    t: "Hasil Survei {siteTitle}"
+  - key: share.site.body
+    t: "Berikut adalah hasil survei yang menarik: {link}"
+  - key: share.block.twitter_text
+    t: "{hashtag} {year}: {title} {link}"
+  - key: share.block.subject
+    t: "Hasil Survei {siteTitle}"
+  - key: share.block.body
+    t: "Berikut adalah hasil survei yang menarik ({title}): {link}"
+  - key: share.twitter
+    t: Bagikan di Twitter
+  - key: share.facebook
+    t: Bagikan di Facebook
+  - key: share.linkedin
+    t: Bagikan di LinkedIn
+  - key: share.email
+    t: Bagikan lewat email
+  - key: share.image
+    t: Dapatkan Gambar
+  - key: share.link
+    t: Tautan menuju bagian
+  - key: share.url
+    t: Dapatkan tautan
+  - key: share.close
+    t: Tutup
+  
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Grafik
+  - key: views.table
+    t: Tabel
+  
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: Label
+  - key: table.item
+    t: Item
+  - key: table.percentage_survey
+    t: "% dari responden survei"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
+  - key: table.percentage_question
+    t: "% dari pertanyaan responden"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
+  - key: table.percentage_facet
+    t: "% dari facet responden"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
+  - key: table.count
+    t: Jumlah
+  - key: table.year
+    t: Tahun
+  - key: table.mean
+    t: Nilai rata-rata
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+  - key: table.percentages_table
+    t: Persentase
+  - key: table.rankings_table
+    t: Peringkat
+
+  - key: table.satisfaction_rank
+    t: Peringkat Retensi
+  - key: table.interest_rank
+    t: Peringkat Ketertarikan
+  - key: table.usage_rank
+    t: Peringkat Pemakaian
+  - key: table.awareness_rank
+    t: Peringkat Kesadaran
+
+  - key: table.would_not_use_percentage
+    t: Tidak akan pakai %
+  - key: table.not_interested_percentage
+    t: Tidak tertarik %
+  - key: table.would_use_percentage
+    t: Akan memakainya lagi %
+  - key: table.interested_percentage
+    t: Tertarik %
+
+  - key: table.not_available
+    t: Tidak ada data tabel yang tersedia.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: awards.runner_ups
+    t: Runner Up
+
+  - key: award.feature_adoption_award.title
+    t: Fitur yang paling banyak digunakan
+  - key: award.feature_adoption_award.description
+    t: Pengharagaan untuk Fitur yang paling banyak diadopsi.
+
+  - key: award.feature_adoption_delta_award.title
+    t: Fitur yang paling banyak diadopsi
+  - key: award.feature_adoption_delta_award.description
+    t: Pengharagaan untuk Fitur dengan perkembangan tahunan "Pernah pakai" terbesar.
+
+  - key: award.tool_usage_award.title
+    t: Teknologi yang paling banyak digunakan
+  - key: award.tool_usage_award.description
+    t: Pengharagaan untuk teknologi dengan basis pengguna terbesar.
+
+  - key: award.tool_usage_delta_award.title
+    t: Teknologi yang paling banyak diadopsi
+  - key: award.tool_usage_delta_award.description
+    t: Pengharagaan untuk teknologi dengan perkembangan tahunan “Akan pakai lagi” terbesar.
+
+  - key: award.tool_satisfaction_award.title
+    t: Retensi Tertinggi
+  - key: award.tool_satisfaction_award.description
+    t: Pengharagaan untuk teknologi dengan tingkat retensi tertinggi.
+
+  - key: award.tool_interest_award.title
+    t: Ketertarikan Tertinggi
+  - key: award.tool_interest_award.description
+    t: Pengharagaan untuk teknologi yang paling menarik di mata para pengembang saat mereka mengetahuinya.
+
+  - key: award.resource_usage_award.title
+    t: Sumber yang Paling Sering Dipakai
+  - key: award.resource_usage_award.description
+    t: Pengharagaan untuk sumber dengan basis pengguna terbesar.
+
+  - key: award.prediction_award.title
+    t: Pengharagaan Prediksi
+  - key: award.prediction_award.description
+    t: Pengharagaan untuk teknologi yang akan datang yang mungkin... dapat mengambil alih?
+
+  - key: award.most_write_ins_award.title
+    t: Jawaban Khusus Terbanyak
+  - key: award.most_write_ins_award.description
+    t: Pengharagaan untuk item dengan jawaban khusus terbanyak.
+
+  - key: award.most_commented_feature_award.title
+    t: Fitur yang Paling Banyak Ditanggapi
+  - key: award.most_commented_feature_award.description
+    t: Pengharagaan untuk fitur yang paling banyak mendapatkan tanggapan.
+
+  - key: award.most_commented_tool_award.title
+    t: Pustaka yang Paling Banyak Ditanggapi
+  - key: award.most_commented_tool_award.description
+    t: Pengharagaan untuk pustaka yang paling banyak mendapatkan tanggapan.
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      Anda akan menemukan petunjuk kecil seperti ini di sepanjang hasil survei
+      yang akan menunjukkan fitur tambahan dan detilnya.
+
+  - key: hints.units_switcher_hint
+    t: >
+      Anda dapat menggunakan kontrol tersegmentasi pada bagian bawah setiap blok untuk
+      mengubah unit agar mendapat pandangan lain dari data yang sama.
+
+  - key: hints.export_hint
+    t: >
+      Tab <span class="hint-icon hint-export-button">Data</span> membolehkan Anda untuk melihat 
+      data mentah untuk bagan mana pun, lihat sebagai JSON, atau dapatkan query GraphQL yang dapat 
+      Anda jalankan pada API publik Kami.
+
+  - key: hints.completion_hint
+    t: >
+      Karena semua pertanyaan bersifat, beberapa dari mereka mendapat respon yang lebih sedikit. 
+      Indikator penyelesaian (<span class="hint-completion-indicator">◕</span>) memberitahu Anda berapa banyak orang yang menjawab pertanyaan yang diberikan.
+
+  - key: hints.tool_modal_hint
+    t: >
+      Anda dapat mengklik nama teknologi mana pun untuk mendapatkan informasi tambahan dan 
+      penjelasan yang lebih mendalam pada data yang serupa.
+
+  - key: hints.rankings_modes_hint
+    t: >
+      Bagan Pengalaman Seiring Waktu dapat diubah antara retensi, ketertarikan, pemakaian, dan kesadaran
+      untuk memberi Anda gambaran yang lebih jelas terhadap sebuah kategori.
+
+  - key: hints.sharing_hint
+    t: >
+      Dengan memagikan survei ini ke Twitter, Facebook, atau dengan email,
+      terbukti secara ilmiah dapat meningkatkan kemampuan koding anda sebanyak 15%.
+
+  - key: hints.tshirt_hint
+    t: >
+      Penelitian ilmiah yang terbukti lainnya adalah: membeli kaos Kami 
+      akan meningkatkan kemampuan koding anda sebesar lebih dari 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Beberapa fitur bagan menambahkan tab yang memberikan penjelasan lengkap pada data yang sama,
+      ataupun data yang serupa. Jangan lupa untuk mencobanya!
+
+  - key: hints.share_hint
+    t: >
+      Tab <span class="hint-icon hint-share-button">Bagikan</span> membuat Anda mudah untuk membagikan bagan mana pun, 
+      atau bahkan mengunduhnya sebagai gambar.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">Bagan berikut menyediakan hasil seperti turnamen 8 tim yang di mana
+      responden ditugaskan untuk memilih pemenang dari setiap pertandingan hingga ada satu pemenang yang tersisa.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      Tab <span class="hint-icon hint-comment-button">Komentar</span> membolehkan Anda untuk melihat komentar yang ditinggalkan oleh para responden selagi mereka mengisi survei.
+  
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Terima Kasih
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Terima kasih telah mendukung survei. Avatar anda akan muncul di sebelah bagan yang anda pilih
+      dalam waktu beberapa jam kedepan. Jika belum muncul, silahkan [hubungi Kami](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** mendonasikan **${amount}** untuk mensponsori bagan ini
+
+  - key: sponsor.sponsor_button
+    t: Sponsori Bagan Ini
+
+  - key: sponsor.sponsor_chart.title
+    t: Sponsori Bagan "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Dukung survei ini secara finansial dengan berdonasi $10 atau lebih, dan dapatkan
+      fitur avatar Twitter di sebelah sebuah bagan!
+
+  - key: sponsor.chart_id
+    t: "ID Bagan: "
+
+  - key: sponsor.sponsor_this_chart
+    t: Sponsori Bagan Ini (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: Cara Kerja
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Saat Anda **mengklik tombol "Sponsori bagan ini"**, Anda akan dialihkan menuju halaman [SendOwl](https://www.sendowl.com/) pembayaran partner Kami.
+
+
+      2. Lalu Anda bisa **menyesuaikan jumlah** yang ingin anda donasikan, mulai dari USD10.  
+
+
+      3. Setelah Anda melakukan pembayaran, Anda dapat **memberikan username Twitter Anda**. 
+
+
+      4. Anda akan melihat sebuah halaman **Unduh Berkas**, tapi Anda boleh mengabaikannya. 
+
+
+      5. Halaman situs akan melakukan rebuild pada latar belakang setelah itu username dan donasi Anda akan **muncul di sebelah bagan dalam waktu beberapa jam**.
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: Untuk apa uang yang saya donasikan?
+
+  - key: sponsor.faq.usage.description
+    t: Donasi Anda akan membantu pengelola survei, dan juga membantu Kami merekrut lebih banyak kontributor (illustrator, ahli aksesibilitas keragaman, DLL.).
+
+  - key: sponsor.faq.public.title
+    t: Apakah donasi saya dapat dilihat publik?
+
+  - key: sponsor.faq.public.description
+    t: Iya. **username Twitter** dan juga **jumlah donasi** Anda akan ditampilkan secara publik di sebelah bagan.
+  
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Apa kebijakan pengembalian uang Anda?
+
+  - key: sponsor.faq.refund.description
+    t: Semua donasi dapat dikembalikan dalam kurun waktu 1 minggu, dikurangi biaya transaksi.
+
+  - key: sponsor.faq.influence.title
+    t: Apakah donasi mempengaruhi konten survei?
+
+  - key: sponsor.faq.influence.description
+    t: Donasi hanya dapat dilakukan setelah survei diterbikan, dan donatur tidak memiliki pengaruh apa pun terhadap konten survei.
+
+  - key: sponsor.faq.feedback.title
+    t: Di mana saya dapat memberikan saran/pertanyaan?
+
+  - key: sponsor.faq.feedback.description
+    t: Anda dapat memberikannya pada [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) atau [pada Discord Kami](https://discord.gg/tuWRUWVyJs).
+  
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Jelajahi Data
+  - key: sections.data_explorer.description
+    t: |
+      Jelajahi audien survei secara dinamis dengan memilih dua pertanyaan, 
+      dan melihat hasil distribusi responden.
+
+  - key: hints.data_explorer
+    t: |
+      Ini adalah versi pratinjau untuk Jelajahi Data kami yang baru. jika Anda melihat isu atau data yang tidak konsisten, silahkan [beritahu kami]({issueLink}).
+    
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total responden)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Responden
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Responden Tambahan
+  - key: explorer.missing_respondents
+    t: Responden yang hilang
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      Setiap titik merepresentasikan {respondentsPerDot} responden
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      Setiap titik merepresentasikan {percentsPerDot}% responden
+  - key: explorer.extra_respondents.tooltip
+    t: Titik yang disorot merupakan hasil yang lebih dari tinggi perkiraan.
+  - key: explorer.missing_respondents.tooltip
+    t: Titik kosong merupakan hasil yang lebih rendah dari perkiraan.
+
+  - key: explorer.units_count
+    t: Hitung
+  - key: explorer.units_percentage
+    t: "% dari baris"
+
+  - key: explorer.edit
+    t: Ubah parameter…
+
+  - key: explorer.get_data
+    t: Dapatkan Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Sedang melakukan Query API…
+  - key: explorer.loading.2
+    t: Menunggu respon…
+  - key: explorer.loading.3
+    t: Masih proses…
+  - key: explorer.loading.4
+    t: Tunggu sebentar lagi…
+  - key: explorer.loading.5
+    t: Maaf, proses ini terlalu lama. Anda bisa menunggu lebih lama lagi, atau [Laporkan masalah]({issueLink}).
+  - key: explorer.timeout
+    t: Waktu habis
+  - key: explorer.timeout.description
+    t: API tidak merespon tepat waktu. Silahkan coba lagi nanti, atau [Laporkan masalah]({issueLink}).
+  
+  # share
+
+  - key: explorer.share
+    t: Bagikan…
+  - key: explorer.share.title
+    t: Bagikan “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” dari survei {surveyName} {year}
+  
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} responden"
+  - key: explorer.axis_percent
+    t: "{percentCount}% dari responden"
+
+  - key: explorer.x_axis_details
+    t: |
+      Dari keseluruhan responden yang telah menjawab pertanyaan “{yAxisLabel}”, **{totalCount}** responden survei memilih “{xQuestionLabel}” untuk “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** responden survei memilih “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** responden, **1** titik = **{respondentsPerDot}** responden, **{dotsPerLine}** titik per baris
+  
+  # controls
+  - key: explorer.dots_per_line
+    t: Titik per baris
+  - key: explorer.respondents_per_dot
+    t: Responden per titik
+  - key: explorer.show_cell_counts
+    t: Tampilkan jumlah cell
+  - key: explorer.show_no_answer
+    t: Tampilkan sel “Tidak menjawab”
+
+  - key: explorer.all_fields
+    t: Semua field
+  - key: explorer.select_item
+    t: Pilih item
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” responden memilih “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** dari “{yAxisLabel}” responden memilih “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Dengan menerapkan persentase tersebut ke dalam **{xAxisTotal}** responden sebelumnya 
+      memberikan kita hasil garis bawah sebesar **{normalizedCount}** responden dalam persilangan ini.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      Jumlah yang sebenarnya adalah **{cellCount}**, ditambah dengan **{normalizedCountDelta}** responden yang *disorot*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      Jumlah yang sebenarnya adalah **{cellCount}**, ditambah dengan **{normalizedCountDelta}** responden yang hilang sebagai titik yang kosong.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Secara keseluruhan, **{xAxisPercentage}%** dari “{xAxisLabel}” responden memilih “{xAnswerLabel}”, tetapi 
+      di antara **“{yAxisLabel}” responden yang memilih “{yAnswerLabel}”** persentase tersebut meningkat hingga **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Secara keseluruhan, **{xAxisPercentage}%** dari “{xAxisLabel}” responden memilih “{xAnswerLabel}”, tetapi
+      di antara **“{yAxisLabel}” responden yang memilih “{yAnswerLabel}”** persentase tersebut menuruh hingga **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Tambahan **{normalizedPercentageDelta}%** responden yang *disorot*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      **{normalizedPercentageDelta}%** responden yang hilang tampil sebagai  titik kosong.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Responden Tambahan & Hilang
+
+      Bagan di atas diperuntukan untuk mengindentifikasi area yang menunjukkan nilai lebih tinggi dari perkiraan 
+      atau lebih rendah dari perkiraan dibandingkan pada perhitungan garis bawah.
+
+      Sebagai contoh, asumsikan terdapat 1000 pengguna CSS Grid, dan 50% dari responden survei bekerja di sebuah perusahaan besar, 
+      jadi diperkirakan terdapat 500 pengguna CSS Grid yang bekerja di sebuah perusahaan besar. 
+
+      Jika ada deviasi di atas ataupun di bawah jumlah yang diperkirakan bisa membuat sebuah korelasi yang menarik
+      di antara dua variabel, dan itu disorot pada bagan dengan titik berwarna
+      (untuk tambahan responden di atas garis bawah) atau titik kosong (untuk responden yang hilang).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Bandingkan Data
+  - key: filters.customize_chart
+    t: Kustomisasi Bagan
+  - key: filters.docs
+    t: Dokumentasi
+  - key: filters.compare_chart
+    t: Kustomisasi “{chartName}”
+  - key: filters.filters.description
+    t: |
+      Dengan memakai kombinasi filter demografis, Anda dapat memuat hingga 4 **Seri data khusus** untuk dimuat
+      secara dinamis dan dibandingkan dengan data awal untuk pertanyaan ini.
+  - key: filters.facets.description
+    t: |
+      Pilih sebuah variabel untuk memecah setiap bar menjadi "facet".
+  - key: filters.grid_mode
+    t: Berhadapan
+  - key: filters.combined_mode
+    t: Digabung
+  - key: filters.facet_mode
+    t: Facet
+  - key: filters.facet
+    t: "Facet:"
+
+  - key: filters.series.heading
+    t: Seri {index}
+  - key: filters.series.add
+    t: Tambah Seri…
+  - key: filters.series.delete
+    t: Hapus Seri
+  - key: filters.series.year
+    t: |
+      data tahun {year}
+  - key: filters.series.show_default
+    t: |
+      Tampilkan seri default
+  - key: filters.series.no_data
+    t: Tidak ada data
+
+  - key: filters.condition.add
+    t: Tambah Filter
+  - key: filters.condition.delete
+    t: Hapus Filter
+  - key: filters.condition.and
+    t: dan
+  - key: filters.operators.eq
+    t: sama
+  - key: filters.operators.in
+    t: salah satu
+  - key: filters.operators.nin
+    t: bukan salah satu
+  - key: filters.value.add
+    t: Tambah Nilai
+  - key: filters.value.delete
+    t: Hapus Nilai
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Batal
+  - key: filters.submit
+    t: Perbaharui Bagan
+  - key: filters.copy_link
+    t: Salin tautan untuk filter saat ini
+  - key: filters.get_code
+    t: Dapatkan kode filter
+
+  - key: filters.presets.title
+    t: "Preset:"
+  - key: filters.presets.save
+    t: Simpan filter saat ini sebagai preset…
+  - key: filters.presets.delete
+    t: Hapus Preset
+  - key: filters.presets.enter_name
+    t: |
+      Ketikkan nama untuk preset baru anda:
+  - key: filters.presets.previous_years
+    t: Tahun Lalu
+  - key: filters.presets.gender
+    t: Jenis Kelamin
+  - key: filters.presets.top_countries
+    t: Negara peringkat teratas
+  - key: filters.presets.salary_low_high
+    t: |
+      Gaji Rendah vs Tinggi
+  - key: filters.presets.experience_low_high
+    t: |
+      Pengalaman Rendah vs Tinggi
+  - key: filters.presets.company_size_low_high
+    t: |
+      Perusahaan Kecil vs Besar
+
+  - key: filters.facet.select
+    t: Pilih sebuah facet…

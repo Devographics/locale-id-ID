@@ -26,51 +26,67 @@ translations:
     t: >
       ### 1. Pengambilan data
 
-      Selain dari data yang diambil dari pertanyaan survei, kami mengambil perangkat, browser, 
-      sistem operasi, versi browser, dan referrer.
+      Selain dari data yang diambil dari pertanyaan survei, Kami mengambil perangkat, browser, sistem operasi, versi browser, dan referrer.
 
-      Perhatikan bahwa semua pertanyaan adalah seluruhnya opsional, dan kami tidak pernah mengikat 
-      informasi apapun yang dapat diidentifikasi (misalnya alamat email) dengan jawaban survei anda.
+      Perhatikan bahwa semua pertanyaan adalah seluruhnya opsional, dan Kami tidak pernah mengikat informasi apapun yang dapat diidentifikasi (misalnya alamat email) dengan jawaban survei Anda.
 
       ### 2. Pengambilan email
 
-      Kami dapat mengambil email anda untuk:
+      Kami dapat mengambil email Anda untuk:
 
-      1. Membuat sebuah pranala magic log-in, dimana setelahnya kami langsung menghapus email anda dan 
-      hanya menyimpan sebuah hash satu arah dalam basis data pengguna kami.
 
-      2. Mengubungi anda setelah hasil survei telah tersedia, dan juga ketika kami meluncurkan edisi 
-      selanjutnya dari sebuah survei dan untuk pengumuman yang jarang. Anda dapat keluar dari mailing list 
-      kami kapanpun, dan email anda akan dihapus dari catatan kami setelah email tersebut dikirim ke penyedia 
-      buletin email kami.
+      1. Membuat sebuah pranala magic log-in, dimana setelahnya Kami langsung menghapus email Anda dan hanya menyimpan sebuah hash satu arah dalam basis data pengguna Kami.
 
-      3. Mengirmkan anda sebuah daftar ringkasan dari fitur atau alat yang anda ingin pelajari. Kami akan 
-      menghapus email anda setelah emailnya dikirim melalui penyedia email transaksional kami.
+      2. Mengubungi Anda setelah hasil survei telah tersedia, dan juga ketika Kami meluncurkan edisi selanjutnya dari sebuah survei dan untuk pengumuman yang jarang. Anda dapat keluar dari mailing list Kami kapanpun, dan email Anda akan dihapus dari catatan Kami setelah email tersebut dikirim ke penyedia buletin email Kami.
 
-      Ketika kami mengambil alamat email anda, informasi tersebut tidak pernah berkaitan dengan respon anda 
-      dalam sebuah survei, atau dengan akun pengguna anda.
+      3. Mengirmkan Anda sebuah daftar ringkasan dari fitur atau alat yang Anda ingin pelajari. Kami akan menghapus email Anda setelah emailnya dikirim melalui penyedia email transaksional Kami.
 
-      ### 3. Kuki
 
-      Kami mengatur kuki login kami, dan penyedia hosting Vercel mungkin juga mengatur kukinya sendiri. Kami tidak 
-      mengatur kuki-kuki lain atau menggunakan alat analitik sisi klien.
+      Ketika Kami mengambil alamat email Anda, informasi tersebut tidak pernah berkaitan dengan respon Anda dalam sebuah survei, atau dengan akun pengguna Anda.
+
+      ### 3. Cookie
+
+      Kami mengatur cookie login Kami, dan penyedia hosting Vercel mungkin juga mengatur cookie-nya sendiri. Kami tidak mengatur cookie-cookie lain atau menggunakan alat analitik sisi klien.
 
       ### 4. Penggunaan data
 
-      Kami memproses data dan kemudian menggunakanya untuk mempublikasikan laporan-laporan. Kami juga menyediakan 
-      seluruh dataset secara publik.
+      Kami memproses data dan kemudian menggunakanya untuk mempublikasikan laporan-laporan. Kami juga menyediakan seluruh dataset secara publik.
 
       ### 5. Penghapusan data/akun
 
-      Anda dapat mengirimkan anda sebuah email ke [hello@stateofjs.com](mailto:hello@stateofjs.com) jika anda ingin 
-      kami menghapus semua atau sebagian dari data anda.
+      Anda dapat mengirimkan sebuah email ke [hello@stateofjs.com](mailto:hello@stateofjs.com) jika Anda ingin Kami menghapus semua atau sebagian dari data Anda.
+
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Item {index}…
+
+  - key: feature.unimplemented
+    t: Belum didukung browser
+
+  - key: feature.unimplemented.description
+    t: Fitur ini belum diimplementasikan pada browser. Anda masih dapat memilih “Pernah pakai” jika pernah memakainya menggunakan polyfill, transpiler, atau alat lainnya.
+
+  - key: general.skip_question
+    t: Lewati
+
+  - key: general.unskip_question
+    t: Jawab Pertanyaan
+
+  - key: general.skip_question.description
+    t: Lewati pertanyaan dan tandai sebagai selesai
+
+  - key: general.unskip_question.description
+    t: Tidak jadi lewati pertanyaan dan jawab pertanyaan
 
   ###########################################################################
   # Errors & Messages
   ###########################################################################
 
   - key: error.duplicate_response
-    t: Maaf, anda sudah memiliki sebuah sesi yang aktif untuk survei ini.
+    t: Maaf, Anda sudah memiliki sebuah sesi yang aktif untuk survei ini.
 
   - key: error.report_issue
     t: Laporkan masalah
@@ -78,7 +94,7 @@ translations:
   - key: success.data_saved
     t: Data disimpan
   - key: success.data_saved.description
-    t: Data anda telah disimpan.
+    t: Data Anda telah disimpan.
 
   ###########################################################################
   # Accounts
@@ -87,27 +103,30 @@ translations:
   - key: accounts.create_account
     t: Lanjutkan dengan Akun
   - key: accounts.create_account.description
-    t:
-      Memiliki sebuah akun memungkinkan anda **mengakses data anda sendiri di masa depan** dan juga diberitahu ketika
-      hasil survei dipublikasi.
+    t: Memiliki sebuah akun memungkinkan Anda **mengakses data Anda sendiri di masa depan** dan juga diberitahu ketika hasil survei dipublikasi.
   - key: accounts.create_account.note
-    t: Jika anda **sudah memiliki sebuah akun** kami akan mengirimkan anda sebuah pranala magic log-in lewat email.
+    t: Jika Anda **sudah memiliki sebuah akun** Kami akan mengirimkan Anda sebuah pranala magic log-in lewat email.
   - key: accounts.create_account.action
     t: Lanjutkan dengan Akun
   - key: accounts.your_email
-    t: Email anda
+    t: Email Anda
+
+  - key: accounts.upgrade_account.action
+    t: Tingkatkan akun Anda
+  - key: accounts.upgrade_account.description
+    t: Tingkatkan akun Anda dengan email dapat membolehkan Anda untuk mengakses respon survei Anda setelah sesi Anda berakhir.
 
   - key: accounts.continue_as_guest
     t: Lanjutkan sebagai tamu
   - key: accounts.continue_as_guest.description
-    t: Mengisi survei ini secara anonim berarti anda **tidak dapat mengakses data anda lagi** setelah anda mengakhiri sesi anda.
+    t: Mengisi survei ini secara anonim berarti Anda **tidak dapat mengakses data Anda lagi** setelah Anda mengakhiri sesi Anda.
   - key: accounts.continue_as_guest.action
     t: Lanjutkan sebagai tamu
 
   - key: accounts.magic_link.no_email
-    t: Tolong masukkan alamat email anda
+    t: Tolong masukkan alamat email Anda
   - key: accounts.magic_link.success
-    t: Lihat inbox anda! Kami sudah mengirimkan anda sebuah pranala magic, anda cukup mengetuknya untuk mengkonfirmasi akun dan masuk.
+    t: Lihat inbox Anda! Kami sudah mengirimkan Anda sebuah pranala magic, Anda cukup mengetuknya untuk mengkonfirmasi akun dan masuk.
 
   ###########################################################################
   # FAQ
@@ -118,15 +137,11 @@ translations:
   - key: faq.create_account
     t: Kenapa saya harus membuat sebuah akun?
   - key: faq.create_account.description
-    t:
-      Kami meminta anda untuk membuat sebuah akun untuk menghindari respon duplikat, untuk menyimpan data, dan memberitahu anda
-      ketika hasil survei sudah dipublikasikan.
+    t: Kami meminta Anda untuk membuat sebuah akun untuk menghindari respon duplikat, untuk menyimpan data, dan memberitahu Anda ketika hasil survei sudah dipublikasikan.
   - key: faq.anonymous_survey
     t: Bisakah saya mengisi survei secara anonim?
   - key: faq.anonymous_survey.description
-    t:
-      Ya, anda dapat menggunakan email palsu atau yang tidak mengidentifikasi (something@example.com) untuk mengisi survei ini selama
-      anda menyimpannya untuk akses di masa depan.
+    t: Ya, Anda dapat menggunakan email palsu atau yang tidak mengidentifikasi (something@example.com) untuk mengisi survei ini selama Anda menyimpannya untuk akses di masa depan.
   - key: faq.questions_required
     t: Apakah semua pertanyaan wajib dijawab?
   - key: faq.questions_required.description
@@ -138,9 +153,7 @@ translations:
   - key: faq.survey_design
     t: Bagaimana survei-survei ini dirancang?
   - key: faq.survey_design.description
-    t:
-      Survei ini dirancang berdasarkan umpan balik dari komunitas, dan juga diulas oleh para ahli. Anda dapat
-      [dapat mempelajari lebih lanjut di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    t: Survei ini dirancang berdasarkan umpan balik dari komunitas, dan juga diulas oleh para ahli. Anda dapat [dapat mempelajari lebih lanjut di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
   - key: faq.results_released
     t: Kapan hasilnya akan dirilis?
   - key: faq.results_released.description
@@ -152,9 +165,7 @@ translations:
   - key: faq.team
     t: Siapa yang mengelola survei ini?
   - key: faq.team.description
-    t:
-      Survei ini dikelola oleh [Devographics](http://devographics.com) bersama dengan sebuah kolektif yang terdiri dari
-      kontributor, penerjemah, dan relawan.
+    t: Survei ini dikelola oleh [Devographics](http://devographics.com) bersama dengan sebuah kolektif yang terdiri dari kontributor, penerjemah, dan relawan.
 
   ###########################################################################
   # Form Controls
@@ -166,7 +177,7 @@ translations:
     t: Mulai dari Awal
   - key: bracket.winner
     t: >
-    Winner:
+    Pemenang:
   - key: bracket.round
     t: Ronde
   - key: bracket.empty_bracket
@@ -177,59 +188,70 @@ translations:
     t: Batalkan
 
   - key: experience.leave_comment
-    t: Tinggalkan sebuah komentar (opsional)
+    t: Tinggalkan komentar (opsional)
   - key: experience.leave_comment_short
-    t: Tinggalkan sebuah komentar
+    t: Tinggalkan komentar
   - key: experience.tell_us_more
-    t: "Anda menjawab “{response}”. Beritahu kami lebih banyak tentang pilihan anda:"
+    t: "Anda menjawab “{response}”. Beritahu Kami lebih banyak tentang pilihan Anda:"
+  - key: experience.tell_us_more_generic
+    t: "Beritahu Kami lebih banyak tentang pilihan Anda:"
   - key: experience.tell_us_more_no_value
-    t: "Anda tidak memilih pilihan manapun. Beritahu kami kenapa:"
+    t: "Anda tidak memilih pilihan manapun. Beritahu Kami kenapa:"
 
   ###########################################################################
   # Response
   ###########################################################################
 
   - key: response.completion
-    t: "{completion}% diselesaikan"
+    t: "{completion}% selesai"
 
   - key: response.details
-    t: Dimulai dari {startedAt}, {completion}% diselesaikan.
+    t: Dimulai dari {startedAt}, {completion}% selesai.
 
   ###########################################################################
   # Reading List
   ###########################################################################
 
+  - key: readinglist.prompt
+    t: >
+      Anda memilih “{option}”. Jika anda ingin mempelajari lebih lanjut tentang fitur ini di akhir survei, Anda bisa mengklik tombol ikon "+" di atas untuk menambahkannya ke dalam **daftar bacaan**.
+
   - key: readinglist.add_to_list
-    t: Tambahkan ke dalam Daftar Bacaan anda
+    t: Tambahkan ke dalam Daftar Bacaan Anda
+
+  - key: readinglist.remove_from_list
+    t: Hapus dari Daftar Bacaan
+
+  - key: readinglist.added_to_list
+    t: Menambahkan “{label}” ke dalam Daftar Bacaan Anda.
 
   - key: readinglist.title
     t: Daftar Bacaan
 
   - key: readinglist.description
     t: >
-      Simpan item di sini dengan tombol "+", dan anda akan mendapatkan sebuah daftar pranala untuk 
-      mempelajari lebih lagi tentang hal-hal tersebut di akhir survei.
+      Simpan item di sini dengan tombol "+", dan Anda akan mendapatkan sebuah daftar pranala untuk mempelajari lebih lagi tentang hal-hal tersebut di akhir survei.
 
   - key: readinglist.empty
     t: >
-      Anda tidak memiliki apa-apa di dalam daftar bacaan anda. 
-      Coba kembali ke halaman survei dan tambahkan fitur atau library yang anda ingin pelajari lebih lengkap
+      Anda tidak memiliki apa-apa di dalam daftar bacaan Anda. 
+      Coba kembali ke halaman survei dan tambahkan fitur atau library yang Anda ingin pelajari lebih lengkap
       dengan menggunakan tombol "+".
 
   - key: readinglist.results
     t: >
-      Berikut adalah beberapa sumber untuk mempelajari lebih lanjut tentang item-item yang ada di daftar bacaan anda:
+      Berikut adalah beberapa sumber untuk mempelajari lebih lanjut tentang item-item yang ada di daftar bacaan Anda:
 
   - key: readinglist.homepage_link
     t: Beranda
 
   - key: readinglist.receive_copy
     t: >
-      Masukkan email anda dan dapatkan sebuah salinan dari daftar bacaan anda di dalam inbox anda:
+      Masukkan email Anda dan dapatkan sebuah salinan dari daftar bacaan Anda di dalam inbox Anda:
   - key: readinglist.send_by_email
     t: Kirim
   - key: readinglist.email_sent
-    t: Terima kasih! Daftar bacaan anda sedang menuju inbox anda.
+    t: Terima kasih! Daftar bacaan Anda sedang menuju inbox Anda.
 
   ###########################################################################
   # Score & Knowledge Ranks
@@ -260,7 +282,7 @@ translations:
       framework JavaScript terbaru terasa hal yang sia-sia. 
 
       walau begitu, dunia terus berjalan, dan begitu juga dengan JavaScript. Dan sekali lagi,
-      dengan bantuan anda kami akan mencoba untuk membuat sebuah gambaran komprehensif dari ekosistem JavaScript
+      dengan bantuan Anda Kami akan mencoba untuk membuat sebuah gambaran komprehensif dari ekosistem JavaScript
       dan menyelidiki lebih lagi tentang kemana tujuan ekosistem tersebut.
 
   - key: general.css2021.survey_intro
@@ -281,73 +303,59 @@ translations:
       Adalah benar: di antara kerja, keluarga, dan semua kekacauan di dunia,
       beberapa hal menjadi sedikit terganggu.
 
-      Dan walaupun sudah lewat tahun ini, kami harap data yang diberikan oleh survei ini
-      tetap informatif dan memperluas wawasan seperti biasanya.
-      dan jangan khawatir, akan ada survei lain di akhir tahun ini untuk mengembalikan
-      hal-hal seperti biasa kembali!
+      Dan walaupun sudah lewat tahun ini, Kami harap data yang diberikan oleh survei ini
+      tetap informatif dan memperluas wawasan seperti biasanya. dan jangan khawatir, 
+      akan ada survei lain di akhir tahun ini untuk mengembalikan hal-hal seperti biasa kembali!
 
   - key: general.graphql2022.survey_intro
     t: |
-      Ketika GraphQL pertama kali diperkenalkan, ia memberikan cara baru yang jauh
-      berbeda untuk membuat API, dengan lebih banyak kontrol, granularitas dan fleksibilitas.
+      Ketika GraphQL pertama kali diperkenalkan, ia memberikan cara baru yang jauh berbeda untuk membuat API, dengan lebih banyak kontrol, granularitas dan fleksibilitas.
 
-      Namun fleksibilitas tersebut dibarengi dengan kompleksitas, dan sejumlah framework,
-      library, dan layanan dengan cepat muncul untuk membantu membuat alur kerja 
-      dan pola-pola yang lebih baik. 
+      Namun fleksibilitas tersebut dibarengi dengan kompleksitas, dan sejumlah framework, library, dan layanan dengan cepat muncul untuk membantu membuat alur kerja dan pola-pola yang lebih baik. 
 
-      Sekarang, untuk pertama kalinya kami mensurvei komunitas GraphQL untuk mencari 
-      tahu apa saja dari alat-alat ini yang paling populer, dan fitur-fitur mana yang 
-      digunakan. dengan bantuan anda, mari kita liat apa saja yang terjadi di dunia
-      GraphQL di tahun 2022!
+      Sekarang, untuk pertama kalinya Kami mensurvei komunitas GraphQL untuk mencari tahu apa saja dari alat-alat ini yang paling populer, dan fitur-fitur mana yang digunakan. dengan bantuan Anda, mari kita liat apa saja yang terjadi di dunia GraphQL di tahun 2022!
 
   - key: general.css2022.survey_intro
     t: |
-      CSS terus maju dengan kecepatan yang tak pernah dilihat sebelumnya. Untungnya tahun ini
-      kita mendapat bantuan dari seseorang yang berada di garis terdepan dari perubahan-perubahan
-      iniL [Lea Verou](https://lea.verou.me/) memimpin dalam memilih pertanyaan-pertanyaan tahun ini, 
-      dengan berpusat pada fitur-fitur CSS yang baru dan yang akan datang.
+      CSS terus maju dengan kecepatan yang tak pernah dilihat sebelumnya. Untungnya tahun ini kita mendapat bantuan dari seseorang yang berada di garis terdepan dari perubahan-perubahan ini: [Lea Verou](https://lea.verou.me/) memimpin dalam memilih pertanyaan-pertanyaan tahun ini, dengan berpusat pada fitur-fitur CSS yang baru dan yang akan datang.
 
-      Lebih lagi, hasil survei akan membantu vendor browser memprioritaskan peta jalan mereka dan 
-      bekerja untuk kompatibilitas yang lebih baik di antara browser.
+      Lebih lagi, hasil survei akan membantu vendor browser memprioritaskan peta jalan mereka dan bekerja untuk kompatibilitas yang lebih baik di antara browser.
 
-
-      Dengan ini, mari kita lihat bagaiman CSS berevolusi pada tahun 2022!
+      Dengan ini, mari kita lihat bagaimana CSS berevolusi pada tahun 2022!
 
   - key: general.js2022.survey_intro
     t: |
       Untuk pertama kalinya, rasanya status quo dari ekosistem JavaScript sedang dipertanyakan. 
 
-      Bundling yang lebih cepat dengan Vite, arsitektur pulau dengan Astro, resumability dengan Qwik… 
-      para pendatang baru sedang menantang yang lama, dan hasilnya adalah keseruan yang lebih banyak, 
+      Bundling yang lebih cepat dengan Vite, arsitektur pulau dengan Astro, resumability dengan Qwik… para pendatang baru sedang menantang yang lama, dan hasilnya adalah keseruan yang lebih banyak, 
       dan juga lebih banyak ketidakpastian. 
 
-      Jadi sekal lagi, mari coba cari tahu bersama-sama kemana arah JavaScript, pada 2022 dan setelahnya.
+      Jadi sekali lagi, mari coba cari tahu bersama-sama kemana arah JavaScript, pada 2022 dan setelahnya.
 
   - key: general.css2023.survey_intro
     t: |
-      Untuk membantu anda mengikuti `:has()`, `@container`, dan fitur-fitur CSS baru lainnya,
-      kami memperkenalkan sebuah fitur baru pada tahun ini: **Daftar Bacaan**. 
+      Untuk membantu Anda mengikuti `:has()`, `@container`, dan fitur-fitur CSS baru lainnya, Kami memperkenalkan sebuah fitur baru pada tahun ini: **Daftar Bacaan**. 
 
-      Jadi selama anda mengambil survei ini, anda dapat menandai fitur manapun yang anda mau dan mempelajarinya
-      lebih lanjut setelah anda mengirimkan jawaban anda.
+      Jadi selama Anda mengambil survei ini, Anda dapat menandai fitur manapun yang Anda mau dan mempelajarinya lebih lanjut setelah Anda mengirimkan jawaban Anda.
 
-      Tahun ini [Chen Hui Jing](https://chenhuijing.com/) memimpin proses perancangan survei tahun ini, melanjutkan
-      pekerjaan [Lea Verou](https://lea.verou.me/) tahun lalu. Dan seperti biasa, umpan balik anda dapat memainkan peran 
-      yang besar dalam membantu vendor browser memprioritaskan peta jalur mereka dan bekerja untuk kompatibilitas yang lebih 
-      baik antara browser-browser. 
+      Tahun ini [Chen Hui Jing](https://chenhuijing.com/) memimpin proses perancangan survei tahun ini, melanjutkan pekerjaan [Lea Verou](https://lea.verou.me/) tahun lalu. Dan seperti biasa, umpan balik Anda dapat memainkan peran yang besar dalam membantu vendor browser memprioritaskan peta jalur mereka dan bekerja untuk kompatibilitas yang lebih baik antara browser-browser. 
 
-      Dengan bgitu, mari kita lihat sejauh mana CSS telah berevolusi pada 2023!
+      Dengan begitu, mari kita lihat sejauh mana CSS telah berevolusi pada 2023!
 
   - key: general.html2023.survey_intro
     t: |
-      Sementara para pengembang web cenderung berfokus pada JavaScript dan CSS, apa yang dapat kita lakukan tidak akan mungkin tanpa 
-      HTML yang berfunsi sebagai fondasi dari semuanya.
+      Sementara para pengembang web cenderung berfokus pada JavaScript dan CSS, tapi semua itu tidak akan mungkin tanpa HTML yang berfunsi sebagai pondasinya.
 
-      Dan jika sementara ini HTML kelihatannya tidak berevolusi, sepertinya sekarang hal-hal mulai berubah Elemen-elemen baru seperti 
-      `<selectmenu>` dan `<breadcrumb>` mereka sudah di depan mata, belum lagi berbagai fitur baru seperti popover dan Shadow DOM deklaratif.
+      Memang sudah lama HTML terlihat tidak berevolusi, tetapi hal itu mungkin akan berubah.
+      Elemen-elemen baru seperti `<selectlist>` sudah di depan mata, belum lagi berbagai fitur baru seperti popover, 
+      dan juga segelintir API browser (Web Component, PWA, DLL.).
 
-      Jadi bersama dengan survei ini, tujuan kami adalah menjembatani kesenjangan antara survei State of JS dan State of CSS surveys, and 
-      melacak evolusi dari platform web secara keseluruhan!
+      Pada tahun ini, [Lea Verou](https://lea.verou.me/) mengemban tugas yang sangat penting yaitu memimpin perancangan survei yang baru ini, dari konten hingga UX dan lebih banyak lagi.
+
+      Dimulai dari kesuksesan [State of JS](http://stateofjs.com/) dan [State of CSS](https://stateofcss.com/), Kami persembahkan State of HTML;
+      potongan terakhir yang hilang yang akan melengkapi trilogi platform web Kami, jadi Kami dapat mengikuti evolusi dari platform web secara keseluruhan.
+      Seperti biasa, respon di sini membantu para vendor browser untuk dapat memprioritaskan pekerjaan mereka menuju kompabilitas yang lebih baik,
+      jadi dengan menjawab survei ini Anda bisa mendapat timbal balik sebesar 10 kali lipat.
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -386,9 +394,7 @@ translations:
   - key: faq.survey_design_css2022
     t: Bagaimana survei ini dirancang?
   - key: faq.survey_design_css2022.description
-    t:
-      Tahun ini, berkat hibah dari [UI Fund](https://web.dev/ui-fund/) Google, [Lea Verou](https://lea.verou.me/)
-      dapat memipin dan mengelola [proses perancan survei](https://github.com/orgs/Devographics/projects/1/views/1) di GitHub.
+    t: Tahun ini, berkat hibah dari [UI Fund](https://web.dev/ui-fund/) Google, [Lea Verou](https://lea.verou.me/) dapat memipin dan mengelola [proses perancan survei](https://github.com/orgs/Devographics/projects/1/views/1) di GitHub.
 
   - key: faq.results_released_css2022
     t: Kapan hasilnya akan dirilis?
@@ -398,10 +404,7 @@ translations:
   - key: faq.data_used_css2022
     t: Bagaimana data ini akan digunakan?
   - key: faq.data_used_css2022.description
-    t:
-      Semua data yang diambil akan disediakan secara umum. Data tersebut akan menjadi sumber bagi para pengembang, yang
-      menggunakannya untuk membuat pilihan teknologi mereka, dan juga vendor browser, yang menggunakan hasil survei untuk berfokus
-      pada area tertentu dalam pengembangan mereka.
+    t: Semua data yang diambil akan disediakan secara umum. Data tersebut akan menjadi sumber bagi para pengembang, yang menggunakannya untuk membuat pilihan teknologi mereka, dan juga vendor browser, yang menggunakan hasil survei untuk berfokus pada area tertentu dalam pengembangan mereka.
 
   # CSS 2023
 
@@ -409,13 +412,13 @@ translations:
     t: Surveinya akan memakan waktu berapa lama?
   - key: faq.how_long_will_survey_take_css2023.description
     t: >
-      Tergantung berapa pertanyaan yang anda jawab (semua pertanyaan dapat dilewati), 
+      Tergantung berapa pertanyaan yang Anda jawab (semua pertanyaan dapat dilewati), 
       mengisi survei akan memakan waktu 10-15 menit.
 
   - key: faq.learn_more_css2023
     t: Dimana saya bisa mempelajari lebih lanjut?
   - key: faq.learn_more_css2023.description
-    t: Anda dapat mempelajari lebih lanjut tentang survei ini dalam [post pengumuman kami](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+    t: Anda dapat mempelajari lebih lanjut tentang survei ini dalam [post pengumuman Kami](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
 
   - key: faq.survey_design_css2023
     t: Bagaimana survei ini dirancang?
@@ -449,6 +452,48 @@ translations:
   - key: faq.data_used_js2022
     t: Bagaimana data ini akan digunakan?
   - key: faq.data_used_js2022.description
-    t:
-      Semua data yang diambil akan disediakan secara umum. Data tersebut akan menjadi sumber bagi para pengembang, yang
-      menggunakannya untuk membuat pilihan teknologi mereka, dan juga vendor browser, yang menggunakan hasil survei untuk berfokus pada area tertentu dalam pengembangan mereka.
+    t: Semua data yang diambil akan disediakan secara umum. Data tersebut akan menjadi sumber bagi para pengembang, yang menggunakannya untuk membuat pilihan teknologi mereka, dan juga vendor browser, yang menggunakan hasil survei untuk berfokus pada area tertentu dalam pengembangan mereka.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Bagaimana data ini akan digunakan?
+  - key: faq.data_used_html2023.description
+    t: >
+      Semua data yang dikumpulkan akan dirilis secara terbuka untuk pengembang atau perusahaan manapun untuk berkonsultasi. 
+      Para vendor browser juga [menggunakan data ini](https://web.dev/interop-2023/) untuk memprioritaskan area fokus kerja dan peta jalur mereka.
+
+  - key: faq.survey_goals_html2023
+    t: Apa tujuan survei ini?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      Tujuan survei ini adalah untuk mengukur tingkat kesadaran dari sebuah fitur HTML dan API browser, dan membantu pengembang untuk mencatat seberapa banyak evolusi dari pemakaian mereka.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Siapa yang harus mengisi survei ini?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Ini adalah sebuah survei terbuka untuk semua orang yang menulis CSS, apakah sebagai bagian dari pekerjaan mereka, atau sebagai seorang murid, atau hanya untuk berseanng-senang saja!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: Surveinya akan memakan waktu berapa lama?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Tergantung berapa pertanyaan yang Anda jawab (semua pertanyaan dapat dilewati), 
+      mengisi survei akan memakan waktu 15-20 menit.
+
+  - key: faq.learn_more_html2023
+    t: Dimana saya bisa mempelajari lebih lanjut?
+  - key: faq.learn_more_html2023.description
+    t: Anda dapat mempelajari lebih lanjut tentang survei ini dalam [post pengumuman Kami](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Bagaimana survei ini dirancang?
+  - key: faq.survey_design_html2023.description
+    t: >
+      Survei ini dirancang oleh [Lea Verou](https://lea.verou.me), beserta masukan dari para vendor browser dan juga grup seperti [Grup Komunitas WebDX](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: Kapan hasilnya akan dirilis?
+  - key: faq.results_released_html2023.description
+    t: Survei ini akan berjalan dari 19 September hingga 10 Oktober, dan hasil surveinya akan dipublikasi tidak lama setelahnya.

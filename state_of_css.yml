@@ -9,13 +9,12 @@ translations:
     t: >
       CSS berkembang lebih cepat dari sebelumnya.
 
-
       Flexbox, Grid, Multi-Column… Belum lagi paradigma baru seperti CSS-in-JS.
 
+      Jadi, setelah keberhasilan survei State Of JavaScript tahunan Kami, Kami telah memutuskan untuk mengambil pada dunia styles dan selectors. Kami berharap Anda akan membantu Kami mengidentifikasi tren terbaru, dan mencari tahu alat apa yang harus dipelajari dan digunakan selanjutnya!
 
-      Jadi, setelah keberhasilan survei State Of JavaScript tahunan kami,
-      kami telah memutuskan untuk mengambil pada dunia styles dan selectors.
-      Kami berharap Anda akan membantu kami mengidentifikasi tren terbaru, dan mencari tahu alat apa yang harus dipelajari dan digunakan selanjutnya!
+  - key: general.state_of_css.description
+    t: Survei tahunan para pengembang tentang trend terbaru seputar CSS
 
   ###########################################################################
   # Sections
@@ -24,12 +23,12 @@ translations:
   - key: sections.layout.title
     t: Tata Letak
   - key: sections.layout.description
-    t: Bagaimana anda memposisikan element di layar?
+    t: Bagaimana Anda memposisikan elemen di layar?
 
   - key: sections.shapes_graphics.title
     t: Bentuk & Grafik
   - key: sections.shapes_graphics.description
-    t: Mengontrol bentuk dan tampilan element.
+    t: Mengontrol bentuk dan tampilan elemen.
 
   - key: sections.interactions.title
     t: Interaksi
@@ -46,10 +45,30 @@ translations:
   - key: sections.animations_transforms.description
     t: Animasi dan transformasi element.
 
+  - key: sections.accessibility.title
+    t: Aksesibilitas
+  - key: sections.accessibility.description
+    t: Fitur Aksesibilitas dan teknik-teknik.
+
   - key: sections.media_queries.title
-    t: Media Queries
+    t: Media Query
   - key: sections.media_queries.description
-    t: Cara mengadaptasi situs anda ke perangkat atau preferensi pengguna.
+    t: Cara mengadaptasi situs Anda ke perangkat atau preferensi pengguna.
+
+  - key: sections.selectors.title
+    t: Selector
+  - key: sections.selectors.description
+    t: CSS selector.
+
+  - key: sections.colors.title
+    t: Warna
+  - key: sections.colors.description
+    t: Fitur yang berhubungan dengan warna.
+
+  - key: sections.javascript_apis.title
+    t: API JavaScript
+  - key: sections.javascript_apis.description
+    t: API JavaScript yang dupakai untuk mengendalikan atau melengkapi CSS.
 
   - key: sections.other_features.title
     t: Fitur lainnya
@@ -57,22 +76,22 @@ translations:
     t: Fitur CSS lainnya.
 
   - key: sections.units_selectors.title
-    t: Unit & Selektor
+    t: Unit & Selector
   - key: sections.units_selectors.description
-    t: Uji pengetahuan anda tentang CSS unit dan selectors.
+    t: Uji pengetahuan Anda tentang CSS unit dan selector.
 
   - key: sections.pre_post_processors.title
-    t: Pre-/Post-processors
+    t: Pre-/Post-processor
   - key: sections.pre_post_processors.description
     t: Utilitas yang meningkatkan CSS.
 
   - key: sections.pre_post_processors_others.title # TODO
-    t: Other Pre-/Post-processors
+    t: Pre-/Post-processor lainnya
 
   - key: sections.css_frameworks.title
     t: Kerangka CSS
   - key: sections.css_frameworks.description
-    t: Pustaka yang memberi anda komponen dan gaya yang siap pakai.
+    t: Pustaka yang memberi Anda komponen dan gaya yang siap pakai.
 
   - key: sections.css_frameworks_others.title # TODO
     t: Kerangka CSS Lainnya
@@ -83,7 +102,7 @@ translations:
     t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
 
   - key: sections.css_methodologies_others.title # TODO
-    t: CSS Methodologies Lainnya
+    t: Metodologi CSS Lainnya
 
   - key: sections.css_in_js.title
     t: CSS-in-JS
@@ -93,10 +112,25 @@ translations:
   - key: sections.css_in_js_others.title # TODO
     t: Pustaka CSS-in-JS Lainnya
 
+  - key: sections.tools_others.title
+    t: Alat Lainnya
+  - key: sections.tools_others.description
+    t: Alat CSS lainnya.
+
   - key: sections.environments.title
     t: Lingkungan
   - key: sections.environments.description
-    t: Untuk lingkungan mana anda menulis CSS?
+    t: lingkungan dan aksesibilitas mana yang Anda perhatikan saat menulis CSS?
+  
+  - key: sections.usage_css.title
+    t: Pamakaian CSS
+  - key: sections.usage_css.description
+    t: Bagaimana cara Anda memakai CSS.
+  
+  - key: sections.resources_css.title
+    t: Sumber-sumber
+  - key: sections.resources_css.description
+    t: Sumber CSS apa yang digunakan untuk berkonsultasi?
 
   ###########################################################################
   # Options
@@ -104,45 +138,112 @@ translations:
 
   # CSS for print
   - key: options.css_for_print.0
-    t: Saya (hampir) tidak pernah menulis print styles
-  - key: options.css_for_print.0.short # TODO
-    t: Never
+    t: Saya (hampir) tidak pernah menulis print style
+  - key: options.css_for_print.0.short
+    t: Tidak pernah
 
   - key: options.css_for_print.1
-    t: Saya terkadang menulis print styles
-  - key: options.css_for_print.1.short # TODO
-    t: Occasionally
+    t: Saya terkadang menulis print style
+  - key: options.css_for_print.1.short
+    t: Terkadang
 
   - key: options.css_for_print.2
-    t: Saya menulis print styles dari sebagian besar proyek.
-  - key: options.css_for_print.2.short # TODO
-    t: Often
+    t: Saya menulis print style dari sebagian besar proyek.
+  - key: options.css_for_print.2.short
+    t: Sering
 
   - key: options.css_for_print.3
     t: Fokus utama saya pada CSS untuk print.
-  - key: options.css_for_print.3.short # TODO
-    t: Mainly
+  - key: options.css_for_print.3.short
+    t: Fokus utama
 
   # CSS for email
   - key: options.css_for_email.0
     t: Saya (hampir) tidak pernah menulis CSS untuk email klien
-  - key: options.css_for_email.0.short # TODO
-    t: Never
+  - key: options.css_for_email.0.short
+    t: Tidak pernah
 
   - key: options.css_for_email.1
     t: Saya terkadang menulis CSS untuk email klien
-  - key: options.css_for_email.1.short # TODO
-    t: Occasionally
+  - key: options.css_for_email.1.short
+    t: Terkadang
 
   - key: options.css_for_email.2
     t: Saya menulis CSS untuk email klien di sebagian besar proyek
-  - key: options.css_for_email.2.short # TODO
-    t: Often
+  - key: options.css_for_email.2.short
+    t: Sering
 
   - key: options.css_for_email.3
     t: Fokus utama saya pada CSS untuk email klien
-  - key: options.css_for_email.3.short # TODO
-    t: Mainly
+  - key: options.css_for_email.3.short
+    t: Fokus utama
+
+  # what do you use CSS for?
+  - key: options.what_do_you_use_css_for.marketing_sites
+    t: Situs Pemasaran & halaman awal
+  - key: options.what_do_you_use_css_for.design_systems
+    t: Sistem Desain
+  - key: options.what_do_you_use_css_for.blogs
+    t: Blog atau situs berorientasi text lainnya
+  - key: options.what_do_you_use_css_for.web_apps
+    t: Aplikasi Web
+  - key: options.what_do_you_use_css_for.mobile_apps
+    t: Aplikasi Mobile
+  - key: options.what_do_you_use_css_for.css_art
+    t: Seni CSS & ilustrasi
+  - key: options.what_do_you_use_css_for.emails
+    t: Email
+  - key: options.what_do_you_use_css_for.printed_documents
+    t: Dokumen Cetak
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Aplikasi Desktop
+  
+  - key: options.what_do_you_use_css_for.e_commerce
+    t: E-commerce
+  - key: options.what_do_you_use_css_for.websites
+    t: Situs Web
+  - key: options.what_do_you_use_css_for.games
+    t: Games
+  - key: options.what_do_you_use_css_for.portfolio
+    t: Portfolio
+  - key: options.what_do_you_use_css_for.extensions
+    t: Extensi Browser
+  - key: options.what_do_you_use_css_for.desktop
+    t: Desktop
+
+  # CSS pain points
+  - key: options.css_pain_points.browser_interoperability
+    t: Kompabilitas Browser
+  - key: options.css_pain_points.browser_interoperability.description
+    t: Perbedaan antara Chrome, Safari, Firefox, dll.
+  - key: options.css_pain_points.interactions
+    t: Interaksi
+  - key: options.css_pain_points.interactions.description
+    t: Merespon terhadap masukan pengguna atau event lainnya (scroll, hover, dll.).
+  - key: options.css_pain_points.architecture
+    t: Arsitektur & Pemeliharaan
+  - key: options.css_pain_points.architecture.description
+    t: Penataan berkas, penghapusan kode tak terpakai, refactor, dll.
+  - key: options.css_pain_points.layout_positioning
+    t: Tata Letak & Posisi
+  - key: options.css_pain_points.layout_positioning.description
+    t: Mengatur tata letak dan memastkan element berada di tempat yang seharusnya.
+  - key: options.css_pain_points.scoping_specificity
+    t: Cakupan & Kekhususan
+  - key: options.css_pain_points.scoping_specificity.description
+    t: Mengurus cascade, menimpa style, dll.
+  - key: options.css_pain_points.responsive_design
+    t: Desain Responsif
+  - key: options.css_pain_points.responsive_design.description
+    t: Mengadaptasikan tata letak dan desain untuk form factor yang berbeda.
+  - key: options.css_pain_points.form_elements_styling
+    t: Memberi Gaya Elemen Form
+  - key: options.css_pain_points.form_elements_styling.description
+    t: Mengubah tampilan dan perilaku elemen form.
+  - key: options.css_pain_points.performance_issues
+    t: Isu performa
+  - key: options.css_pain_points.performance_issues.description
+    t: Berurusan dengan cacat scrolling, membuat animasi lebih halus, dll.
 
   ###########################################################################
   # Features
@@ -274,7 +375,7 @@ translations:
   - key: features_others.units
     t: Unit
   - key: features_others.units.description
-    t: Manakah dari unit CSS berikut yang pernah anda gunakan?
+    t: Manakah dari unit CSS berikut yang pernah Anda gunakan?
 
   - key: options.units.px
     t: px
@@ -304,7 +405,7 @@ translations:
   - key: features_others.pseudo_elements
     t: Pseudo Elements
   - key: features_others.pseudo_elements.description
-    t: Manakah dari pseudo-element berikut yang pernah anda gunakan?
+    t: Manakah dari pseudo-element berikut yang pernah Anda gunakan?
 
   - key: options.pseudo_elements.before
     t: "::before"
@@ -458,22 +559,22 @@ translations:
   - key: environments.browsers
     t: Browser
   - key: environments.browsers.description
-    t: Browser mana yang anda uji?
+    t: Browser mana yang Anda uji?
 
   - key: environments.form_factors
     t: Betuk Form
   - key: environments.form_factors.description
-    t: Form bentuk apa yang anda uji?
+    t: Form bentuk apa yang Anda uji?
 
   - key: environments.css_for_print
     t: CSS untuk tampilan
   - key: environments.css_for_print.description
-    t: Apakah anda menulis print style?
+    t: Apakah Anda menulis print style?
 
   - key: environments.css_for_email
     t: CSS untuk Email Klien
   - key: environments.css_for_email.description
-    t: Apakah anda menulis CSS untuk email klien?
+    t: Apakah Anda menulis CSS untuk email klien?
 
   ###########################################################################
   # Opinions
@@ -495,7 +596,7 @@ translations:
     t: Non-Semantic Classes
 
   - key: opinions.selector_nesting_to_be_avoided
-    t: Penyarangan pemilih (.foo .bar ul li {...}) harus di hindari
+    t: Penyarangan pemilih (.foo .bar ul li {…}) harus di hindari
   - key: opinions.selector_nesting_to_be_avoided.title # TODO
     t: Selector Nesting
 
@@ -510,17 +611,17 @@ translations:
     t: Enjoyment
 
   - key: opinions_others.css_missing_features.others
-    t: Apa yang anda rasakan yang saat ini hilang dari CSS?
+    t: Apa yang Anda rasakan yang saat ini hilang dari CSS?
   - key: opinions_others.css_missing_features.others.description
-    t: Fitur yang ingin anda lihat di CSS suatu hari nanti.
+    t: Fitur yang ingin Anda lihat di CSS suatu hari nanti.
 
   - key: opinions.sum_up_one_word_css
     t: CSS dalam satu kata
   - key: opinions.sum_up_one_word_css.description
-    t: Bagaimana anda menyimpulkan opini anda tentang CSS dalam satu kata?
+    t: Bagaimana Anda menyimpulkan opini Anda tentang CSS dalam satu kata?
 
   - key: happiness.state_of_the_web
-    t: Seberapa senang anda dengan keadaan umum teknologi web?
+    t: Seberapa senang Anda dengan keadaan umum teknologi web?
 
   - key: happiness.state_of_css
-    t: Seberapa senang anda dengan keadaan umum CSS?
+    t: Seberapa senang Anda dengan keadaan umum CSS?

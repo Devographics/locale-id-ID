@@ -23,11 +23,12 @@ translations:
       Maaf, survei sudah ditutup! Anda masih dapat meninjau data Anda, namun Anda tidak dapat mengubahnya.
   - key: general.survey_read_only
     t: >
-      Anda hanya dapat melihat survei ini.
+      Anda sedang melihat survei ini dalam mode hanya baca.
   - key: general.survey_preview
     t: >
-      Survei ini dalam mode peninjauan. Semua pertanyaan dan subjek akan berubah, 
-      dan semua data masuk akan dihapus saat survei yang sebenarnya dimulai.
+      Survei ini dalam **mode peninjauan**. Semua pertanyaan dan subjek akan berubah, dan semua data masuk akan dihapus saat survei yang sebenarnya dimulai.
+  - key: general.survey_feedback
+    t: Tinggalkan saran
 
   - key: general.survey_read_only_back
     t: >
@@ -65,6 +66,8 @@ translations:
     t: Tinjau Survei »
   - key: general.review_answers
     t: Tinjau Jawaban »
+  - key: general.preview_survey
+    t: Pratinjau Survey »
   - key: general.finish_survey
     t: Selesaikan Survei
   - key: general.next_section
@@ -127,12 +130,15 @@ translations:
     t: Kebijakan Privasi
   - key: general.leave_issue
     t: Pertanyaan? Menemukan bug? <a href="{link}" target="_blank">laporkan</a>.
+  - key: general.leave_issue2
+    aliasFor: homepage.leave_issue
   - key: general.emoji_icons
     t: Ikon emoji oleh <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
-    t: Daftar Isi
+    t: >
+     {sectionCount} bagian ({completion}% selesai)
   - key: general.all_questions_optional
     t: >
       Catatan: semua pertanyaan bersifat opsional, tidak perlu mengisi semua pertanyaan.
@@ -230,11 +236,14 @@ translations:
   - key: general.made_by_devographics
     t: Dibuat oleh <a href="{link}">Devographics</a>
   - key: general.view_code_example
-    t: Lihat contoh kode
+    t: Lihat Contoh Kode
   - key: general.feature_code_example
-    t: "contoh kode **{featureName}**"
+    t: "Contoh kode **{featureName}**"
   - key: general.code_example
     t: Contoh kode
+  - key: general.language_code
+    t: |
+      Kode {language}
 
   ###########################################################################
   # Nav
@@ -296,33 +305,57 @@ translations:
 
   # other answer
   - key: options.other
-    t: Lainnya...
+    t: Lainnya…
   - key: options.other.placeholder
     t: Pilihan yang tidak disebutkan di atas, ( Dipisahkan dengan koma )
 
   # features
   - key: options.features.never_heard
-    t: <span aria-hidden="true">🤷</span> Saya tidak pernah mendengarnya/Tidak yakin itu apa
+    t: <span aria-hidden="true">🤷</span> Belum pernah mendengarnya/Tidak yakin itu apa
   - key: options.features.heard
-    t: <span aria-hidden="true">✅</span> Saya tahu, tapi belum pernah menggunakannya
+    t: <span aria-hidden="true">✅</span> Tahu, tapi belum pernah menggunakannya
   - key: options.features.used
-    t: <span aria-hidden="true">👍</span> Saya sudah pernah menggunakannya
+    t: <span aria-hidden="true">👍</span> Sudah pakai
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">Belum pernah mendengarnya/Tidak yakin itu apa</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Pernah dengar</span> » <span class="option-chip option-positive">Tertarik</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Pernah dengar</span> » <span class="option-chip option-negative">Tidak tertarik</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">Sudah pakai</span> » <span class="option-chip option-positive">Pengalaman positif</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">Sudah pakai</span> » <span class="option-chip option-negative">Pengalaman negatif</span>
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: <span aria-hidden="true">🤷</span> Belum pernah dengar
+  - key: options.features.heard.short
+    t: <span aria-hidden="true">👀</span> Pernah dengar
+  - key: options.features.used.short
+    t: <span aria-hidden="true">🤓</span> Sudah pakai
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Saya tidak pernah mendengarnya/Tidak yakin itu apa
+    t: Belum pernah mendengarnya/Tidak yakin itu apa
   - key: options.features.heard.label
-    t: Saya tahu, tapi belum pernah menggunakannya
+    t: Tahu, tapi belum pernah pakai
   - key: options.features.used.label
-    t: Saya sudah pernah menggunakannya
+    t: Sudah pakai
 
-  # features (short versions)
+  # features (no emoji, short versions)
   - key: options.features.never_heard.short
     t: Belum pernah mendengarnya
   - key: options.features.heard.short
     t: Tahu tentang itu
   - key: options.features.used.short
-    t: Sudah pernah menggunakannya
+    t: Sudah pakai
 
   # patterns
   - key: options.patterns.use_never
@@ -574,7 +607,7 @@ translations:
 
   # Race & Ethnicity
   - key: options.race_ethnicity.white_european
-    t: Putih atau Keturunan Eropa
+    t: Berkulit Putih
   - key: options.race_ethnicity.south_asian
     t: Asia Selatan
   - key: options.race_ethnicity.south_east_asian
@@ -595,6 +628,19 @@ translations:
     t: Penduduk Asli Amerika, Penduduk Kepulauan Pasifik, atau Penduduk Asli Australia
   - key: options.race_ethnicity.not_listed
     t: Tidak disebutkan
+  
+  - key: options.race_ethnicity.european
+    t: Keturunan Eropa
+  - key: options.race_ethnicity.indian
+    t: Keturunan India
+  - key: options.race_ethnicity.human
+    t: Manusia
+  - key: options.race_ethnicity.slav
+    t: Bangsa Slavia
+  - key: options.race_ethnicity.north_african
+    t: Keturunan Afrika Utara
+  - key: options.race_ethnicity.jewish
+    t: Yahudi
 
   # Race & Ethnicity (short)
   - key: options.race_ethnicity.white_european.short
@@ -622,7 +668,7 @@ translations:
 
   # Disability Status
   - key: options.disability_status.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
   - key: options.disability_status.visual_impairments
     t: >
       'Gangguan Penglihatan (Seperti: kebutaan, buta warna, DLL.)'
@@ -862,6 +908,9 @@ translations:
     t: Acara
 
   # learning methods
+  - key: resources.learning_methods
+    t: Metode Belajar
+
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
   - key: options.learning_methods.books
@@ -948,6 +997,9 @@ translations:
     t: Iya, kirim Saya email jika hasil survei sudah diterbitkan
 
   # usage type
+  - key: usage.usage_type
+    t: Tipe Pemakaian
+
   - key: options.usage_type.professionally
     t: Secara profesional
   - key: options.usage_type.student
@@ -1191,6 +1243,8 @@ translations:
     aliasFor: user_info.industry_sector.description
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
     aliasFor: user_info.industry_sector.description
 
@@ -1252,7 +1306,7 @@ translations:
   - key: resources.blogs_news_magazines.others.description
     t: Jawaban lain.
   - key: options.blogs_news_magazines.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
 
   # sites & courses
   - key: resources.sites_courses
@@ -1264,7 +1318,7 @@ translations:
   - key: resources.sites_courses.others.description
     t: Jawaban lain.
   - key: options.sites_courses.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
 
   # podcasts
   - key: resources.podcasts
@@ -1276,7 +1330,7 @@ translations:
   - key: resources.podcasts.others.description
     t: Jawaban lain.
   - key: options.podcasts.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
 
   # people
   - key: resources.people
@@ -1294,7 +1348,7 @@ translations:
       Orang yang anda dengarkan, ikuti, atau yang ada sorot karena karyanya.
       (Nama dipisah dengan koma)
   - key: options.people.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
 
   # other surveys
   - key: resources.other_surveys
@@ -1304,7 +1358,12 @@ translations:
   - key: resources.other_surveys.others
     t: Survei tambahan yang tidak disebutkan di atas
   - key: options.other_surveys.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.description
 
   # video creators
   - key: resources.video_creators
@@ -1314,21 +1373,25 @@ translations:
   - key: resources.video_creators.others
     t: Kreator Video Lain
   - key: options.video_creators.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
 
   ###########################################################################
   # Follow-Up Questions
   ###########################################################################
 
   - key: followups.button
-    t: Beritahu lebih banyak...
+    t: Beritahu lebih banyak…
 
   - key: followups.description
     t: |
       Anda juga bisa menceritakan kepada kami mengapa Anda memilih jawaban ini:
 
+  - key: followups.description.short
+    t: |
+      Beritahu lebih banyak:
+
   - key: followups.placeholder
-    t: Alasan lainnya...
+    t: Alasan lainnya…
 
   - key: followups.want_to_learn_more
     t: Saya ingin pelajari lebih lanjut
@@ -1344,11 +1407,12 @@ translations:
     t: Saya memiliki pengalaman positif
   - key: followups.not_powerful
     t: Itu tidak begitu kuat
-  # - key: followups.
-  #   t:
-  # - key: followups.
-  #   t:
-  # - key: followups.
-  #   t:
-  # - key: followups.
-  #   t:
+
+  - key: followups.sentiment_interested
+    t: Tertarik
+  - key: followups.sentiment_not_interested
+    t: Tidak Tertarik
+  - key: followups.sentiment_positive_experience
+    t: Ingin pakai lagi
+  - key: followups.sentiment_negative_experience
+    t: Pengalaman negatif

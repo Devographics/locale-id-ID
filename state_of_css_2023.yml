@@ -263,7 +263,8 @@ translations:
     t: Instruktur, CSS for JavaScript Developers
   - key: picks.josh_comeau.description
     t: |
-      Podcast ini adalah sebuah tur yang menyenangkan dari berbagai fitur CSS yang modern dan penting. 
+      Podcast ini adalah sebuah tur yang menyenangkan 
+      dari berbagai fitur CSS yang modern dan penting. 
       Podcast ini dibawa oleh Una Kravets dan Adam Argyle, dua orang yang benar-benar luar biasa.
 
   - key: picks.adam_argyle.name
@@ -302,10 +303,7 @@ translations:
     t: CEO dari Fancy CSS
   - key: picks.jhey_tompkins.description
     t: |
-      `:has()` adalah sebuah trik sulap yang anda dapat pakai untuk mengkombinasikan 
-      dengan API lain seperti kueri container, anchor positioning, dll. secara bersamaan. 
-      Saya bersemangat untuk melihat bagaimana komunitas dapat menemukan cara-cara yang 
-      baru dan inovatif untuk menggunakannya.
+      `:has()` adalah sebuah trik sulap yang anda dapat pakai untuk mengkombinasikan dengan API lain seperti kueri container, anchor positioning, dll. secara bersamaan. Saya bersemangat untuk melihat bagaimana komunitas dapat menemukan cara-cara yang baru dan inovatif untuk menggunakannya.
 
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
@@ -358,9 +356,7 @@ translations:
     t: Pembuat dari Tailwind CSS
   - key: picks.adam_wathan.description
     t: |
-      Sebuah alat pemrosesan CSS yang super cepat, all-in-one yang menangani berbagai hal seperti prefiks vendor, minifikasi, 
-      dan transpilasi fitur-fitur modern, sambil menjadi sebuah plaftform yang bagus untuk para pengembang untuk membuat alat-alat CSS 
-      di atasnya.
+      Sebuah alat pemrosesan CSS yang super cepat, all-in-one yang menangani berbagai hal seperti prefiks vendor, minifikasi, dan transpilasi fitur-fitur modern, sambil menjadi sebuah plaftform yang bagus untuk para pengembang untuk membuat alat-alat CSS di atasnya.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS

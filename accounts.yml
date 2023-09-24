@@ -81,7 +81,7 @@ translations:
         silahkan <a href="mailto:hello@stateofjs.com">hubungi kami</a>.
 
   - key: accounts.token_verified
-    t: Token berhasil diverifikasi, mengarahkan...
+    t: Token berhasil diverifikasi, mengarahkan…
 
   - key: accounts.your_surveys
     t: Survei Anda
