@@ -982,7 +982,7 @@ translations:
   - key: table.percentageQuestion
     aliasFor: table.percentage_question
   - key: table.percentage_facet
-    t: "% dari segi responden"
+    t: "% dari facet responden"
   - key: table.percentageFacet
     aliasFor: table.percentage_facet
   - key: table.count
@@ -1083,9 +1083,9 @@ translations:
     t: Pengharagaan untuk teknologi yang akan datang yang mungkin... dapat mengambil alih?
 
   - key: award.most_write_ins_award.title
-    t: Tanggapan Terbanyak
+    t: Jawaban Khusus Terbanyak
   - key: award.most_write_ins_award.description
-    t: Pengharagaan untuk item dengan tanggapan terbanyak.
+    t: Pengharagaan untuk item dengan jawaban khusus terbanyak.
 
   - key: award.most_commented_feature_award.title
     t: Fitur yang Paling Banyak Ditanggapi
@@ -1096,3 +1096,449 @@ translations:
     t: Pustaka yang Paling Banyak Ditanggapi
   - key: award.most_commented_tool_award.description
     t: Pengharagaan untuk pustaka yang paling banyak mendapatkan tanggapan.
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      Anda akan menemukan petunjuk kecil seperti ini di sepanjang hasil survei
+      yang akan menunjukkan fitur tambahan dan detilnya.
+
+  - key: hints.units_switcher_hint
+    t: >
+      Anda dapat menggunakan kontrol tersegmentasi pada bagian bawah setiap blok untuk
+      mengubah unit agar mendapat pandangan lain dari data yang sama.
+
+  - key: hints.export_hint
+    t: >
+      Tab <span class="hint-icon hint-export-button">Data</span> membolehkan Anda untuk melihat 
+      data mentah untuk bagan mana pun, lihat sebagai JSON, atau dapatkan query GraphQL yang dapat 
+      Anda jalankan pada API publik Kami.
+
+  - key: hints.completion_hint
+    t: >
+      Karena semua pertanyaan bersifat, beberapa dari mereka mendapat respon yang lebih sedikit. 
+      Indikator penyelesaian (<span class="hint-completion-indicator">◕</span>) memberitahu Anda berapa banyak orang yang menjawab pertanyaan yang diberikan.
+
+  - key: hints.tool_modal_hint
+    t: >
+      Anda dapat mengklik nama teknologi mana pun untuk mendapatkan informasi tambahan dan 
+      penjelasan yang lebih mendalam pada data yang serupa.
+
+  - key: hints.rankings_modes_hint
+    t: >
+      Bagan Pengalaman Seiring Waktu dapat diubah antara retensi, ketertarikan, pemakaian, dan kesadaran
+      untuk memberi Anda gambaran yang lebih jelas terhadap sebuah kategori.
+
+  - key: hints.sharing_hint
+    t: >
+      Dengan memagikan survei ini ke Twitter, Facebook, atau dengan email,
+      terbukti secara ilmiah dapat meningkatkan kemampuan koding anda sebanyak 15%.
+
+  - key: hints.tshirt_hint
+    t: >
+      Penelitian ilmiah yang terbukti lainnya adalah: membeli kaos Kami 
+      akan meningkatkan kemampuan koding anda sebesar lebih dari 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Beberapa fitur bagan menambahkan tab yang memberikan penjelasan lengkap pada data yang sama,
+      ataupun data yang serupa. Jangan lupa untuk mencobanya!
+
+  - key: hints.share_hint
+    t: >
+      Tab <span class="hint-icon hint-share-button">Bagikan</span> membuat Anda mudah untuk membagikan bagan mana pun, 
+      atau bahkan mengunduhnya sebagai gambar.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">Bagan berikut menyediakan hasil seperti turnamen 8 tim yang di mana
+      responden ditugaskan untuk memilih pemenang dari setiap pertandingan hingga ada satu pemenang yang tersisa.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      Tab <span class="hint-icon hint-comment-button">Komentar</span> membolehkan Anda untuk melihat komentar yang ditinggalkan oleh para responden selagi mereka mengisi survei.
+  
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Terima Kasih
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Terima kasih telah mendukung survei. Avatar anda akan muncul di sebelah bagan yang anda pilih
+      dalam waktu beberapa jam kedepan. Jika belum muncul, silahkan [hubungi Kami](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** mendonasikan **${amount}** untuk mensponsori bagan ini
+
+  - key: sponsor.sponsor_button
+    t: Sponsori Bagan Ini
+
+  - key: sponsor.sponsor_chart.title
+    t: Sponsori Bagan "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Dukung survei ini secara finansial dengan berdonasi $10 atau lebih, dan dapatkan
+      fitur avatar Twitter di sebelah sebuah bagan!
+
+  - key: sponsor.chart_id
+    t: "ID Bagan: "
+
+  - key: sponsor.sponsor_this_chart
+    t: Sponsori Bagan Ini (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: Cara Kerja
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Saat Anda **mengklik tombol "Sponsori bagan ini"**, Anda akan dialihkan menuju halaman [SendOwl](https://www.sendowl.com/) pembayaran partner Kami.
+
+
+      2. Lalu Anda bisa **menyesuaikan jumlah** yang ingin anda donasikan, mulai dari USD10.  
+
+
+      3. Setelah Anda melakukan pembayaran, Anda dapat **memberikan username Twitter Anda**. 
+
+
+      4. Anda akan melihat sebuah halaman **Unduh Berkas**, tapi Anda boleh mengabaikannya. 
+
+
+      5. Halaman situs akan melakukan rebuild pada latar belakang setelah itu username dan donasi Anda akan **muncul di sebelah bagan dalam waktu beberapa jam**.
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: Untuk apa uang yang saya donasikan?
+
+  - key: sponsor.faq.usage.description
+    t: Donasi Anda akan membantu pengelola survei, dan juga membantu Kami merekrut lebih banyak kontributor (illustrator, ahli aksesibilitas keragaman, DLL.).
+
+  - key: sponsor.faq.public.title
+    t: Apakah donasi saya dapat dilihat publik?
+
+  - key: sponsor.faq.public.description
+    t: Iya. **username Twitter** dan juga **jumlah donasi** Anda akan ditampilkan secara publik di sebelah bagan.
+  
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Apa kebijakan pengembalian uang Anda?
+
+  - key: sponsor.faq.refund.description
+    t: Semua donasi dapat dikembalikan dalam kurun waktu 1 minggu, dikurangi biaya transaksi.
+
+  - key: sponsor.faq.influence.title
+    t: Apakah donasi mempengaruhi konten survei?
+
+  - key: sponsor.faq.influence.description
+    t: Donasi hanya dapat dilakukan setelah survei diterbikan, dan donatur tidak memiliki pengaruh apa pun terhadap konten survei.
+
+  - key: sponsor.faq.feedback.title
+    t: Di mana saya dapat memberikan saran/pertanyaan?
+
+  - key: sponsor.faq.feedback.description
+    t: Anda dapat memberikannya pada [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) atau [pada Discord Kami](https://discord.gg/tuWRUWVyJs).
+  
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Jelajahi Data
+  - key: sections.data_explorer.description
+    t: |
+      Jelajahi audien survei secara dinamis dengan memilih dua pertanyaan, 
+      dan melihat hasil distribusi responden.
+
+  - key: hints.data_explorer
+    t: |
+      Ini adalah versi pratinjau untuk Jelajahi Data kami yang baru. jika Anda melihat isu atau data yang tidak konsisten, silahkan [beritahu kami]({issueLink}).
+    
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total responden)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Responden
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Responden Tambahan
+  - key: explorer.missing_respondents
+    t: Responden yang hilang
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      Setiap titik merepresentasikan {respondentsPerDot} responden
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      Setiap titik merepresentasikan {percentsPerDot}% responden
+  - key: explorer.extra_respondents.tooltip
+    t: Titik yang disorot merupakan hasil yang lebih dari tinggi perkiraan.
+  - key: explorer.missing_respondents.tooltip
+    t: Titik kosong merupakan hasil yang lebih rendah dari perkiraan.
+
+  - key: explorer.units_count
+    t: Hitung
+  - key: explorer.units_percentage
+    t: "% dari baris"
+
+  - key: explorer.edit
+    t: Ubah parameter…
+
+  - key: explorer.get_data
+    t: Dapatkan Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Sedang melakukan Query API…
+  - key: explorer.loading.2
+    t: Menunggu respon…
+  - key: explorer.loading.3
+    t: Masih proses…
+  - key: explorer.loading.4
+    t: Tunggu sebentar lagi…
+  - key: explorer.loading.5
+    t: Maaf, proses ini terlalu lama. Anda bisa menunggu lebih lama lagi, atau [Laporkan masalah]({issueLink}).
+  - key: explorer.timeout
+    t: Waktu habis
+  - key: explorer.timeout.description
+    t: API tidak merespon tepat waktu. Silahkan coba lagi nanti, atau [Laporkan masalah]({issueLink}).
+  
+  # share
+
+  - key: explorer.share
+    t: Bagikan…
+  - key: explorer.share.title
+    t: Bagikan “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” dari survei {surveyName} {year}
+  
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} responden"
+  - key: explorer.axis_percent
+    t: "{percentCount}% dari responden"
+
+  - key: explorer.x_axis_details
+    t: |
+      Dari keseluruhan responden yang telah menjawab pertanyaan “{yAxisLabel}”, **{totalCount}** responden survei memilih “{xQuestionLabel}” untuk “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** responden survei memilih “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** responden, **1** titik = **{respondentsPerDot}** responden, **{dotsPerLine}** titik per baris
+  
+  # controls
+  - key: explorer.dots_per_line
+    t: Titik per baris
+  - key: explorer.respondents_per_dot
+    t: Responden per titik
+  - key: explorer.show_cell_counts
+    t: Tampilkan jumlah cell
+  - key: explorer.show_no_answer
+    t: Tampilkan sel “Tidak menjawab”
+
+  - key: explorer.all_fields
+    t: Semua field
+  - key: explorer.select_item
+    t: Pilih item
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” responden memilih “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** dari “{yAxisLabel}” responden memilih “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Dengan menerapkan persentase tersebut ke dalam **{xAxisTotal}** responden sebelumnya 
+      memberikan kita hasil garis bawah sebesar **{normalizedCount}** responden dalam persilangan ini.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      Jumlah yang sebenarnya adalah **{cellCount}**, ditambah dengan **{normalizedCountDelta}** responden yang *disorot*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      Jumlah yang sebenarnya adalah **{cellCount}**, ditambah dengan **{normalizedCountDelta}** responden yang hilang sebagai titik yang kosong.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Secara keseluruhan, **{xAxisPercentage}%** dari “{xAxisLabel}” responden memilih “{xAnswerLabel}”, tetapi 
+      di antara **“{yAxisLabel}” responden yang memilih “{yAnswerLabel}”** persentase tersebut meningkat hingga **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Secara keseluruhan, **{xAxisPercentage}%** dari “{xAxisLabel}” responden memilih “{xAnswerLabel}”, tetapi
+      di antara **“{yAxisLabel}” responden yang memilih “{yAnswerLabel}”** persentase tersebut menuruh hingga **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Tambahan **{normalizedPercentageDelta}%** responden yang *disorot*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      **{normalizedPercentageDelta}%** responden yang hilang tampil sebagai  titik kosong.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Responden Tambahan & Hilang
+
+      Bagan di atas diperuntukan untuk mengindentifikasi area yang menunjukkan nilai lebih tinggi dari perkiraan 
+      atau lebih rendah dari perkiraan dibandingkan pada perhitungan garis bawah.
+
+      Sebagai contoh, asumsikan terdapat 1000 pengguna CSS Grid, dan 50% dari responden survei bekerja di sebuah perusahaan besar, 
+      jadi diperkirakan terdapat 500 pengguna CSS Grid yang bekerja di sebuah perusahaan besar. 
+
+      Jika ada deviasi di atas ataupun di bawah jumlah yang diperkirakan bisa membuat sebuah korelasi yang menarik
+      di antara dua variabel, dan itu disorot pada bagan dengan titik berwarna
+      (untuk tambahan responden di atas garis bawah) atau titik kosong (untuk responden yang hilang).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Bandingkan Data
+  - key: filters.customize_chart
+    t: Kustomisasi Bagan
+  - key: filters.docs
+    t: Dokumentasi
+  - key: filters.compare_chart
+    t: Kustomisasi “{chartName}”
+  - key: filters.filters.description
+    t: |
+      Dengan memakai kombinasi filter demografis, Anda dapat memuat hingga 4 **Seri data khusus** untuk dimuat
+      secara dinamis dan dibandingkan dengan data awal untuk pertanyaan ini.
+  - key: filters.facets.description
+    t: |
+      Pilih sebuah variabel untuk memecah setiap bar menjadi "facet".
+  - key: filters.grid_mode
+    t: Berhadapan
+  - key: filters.combined_mode
+    t: Digabung
+  - key: filters.facet_mode
+    t: Facet
+  - key: filters.facet
+    t: "Facet:"
+
+  - key: filters.series.heading
+    t: Seri {index}
+  - key: filters.series.add
+    t: Tambah Seri…
+  - key: filters.series.delete
+    t: Hapus Seri
+  - key: filters.series.year
+    t: |
+      data tahun {year}
+  - key: filters.series.show_default
+    t: |
+      Tampilkan seri default
+  - key: filters.series.no_data
+    t: Tidak ada data
+
+  - key: filters.condition.add
+    t: Tambah Filter
+  - key: filters.condition.delete
+    t: Hapus Filter
+  - key: filters.condition.and
+    t: dan
+  - key: filters.operators.eq
+    t: sama
+  - key: filters.operators.in
+    t: salah satu
+  - key: filters.operators.nin
+    t: bukan salah satu
+  - key: filters.value.add
+    t: Tambah Nilai
+  - key: filters.value.delete
+    t: Hapus Nilai
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Batal
+  - key: filters.submit
+    t: Perbaharui Bagan
+  - key: filters.copy_link
+    t: Salin tautan untuk filter saat ini
+  - key: filters.get_code
+    t: Dapatkan kode filter
+
+  - key: filters.presets.title
+    t: "Preset:"
+  - key: filters.presets.save
+    t: Simpan filter saat ini sebagai preset…
+  - key: filters.presets.delete
+    t: Hapus Preset
+  - key: filters.presets.enter_name
+    t: |
+      Ketikkan nama untuk preset baru anda:
+  - key: filters.presets.previous_years
+    t: Tahun Lalu
+  - key: filters.presets.gender
+    t: Jenis Kelamin
+  - key: filters.presets.top_countries
+    t: Negara peringkat teratas
+  - key: filters.presets.salary_low_high
+    t: |
+      Gaji Rendah vs Tinggi
+  - key: filters.presets.experience_low_high
+    t: |
+      Pengalaman Rendah vs Tinggi
+  - key: filters.presets.company_size_low_high
+    t: |
+      Perusahaan Kecil vs Besar
+
+  - key: filters.facet.select
+    t: Pilih sebuah facet…
