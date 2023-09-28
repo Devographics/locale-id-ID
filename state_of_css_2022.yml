@@ -1,0 +1,433 @@
+locale: id-ID
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Edisi 2022 dari survey pengembang tahunan tentang tren-tren terbaru di ekosistem CSS.
+
+  - key: general.css2022.js2022_banner
+    t: Survei State of JS 2022 saat ini sedang terbuka, anda dapat [mengisinya sekarang juga](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+
+  - key: general.css2022.results_intro
+    t: |
+      CSS terus maju dengan kecepatan yang tak pernah dilihat sebelumnya. Kita tidak hanya melihat fitur-fitur dan properti baru saja, namun bahkan fondasi bahasa ini sedang diubah dan diimprove berkat dari inovasi-inovasi seperti nesting dan cascade layers. 
+
+      Untungnya tahun ini kita dibantu oleh seseorang yang berada di garis depan semua perubahan ini: Anggota W3C working group [Lea Verou](https://lea.verou.me/) telah memilih pertanyaan-pertanyaan survei tahun ini, dengan berpusat pada menyorot fitur CSS yang baru. 
+
+      Terlebih lagi, hasil survei ini akan membantu vendor browser memproioritaskan peta jalur mereka dan bekerja untuk kompatibilitas yang lebih baik antar browser.
+
+      Dengan ini, mari kita lihat bagaimana CSS telah berevolusi di tahun 2022!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2022
+    t: |
+      <span class="first-letter">K</span>ita pikir CSS telah berevolus menjadi sebuah bahasa yang cukup formidable berkat berbagai kemajuan seperti Flexbox, Grid, dan Variabel CSS. Namun nyatanya ini bahkan bukan bentuk akhir dari CSS.
+
+      Selektor orang tua, native nesting, container query, cascade layers… daftar fitur-fitur baru yang segera datang cukup mengejutkan ketika kamu memikirkannya. 
+
+      Syukurnya, kita memiliki panduan terbaik yang ada untuk membantu kita: [Lea Verou](http://lea.verou.me/) memimpin perancangan survei tahun ini, dan hasilnya adalah sebuah survei that will hopefully encompass all the key innovations you should be aware of. 
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+      Catatan: juga baru tahun ini: Responden kini dapat **meninggalkan komentar** di fitur atau library manapun yang disebutkan dalam survei! Pastikan untuk melihat komentar-komentarnya di bilah samping setiap bagan.
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Kaos
+
+  - key: sections.tshirt.description
+    t: |
+      ## Dukung Survei ini Dengan Kaos State Of CSS 
+
+      Di antara kualitas video yang buruk, kaset yang besar, dan harus memutar balik, tidak ada yang dapat dirindukan dari era VHS. Namun satu hal yang kami *rindukan* adalah visual 90an yang dulu menghiasi kaset VHS yang kosong. 
+
+      Namun, berkat dari seniman bertalenta Christopher Kirk-Nielsen anda dapat menikmati semua kekerenan retro ini sambil juga merayakan kecintaan anda akan CSS dalam waktu yang bersamaan!
+
+  - key: tshirt.about
+    t: Tentang kaos ini
+
+  - key: tshirt.description
+    t: |
+      Kami menggunakan kaos tri-blend berkualitas tinggi yang sangat lembut dengan bentuk ramping yang dicetak dari mitra kami di Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Dapatkan
+
+  - key: tshirt.price
+    t: USD $29 + pengiriman
+
+  - key: tshirt.designer.heading
+    t: Tentang perancang kaos
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: |
+      Properti `gap` untuk Flexbox adalah sebuah fitur yang seangat berguna, tidak mengejutkan kalau 
+      properti tersebut akan melihat progresi sebanyak **{value}** pada 2022
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.most_commented_feature_award.comment
+    t: Dengan **{value}** komentar, tidak ada fitur yang menghasilkan umpan balik sebanyak Subgrid.
+
+  - key: award.tool_satisfaction_award.comment
+    t: |
+      Dari semua solusi CSS-in-JS, CSS Modules adalah satu-satunya yang mempertahankan tingkat retensi 
+      yang tinggi sebanyak **{value}**.
+
+  # - key: award.tool_interest_award.comment
+  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      Dengan **{value}** sebutan, Arc browser adalah alat yang paling banyak disebutkan dalam pertanyaan bebas sejauh ini.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2022
+    t: |
+      <span class="first-line">[Tahun lalu](https://2021.stateofcss.com/en-US/conclusion/), Kilian memprediksi bahwa cara kita menulis CSS akan berganti selamanya, dan hasil survei tahun ini membenarkan prediksinya.</span>
+
+      [Interop 2022](https://wpt.fyi/interop-2022) telah mempersatukan browsers untuk bekerja menuju tujuan yang sama, dan beberapa fitur berubah dari "ini tidak akan terjadi" menjadi "ini sekarang sedang terjadi". Selektor orang tua (`:has()`) dan kueri kontainer (`@container`) adalah dua fitur yang besar dalam kategori tersebut. Bertahun-tahun para pengembang telah diberitahu bahwa fitur-fitur ini tidak mungkin karena implikasi performa, namun ternyata keduanya mungkin. 
+
+      Subgrid di sisi lain selalu ada dalam peta jalur, it was just a very big chunk of work. Fitur tersebut sekarang sudah didukung di Firefox dan Safari, dan sedang diimplementasikan di Chrome, jadi kita akan mungkin melihat tingkat penggunaan yang jauh lebih tinggi tahun depan.
+
+      Saya memprediksi bahwa bintang-bintang tahun 2023 adalah native Nesting, dan manipulasi warna.
+      Nesting saat ini adalah [alasan utama](https://twitter.com/leaverou/status/806936438797307904) orang-orang masih menggunakan preprocessor, jadi kalau bisa menggunakannya secara langsung akan sangat membebaskan. 
+
+      Bekerja dengan warna dalam CSS juga akan lebih menyenangkan. Ada banyak fitur yang sedang diimplementasikan pada saat ini. Di akhir 2023, kita mungkin bisa mengandalkan warna gamut lebar dan warna yang independen dari perangkat (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), dan kita akan bis memanipulasi mereka dengan cara dasar dengan `color-mix()`. 
+
+      Semua ini secara bersamaan berarti bahwa 2023 akan menjadi tahun yang sangat menarik CSS. Saya menantikan semua implementasi yang akan datang, apakah prediksi saya benar atau tidak. Sungguh zaman yang fantastis untuk menulis CSS!
+
+  - key: conclusion.css2022.bio
+    t: W3C Technical Architecture Group Member, MIT CSAIL
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Pilihan 2022 Saya: "
+  - key: picks.intro
+    t: Kita menanyakan berbagai anggota dari anggota komunitas CSS untuk membagikan “pilihan tahun ini” mereka
+
+  - key: picks.david_east.name
+    t: CSS Subgrid
+  - key: picks.david_east.bio
+    t: Advokat untuk membangun di web
+  - key: picks.david_east.description
+    t: |
+      CSS Subgrid memungkinkan elemen anak untuk mewariskan properti grid orang tua mereka. 
+      Sebentar lagi, akan lebih mudah untuk menyusun elemen di garis grid yang sama
+      di seluruh halaman.
+
+  - key: picks.bramus_van_damme.name
+    t: Selektor `:has()`
+  - key: picks.bramus_van_damme.bio
+    t: Chrome Developer Relations Engineer di Google
+  - key: picks.bramus_van_damme.description
+    t: |
+      Anda mungkin mengenal yang ini sebagai apa yang disebut sebagai “selektor orang tua” namun nama itu  
+      agak keliru karena hanya mencakup sebagian kecil dari apa yang dapat dilakukannya.
+      Selektor ini pada dasarnya telah merubah cara saya menulis CSS saya.
+
+  - key: picks.kevin_j_powell.name
+    t: Jhey Tompkins
+  - key: picks.kevin_j_powell.bio
+    t: CSS Evangelist
+  - key: picks.kevin_j_powell.description
+    t: |
+      Jhey selalu mendorong batas dari apa yang kita dapat lakukan dengan CSS dengan 
+      berbagai demo dan Codepen yang seru dan menakjubkan. Dengan berbagai fitur baru yang ada di CSS baru-baru ini, 
+      Jhey ada di garis terdepan menjelaskan bagaimana mereka bekerja.
+
+  - key: picks.samuel_kraft.name
+    t: Selektor `:has()`
+  - key: picks.samuel_kraft.bio
+    t: Design Engineer
+  - key: picks.samuel_kraft.description
+    t: |
+      Selektor :has() ini sangat-sangat kuat dan membuka banyak kemungkinan penggayaan yang baru. 
+      Artikel bagus yang ditulis Jen Simmons ini menjelaskannya dengan contoh-contoh yang praktis.
+
+  - key: picks.josh_comeau.name
+    t: CSS Modern
+  - key: picks.josh_comeau.bio
+    t: Pengembang perangkat lunak dan pendidik
+  - key: picks.josh_comeau.description
+    t: |
+      CSS telah banyak berubah dalam beberapa tahun terakhir. 
+      Stephanie menunjukkan pada kita bagaimana cara menggunakan fitur-fitur CSS  
+      baru untuk memecahkan masalah-masalah lama dengan cara-cara baru.
+
+  - key: picks.adam_argyle.name
+    t: Selektor `:has()`
+  - key: picks.adam_argyle.bio
+    t: UI/CSS DevRel di Google
+  - key: picks.adam_argyle.description
+    t: |
+      CSS telah menjadi lebih kuat dalam hal mengatur interaksi UI di antara komponen-komponen. 
+      Kita baru melihat sedikit dari dampak `:has()` pada penggayaan kita.
+
+  - key: picks.eric_w_bailey.name
+    t: “Style with Stateful, Semantic Selectors” oleh Ben Myers
+  - key: picks.eric_w_bailey.bio
+    t: Accessibility advocate dan kutu buku CSS
+  - key: picks.eric_w_bailey.description
+    t: |
+      Ben mendemonstrasikan bagaimana menggunakan selektor atribut ARIA 
+      dapat dengan mudah dan kuat menyambungkan penampilan dengan keberadaan.
+
+  - key: picks.michelle_barker.name
+    t: Interop 2022
+  - key: picks.michelle_barker.bio
+    t: Penulis dan pendiri blog CSS { In Real Life }
+  - key: picks.michelle_barker.description
+    t: |
+      Interop adalah sebuah kolaborasi antara semua vendor browser besar, 
+      menyetujui antara 15 bidang kunci untuk implementasi — 
+      termasuk fitur-fitur baru CSS seperti kueri kontainer, 
+      lapisan cascade dan fungsi warna.
+
+  - key: picks.gift_egwuenu.name
+    t: Learn CSS
+  - key: picks.gift_egwuenu.bio
+    t: Developer Advocate di Cloudflare
+  - key: picks.gift_egwuenu.description
+    t: |
+      Sumber rekomendasi saya bagi anda yang ingin belajar CSS dari awal, 
+      Saya juga menggunakannya sebagai referensi ketika saya mau mencari properti CSS manapun.
+
+  - key: picks.ahmad_shadeed.name
+    t: Kueri kontainer
+  - key: picks.ahmad_shadeed.bio
+    t: Penulis dari [Debugging CSS](https://debuggingcss.com/), menulis di [ishadeed.com](http://ishadeed.com)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Kalau saya memilih satu sorotan untuk 2022, itu akan menjadi kueri kontainer! 
+      Mereka akhirnya hadir di browser stabil terdekat anda
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  - key: picks.jen_simmons.name
+    t: Selektor `:has()`
+  - key: picks.jen_simmons.bio
+    t: Web technologies evangelist at Apple
+  - key: picks.jen_simmons.description
+    t: |
+      Selama dua dekade, “selektor orang tua” menjadi fitur yang paling banyak diminta dalam CSS. 
+      Lalu pada 2022, secara mengejutkan, pseudo-class :has() tiba untuk memecahkan ini dan lebih banyak lagi.
+
+  - key: picks.sara_soueidan.name
+    t: Selektor `:has()`
+  - key: picks.sara_soueidan.bio
+    t: Independent inclusive design engineer
+  - key: picks.sara_soueidan.description
+    t: |
+      Kita telah menunggu dan berharap untuk kueri kontainer CSS sejak lama. 
+      Namun kemudian `:has()` tiba tidak lama setelahnya, 
+      dan itu terasa seperti "semua hal yang kita tidak tahu kita inginkan".
+
+  - key: picks.adam_wathan.name
+    t: Variabel CSS kosong
+  - key: picks.adam_wathan.bio
+    t: Pembuat Tailwind CSS
+  - key: picks.adam_wathan.description
+    t: |
+      Tidak banyak yang tahu akan hal ini tapi `--my-var: ;` adalah CSS yang valid, 
+      dan ini lebih berguna dari yang mungkin anda pikirkan. 
+      Kami menggunakannya dalam Tailwind CSS sepanjang waktu untuk membuatnya  
+      mungkin untuk memecah sebuah properti CSS menjadi beberapa kelas.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: Interop 2022
+  - key: picks.kilian_valkhof.bio
+    t: Pengembang web dan pembuat Polypane
+  - key: picks.kilian_valkhof.description
+    t: |
+      Berawal pada 2021 sebagai Compat 2021, para pembuat mesin browser 
+      telah mulai berkoordinasi fitur browser mana yang mereka prioritaskan. 
+      Tidak hanya ini menutup jarak fitur yang saat ini ada  
+      di antara browser-browser, ini juga mempercepat fitur-fitur  
+      seperti @layer berada di dalam browser-browser.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software.
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+  #       notably bringing flex gap to WebKit,
+  #       which means that soon it will be available on all modern browsers.
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid
+  #       triggering dizziness and discomfort.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Majukan keterampilan anda dengan kursus rekayasa front-end yang modern dan mendalam.
+  - key: sponsors.nijibox.description
+    t: Browser untuk para pengembang ambisius. Bangun website yang responsif dan cepat dengan mudah.
+  - key: sponsors.renderatl.description
+    t: Konferensi teknologi terbesar dengan bagian khusus untuk Design & CSS.
+  - key: sponsors.google_chrome.description
+    t: Terima kasih kepada tim Google Chrome untuk dukungannya terhadap pekerjaan kami.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      Survei State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+
+      Logo dan kaos untuk tahun ini sama dengan tahun lalu, ketika mereka dirancang dan dianimasikan oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Tujuan Survei 
+
+      survei ini, bersama dengan survei [State of JavaScript](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
+
+
+      Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan. 
+
+
+      Selain itu, data survei ini juga digunakan oleh para vendor browser untuk memprioritaskan fitur-fitur dan menginformasikan berbagai inisiatif seperti [Interop 2023](https://web.dev/interop-2023/).
+
+
+      ### Perancangan Survei 
+
+      Tahun ini, perancangan survei dipimpin oleh [Chen Hui Jing](https://chenhuijing.com/) berkat sebuah hibah dari tim Google Chrome. Semua pertanyaan survei bersifat opsional. 
+
+      ### Audiens Survei
+
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah milis khusu) dan lalu lintas media sosial. 
+
+      ### Pendanaan proyek 
+
+      Pendanaan proyek ini datang dari beberapa sumber:
+
+      - **Penjualan kaos**. 
+
+      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
+
+      - **Bagan yang disponsori**: dimulai dari tahun lalu, semua orang dapat memilih untuk mensponsori sebuah bagan untuk $10 atau lebih. Avatar Twitter sponsor tersebut akan ditampilkan di samping bagan tersebut.
+
+      - **Google**: tahun ini, tim [Google Chrome](https://www.google.com/chrome/) menyisakan sejumlah uang untuk mempekerjakan Lea untuk membantu merancang survei, dan juga mendanai saya secara langsung untuk mendukung apa yang saya kerjakan. 
+
+      - **Nijibox**: [Nijibox](https://nijibox.jp/) dari Jepang juga telah setuju untuk mensponsori usaha saya untuk membuat survei ini lebih berkelanjutan. 
+
+
+      ### Ikhtisar Teknis
+
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+
+      - **Koleksi data**: Aplikasi [Next.js](https://nextjs.org/) yang berjalan di [Vercel](https://vercel.com/).
+
+      - **Penyimpanan/pemrosesan data**: MongoDB & MongoDB Aggregations yang berjalan di [MongoDB Atlas](https://cloud.mongodb.com/).
+
+      - **Data API**: API GraphQL  Node.js yang berjalan di [Render](https://render.com/). 
+
+      - **Situs hasil**: Aplikasi React [Gatsby](https://www.gatsbyjs.com/) yang berjalan di [Netlify](https://netlify.com/).
+
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) library dataviz React.
+
+      - **Jenis tulisan**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+      ### Umpan balik
+
+      - [Laporkan masalah teknis](https://github.com/Devographics/Monorepo/issues)
+      - [Berikan saran untuk tahun depan](https://github.com/Devographics/surveys/issues/66)
+      - [Masalah non-teknis lainnya](https://github.com/Devographics/surveys/issues)
+      - [Bergabung dengan Discord kami](https://discord.gg/tuWRUWVyJs)
+      - [Bergabung dengan Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
