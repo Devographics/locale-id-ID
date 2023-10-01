@@ -85,7 +85,7 @@ translations:
   - key: sections.pre_post_processors.description
     t: Utilitas yang meningkatkan CSS.
 
-  - key: sections.pre_post_processors_others.title # TODO
+  - key: sections.pre_post_processors_others.title
     t: Pre-/Post-processor lainnya
 
   - key: sections.css_frameworks.title
@@ -93,7 +93,7 @@ translations:
   - key: sections.css_frameworks.description
     t: Pustaka yang memberi Anda komponen dan gaya yang siap pakai.
 
-  - key: sections.css_frameworks_others.title # TODO
+  - key: sections.css_frameworks_others.title
     t: Kerangka CSS Lainnya
 
   - key: sections.css_methodologies.title
@@ -101,7 +101,7 @@ translations:
   - key: sections.css_methodologies.description
     t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
 
-  - key: sections.css_methodologies_others.title # TODO
+  - key: sections.css_methodologies_others.title
     t: Metodologi CSS Lainnya
 
   - key: sections.css_in_js.title
@@ -109,7 +109,7 @@ translations:
   - key: sections.css_in_js.description
     t: Pustaka yang membantu mengintegrasikan CSS ke dalam kode Javascript.
 
-  - key: sections.css_in_js_others.title # TODO
+  - key: sections.css_in_js_others.title
     t: Pustaka CSS-in-JS Lainnya
 
   - key: sections.tools_others.title
@@ -148,12 +148,12 @@ translations:
     t: Terkadang
 
   - key: options.css_for_print.2
-    t: Saya menulis print style dari sebagian besar proyek.
+    t: Saya menulis print style untuk sebagian besar proyek.
   - key: options.css_for_print.2.short
     t: Sering
 
   - key: options.css_for_print.3
-    t: Fokus utama saya pada CSS untuk print.
+    t: Fokus utama saya adalah CSS untuk print.
   - key: options.css_for_print.3.short
     t: Fokus utama
 
@@ -169,12 +169,12 @@ translations:
     t: Terkadang
 
   - key: options.css_for_email.2
-    t: Saya menulis CSS untuk email klien di sebagian besar proyek
+    t: Saya menulis CSS untuk email klien pada sebagian besar proyek
   - key: options.css_for_email.2.short
     t: Sering
 
   - key: options.css_for_email.3
-    t: Fokus utama saya pada CSS untuk email klien
+    t: Fokus utama saya adalah CSS untuk email klien
   - key: options.css_for_email.3.short
     t: Fokus utama
 
@@ -244,6 +244,95 @@ translations:
     t: Isu performa
   - key: options.css_pain_points.performance_issues.description
     t: Berurusan dengan cacat scrolling, membuat animasi lebih halus, dll.
+  
+  # CSS missing features (same as features section)
+  - key: options.css_missing_features.nesting
+    t: Nesting
+  - key: options.css_missing_features.nesting.description
+    t: Membolehkan melakukan percabangan gaya dalam CSS native.
+  - key: options.css_missing_features.parent_selector
+    t: Parent Selector
+  - key: options.css_missing_features.parent_selector.description
+    t: Membolehkan memilih sebuah elemen parent berdasarkan elemen children.
+  - key: options.css_missing_features.browser_support
+    t: Dukungan Browser
+  - key: options.css_missing_features.browser_support.description
+    t: Dukungan browser yang lebih baik untuk fitur yang sudah ada.
+  - key: options.css_missing_features.mixins
+    t: Mixins
+  - key: options.css_missing_features.mixins.description
+    t: Mengelompokkan dan menggunakan ulang definisi secara dinamis.
+  - key: options.css_missing_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_missing_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_missing_features.container_queries
+    t: Container Queries
+  - key: options.css_missing_features.container_queries.description
+    t: Membolehkan menulis gaya berdasarkan dimensi kontainer parent.
+  - key: options.css_missing_features.scoping
+    t: Scoping
+  - key: options.css_missing_features.scoping.description
+    t: Membolehkan untuk lebih spesifik dalam di mana gaya tersebut akan diaplikasikan.
+  - key: options.css_missing_features.subgrid
+    t: Subgrid
+  - key: options.css_missing_features.subgrid.description
+    t: Melakukan percabangan level subgrid yang dalam menjadi sebuah parent grid.
+
+  - key: options.css_missing_features.native_visually_hidden
+    t: Konten Tersembunyi
+  - key: options.css_missing_features.native_visually_hidden.description
+    t: Dukungan native untuk konten tersembunyi.
+
+  - key: options.css_missing_features.generated_content_alt_text
+    t: Teks Alt untuk konten buatan
+  - key: options.css_missing_features.generated_content_alt_text.description
+    t: Menambahkan teks alt untuk konten buatan (`::before`, `::after`).
+
+  - key: options.css_missing_features.animate_to_auto
+    t: Animasi ke `auto`
+  - key: options.css_missing_features.animate_to_auto.description
+    t: Melakukan animasi sebuah dimensi elemen ke `auto`.
+
+  - key: options.css_missing_features.anchored_positioning
+    t: Anchored Positioning
+  - key: options.css_missing_features.anchored_positioning.description
+    t: Memposisikan relatif elemen pada sudut dari arbitrary elemen lainnya.
+
+  - key: options.css_missing_features.wrapping_detection
+    t: Deteksi Wrapping
+  - key: options.css_missing_features.wrapping_detection.description
+    t: Melakukan deteksi saat sebuah item flex atau grid telah melewati batas ke baris lain.
+
+  - key: options.css_missing_features.more_pseudo_elements
+    t: Lebih banyak Pseudo-Element
+  - key: options.css_missing_features.more_pseudo_elements.description
+    t: Memiliki lebih dari dua pseudo-element per elemen.
+
+  - key: options.css_missing_features.svg_in_css
+    t: SVG-in-CSS
+  - key: options.css_missing_features.svg_in_css.description
+    t: Mendukung sintaks SVG di dalam kode CSS (seperti `background`).
+
+  - key: options.css_missing_features.grid_lines_styling
+    t: Grid-lines Styling
+  - key: options.css_missing_features.grid_lines_styling.description
+    t: Membolehkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
+
+  - key: options.css_missing_features.media_queries_variables
+    t: Variabel Media Query
+  - key: options.css_missing_features.media_queries_variables.description
+    t: Dapat menggunakan variabel di dalam media query.
+
+  - key: options.css_missing_features.masonry_layout
+    t: Masonry Layout
+  - key: options.css_missing_features.masonry_layout.description
+    t: Dukungan native untuk layout grid ala Pinterest.
+
+  - key: options.css_missing_features.css_toggle
+    t: CSS Toggle
+  - key: options.css_missing_features.css_toggle.description
+    t: Sebuah cara untuk menghubungkan sebuah "Nilai toggle" dengan sebuah elemen.
 
   ###########################################################################
   # Features
@@ -270,7 +359,7 @@ translations:
   - key: features.logical_properties
     t: Logical Properties
   - key: features.logical_properties.description
-    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, dll.
   - key: features.aspect_ratio
     t: <code>aspect-ratio</code>
   - key: features.content_visibility
@@ -330,7 +419,7 @@ translations:
   - key: features.direction
     t: <code>direction</code>
   - key: features.direction.description
-    t: Juga termasuk <code>dir</code> HTML attribute.
+    t: Juga termasuk atribut HTML <code>dir</code>.
 
   # animations & transformstraan
   - key: features.transitions
@@ -354,7 +443,7 @@ translations:
 
   # other features
   - key: features.variables
-    t: CSS Variables (Custom Properties)
+    t: Variabel CSS (properti khusus)
   - key: features.containment
     t: CSS Containment
   - key: features.will_change
