@@ -262,7 +262,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: Pola-pola aplikasi
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: Yang manakah dari pola-pola aplikasi dan rendering ini yang anda gunakan pada **tahun sebelumnya**?
 
   - key: options.js_app_patterns.single_page_app

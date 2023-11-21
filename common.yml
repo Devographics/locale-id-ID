@@ -138,7 +138,7 @@ translations:
   # navigation
   - key: general.table_of_contents
     t: >
-     {sectionCount} bagian ({completion}% selesai)
+      {sectionCount} bagian ({completion}% selesai)
   - key: general.all_questions_optional
     t: >
       Catatan: semua pertanyaan bersifat opsional, tidak perlu mengisi semua pertanyaan.
@@ -628,7 +628,7 @@ translations:
     t: Penduduk Asli Amerika, Penduduk Kepulauan Pasifik, atau Penduduk Asli Australia
   - key: options.race_ethnicity.not_listed
     t: Tidak disebutkan
-  
+
   - key: options.race_ethnicity.european
     t: Keturunan Eropa
   - key: options.race_ethnicity.indian
@@ -1289,7 +1289,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: Metode Belajar Pertama
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Saat pertama kali mencoba, bagaimana caramu belajar ngoding?
   - key: resources.first_steps.others
     t: Metode belajar pertama yang lain
@@ -1299,7 +1299,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blog & Majalah
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Blog/Majalah/DLL, mana yang anda baca?
   - key: resources.blogs_news_magazines.others
     t: Blog & Majalah Lainnya
@@ -1311,7 +1311,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Situs & Kursus
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Situs/Kursus/DLL, mana yang anda coba?
   - key: resources.sites_courses.others
     t: Situs & Kursus Lain
@@ -1323,7 +1323,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Podcast terkait pemrograman mana yang anda dengarkan?
   - key: resources.podcasts.others
     t: Podcast lain
@@ -1353,7 +1353,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Survei Lainnya
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Survei pengembang apa saja yang Anda ikuti?
   - key: resources.other_surveys.others
     t: Survei tambahan yang tidak disebutkan di atas
@@ -1363,7 +1363,7 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
