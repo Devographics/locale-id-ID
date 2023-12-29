@@ -32,8 +32,8 @@ translations:
 
     - key: usage.bracket_intro
       t: >
-          The next question uses a special **bracket** format! For each match-up, pick the item 
-          that you feel is most important to you (note that match-ups are randomized for every respondent). 
+          Pertanyaan berikutnya menggunakan format **bracket** yang spesial! untuk setiap pasangan, pilih item yang 
+          menurut anda paling penting untuk anda (perhatikan bahwa setiap pasangan berbeda untuk setiap partisipan). 
 
     ###########################################################################
     # Sections
@@ -46,7 +46,7 @@ translations:
     - key: sections.directives.title
       t: Directive
     - key: sections.directives.description
-      t: Augmenting your GraphQL fields. 
+      t: Meng-augment bidang-bidang GraphQL anda. 
     - key: sections.security_performance.title
       t: Keamanan & Performa
     - key: sections.security_performance.description
@@ -129,7 +129,7 @@ translations:
     - key: features.query_allowlisting
       t: Query Allow-listing
     - key: features.query_allowlisting.description
-      t: Only accept queries from a predefined list. 
+      t: Hanya menerima kueri dari sebuah daftar yang telah ditentukan. 
 
     - key: features.query_timeouts
       t: Query Timeouts
@@ -255,49 +255,49 @@ translations:
       t: Sumber data lainnya
 
     - key: usage.code_generation_type
-      t: Code Generation Type
+      t: Tipe Generasi Kode
     - key: usage.code_generation_type.description
-      t: If you use code generation, which approaches do you tend to prefer?
+      t: Jika anda menggunakan generasi kode, pendekatan mana yang anda lebih sukai?
     - key: usage.code_generation_type.others
-      t: Other types of code generation
+      t: Kode Generasi Tipe Lainnya
     - key: usage.code_generation_target
       t: Code Generation Target
     - key: usage.code_generation_target.description
-      t: Which part(s) of your codebase do you generate programatically?
+      t: Bagian mana dari kode anda yang anda buat secara otomatis?
     - key: usage.code_generation_target.others
-      t: Other code generation targets
+      t: Target generasi kode lainnya
 
     - key: usage.industry_sector_graphql
       aliasFor: usage.industry_sector
     - key: usage.industry_sector_graphql.description
-      t: Which industry sector(s) are you using GraphQL in?
+      t: Anda memakai GraphQL di sektor industri apa?
     - key: usage.industry_sector_graphql.others
       aliasFor: usage.industry_sector.others
 
     - key: usage.graphql_strong_points
-      t: GraphQL Strong Points
+      t: Poin-poin Kuat GraphQL
     - key: usage.graphql_strong_points.description
-      t: What are the main reasons why you enjoy using GraphQL?
+      t: Apa saja yang membuat anda senang menggunakan GraphQL?
     - key: usage.graphql_strong_points.others
-      t: Other GraphQL Strong Points
+      t: Poin-poin Kuat GraphQL Lainnya 
 
     - key: usage.graphql_pain_points
-      t: GraphQL Pain Points
+      t: Titik Sakit GraphQL
     - key: usage.graphql_pain_points.description
-      t: What are your main pain points when using GraphQL?
+      t: Apa saja yang menjadi penghalang anda menggunakan GraphQL?
     - key: usage.graphql_pain_points.others
-      t: Other GraphQL Pain Points
+      t: GraphQL Pain Points Lainnya
 
     - key: happiness.graphql_servers
-      t: How happy are you with the overall state of GraphQL servers?
+      t: Seberapa senang anda dengan keadaan keseluruhan dari server GraphQL?
     - key: happiness.graphql_clients
-      t: How happy are you with the overall state of GraphQL clients?
+      t: Seberapa senang anda dengan keadaan keseluruhan dari klien GraphQL?
     - key: happiness.api_generators
-      t: How happy are you with the overall state of API generators?
+      t: Seberapa senang anda dengan keadaan keseluruhan dari generator API?
     - key: happiness.schema_builders
-      t: How happy are you with the overall state of schema builders?
+      t: Seberapa senang anda dengan keadaan keseluruhan dari schema builder?
     - key: happiness.state_of_graphql
-      t: How happy are you with the overall state of the GraphQL ecosystem?
+      t: Seberapa senang anda dengan keadaan keseluruhan dari ekosistem GraphQL?
 
     ###########################################################################
     # Opinions
@@ -315,34 +315,34 @@ translations:
     - key: resources.first_steps_graphql
       t: First Steps With GraphQL
     - key: resources.first_steps_graphql.description
-      t: When first starting out, how did you initially learn GraphQL?
+      t: Ketika pertama memulai, bagaimana anda belajar GraphQL?
     - key: resources.first_steps_graphql.others
-      t: Other initial learning methods
+      t: Metode-metode belajar lainnya
 
     # sites & courses
     - key: resources.sites_courses_graphql
       aliasFor: resources.sites_courses
     - key: resources.sites_courses_graphql.description
-      t: Which GraphQL-related sites/courses/etc. do you use to learn about GraphQL?
+      t: Sumber-sumber apa saja yang berkaitan dengan GraphQL website/kursus/dll. yang anda pakai untuk mempelajari GraphQL?
 
     # podcasts
     - key: resources.podcasts_graphql.others
       aliasFor: resources.podcasts
     - key: resources.podcasts_graphql.others.description
-      t: Which GraphQL-related podcasts do you listen to?
+      t: Podcast GraphQL apa saja yang anda dengarkan?
 
     # people
     - key: resources.people_graphql.others
       aliasFor: resources.people
     - key: resources.people_graphql.others.description
-      t: People you read, follow, or just want to highlight for their work in the GraphQL ecosystem.
+      t: Orang-orang yang anda baca, ikuti, atau hanya ingin sebutkan karena karya mereka dalam ekosistem GraphQL.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.graphql_experience.range_less_than_1
-      t: Less than one year
+      t: Kurang dari satu tahun
     - key: options.graphql_experience.range_1_2
       t: 1 sampai 2 tahun
     - key: options.graphql_experience.range_3_5
@@ -353,11 +353,11 @@ translations:
       t: Lebih dari 10 tahun
 
     - key: options.api_type.public_apis
-      t: Publicly-available APIs intended for third-party developers
+      t: API yang tersedia secara umum untuk para pengembang pihak ketiga
     - key: options.api_type.personal_apis
-      t: Exposed APIs intended for your own website and/or apps
+      t: API terbuka untuk website dan/atau aplikasi anda
     - key: options.api_type.private_apis
-      t: Private, unexposed APIs for internal usage
+      t: API tertutup dan pribadi untuk pemakaian internal internal 
       
     - key: options.client_type.browsers
       t: Browser
@@ -381,10 +381,10 @@ translations:
     - key: options.data_sources.other_graphql_apis
       t: API GraphQL lainnya 
     - key: options.data_sources.other_api_protocols
-      t: Protokol API lainnya (gRPC, SOAP, Apache Thrift, etc.)
+      t: Protokol API lainnya (gRPC, SOAP, Apache Thrift, dll.)
 
     - key: options.code_generation_type.code_first
-      t: Kode duluan (JS, TS, JSON, etc.)
+      t: Kode duluan (JS, TS, JSON, dll.)
     - key: options.code_generation_type.schema_first
       t: Schema duluan (GraphQL SDL-first)
     - key: options.code_generation_type.database_first
@@ -474,11 +474,11 @@ translations:
     - key: options.first_steps_graphql.on_the_job
       t: Praktik Kerja Lapangan
     - key: options.first_steps_graphql.self_directed
-      t: Pembelajaran mandiri (Google, Stack Overflow, etc.)
+      t: Pembelajaran mandiri (Google, Stack Overflow, dll.)
     - key: options.first_steps_graphql.mentoring
       t: Pementoran
     - key: options.graphql_pain_points.client_side_caching.description
-      t: Caching data klien, memperbarui cache, UI optimistik, etc. 
+      t: Caching data klien, memperbarui cache, UI optimistik, dll. 
 
     # learning methods
     - key: options.first_steps_graphql.books
