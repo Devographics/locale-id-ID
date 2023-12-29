@@ -1,0 +1,490 @@
+locale: id-ID
+namespace: graphql
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.state_of_graphql.intro
+      t: |
+          Sejak dibuat di Facebook pada September 2015, banyak pengembang telah merangkul GraphQL sebagai sebuah cara baru yang menjanjikan untuk membuat API. 
+
+          Namun masih banyak pertanyaan: sebenarnya kapan anda membutuhkan GraphQL? Haruskah anda menulis kode API GraphQL dengan tangan atau membuatnya dari database anda? dan apakah akankah GraphQL menggantikan REST?
+
+          Survei pengembang State of GraphQL tahunan bertujuan untuk menjawab pertanyaan-pertanyaan ini, dan lebih banyak lagi!
+
+    - key: general.state_of_graphql.description
+      t: Survei pengembang tahunan dari ekosistem GraphQL
+    ###########################################################################
+    # Survey
+    ###########################################################################
+
+    - key: features.graphql_features_intro
+      t: >
+          Selamat datang di survei ini! Bagian pertama ini adalah tentang 
+          **fitur-fitur** dan ekosistem GraphQL mana yang anda ketahui. 
+          Dan jika anda mengetahui sesuatu namun belum pernah menggunakannya, itu juga tidak apa-apa!
+
+    - key: tools.graphql_tools_intro
+      t: >
+          Bagian-bagian selanjutnya berfokus pada **library** dan **layanan** yang menjadi bagian
+          dari ekosistem GraphQL. Beri tahu kami apa yang membuat anda bersemangat!
+
+    - key: usage.bracket_intro
+      t: >
+          Pertanyaan berikutnya menggunakan format **bracket** yang spesial! untuk setiap pasangan, pilih item yang 
+          menurut anda paling penting untuk anda (perhatikan bahwa setiap pasangan berbeda untuk setiap partisipan). 
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.graphql_language.title
+      t: Bahasa
+    - key: sections.graphql_language.description
+      t: Kosakata GraphQL.
+    - key: sections.directives.title
+      t: Directive
+    - key: sections.directives.description
+      t: Meng-augment bidang-bidang GraphQL anda. 
+    - key: sections.security_performance.title
+      t: Keamanan & Performa
+    - key: sections.security_performance.description
+      t: Membuat API anda lebih kokoh. 
+    - key: sections.other_features.title
+      t: Fitur-fitur lain
+
+    - key: sections.graphql_servers.title
+      t: Server GraphQL 
+    - key: sections.graphql_servers.description
+      t: Bagaimana anda memberdayakan API anda.
+    - key: sections.graphql_clients.title
+      t: Klien GraphQL 
+    - key: sections.graphql_clients.description
+      t: Membuat kueri ke API anda. 
+    - key: sections.api_generators.title
+      t: Generator API 
+    - key: sections.api_generators.description
+      t: Berbagai ORM, CMS, dan alat-alat lainnya yang membuat sebuah API untuk anda. 
+    - key: sections.web_frameworks.title
+      t: Framework web
+    - key: sections.web_frameworks.description
+      t: Framework web yang anda gunakan bersama dengan GraphQL. 
+    - key: sections.graphql_code_generators.title
+      t: Generator kode dan skema
+    - key: sections.graphql_code_generators.description
+      t: Generator, pembangun skema, dan library lain yang menulis sebagian kode anda. 
+    - key: sections.schema_builders.title
+      t: Pembangun skema
+    - key: sections.schema_builders.description
+      t: Libraries dan alat-alat yang membantu anda membuat sebagian atau keseluruhan skema GraphQL anda.
+    - key: sections.usage_graphql.title
+      t: Penggunaan GraphQL 
+    - key: sections.usage_graphql.description
+      t: Bagaimana anda menggunakan GraphQL. 
+
+    - key: sections.tools_others.title
+      t: Alat-alat lain
+    - key: sections.tools_others.description
+      t: Alat-alat GraphQL lainnya.
+
+    - key: sections.resources_graphql.title
+      t: Sumber-sumber
+    - key: sections.resources_graphql.description
+      t: Sumber-sumber GraphQL apakah yang anda konsultasikan?
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # common features
+    - key: features.custom_directives
+      t: Directive custom
+    - key: features.custom_scalars
+      t: Scalar custom
+    - key: features.fragments
+      t: Fragment
+    - key: features.unions
+      t: Union
+    - key: features.interfaces
+      t: Interface
+
+    # directives
+    - key: features.at_skip
+      t: '@skip'
+    - key: features.at_include
+      t: '@include'
+    - key: features.at_deprecated
+      t: '@deprecated'
+    - key: features.at_specified_by
+      t: '@specifiedBy'
+    - key: features.at_defer
+      t: '@defer'
+    - key: features.at_stream
+      t: '@stream'
+
+    # security & performance
+    - key: features.persisted_queries
+      t: Persisted Queries
+    - key: features.query_allowlisting
+      t: Query Allow-listing
+    - key: features.query_allowlisting.description
+      t: Hanya menerima kueri dari sebuah daftar yang telah ditentukan. 
+
+    - key: features.query_timeouts
+      t: Query Timeouts
+    - key: features.query_rate_limit
+      t: Pembatasan Tingkat #rate# Kueri 
+    - key: features.query_depth_limit
+      t: Pembatasan Kedalaman Kueri 
+    - key: features.query_amount_limit
+      t: Pembatasan Jumlah Kueri 
+    - key: features.query_amount_limiting.description
+      t: Membatasi jumlah pagination yang dimasukan sebagai argumen kueri. 
+    - key: features.query_cost_analysis
+      t: Analisa Harga Kueri
+    - key: features.query_cost_analysis.description
+      t: Menganalisa sejumlah faktor sebelum memutuskan untuk memperbolehkan sebuah kueri.
+
+    - key: features.disabling_introspection
+      t: Mematikan Introspection
+    - key: features.disabling_introspection.description
+      t: Mematikan introspection dalam produksi.
+    - key: features.ip_allowlisting
+      t: IP Allow-listing
+    - key: features.ip_allowlisting.description
+      t: Hanya memperbolehkan alamat IP tertentu untuk mengakses sebuah API. 
+    - key: features.require_authentication
+      t: Memerlukan Otentikasi
+    - key: features.require_authentication.description
+      t: Mengharuskan otentikasi sebelum mengakses API.
+      
+    # other features
+    - key: features.graphql_subscriptions
+      t: GraphQL Subscriptions
+    - key: features.live_queries
+      t: Live Queries
+    - key: features.apollo_federation
+      t: Apollo Federation
+    - key: features.schema_stitching
+      t: Schema Stitching
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.no_client
+      t: Tanpa klien
+    - key: tools.no_client.description
+      t: Tanpa klien GraphQL khusus (Request HTTP dengan Fetch, Axios, dll.)
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.server_languages
+      t: Bahasa Server
+    - key: tools_others.server_languages.description
+      t: Bahasa-bahasa apa yang anda pakai untuk menulis back-end GraphQL anda?
+    - key: tools_others.server_languages.others
+      t: Bahasa Server Lainnya
+
+    - key: tools_others.combining_schemas
+      t: Mengkombinasikan Schema
+    - key: tools_others.combining_schemas.description
+      t: Alat-alat apakah yang anda gunakan untuk mengkombinasikan, mengumpulkan, atau menggabungkan schema GraphQL dari API yang berbeda?
+    - key: tools_others.combining_schemas.others
+      t: Alat-alat lain untuk mengkombinasikan schema
+
+    - key: tools_others.graphql_ides
+      t: IDE GraphQL 
+    - key: tools_others.graphql_ides.description
+      t: Aplikasi dan layanan yang membantu anda membuat kueri untuk API GraphQL anda. 
+    - key: tools_others.graphql_ides.others
+      t: IDE GraphQL Lainnya
+
+    - key: tools_others.web_frameworks
+      t: Framework web
+    - key: tools_others.web_frameworks.description
+      t: Framework web yang anda gunakan bersama dengan GraphQL. 
+    - key: tools_others.web_frameworks.others
+      t: Framework Web lainnya
+
+    - key: tools_others.databases
+      t: Database
+    - key: tools_others.databases.description
+      t: Database yang manakah yang anda gunakan bersama dengan GraphQL?
+    - key: tools_others.databases.others
+      t: Database lain
+
+    - key: tools_others.other_tools
+      t: Alat-alat GraphQL Lainnya
+    - key: tools_others.other_tools.description
+      t: Other tools, libraries, or services you use
+    - key: tools_others.other_tools.others
+      t: Alat-alat GraphQL lainnya yang tidak disebutkan sebelumnya
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
+    - key: usage.graphql_experience
+      t: Pengalaman GraphQL 
+    - key: usage.graphql_experience.description
+      t: Seberapa lama anda telah menggunakan GraphQL?
+
+    - key: usage.api_type
+      t: Tipe API 
+    - key: usage.api_type.description
+      t: Untuk jenis API apa anda menggunakan GraphQL?
+    - key: usage.api_type.others
+      t: Jenis API lain
+
+    - key: usage.client_type
+      t: Klien API 
+    - key: usage.client_type.description
+      t: Klien apa yang anda gunakan untuk menyambung dengan API?
+    - key: usage.client_type.others
+      t: Tipe klien lainnya
+
+    - key: usage.data_sources
+      t: Sumber data
+    - key: usage.data_sources.description
+      t: Jenis sumber data apa saja yang dikonsumsi oleh API GraphQL anda?
+    - key: usage.data_sources.others
+      t: Sumber data lainnya
+
+    - key: usage.code_generation_type
+      t: Tipe Generasi Kode
+    - key: usage.code_generation_type.description
+      t: Jika anda menggunakan generasi kode, pendekatan mana yang anda lebih sukai?
+    - key: usage.code_generation_type.others
+      t: Kode Generasi Tipe Lainnya
+    - key: usage.code_generation_target
+      t: Code Generation Target
+    - key: usage.code_generation_target.description
+      t: Bagian mana dari kode anda yang anda buat secara otomatis?
+    - key: usage.code_generation_target.others
+      t: Target generasi kode lainnya
+
+    - key: usage.industry_sector_graphql
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_graphql.description
+      t: Anda memakai GraphQL di sektor industri apa?
+    - key: usage.industry_sector_graphql.others
+      aliasFor: usage.industry_sector.others
+
+    - key: usage.graphql_strong_points
+      t: Poin-poin Kuat GraphQL
+    - key: usage.graphql_strong_points.description
+      t: Apa saja yang membuat anda senang menggunakan GraphQL?
+    - key: usage.graphql_strong_points.others
+      t: Poin-poin Kuat GraphQL Lainnya 
+
+    - key: usage.graphql_pain_points
+      t: Titik Sakit GraphQL
+    - key: usage.graphql_pain_points.description
+      t: Apa saja yang menjadi penghalang anda menggunakan GraphQL?
+    - key: usage.graphql_pain_points.others
+      t: GraphQL Pain Points Lainnya
+
+    - key: happiness.graphql_servers
+      t: Seberapa senang anda dengan keadaan keseluruhan dari server GraphQL?
+    - key: happiness.graphql_clients
+      t: Seberapa senang anda dengan keadaan keseluruhan dari klien GraphQL?
+    - key: happiness.api_generators
+      t: Seberapa senang anda dengan keadaan keseluruhan dari generator API?
+    - key: happiness.schema_builders
+      t: Seberapa senang anda dengan keadaan keseluruhan dari schema builder?
+    - key: happiness.state_of_graphql
+      t: Seberapa senang anda dengan keadaan keseluruhan dari ekosistem GraphQL?
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    # - key: opinions.graphql_better_than_rest
+    #   t: GraphQL is superior to REST
+    # - key: opinions.always_prefer_graphql_apis
+    #   t: I always prefer working with GraphQL APIs
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps_graphql
+      t: First Steps With GraphQL
+    - key: resources.first_steps_graphql.description
+      t: Ketika pertama memulai, bagaimana anda belajar GraphQL?
+    - key: resources.first_steps_graphql.others
+      t: Metode-metode belajar lainnya
+
+    # sites & courses
+    - key: resources.sites_courses_graphql
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_graphql.description
+      t: Sumber-sumber apa saja yang berkaitan dengan GraphQL website/kursus/dll. yang anda pakai untuk mempelajari GraphQL?
+
+    # podcasts
+    - key: resources.podcasts_graphql.others
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_graphql.others.description
+      t: Podcast GraphQL apa saja yang anda dengarkan?
+
+    # people
+    - key: resources.people_graphql.others
+      aliasFor: resources.people
+    - key: resources.people_graphql.others.description
+      t: Orang-orang yang anda baca, ikuti, atau hanya ingin sebutkan karena karya mereka dalam ekosistem GraphQL.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.graphql_experience.range_less_than_1
+      t: Kurang dari satu tahun
+    - key: options.graphql_experience.range_1_2
+      t: 1 sampai 2 tahun
+    - key: options.graphql_experience.range_3_5
+      t: 3 sampai 5 tahun
+    - key: options.graphql_experience.range_6_10
+      t: 6 sampai 10 tahun
+    - key: options.graphql_experience.range_more_than_10
+      t: Lebih dari 10 tahun
+
+    - key: options.api_type.public_apis
+      t: API yang tersedia secara umum untuk para pengembang pihak ketiga
+    - key: options.api_type.personal_apis
+      t: API terbuka untuk website dan/atau aplikasi anda
+    - key: options.api_type.private_apis
+      t: API tertutup dan pribadi untuk pemakaian internal internal 
+      
+    - key: options.client_type.browsers
+      t: Browser
+    - key: options.client_type.mobile_devices
+      t: Aplikasi Mobile Native
+    - key: options.client_type.desktop_apps
+      t: Aplikasi Desktop Native
+    - key: options.client_type.other_servers
+      t: Server lain
+
+    - key: options.data_sources.static_files
+      t: File statis (YAML, Markdown, dll.)
+    - key: options.data_sources.databases
+      t: Database
+    - key: options.data_sources.spreadsheets
+      t: Spreadsheet
+    - key: options.data_sources.cmses
+      t: CMS
+    - key: options.data_sources.rest_apis
+      t: REST API (Swagger/OpenAPI, json-schema, oData, dll.)
+    - key: options.data_sources.other_graphql_apis
+      t: API GraphQL lainnya 
+    - key: options.data_sources.other_api_protocols
+      t: Protokol API lainnya (gRPC, SOAP, Apache Thrift, dll.)
+
+    - key: options.code_generation_type.code_first
+      t: Kode duluan (JS, TS, JSON, dll.)
+    - key: options.code_generation_type.schema_first
+      t: Schema duluan (GraphQL SDL-first)
+    - key: options.code_generation_type.database_first
+      t: Database duluan
+
+    - key: options.code_generation_target.graphql_schema
+      t: GraphQL schema (SDL)
+    - key: options.code_generation_target.non_graphql_typings
+      t: Non-GraphQL (e.g. TypeScript) typings
+    - key: options.code_generation_target.server_resolvers
+      t: Server resolvers
+    - key: options.code_generation_target.fragments_or_queries
+      t: Fragmen dan/atau kueri klien
+    - key: options.code_generation_target.client_code
+      t: Kode sisi klien lainnya (misalnya hook React)
+
+    - key: options.graphql_strong_points.avoiding_overfetching
+      t: Avoiding Over-fetching
+    - key: options.graphql_strong_points.avoiding_overfetching.description
+      t: Keep API responses smaller by specifying exactly the data you need. 
+    - key: options.graphql_strong_points.introspection
+      t: Introspection & API Documentation
+    - key: options.graphql_strong_points.introspection.description
+      t: Create self-documenting APIs that improve the developer experience.
+    - key: options.graphql_strong_points.tooling_ecosystem
+      t: Tooling & Ecosystem
+    - key: options.graphql_strong_points.tooling_ecosystem.description
+      t: The different tools, services, and libraries that use GraphQL. 
+    - key: options.graphql_strong_points.type_checking
+      t: Type-checking
+    - key: options.graphql_strong_points.type_checking.description
+      t: Enforcing and validating types for every object in the API. 
+    - key: options.graphql_strong_points.api_aggregation
+      t: Combining Different APIs
+    - key: options.graphql_strong_points.api_aggregation.description
+      t: Being able to combine together different API schemas. 
+    - key: options.graphql_strong_points.aggregating_requests
+      t: Aggregating Requests
+    - key: options.graphql_strong_points.aggregating_requests.description
+      t: Only ever have to make a single request from the client.
+    - key: options.graphql_strong_points.community
+      t: Community
+    - key: options.graphql_strong_points.community.description
+      t: The people who are active in the GraphQL space. 
+    - key: options.graphql_strong_points.fragment_colocation
+      t: Fragment Colocation
+    - key: options.graphql_strong_points.fragment_colocation.description
+      t: Being able to colocate a component's data requirements next to it. 
+
+    - key: options.graphql_pain_points.performance
+      t: Performa
+    - key: options.graphql_pain_points.performance.description
+      t: Masalah performa misalnya masalah n+1. 
+    - key: options.graphql_pain_points.security
+      t: Keamanan
+    - key: options.graphql_pain_points.security.description
+      t: Masalah keamanan misalnya kueri yang berlanjut tanpa batas. 
+    - key: options.graphql_pain_points.combining_schemas
+      t: Mengkombinasikan Schema Yang Berbeda
+    - key: options.graphql_pain_points.combining_schemas.description
+      t: Kemampuan untuk menggabungkan Schema API yang berbeda. 
+    - key: options.graphql_pain_points.api_versioning
+      t: API Versioning
+    - key: options.graphql_pain_points.api_versioning.description
+      t: Handling deprecated fields and other versioning concerns. 
+    - key: options.graphql_pain_points.file_upload
+      t: Pengunggahan File 
+    - key: options.graphql_pain_points.file_upload.description
+      t: Kemampuan untuk mengunggah file lewat API GraphQL anda. 
+    - key: options.graphql_pain_points.testing
+      t: Pengujian
+    - key: options.graphql_pain_points.testing.description
+      t: Menguji API GraphQL anda. 
+    - key: options.graphql_pain_points.error_handling
+      t: Penanganan Error
+    - key: options.graphql_pain_points.error_handling.description
+      t: Mengembalikan error dan menanganinya pada klien. 
+    - key: options.graphql_pain_points.client_side_caching
+      t: Client-side Caching
+    - key: options.graphql_pain_points.client_side_caching.description
+      t: Caching data klien, memperbarui cache, UI optimistik, dll. 
+
+    # learning methods
+    - key: options.first_steps_graphql.books
+      t: Buku
+    - key: options.first_steps_graphql.videos
+      t: Video & siaran
+    - key: options.first_steps_graphql.school
+      t: Sekolah & pendidikan yang lebih tinggi 
+    - key: options.first_steps_graphql.courses_free
+      t: Kursus daring (free)
+    - key: options.first_steps_graphql.courses_paid
+      t: Kursus daring (paid)
+    - key: options.first_steps_graphql.podcasts
+      t: Podcast
+    - key: options.first_steps_graphql.bootcamp
+      t: Bootcamp Koding
+    - key: options.first_steps_graphql.on_the_job
+      t: Praktik Kerja Lapangan
+    - key: options.first_steps_graphql.self_directed
+      t: Pembelajaran mandiri (Google, Stack Overflow, dll.)
+    - key: options.first_steps_graphql.mentoring
+      t: Pementoran
