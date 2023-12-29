@@ -463,7 +463,18 @@ translations:
     - key: options.graphql_pain_points.error_handling.description
       t: Mengembalikan error dan menanganinya pada klien. 
     - key: options.graphql_pain_points.client_side_caching
-      t: Client-side Cachingeps_graphql.courses_free
+      t: Client-side Caching
+    - key: options.graphql_pain_points.client_side_caching.description
+      t: Caching data klien, memperbarui cache, UI optimistik, dll. 
+
+    # learning methods
+    - key: options.first_steps_graphql.books
+      t: Buku
+    - key: options.first_steps_graphql.videos
+      t: Video & siaran
+    - key: options.first_steps_graphql.school
+      t: Sekolah & pendidikan yang lebih tinggi 
+    - key: options.first_steps_graphql.courses_free
       t: Kursus daring (free)
     - key: options.first_steps_graphql.courses_paid
       t: Kursus daring (paid)
@@ -477,14 +488,3 @@ translations:
       t: Pembelajaran mandiri (Google, Stack Overflow, dll.)
     - key: options.first_steps_graphql.mentoring
       t: Pementoran
-    - key: options.graphql_pain_points.client_side_caching.description
-      t: Caching data klien, memperbarui cache, UI optimistik, dll. 
-
-    # learning methods
-    - key: options.first_steps_graphql.books
-      t: Buku
-    - key: options.first_steps_graphql.videos
-      t: Video & siaran
-    - key: options.first_steps_graphql.school
-      t: Sekolah & pendidikan yang lebih tinggi 
-    - key: options.first_st
