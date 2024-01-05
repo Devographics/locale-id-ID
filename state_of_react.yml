@@ -106,6 +106,162 @@ translations:
   - key: tools.state_management_heading
     t: Library Pengelolaan State 
 
+    # features
+
+  - key: features.main_apis_pain_points
+    t: Titik Sakit API Utama
+  - key: features.main_apis_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan API-API yang disebutkan di atas?
+
+  - key: features.hooks_pain_points
+    t: Titik Sakit Hook
+  - key: features.hooks_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan hook?
+
+  - key: features.new_apis_pain_points
+    t: Titik Sakit API baru
+  - key: features.new_apis_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan API baru?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, seringkali digunakan dengan sintaks `<>...</>`, memungkinkan anda mengelompokkan elemen tanpa sebuah node pembungkus.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` memungkinkan anda mengukur performa rendering dari sebuah pohon React secara terprogram.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` memungkinkan anda menemukan bug umum dalam komponen anda pada awal pengembangan.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` memungkinkan anda me-render beberapa anak ke bagian DOM yang berbeda.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` memungkinkan anda membuat sebuah konteks yang dapat dibaca atau diberikan sebuah komponen.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` memungkinkan komponen anda untuk mengekspos sebuah node DOM ke sebuah komponen orang tua dengan sebuah ref.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` memungkinkan anda menunda pemuatan kode sebuah komponen sampai komponen tersebut dirender untuk pertama kali.
+
+  - key: features.memo.description
+    t: >
+      `memo` memungkinkan anda melewati perenderan ulang sebuah komponen ketika prop komponen tersebut tidak berubah.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` memungkinkan anda membuat sebuah root untuk menampilkan komponen React di dalam sebuah node DOM di browser.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` memungkinkan anda menampilkan komponen React dalam sebuah node DOM di browser yang konten HTML-nya sebelumnya dibuat oleh `react-dom/server`.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` adalah sebuah Hook React yang memungkinkan anda meng-cache sebuah definisi fungsi between re-renders.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` adalah sebuah Hook React yang memungkinkan anda membaca dan berlangganan ke sebuah context dari komponen anda.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah label ke sebuah Hook custom di React DevTools.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` adalah sebuah Hook React yang memungkinkan anda menunda pembaruan sebagian dari UI.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` adalah sebuah Hook React yang memungkinkan anda mensinkronkan sebuah komponen dengan sebuah sistem eksternal.
+
+  - key: features.useid.description
+    t: >
+      `useId` adalah sebuah Hook React untuk membuat ID unik yang dapat digunakan untuk berbagai atribut aksesibilitas.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` adalah sebuah Hook React yang memungkinkan anda meng-cache hasil dari sebuah kalkulasi di antara perenderan ulang.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah reducer ke komponen anda.
+
+  - key: features.useref.description
+    t: >
+      `useRef` adalah sebuah Hook React yang memungkinkan anda mengakses sebuah nilai yang tidak diperlukan untuk perenderan.
+
+  - key: features.usestate.description
+    t: >
+      `useState` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah variabel state ke komponen anda.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` adalah sebuah Hook React yang memungkinkan anda berlangganan ke sebuah store eksternal.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` adalah sebuah Hook React yang memungkinkan anda memperbarui state tanpa memblokir UI.
+
+    # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` memungkinkan anda menampilkan sebuah a fallback sampai anak selesai dimuat.
+
+  - key: features.use_hook.description
+    t: >
+      `use` adalah sebuah Hook React that memungkinkan anda membaca nilai dari sebuah sumber daya seperti sebuah Promise context.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` adalah sebuah Hook React that memungkinkan anda memperbarui state tanpa memblokir UI.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` memungkinkan anda memperbarui state tanpa memblokir UI.
+
+  - key: features.react_server_components.description
+    t: >
+      Komponen yang berjalan hanya di server.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` menandakan berkas sumber yang komponennya dieksekusi di klien.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` menandakan fungsi sisi server yang dapat dipanggil dari kode sisi klien.
+
+  - key: features.server_actions.description
+    t: 
+      Solusi bawaan React untuk mutasi server.
+
+  - key: features.taint_api.description
+    t: >
+      Mencegah sebuah objek atau nilai spesifik dimasukkan ke sebuah Komponen Klien.
+
+  - key: features.cache.description
+    t: >
+      `cache` memungkinkan anda meng-cache hasil dari pengambilan atau komputasi data.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` adalah sebuah Hook yang memberikan anda informasi status dari submisi form yang terakhir.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` adalah sebuah Hook yang memungkinkan anda memperbarui state berdasarkan hasil dari sebuah aksi form.
+
   # tools
 
   - key: tools.component_libraries_others
