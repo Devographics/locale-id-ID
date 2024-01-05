@@ -28,51 +28,67 @@ translations:
       ekosistem React. Beri tahu kami apa yang membuat anda bersemangat!
 
   # sections
-  - key: sections.components.title
-    t: Komponen
+  - key: sections.main_apis.title
+    t: API utama
   - key: sections.components.description
-    t: Komponen-komponen spesial yang diberikan React
+    t: Fitur-fitur React yang stabil dan
+
   - key: sections.hooks.title
     t: Hook
   - key: sections.hooks.description
     t: Hook bawaan React
-  - key: sections.other_apis.title
-    t: API-API lain
-  - key: sections.other_apis.description
-    t: API-API dan fitur-fitur lain
-  - key: sections.component_apis.title
-    t: API-API komponen
-  - key: sections.component_apis.description
-    t: API-API untuk memanipulasi komponen
-  - key: sections.legacy_apis.title
-    t: API-API lama
-  - key: sections.legacy_apis.description
-    t: API-API lama dan usang
 
+  - key: sections.new_apis.title
+    t: API-API baru 
+  - key: sections.other_apis.description
+    t: Fitur-fitur baru atau ekperimental
+
+  - key: sections.component_libraries.title
+    t: Library komponen
+  - key: sections.component_apis.description
+    t: Penyusun paling dasar dari front-end anda
+
+  # - key: sections.data_management.title
+  #   t: Data Management
+  # - key: sections.data_management.description
+  #   t: Loading and managing application data
+ 
   - key: sections.state_management.title
     t: Pengelolaan State
   - key: sections.state_management.description
     t: Library untuk mengelola state aplikasi
+
   - key: sections.data_loading.title
     t: Pemuatan Data
   - key: sections.data_loading.description
     t: Alat-alat untuk memuat dan mengelola data
-  - key: sections.ui_libraries.title
-    t: Library UI
-  - key: sections.ui_libraries.description
-    t: Library komponen dan UI lainnya.
-  - key: sections.meta_frameworks.title
-    t: Meta Framework
-  - key: sections.meta_frameworks.description
-    t: Framework untuk membantu merender dan menyajikan aplikasi React anda
-  - key: sections.testing.title
-    t: Pengetesan
-  - key: sections.testing.description
-    t: Alat-alat dan library pengetesan
-  - key: sections.mobile_development.title
-    t: Pengembangan seluler
-  - key: sections.mobile_development.description
-    t: Library dan alat-alat untuk pengembangan seluler
+
+  - key: sections.back_end_infrastructure.title
+    t: Back-End & Infrastruktur
+  - key: sections.back_end_infrastructure.description
+    t: Bundling & menyajikan aplikasi anda
+
+  # - key: sections.usage.title
+  #   t: Back-End & Infrastructure
+  # - key: sections.usage.description
+  #   t: Bundling & serving your app
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: Library UI
+  # - key: sections.ui_libraries.description
+  #   t: Library komponen dan UI lainnya.
+    #
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Framework
+  # - key: sections.meta_frameworks.description
+  #   t: Framework untuk membantu merender dan menyajikan aplikasi React anda
+    #
+  # - key: sections.testing.title
+  #   t: Pengetesan
+  # - key: sections.testing.description
+  #   t: Alat-alat dan library 
 
   - key: sections.other_tools.title
     t: Alat-alat lainnya
@@ -83,6 +99,12 @@ translations:
     t: Penggunaan
   - key: sections.usage_react.description
     t: Bagaimana anda menggunakan React setiap harinya
+
+  - key: tools.data_loading_heading
+    t: Library Pemuatan Data 
+
+  - key: tools.state_management_heading
+    t: Library Pengelolaan State 
 
   # tools
 
@@ -383,3 +405,28 @@ translations:
     t: Langkah-langkah pertama
   - key: resources.first_steps_react.description
     t: Sumber-sumber mana yang anda gunakan untuk pertama kali belajar React?
+
+  - key: resources.blogs_news_magazines_react
+    t: Blog & Buletin
+  - key: resources.blogs_news_magazines_react.question
+    t: Blog, majalah, atau buletin mana yang anda konsultasikan untuk mengikuti berita React?
+
+  - key: resources.sites_courses_react
+    t: Situs & Kursus
+  - key: resources.sites_courses_react.question
+    t: Situs atau kursus mana yang anda gunakan untuk mempelajari React?
+
+  - key: resources.podcasts_react
+    t: Podcast
+  - key: resources.podcasts_react.question
+    t: Podcast React atau pengembangan web mana yang anda dengarkan?
+
+  - key: resources.video_creators_react
+    t: Kreator Video 
+  - key: resources.video_creators_react.question
+    t: Kreator video React atau pengembangan web mana yang anda tonton di YouTube, Twitch, dll.?
+
+  - key: resources.people_react
+    t: Orang-orang
+  - key: resources.people_react.question
+    t: Siapa yang anda baca, ikuti, atau hanya ingin soroti dalam komunitas React?
