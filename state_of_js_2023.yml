@@ -6,10 +6,10 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+    t: Edisi 2023 dari survei tahunan tentang tren-tren terkini di ekosistem JavaScript.
 
   - key: general.livestream_announcement
-    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+    t: Make sure to tune in untuk [siaran langsung hasil survei spesial kita](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (English)
 
   ###########################################################################
   # Introduction
@@ -18,21 +18,21 @@ translations:
   - key: introduction.js2023
     t: |
 
-      <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo. 
+      <span class="first-letter">S</span>etelah bertahun-tahun yang relatif stabil, sekarang banyak yang mempertanyakan status quo. 
 
-      New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client. 
+      Banyak framework front-end seperti Solid dan Qwik yang mengusulkan bahwa React mungkin pada akhirnya jawaban untuk semuanya, dan di sisi server Astro, Remix dan Next.js (dan yang lain-lainnya) membuat kita mempertimbangkan lagi seberapa banyak kode yang kita harus kirimkan ke klien. 
 
-      We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount! 
+      Kita akan memerlukan banyak data jika kita ingin mengerti akan semua ini, dan faktanya survei tahun ini menerima **39,472** respons, hampir dua kali dari jumlah tahun lalu!
 
-      Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
+      Karena audiens yang lebih banyak ini anda mungkin akan melihat hasil yang tak terdua, misalnya beberapa fitur yang menurun tahun demi tahun dalam hal kesadaran atau penggunaan. 
 
-      But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by income, country, gender, and many other demographic variables. 
+      Namun memiliki lebih banyak data dapat berarti pemahaman baru, dan itulah kenapa kami telah mengembangkan dua cara baru untuk berinteraksi dengan dataset kami: **Data Explorer** memungkinkan anda cross-reference dua variabel dan menyorot any outlying results; sementara **Chart Filters** memungkinkan anda menyaring bagan yang spesifik menurut pendapatan, negara, gender, dan banyak variabel demografik lainnya. 
 
-      We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
+      Kami juga telah mengganti kategori "back-end" yang umum dengan halaman **Rendering Frameworks** yang lebih spesifik dan menambahkan sebuah daftar baru berjudul **Video Creators** ke bagian Sumber daya. 
 
-      Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
+      Akhirnya, pertanyaan Features dan Libraries juga memiliki sebuah popup **Comments** yang memungkinkan anda melihat komentar orang lain tentang item-item yang disebutkan dalam survei!
 
-      With all this out of the way, let's discover what JavaScript has been up to in 2022!
+      Dengan semua ini, mari kita lihat apa yang telah dilakukan JavaScript selama 2023!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -41,38 +41,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Kaos
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of JavaScript T-Shirt
+      ## Dukung Survei ini Dengan Kaos State Of JavaScript 
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      Di antara kualitas video yang buruk, kaset yang besar, dan harus memutar balik, tidak ada yang dapat dirindukan dari era VHS. Namun satu hal yang kami *rindukan* adalah visual 90an yang dulu menghiasi kaset VHS yang kosong. 
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+      Namun, berkat dari seniman bertalenta Christopher Kirk-Nielsen anda dapat menikmati semua kekerenan retro ini sambil juga merayakan kecintaan anda akan JavaScript dalam waktu yang bersamaan!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Tentang kaos ini
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Kami menggunakan kaos tri-blend berkualitas tinggi yang sangat lembut dengan bentuk ramping yang dicetak dari mitra kami di Cotton Bureau.
 
   - key: tshirt.getit
-    t: Get It
+    t: Dapatkan
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $29 + pengiriman
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Tentang perancang kaos
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
