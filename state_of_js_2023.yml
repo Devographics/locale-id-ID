@@ -80,37 +80,37 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year, **39,471** respondents took part in the survey. And in order
-      to help highlight different voices and surface deeper insights, we made a special
-      effort to provide new ways to break our data down.
+      Tahun ini, sebanyak **39,471** responden mengambil bagian dalam survei ini. dan untuk
+      membantu menyorot suara-suara yang berbeda dan surface deeper insights, kami mengupayakan secara khusus
+      untuk membuat cara-cara baru untuk memecah data kami.
 
   - key: sections.features.description
     t: |
-      JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels.
+      JavaScript mungkin bergerak cepat, namun kelihatannya pengembang JavaScript bergerak lebih cepat lagi, karena banyak fitur-fitur relatif baru yang menunjukkan tingkat penggunaan yang tinggi.
 
   - key: sections.technologies.description
     t: |
-      This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem.
+      Hasil tahun ini menunjukkan tingginya tingkat perpecahan di dunia JavaScript. Terkadang ini dapat membuat kesulitan, namun kompetisi membuat sebuah ekosistem yang sangat dinamis.
 
   - key: sections.tools_others.description
     t: |
-      Picking a technology can often come down to a series of tough choices between 
-      competing priorities, and this year we tried to capture this process using a new bracket-style question format.
+      Memilih sebuah teknologi dapat berujung pada rentetan pilihan yang sulit di antara 
+      prioritas yang berlawanan, dan tahun ini kami berusaha untuk menangkap proses ini menggunakan sebuah format pertanyaan berpasangan.
 
   - key: sections.environments.description
     t: |
-      Accessibility has long been an after-thought when it comes to web development, but many developers
-      are now realizing that it should in fact be the foundation on which everything else rests.
+      Aksesibilitas telah lama menjadi hal yang tidak dipikirkan dalam pengembangan web, namun banyak pengembang
+      yang baru menyadari bahwa faktanya hal tersebut seharusnya menjadi dasar yang diatasnya hal-hal lain dibangun.
 
   - key: sections.resources.description
     t: |
-      Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
-      and actually feature the people who make up the JavaScript community!
+      Menyoroti blog, podcast, dan situs web adalah awal yang bagus, namun tahun ini kami memutuskan untuk mengambil satu langkah lebih jauh lagi 
+      dan menampilkan orang-orang yang membentuk komunitas JavaScript!
 
   - key: sections.opinions.description
     t: |
-      Whether it's pain points that hold you back today, or missing features that you hope to use
-      tomorrow, this was your chance to vent and share your gripes with JavaScript!
+      Baik itu titik sakit yang menghalangi anda saat ini, atau fitur baru yang anda ingin lihat 
+      esok hari, ini adalah kesempatan anda untuk curhat dan berbagi keluh kesah anda dengan JavaScript!
 
   ###########################################################################
   # Charts
@@ -125,16 +125,16 @@ translations:
 
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
+      Bagan ini memperlihatkan **perbandingan retensi** tiap teknologi dibandingkan dengan **jumlah pengguna** total.
+      Ini dapat dibagi menjadi empat kuadran:
 
-        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
+        - **1**: Penggunaan rendah, retensi tinggi. Teknologi yang patut diawasi.
 
-        - **2**: High usage, high retention. Safe technologies to adopt.
+        - **2**: Penggunaan tinggi, retensi tinggi. Teknologi yang aman untuk dipakai.
 
-        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
+        - **3**: penggunaan rendah, retensi rendah. Teknologi yang sulit direkomendasi untuk saat ini.
 
-        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
+        - **4**: penggunaan tinggi, retensi rendah. Pertimbangkan lagi teknologi ini jika anda sedang memakainya.
 
   ###########################################################################
   # Notes
@@ -142,18 +142,18 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+      Jika anda ingin mempelajari lebih lanjut, kami [menulis sebuah blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) yang addresses dinamika gender dari survei ini.
 
   - key: blocks.source.note
     t: >
 
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+      Bagan ini mengumpulkan sekumpulan referrers, parameter URL, dan jawaban bebas. 
 
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+      - State of JS: milis [State of JS](https://stateofjs.com).
 
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+      - State of CSS: milis State of CSS; juga matches `email`, `by email`, dll.
 
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+      - Work: matches `work`, `colleagues`, `coworkers`, dll.
 
   ###########################################################################
   # Awards
@@ -528,7 +528,7 @@ translations:
 
       The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+      Note that frameworks, libraries, dll. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, dll. A detailed breakdown of traffic sources is included in the "Sources" chart. 
 
       ### Representativeness & Inclusivity
 
@@ -540,7 +540,7 @@ translations:
 
       - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
 
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, dll. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
 
       ### Project Funding
 
