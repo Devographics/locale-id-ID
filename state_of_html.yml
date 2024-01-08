@@ -101,14 +101,14 @@ translations:
   - key: features.form_input_types.question
     t: Tipe input mana yang pernah anda gunakan?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.form_validation_features
     t: Validasi Form
   - key: features.form_validation_features.question
     t: Darimanakah dari fitur validasi form berikut yang pernah anda gunakan?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.forms_pain_points
     t: Titik Sakit Form
@@ -126,22 +126,22 @@ translations:
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: Metode-metode DOM terkait atribut
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: Yang mana saja kah dari metode-metode DOM yang terkait dengan atribut berikut yang pernah anda gunakan?
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: Fitur-fitur HTML 
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: Yang mana saja kah dari fitur-fitur DOM HTML penanganan string berikut yang pernah anda gunakan?
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: Metode-metode DOM Untuk Mengganti Orangtua
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: Metode-metode DOM Memindah Elemen
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: Yang mana saja kah dari metode-metode DOM pemindah elemen berikut yang pernah anda gunakan?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -179,73 +179,73 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: Titik Sakit Interaktivitas
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: Apa saja titik sakit anda terkait perubahan dinamis dalam HTML?
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      Ketidakcocokan atau kurangnya dukungan antar browser, fitur yang kurang, dan masalah-masalah lainnya yang anda hadapi
+      terkait dengan elemen dan perilaku interaktif (kecuali form), manipulasi DOM, events, dan API-API yang terkait.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Titik sakit #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: Metode-metode Interaktivitas
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: Methode-metoda mana saja yang pernah anda pakai untuk menambah interaktivitas atau memodifikasi HTML secara dinamis?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: CSS untuk interaktivitas (toggles, tab, dll.)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t:  Library DOM JavaScript (jQuery, dll.)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: Framework JavaScript (React, Vue, dll.)
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: JavaScript polos (tanpa framework atau library)
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: Data Yang Dapat Dibaca Mesin
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: Dari yang berikut ini, yang mana saja kah yang pernah anda pakai untuk memasukkan data yang dapat dibaca mesin HTML?
   - key: options.machine_readable_features.rdfa.description
     t: |
-      `property`, `typeof`, etc.
+      `property`, `typeof`, dll.
   - key: options.machine_readable_features.json_ld.description
     t: |
       `<script type="application/ld+json">`
   - key: options.machine_readable_features.microdata.description
     t: |
-      `itemprop`, `itemscope`, etc.
+      `itemprop`, `itemscope`, dll.
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: Dukungan Multi-bahasa
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: Seberapa sering anda bekerja dalam proyek yang harus mendukung lebih dari satu bahasa?
   - key: options.multiple_languages_support.never
-    t: Never
+    t: Tidak pernah
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: Jarang (kurang dari sekali setahun)
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: Sering (lebih dari setahun)
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: Selalu
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: Fitur internasionalisasi
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Yang mana saja kah dari fitur-fitur internasionalisasi berikut yang pernah anda gunakan?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -267,40 +267,40 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: Titik Sakit Konten
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: Apa saja titik sakit anda terkait dengan mengelola konten dalam HTML?
   - key: features.content_pain_points.description
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      Pikirkanlah embedding (multimedia, iframes, SVG, dll), data yang dapat dibaca mesin, internasionalisasi & lokalisasi, keamanan & privasi, performa dll.
+      Fitur-fitur yang kurang, ketidakcocokan antar browser, dan masalah-masalah lain yang anda hadapi semua boleh disebutkan.
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Titik sakit #{index}…
 
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: Elemen konten eksternal
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: Dari elemen-elemen berikut, yang mana sajakah yang pernah anda gunakan?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      Fitur-fitur Keamanan & Privasi
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      Fitur-fitur keamanan & privasi yang mana sajakah yang pernah anda pakai?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: Petunjuk Sumber Daya
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      Nilai-nilai mana yang pernah anda pakai untuk atribut `rel` dari `<link>` ?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -331,7 +331,7 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.using_web_components_pain_points
     t: Using Web Components Pain Points
@@ -504,14 +504,14 @@ translations:
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.local_storage_features
     t: Local storage features
   - key: features.local_storage_features.question
     t: Have you used any of the following to store data client-side?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
@@ -570,7 +570,7 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
@@ -579,7 +579,7 @@ translations:
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   # Usage
 
