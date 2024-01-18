@@ -201,7 +201,7 @@ translations:
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS untuk interaktivitas (toggles, tab, dll.)
   - key: options.interactivity_techniques.js_dom_libraries
-    t:  Library DOM JavaScript (jQuery, dll.)
+    t: Library DOM JavaScript (jQuery, dll.)
   - key: options.interactivity_techniques.js_framework
     t: Framework JavaScript (React, Vue, dll.)
   - key: options.interactivity_techniques.vanilla_js
