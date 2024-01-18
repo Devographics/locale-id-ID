@@ -595,37 +595,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: Kecocokan Antar Browser
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena perbedaan antar browser atau kurangnya dukungan?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      Fitur #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: Fungsionalitas Yang Terbatas
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena alasan lain (dan kenapa)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      Kandidat yang bagus mungkin fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      Tolong juga sebutkan alasannya, misalnya kurangnya fungsionalitas, styling yang sulit, aksesibilitas yang buruk, dll.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      Fitur #1 (sulit untuk diberi style)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      Fitur #2 (fungsionalitas terbatas, buruknya aksesibilitas)
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: Penggunaan HTML
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: Untuk apa anda menggunakan HTML?
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -644,33 +644,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: Dampak Terhadap Ekosistem
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: Selain diri anda sendiri, seberapa banyak pengembang yang menggunakan library, package, komponen, API dll. yang anda buat atau kelola?
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      Secara total, jika anda mengerjakan beberapa proyek yang digunakan oleh para pengembang.
+      Jika anda tidak yakin, ambil yang terdekat dengan perkiraan anda.
+      Untuk kode sumber terbuka, jumlah unduhan npm dapat memberikan poin data yang berguna.
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 Tidak ada (Hanya saya)
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: Beberapa pengembang lainnya (misalnya pengembang dalam sebuah tim kecil)
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: Kurang dari seratus pegngembang
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: Kurang dari seribu pengembang
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: Ratusan pengembang
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: Ribuan pengembang
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: Jutaan pengembang
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: Elemen Yang Hilang
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: Jika anda dapat menambahkan 3 elemen ke dalam HTML, apa saja kah?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -678,59 +678,59 @@ translations:
   #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
 
   - key: options.html_missing_elements.accordion
-    t: Accordion
+    t: Akordion
   - key: options.html_missing_elements.alert
     t: Alert
   - key: options.html_missing_elements.calendar
-    t: Calendar
+    t: Kalender
   - key: options.html_missing_elements.carousel
-    t: Carousel
+    t: Karousel
   - key: options.html_missing_elements.combobox_autocomplete
     t: Combobox / Autocomplete
   - key: options.html_missing_elements.command_palette
-    t: Command Palette
+    t: Palet Perintah
   - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
+    t: Menu Konteks / Menu Klik-kanan
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Data table (dengan penyortiran, penyaringan, dll.)
   - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
+    t: Menu Dropdown
   - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
+    t: Pembesaran Gambar
   - key: options.html_missing_elements.progress_bar
     t: Progress Bar
   - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
+    t: Skeleton UI / Pengganti Sementara Saat Memuat
   - key: options.html_missing_elements.switch
     t: Switch / Toggle
   - key: options.html_missing_elements.tabs
-    t: Tabs
+    t: Tab
   # - key: options.html_missing_elements.toast_message
   #   t: Toast Message
   - key: options.html_missing_elements.tooltip
     t: Tooltip
   - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
+    t: Area Luar Kanvas
   - key: options.html_missing_elements.spinner
-    t: Loading Spinner
+    t: Animasi pemuatan
   - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
+    t: Tombol Terpecah
   - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
+    t: Pengguliran tak terbatas
   - key: options.html_missing_elements.icon
-    t: Icon
+    t: Ikon
   - key: options.html_missing_elements.star_rating
-    t: Star Rating
+    t: Penilaian Bintang
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: Titik sakit lainnya
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: Ada titik sakit lainnya terkait dengan penggunaan HTML dan teknologi terkait?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: Keseimbangan HTML/CSS vs JavaScript/TypeScript
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: Bagaimana anda membagi waktu dalam menulis kode HTML/CSS dan JavaScript (atau TypeScript)?
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -741,46 +741,46 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "Atribut `{id}`"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: Pembagian slot eksplisit (`slot="foo"`)
 
   - key: features.tabindex
-    t: "`tabindex` attribute"
+    t: "atribut `tabindex`"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "atribut `srcset` dan `sizes`"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "`<model>` untuk konten AR/VR/3D"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: Mendefinisikan slot (`<slot>` dan `::slotted()`)
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "atribut `controlslist`"
 
   - key: features.popover_api
-    t: Popover API
+    t: API Popover
 
   - key: features.lazy_loading
     t: Lazy loading
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "`atribut `sandbox` untuk iframe"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` dan `<summary>`"
 
   - key: features.crossorigin
-    t: "`crossorigin` attribute"
+    t: "atribut `crossorigin`"
 
   - key: features.host_css
     t: Styling component host (`:host`, `:host()`, `:host-context()`)
 
   - key: features.element_internals
-    t: "`ElementInternals` API"
+    t: "API `ElementInternals`"
 
   - key: features.cors
     t: CORS
@@ -789,109 +789,109 @@ translations:
     t: Content-Security Policy (CSP)
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: Data terstruktur (RDFa, Microdata, Microformat)
 
   - key: features.extended_builtins
     t: Extended built-ins
 
   - key: features.html_modules
-    t: HTML Modules
+    t: Modul HTML
 
   - key: features.accordion
-    t: Exclusive accordion
+    t: Akordion Ekslusif
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: Pembagian slot imperatif
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: Validasi Form
 
   - key: features.aria
     t: ARIA
 
   - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+    t: "Petunjuk Sumber Daya: preconnect (`<link rel=preconnect>`)"
 
   - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+    t: "Petunjuk Sumber Daya: prerender (`<link rel=prerender>`)"
 
   - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
+    t: "Petunjuk Sumber Daya: preload (`<link rel=preload>`)"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: Petunjuk Sumber Daya (semua)
 
   - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+    t: "Petunjuk Sumber Daya: prefetch (`<link rel=prefetch>`)"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: Shadow DOM Deklaratif (`<template shadowrootmode="open">`)
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "atribut `referrerpolicy`"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: Subresource Integrity (atribut `integrity`)
 
   - key: features.pwa_manifest
-    t: PWA manifest
+    t: Manifest PWA 
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Mengekspos bagian dari komponen (atribut `part`)
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: Memberi styling pada bagian komponen (`::part()`)
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: SVG Inline (`<svg>`)
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: MathML Inline (`<math>`)
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
 
   - key: features.navigation_api
-    t: Navigation API
+    t: API Navigasi
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: Mendefinisikan Elemen Kustom 
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "atribut `decoding`"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: Menggunakan Elemen Kustom
 
   - key: features.fencedframe
     t: Fenced frames
 
   - key: features.credentialless
-    t: Credentialess iframes
+    t: iframe tanpa kredensial
 
   - key: features.media_capture
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: "Nilai `plaintext-only` untuk `contenteditable`"
 
   - key: features.dom_parts
-    t: DOM Parts
+    t: Bagian DOM
 
   - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+    t: API Fetch Priority (atribut `fetchpriority`)
 
   - key: features.autocomplete
     t: '`autocomplete="hint"`'
 
   - key: features.inert_attribute
-    t: "`inert` attribute"
+    t: "atribut `inert`"
 
   - key: features.client_hints
-    t: HTTP client hints
+    t: Petunjuk klien HTTP 
 
   ###########################################################################
   # Survey Help
@@ -899,7 +899,7 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      Selamat datang di survei! Beberapa bagian pertama adalah tentang mengetahui
+      **fitur-fitur** HTML (dan berbagai API terkait) mana saja yang anda ketahui.
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      Ngomong-ngomong, jika anda ingin mempelajari tentang sebuah item dalam survei, anda dapat menambahkannya dalam daftar bacaan anda dengan mengklik ikon "+"!
