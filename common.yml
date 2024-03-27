@@ -1106,55 +1106,55 @@ translations:
   # age
   - key: user_info.age
     t: Umur
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Berapa umur Anda?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Tahun Pengalaman
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Sudah berapa tahun anda bekerja atau mempelajari bidang ini?
 
   # company size
   - key: user_info.company_size
     t: Ukuran Perusahaan
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Seberapa besar perusahaan anda?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Gaji Tahunan
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Gaji Tahunan dalam USD
 
   # job title
   - key: user_info.job_title
     t: Posisi dalam pekerjaan
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Bagaimana cara anda memperkenalkan diri?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Kecakapan JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Seberapa mahir anda di JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Kecakapan CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Seberapa mahir anda di CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Kecakapan Back-end
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Seberapa mahir anda dalam pengembangan back-end?
 
   # gender
   - key: user_info.gender
     t: Jenis Kelamin
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Mana dari pilihan ini yang mendeskripsikan tentang dirimu? Pilih salah satu.
   - key: user_info.gender.note
@@ -1166,7 +1166,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Ras & Etnis
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Mana dari pilihan ini yang mendeskripsikan tentang dirimu? Pilih yang sesuai.
   - key: user_info.race_ethnicity.note
@@ -1186,7 +1186,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Status Disabilitas
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Mana dari pilihan disabilitas ini yang pernah Anda alami? Pilih yang sesuai.
       Catatan bahwa ini bisa termasuk disabilitas sementara ataupun cedera.
@@ -1230,7 +1230,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Sektor Industri
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Anda sedang bekerja pada sektor industri apa?
   - key: user_info.industry_sector.others
     t: Sektor Industri Lainnya
@@ -1240,18 +1240,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Gelar Akademik
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Apakah Anda memiliki Gelar Akademik?
 
   # employment status
