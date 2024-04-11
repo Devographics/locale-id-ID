@@ -11,10 +11,10 @@ translations:
 
       Flexbox, Grid, Multi-Column… Belum lagi paradigma baru seperti CSS-in-JS.
 
-      Jadi, setelah keberhasilan survei State Of JavaScript tahunan Kami, Kami telah memutuskan untuk mengambil pada dunia styles dan selectors. Kami berharap Anda akan membantu Kami mengidentifikasi tren terbaru, dan mencari tahu alat apa yang harus dipelajari dan digunakan selanjutnya!
+      Jadi, setelah keberhasilan survei State Of JavaScript tahunan kami, kami akan menghadapi dunia gaya dan selector untuk berusaha mengidentifikasi tren terbaru, dan mencari tahu alat dan fitur apa yang harus dipelajari dan digunakan selanjutnya!
 
   - key: general.state_of_css.description
-    t: Survei tahunan para pengembang tentang trend terbaru seputar CSS
+    t: Survei tahunan para pengembang tentang tren terbaru seputar CSS
 
   ###########################################################################
   # Sections
@@ -43,22 +43,22 @@ translations:
   - key: sections.animations_transforms.title
     t: Animasi dan transformasi
   - key: sections.animations_transforms.description
-    t: Animasi dan transformasi element.
+    t: Animasi dan transformasi elemen.
 
   - key: sections.accessibility.title
     t: Aksesibilitas
   - key: sections.accessibility.description
-    t: Fitur Aksesibilitas dan teknik-teknik.
+    t: Fitur dan teknik-teknik aksesibilitas.
 
   - key: sections.media_queries.title
     t: Media Query
   - key: sections.media_queries.description
-    t: Cara mengadaptasi situs Anda ke perangkat atau preferensi pengguna.
+    t: Cara-cara mengadaptasi situs Anda menurut perangkat atau preferensi pengguna.
 
   - key: sections.selectors.title
     t: Selector
   - key: sections.selectors.description
-    t: CSS selector.
+    t: Selector CSS.
 
   - key: sections.colors.title
     t: Warna
@@ -68,7 +68,7 @@ translations:
   - key: sections.javascript_apis.title
     t: API JavaScript
   - key: sections.javascript_apis.description
-    t: API JavaScript yang dupakai untuk mengendalikan atau melengkapi CSS.
+    t: API JavaScript yang dipakai untuk mengendalikan atau melengkapi CSS.
 
   - key: sections.other_features.title
     t: Fitur lainnya
@@ -76,9 +76,9 @@ translations:
     t: Fitur CSS lainnya.
 
   - key: sections.units_selectors.title
-    t: Unit & Selector
+    t: Satuan & Selector
   - key: sections.units_selectors.description
-    t: Uji pengetahuan Anda tentang CSS unit dan selector.
+    t: Uji pengetahuan Anda tentang satuan dan selector CSS.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-processor
@@ -89,12 +89,12 @@ translations:
     t: Pre-/Post-processor lainnya
 
   - key: sections.css_frameworks.title
-    t: Kerangka CSS
+    t: Framework CSS
   - key: sections.css_frameworks.description
-    t: Pustaka yang memberi Anda komponen dan gaya yang siap pakai.
+    t: Library dan framework yang memberi Anda komponen atau gaya siap pakai.
 
   - key: sections.css_frameworks_others.title
-    t: Kerangka CSS Lainnya
+    t: Framework CSS Lainnya
 
   - key: sections.css_methodologies.title
     t: Metodologi CSS
@@ -102,15 +102,15 @@ translations:
     t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
 
   - key: sections.css_methodologies_others.title
-    t: Metodologi CSS Lainnya
+    t: Metodologi CSS Lainnya.
 
   - key: sections.css_in_js.title
     t: CSS-in-JS
   - key: sections.css_in_js.description
-    t: Pustaka yang membantu mengintegrasikan CSS ke dalam kode Javascript.
+    t: Library yang membantu mengintegrasikan CSS ke dalam kode Javascript.
 
   - key: sections.css_in_js_others.title
-    t: Pustaka CSS-in-JS Lainnya
+    t: Library CSS-in-JS Lainnya
 
   - key: sections.tools_others.title
     t: Alat Lainnya
@@ -120,7 +120,7 @@ translations:
   - key: sections.environments.title
     t: Lingkungan
   - key: sections.environments.description
-    t: lingkungan dan aksesibilitas mana yang Anda perhatikan saat menulis CSS?
+    t: Masalah lingkungan dan aksesibilitas mana yang Anda perhatikan saat menulis CSS?
   
   - key: sections.usage_css.title
     t: Pamakaian CSS
@@ -138,65 +138,65 @@ translations:
 
   # CSS for print
   - key: options.css_for_print.0
-    t: Saya (hampir) tidak pernah menulis print style
+    t: Saya (hampir) tidak pernah menulis gaya untuk cetak
   - key: options.css_for_print.0.short
     t: Tidak pernah
 
   - key: options.css_for_print.1
-    t: Saya terkadang menulis print style
+    t: Saya terkadang menulis gaya untuk cetak
   - key: options.css_for_print.1.short
     t: Terkadang
 
   - key: options.css_for_print.2
-    t: Saya menulis print style untuk sebagian besar proyek.
+    t: Saya menulis gaya cetak untuk sebagian besar proyek.
   - key: options.css_for_print.2.short
     t: Sering
 
   - key: options.css_for_print.3
-    t: Fokus utama saya adalah CSS untuk print.
+    t: Saya berfokus terutama pada CSS untuk cetak.
   - key: options.css_for_print.3.short
     t: Fokus utama
 
   # CSS for email
   - key: options.css_for_email.0
-    t: Saya (hampir) tidak pernah menulis CSS untuk email klien
+    t: Saya (hampir) tidak pernah menulis CSS untuk klien email
   - key: options.css_for_email.0.short
     t: Tidak pernah
 
   - key: options.css_for_email.1
-    t: Saya terkadang menulis CSS untuk email klien
+    t: Saya terkadang menulis CSS untuk klien email 
   - key: options.css_for_email.1.short
     t: Terkadang
 
   - key: options.css_for_email.2
-    t: Saya menulis CSS untuk email klien pada sebagian besar proyek
+    t: Saya menulis CSS untuk klien email pada sebagian besar proyek
   - key: options.css_for_email.2.short
     t: Sering
 
   - key: options.css_for_email.3
-    t: Fokus utama saya adalah CSS untuk email klien
+    t: Fokus utama saya adalah CSS untuk klien email 
   - key: options.css_for_email.3.short
     t: Fokus utama
 
   # what do you use CSS for?
   - key: options.what_do_you_use_css_for.marketing_sites
-    t: Situs Pemasaran & halaman awal
+    t: Situs web pemasaran & halaman awal
   - key: options.what_do_you_use_css_for.design_systems
-    t: Sistem Desain
+    t: Sistem desain
   - key: options.what_do_you_use_css_for.blogs
-    t: Blog atau situs berorientasi text lainnya
+    t: Blog atau situs berorientasi teks lainnya
   - key: options.what_do_you_use_css_for.web_apps
-    t: Aplikasi Web
+    t: Aplikasi web
   - key: options.what_do_you_use_css_for.mobile_apps
-    t: Aplikasi Mobile
+    t: Aplikasi mobile
   - key: options.what_do_you_use_css_for.css_art
-    t: Seni CSS & ilustrasi
+    t: Seni & ilustrasi CSS
   - key: options.what_do_you_use_css_for.emails
     t: Email
   - key: options.what_do_you_use_css_for.printed_documents
-    t: Dokumen Cetak
+    t: Dokumen cetak
   - key: options.what_do_you_use_css_for.desktop_apps
-    t: Aplikasi Desktop
+    t: Aplikasi desktop
   
   - key: options.what_do_you_use_css_for.e_commerce
     t: E-commerce
@@ -207,7 +207,7 @@ translations:
   - key: options.what_do_you_use_css_for.portfolio
     t: Portfolio
   - key: options.what_do_you_use_css_for.extensions
-    t: Extensi Browser
+    t: Ekstensi Browser
   - key: options.what_do_you_use_css_for.desktop
     t: Desktop
 
@@ -227,15 +227,15 @@ translations:
   - key: options.css_pain_points.layout_positioning
     t: Tata Letak & Posisi
   - key: options.css_pain_points.layout_positioning.description
-    t: Mengatur tata letak dan memastkan element berada di tempat yang seharusnya.
+    t: Mengatur tata letak dan memastikan elemen berada di tempat yang seharusnya.
   - key: options.css_pain_points.scoping_specificity
     t: Cakupan & Kekhususan
   - key: options.css_pain_points.scoping_specificity.description
-    t: Mengurus cascade, menimpa style, dll.
+    t: Menghadapi cascade, penimpaan gaya, dll.
   - key: options.css_pain_points.responsive_design
     t: Desain Responsif
   - key: options.css_pain_points.responsive_design.description
-    t: Mengadaptasikan tata letak dan desain untuk form factor yang berbeda.
+    t: Mengadaptasi tata letak dan desain untuk faktor bentuk yang berbeda.
   - key: options.css_pain_points.form_elements_styling
     t: Memberi Gaya Elemen Form
   - key: options.css_pain_points.form_elements_styling.description
@@ -249,11 +249,11 @@ translations:
   - key: options.css_missing_features.nesting
     t: Nesting
   - key: options.css_missing_features.nesting.description
-    t: Membolehkan melakukan percabangan gaya dalam CSS native.
+    t: Memungkinkan penyarangan gaya dalam CSS native.
   - key: options.css_missing_features.parent_selector
-    t: Parent Selector
+    t: Selector Orang Tua
   - key: options.css_missing_features.parent_selector.description
-    t: Membolehkan memilih sebuah elemen parent berdasarkan elemen children.
+    t: Memungkinkan untuk memilih sebuah elemen orang tua berdasarkan elemen anak.
   - key: options.css_missing_features.browser_support
     t: Dukungan Browser
   - key: options.css_missing_features.browser_support.description
@@ -267,22 +267,22 @@ translations:
   - key: options.css_missing_features.color_functions.description
     aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
-    t: Container Queries
+    t: Container Query
   - key: options.css_missing_features.container_queries.description
-    t: Membolehkan menulis gaya berdasarkan dimensi kontainer parent.
+    t: Memungkinkan penulisan gaya berdasarkan dimensi kontainer orang tua.
   - key: options.css_missing_features.scoping
     t: Scoping
   - key: options.css_missing_features.scoping.description
-    t: Membolehkan untuk lebih spesifik dalam di mana gaya tersebut akan diaplikasikan.
+    t: Membolehkan untuk mengaplikasikan gaya dengan lebih spesifik.
   - key: options.css_missing_features.subgrid
     t: Subgrid
   - key: options.css_missing_features.subgrid.description
-    t: Melakukan percabangan level subgrid yang dalam menjadi sebuah parent grid.
+    t: Melakukan penyarangan subgrid yang lebih dalam dengan grid orang tua.
 
   - key: options.css_missing_features.native_visually_hidden
     t: Konten Tersembunyi
   - key: options.css_missing_features.native_visually_hidden.description
-    t: Dukungan native untuk konten tersembunyi.
+    t: Dukungan bawaan untuk konten tersembunyi.
 
   - key: options.css_missing_features.generated_content_alt_text
     t: Teks Alt untuk konten buatan
@@ -292,12 +292,12 @@ translations:
   - key: options.css_missing_features.animate_to_auto
     t: Animasi ke `auto`
   - key: options.css_missing_features.animate_to_auto.description
-    t: Melakukan animasi sebuah dimensi elemen ke `auto`.
+    t: Menganimasikan sebuah dimensi elemen ke `auto`.
 
   - key: options.css_missing_features.anchored_positioning
     t: Anchored Positioning
   - key: options.css_missing_features.anchored_positioning.description
-    t: Memposisikan relatif elemen pada sudut dari arbitrary elemen lainnya.
+    t: Memposisikan elemen relatif pada sudut dari elemen lainnya.
 
   - key: options.css_missing_features.wrapping_detection
     t: Deteksi Wrapping
@@ -315,19 +315,19 @@ translations:
     t: Mendukung sintaks SVG di dalam kode CSS (seperti `background`).
 
   - key: options.css_missing_features.grid_lines_styling
-    t: Grid-lines Styling
+    t: Menggayakan garis Grid
   - key: options.css_missing_features.grid_lines_styling.description
-    t: Membolehkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
+    t: Memungkinkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
 
   - key: options.css_missing_features.media_queries_variables
     t: Variabel Media Query
   - key: options.css_missing_features.media_queries_variables.description
-    t: Dapat menggunakan variabel di dalam media query.
+    t: Memungkinkan pengunaan variabel di dalam media query.
 
   - key: options.css_missing_features.masonry_layout
-    t: Masonry Layout
+    t: Tata Letak Masonry
   - key: options.css_missing_features.masonry_layout.description
-    t: Dukungan native untuk layout grid ala Pinterest.
+    t: Dukungan bawaan untuk layout grid ala Pinterest.
 
   - key: options.css_missing_features.css_toggle
     t: CSS Toggle
@@ -514,9 +514,9 @@ translations:
     t: "::backdrop"
 
   - key: features_others.combinators
-    t: Combinators
-  - key: features_others.combinators.description # TODO
-    t: Which of these combinations CSS selectors have you used?
+    t: Combinator
+  - key: features_others.combinators.description
+    t: Yang mana saja kah dari selector CSS kombinasi berikut yang pernah anda pakai?
 
   - key: options.combinators.descendant
     t: div span (descendant)
@@ -658,7 +658,7 @@ translations:
   - key: environments.css_for_print
     t: CSS untuk tampilan
   - key: environments.css_for_print.description
-    t: Apakah Anda menulis print style?
+    t: Apakah Anda menulis gaya untuk cetak?
 
   - key: environments.css_for_email
     t: CSS untuk Email Klien
