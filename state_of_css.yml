@@ -865,6 +865,9 @@ translations:
   - key: options.css_interoperability_features.cascade_layers
     aliasFor: features.cascade_layers
 
+  - key: options.css_interoperability_features.na
+    t: Tidak Ada
+
   # Pain Points
   - key: opinions.css_pain_points
     t: Titik Sakit CSS
