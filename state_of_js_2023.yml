@@ -1,5 +1,5 @@
 # WIP DO NOT TRANSLATE YET
-locale: en-US
+locale: id-ID
 translations:
   ###########################################################################
   # General
@@ -160,26 +160,26 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+    t: Dengan nilai progresi sebesar **{value}** pada 2023, **top-level await** dengan cepat menjadi bagian penting dalam JavaScript.
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vite** is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+      **Vite** belum berumur dua tahun, namun alat tersebut sudah mendapatkan tempat dengan nilai progresi **{value}** dalam setahun kebelakang.
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+    t: Vite mengambil tempat tertinggi dengan nilai retensi **{value}** yang sangat tinggi!
 
   - key: award.tool_interest_award.comment
-    t: With a **{value}** interest ratio, Vite once again wins the gold!
+    t: Dengan nilai rasio ketertarikan senilai **{value}**, Vite sekali lagi memenangkan emas!
 
   - key: award.most_write_ins_award.comment
-    t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
+    t: Banyak pertanyaan juga menerima jawaban esai, dan dengan sebutan sebanyak **{value}** **Astro** adalah item paling populer secara keseluruhan.
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
+    t: Dengan **{value}** komentar, tidak ada fitur lain yang menarik komentar sebanyak Private Fields.
 
   - key: award.most_commented_tool_award.comment
-    t: With **{value}** comments, React showed that it's still the most-discussed library around.
+    t: Dengan **{value}** komentar, React masih menjadi library yang paling banyak didiskusikan.
 
   ###########################################################################
   # Conclusion
@@ -187,39 +187,39 @@ translations:
 
   - key: conclusion.js2022
     t: |
-      <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+      <span class="first-line">JavaScript dan TypeScript lebih bersemangat daripada sebelumnya.</span> 
 
-      We saw a continuation of performance-lead innovations, many in reactivity and hydration (or the lack thereof). For example, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      Kita melihat kelanjutan dari inovasi-inovasi yang dipimpin performa, kebanyakan dalam reaktivitas dan hidrasi (atau ketidakadaanya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) simplicity dalam ergonomik pengembang dan mengandalkan sang kompiler. Solid telah menjelajahi [pendekatan baru terhadap reaktivitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [menggeser model mental dengan resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
 
-      Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+      Inovasi juga menarik untuk dilihat di solusi multi-platform seperti Tauri, Ionic dan Flutter, yang membuka pintu untuk aplikasi yang dapat berjalan di berbagai platform.
 
-      We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+      Kita melihat talenta di seluruh dunia- seperti Nigeria dan sekarang India [memiliki pertumbuhan pengembang tercepat di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh duni, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
 
-      When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+      Ketika kita melihat berbagai framework yang besar seperti React, Angular, atau Vue kita seringkali melihat kurangnya tingkat kepuasan, dan kita dapat bertanya apa artinya di masa depan. Saya yakin penurunan ini adalah sebuah fungsi dari seringya dipakai alat-alat tersebut untuk produksi, menemukan mengalami kelebihan dan kekurangan yang dimiliki tiap alat. Itu adalah tanda dari kedewasaaan dan apresiasi dari apa yang dapat ditawarkan alat-alat ini. Mereka juga akan terus mempelajari dari inovasi dalam ekosistem dan terus berevolusi.
 
-      Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+      Pada akhirnya, Saya sangat gembira melihat kehadiran Vite yang absolut dalam bagian award untuk tahun kedua berturut-turut. Teknologi build dan serve sedang mengalami kemajuan besar dan kita semua mengalami manfaat dari semua kerja keras ini. Bravo!
 
   - key: conclusion.js2022.bio
-    t: Director of Engineering and Web Infrastructure, Google
+    t: Director of Engineering dan Web Infrastructure, Google
 
   ###########################################################################
   # Picks
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "Pilihan 2023 Saya: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: Kami meminta anggota dari komunitas JavaScript untuk membagikan “pilihan tahun ini” mereka
 
   # https://svelte.dev/blog/announcing-sveltekit-1.0
   - key: picks.lee_robinson.name
     t: SvelteKit 1.0
   - key: picks.lee_robinson.bio
-    t: VP of Developer Experience at Vercel
+    t: VP dari Developer Experience di Vercel
   - key: picks.lee_robinson.description
     t: |
       Two years in the making, SvelteKit is finally ready for production – 
-      and it has no shortage of amazing features for developers.
+      dan it has no shortage of amazing features for developers.
 
   # - key: picks.vadim_makeev.name
   #   t: Server-Side Rendering
@@ -350,19 +350,19 @@ translations:
     t: Twitch Coding Streamer & Content Creator
   - key: picks.miguel_angel_duran.description
     t: |
-      Astro is a new exciting static site generator. 
+      Astro adalah sebuah new exciting static site generator. 
       Zero client JavaScript by default, lazy-loading hydration, 
-      and framework-agnostic. Built on top of Vite, it's blazing fast and easy to use.
+      dan framework-agnostic. Dibangun di atas Vite, Astro sangat cepat dan mudah untuk dipakai.
 
   # https://sandpack.codesandbox.io/
   - key: picks.josh_comeau.name
     t: Sandpack
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: Pengembang perangkat lunak dan pengajar
   - key: picks.josh_comeau.description
     t: |
       The folks at CodeSandbox open-sourced their ridiculously 
-      powerful in-browser bundler, and packaged 
+      powerful in-browser bundler, dan packaged 
       it up in a world-class embedded code editor. Such an amazing tool!
 
   # https://github.com/tc39/proposal-type-annotations
@@ -372,47 +372,47 @@ translations:
     t: Principal Software Engineer, Vercel
   - key: picks.rich_harris.description
     t: |
-      I'm going to nominate the type annotations proposal, which was shared with the world this year.
+      I'm going to nominate the type annotations proposal, which was shared dengan the world this year.
 
   # https://twitter.com/mooeypoo
   - key: picks.cassidy_williams.name
     t: Moriel Schottlender
   - key: picks.cassidy_williams.bio
-    t: CTO at Contenda, Memer and Dreamer
+    t: CTO di Contenda, Memer dan Pemimpi
   - key: picks.cassidy_williams.description
     t: |
       Moriel is an inspiring developer who gives passionate, 
-      interesting talks about internationalization and accessibility, 
-      and some of the things she's built with Vue are SO cool, 
+      interesting talks about internationalization dan accessibility, 
+      dan some of the things she's built dengan Vue are SO cool, 
       everyone should check them out!
 
   # https://www.withdiode.com/
   - key: picks.charlie_gerard.name
     t: Diode
   - key: picks.charlie_gerard.bio
-    t: Senior Developer Advocate at Stripe, Author and Creative Technologist
+    t: Senior Developer Advocate di Stripe, Penulis dan Creative Technologist
   - key: picks.charlie_gerard.description
     t: |
-      Diode is an interactive tool to build and simulate hardware projects in the browser. 
-      As a hardware tinkerer, this is really exciting and the interface built with 
+      Diode is an interactive tool to build dan simulate hardware projects in the browser. 
+      As a hardware tinkerer, this is really exciting dan the interface built dengan 
       Three.js is great!
 
   # https://arisa-fukuzaki.dev/
   - key: picks.alba_silvente.name
     t: Arisa Fukuzaki
   - key: picks.alba_silvente.bio
-    t: FrontEnd developer working as DevRel at Storyblok
+    t: Pengembang FrontEnd yang bekerja sebagai DevRel di Storyblok
   - key: picks.alba_silvente.description
     t: |
-      Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
-      she is always thinking about giving back to the community and contributes by giving talks,
-       workshops and articles on the subject.
+      Arisa adalah sebuah hybrid between FrontEnd dan Dev Rels, lover of React and its ecosystem, 
+      she is always thinking about giving back to the community dan contributes by giving talks,
+       workshops dan articles on the subject.
 
   # https://github.com/statelyai/xstate
   - key: picks.matt_pocock.name
     t: XState
   - key: picks.matt_pocock.bio
-    t: TypeScript educator from the UK, building Total TypeScript.
+    t: Pengajar TypeScript dari Inggris, membuat Total TypeScript.
   - key: picks.matt_pocock.description
     t: |
       If I were given something complicated to build from scratch, 
@@ -423,82 +423,82 @@ translations:
   - key: picks.kathryn_grayson_nanz.name
     t: React Beta Docs
   - key: picks.kathryn_grayson_nanz.bio
-    t: Developer Advocate at Progress
+    t: Developer Advocate di Progress
   - key: picks.kathryn_grayson_nanz.description
     t: |
       The new React docs are incredibly well-written, accessible for beginners, 
-      and beautifully designed. 
+      dan beautifully designed. 
       Documentation is one of the hardest things to do well, 
       so this fantastic example is my pick of the year!
 
   - key: picks.ryan_carniato.name
     t: Astro
   - key: picks.ryan_carniato.bio
-    t: Creator of Solid
+    t: Pembuat Solid
   - key: picks.ryan_carniato.description
     t: |
-      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 dan bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
 
   - key: picks.theo_browne.name
     t: tRPC
   - key: picks.theo_browne.bio
-    t: Youtube Ranter & CEO @Ping.gg
+    t: Pengoceh Youtube & CEO @Ping.gg
   - key: picks.theo_browne.description
     t: |
-      2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+      2022 was a big year for fullstack type-safety, dan tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
 
   - key: picks.sebastien_lorber.name
     t: Remotion
   - key: picks.sebastien_lorber.bio
-    t: This Week In React founder and Docusaurus maintainer
+    t: Pendiri This Week In React dan pengelola Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
-      The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+      The ability to create videos dengan React is rad. We can get creative dan use any cutting-edge web technology, not only DOM/CSS. Dengan the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
 
   - key: picks.ben_holmes.name
     t: Zod
   - key: picks.ben_holmes.bio
-    t: Open source maintainer at Astro
+    t: Pengelola sumber terbuka di Astro
   - key: picks.ben_holmes.description
     t: |
-      Runtime safety came to define 2022 with tRPC's rise to stardom. 
-      Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
+      Runtime safety came to define 2022 dengan tRPC's rise to stardom. 
+      Now, dengan Astro using Zod for type-safe Markdown dan Remix users bringing Zod to form validation, 
       it's becoming an must-have for any JavaScript developer
 
   - key: picks.tyler_mcginnis.name
     t: TanStack
   - key: picks.tyler_mcginnis.bio
-    t: Founder, UI.dev
+    t: Pendiri, UI.dev
   - key: picks.tyler_mcginnis.description
     t: |
-      My JavaScript pick of the year is TanStack, or anything else that 
-      Tanner and Dominik make.
+      Pilihan JavaScript saya tahun ini adalah TanStack, atau apapun 
+      yang dibuat Tanner dan Dominik.
 
   - key: picks.shaundai_person.name
     t: Sarah Drasner
   - key: picks.shaundai_person.bio
-    t: Senior Software Engineer, Netflix
+    t: Insinyur Perangkat Lunak Senior, Netflix
   - key: picks.shaundai_person.description
     t: |
-      Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
+      Sarah continues to give back to the community through blog posts, public speaking, dan most recently - her book "Engineering Management for the Rest of Us".
 
-  - key: picks.xxxx.name
-    t:
-  - key: picks.xxxx.bio
-    t:
-  - key: picks.xxxx.description
-    t: |
+  # - key: picks.xxxx.name
+  #   t:
+  # - key: picks.xxxx.bio
+  #   t:
+  # - key: picks.xxxx.description
+  #   t: |
 
   ###########################################################################
   # Sponsors
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Majukan keterampilan anda dengan kursus rekayasa front-end yang mendalam dan modern.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome untuk mendukung pekerjaan kami.
   - key: sponsors.renderatl.description
-    t: This is a tech conference focused on Front-End Engineering.
+    t: Ini adalah sebuah konferensi teknologi tentang Rekayasa Front-End.
 
   ###########################################################################
   # FAQ/About
