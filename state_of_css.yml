@@ -247,7 +247,7 @@ translations:
   
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
-    t: Nesting
+    t: Penyarangan
   - key: options.css_missing_features.nesting.description
     t: Memungkinkan penyarangan gaya dalam CSS native.
   - key: options.css_missing_features.parent_selector
@@ -263,11 +263,9 @@ translations:
   - key: options.css_missing_features.mixins.description
     t: Mengelompokkan dan menggunakan ulang definisi secara dinamis.
   - key: options.css_missing_features.color_functions
-    aliasFor: features.color_functions
   - key: options.css_missing_features.color_functions.description
-    aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
-    t: Container Query
+    t: Kueri Kontainer
   - key: options.css_missing_features.container_queries.description
     t: Memungkinkan penulisan gaya berdasarkan dimensi kontainer orang tua.
   - key: options.css_missing_features.scoping
@@ -339,31 +337,25 @@ translations:
   ###########################################################################
 
   # layout
-
-  - key: features.grid
-    t: CSS Grid
-  - key: features.subgrid
-    t: Subgrid
   - key: features.regions
     t: CSS Regions
-  - key: features.flexbox
-    t: Flexbox
   - key: features.multi_column
     t: CSS Multi-Column
   - key: features.writing_modes
     t: CSS Writing Modes
   - key: features.exclusions
     t: CSS Exclusions
-  - key: features.position_sticky
-    t: "<code>position: sticky</code>"
-  - key: features.logical_properties
-    t: Logical Properties
-  - key: features.logical_properties.description
-    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, dll.
-  - key: features.aspect_ratio
-    t: <code>aspect-ratio</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
+
+  - key: features.flexbox_gap
+    t: "Properti `gap` untuk flexbox"
+
+  - key: features.viewport_percentage_length_units
+    t: Satuan Viewport Kecil, Besar, dan Dinamis
+  - key: features.at_container
+    t: "Kueri `@container`"
+  - key: features.at_container.description
+    t: Termasuk kueri ukuran dan gaya
+  
 
   # shapes & graphics
   - key: features.shapes
@@ -397,74 +389,104 @@ translations:
 
   # typography
   - key: features.web_fonts
-    t: Web fonts (@font-face)
+    t: Web Fonts (@font-face)
   - key: features.variables_fonts
-    t: Variable fonts
+    t: Fon Variabel
   - key: features.line_breaking
-    t: Line breaking properties
-  - key: features.line_breaking.description
-    t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-  - key: features.font_variant
-    t: <code>font-variant-*</code>
-  - key: features.initial_letter
-    t: <code>initial-letter</code>
-  - key: features.font_variant_numeric
-    t: <code>font-variant-numeric</code>
-  - key: features.font_display
-    t: <code>font-display</code>
-  - key: features.line_clamp
-    t: <code>line-clamp</code>
-  - key: features.leading_trim
-    t: <code>leading-trim</code>
+    t: Properti Jeda Baris
   - key: features.direction
     t: <code>direction</code>
   - key: features.direction.description
-    t: Juga termasuk atribut HTML <code>dir</code>.
+    t: Juga termasuk atribut HTML `dir`.
 
-  # animations & transformstraan
+  # animations & transforms
   - key: features.transitions
-    t: CSS Transitions
+    t: Transisi CSS
   - key: features.transforms
-    t: CSS Transforms
+    t: Transformasi CSS
   - key: features.animations
-    t: CSS Animations
-  - key: features.perspective
-    t: <code>perspective</code>
+    t: Animasi CSS
 
-  # media queries
-  - key: features.feature_support_queries
-    t: Feature Support Queries (<code>@supports</code>)
-  - key: features.prefers_reduced_motion
-    t: <code>prefers-reduced-motion</code>
-  - key: features.prefers_color_scheme
-    t: <code>prefers-color-scheme</code>
-  - key: features.color_gamut
-    t: <code>color-gamut</code>
+  # media queries/accessibility
+  - key: features.tabindex
+    t: "Atribut HTML `tabindex`"
+
+  - key: features.aria_attributes
+    t: Atribut-atribut HTML ARIA
+  - key: features.aria_attributes.description
+    t: "`role`, `aria-label`, dll."
+
 
   # other features
   - key: features.variables
-    t: Variabel CSS (properti khusus)
+    t: Variabel CSS (Properti Lhusus)
   - key: features.containment
     t: CSS Containment
-  - key: features.will_change
-    t: <code>will-change</code>
-  - key: features.calc
-    t: <code>calc()</code>
-  - key: features.houdini
-    t: Houdini
+
+  - key: features.css_nesting.description
+    t: Penyarangan CSS bawaan, tanpa pre- or post-processor.
+
+  - key: features.trigonometric_functions
+    t: Fungsi Trigonometrik
+  - key: features.exponential_functions
+    t: Fungsi Eksponensial
+  - key: features.sign_related_functions
+    t: Sign-Related Functions
+  - key: features.stepped_value_functions
+    t: Stepped Value Functions
+  - key: features.css_nesting
+    t: Penyarangan CSS
+  - key: features.shadow_dom_css
+    t: Fitur-fitur Shadow DOM 
+  - key: features.individual_transform_properties
+    t: Properti Transform Individual
   - key: features.comparison_functions
-    t: CSS Comparison Functions
-  - key: features.comparison_functions.description
-    t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+    t: Fungsi Perbandingan CSS
+  - key: features.math_functions
+    t: Fungsi Matematika CSS
+  - key: features.viewport_units
+    t: Satuan Viewport (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Lapisan Cascade
+
+  # missing features (see also options)
+  - key: features.nesting
+    t: Penyarangan
+  - key: features.nesting.description
+    t: Memungkinkan penyarangan gaya dalam CSS native.
+  - key: features.parent_selector
+    t: Selector Orang Tua
+  - key: features.parent_selector.description
+    t: Memungkinkan untuk memilih sebuah elemen orang tua berdasarkan elemen anak.
+  - key: options.css_missing_features.browser_support
+    t: Dukungan Browser
+  - key: options.css_missing_features.browser_support.description
+    t: Dukungan browser yang lebih baik untuk fitur yang sudah ada.
+  - key: options.css_missing_features.mixins
+    t: Mixins
+  - key: options.css_missing_features.mixins.description
+    t: Mengelompokkan dan menggunakan ulang definisi secara dinamis.
+    key: features.color_functions
+    t: Fungsi Warna
+  - key: features.color_functions.description
+    t: Fungsi untuk memanipulasi nilai warna (`color()`, `color-mix()`, `contrast-color()`…).
+  - key: features.container_queries
+    t: Kueri Kontainer
+  - key: features.container_queries.description
+    t: Memungkinkan penulisan gaya berdasarkan dimensi kontainer orang tua.
+  - key: features.scoping
+    t: Scoping
+  - key: features.scoping.description
+    t: Memungkinkan untuk mengaplikasikan gaya dengan lebih spesifik.
 
   ###########################################################################
   # Units & Selectors
   ###########################################################################
 
   - key: features_others.units
-    t: Unit
+    t: Satuan
   - key: features_others.units.description
-    t: Manakah dari unit CSS berikut yang pernah Anda gunakan?
+    t: Manakah dari satuan CSS berikut yang pernah Anda gunakan?
 
   - key: options.units.px
     t: px
@@ -514,18 +536,18 @@ translations:
     t: "::backdrop"
 
   - key: features_others.combinators
-    t: Combinator
+    t: Kombinator
   - key: features_others.combinators.description
     t: Yang mana saja kah dari selector CSS kombinasi berikut yang pernah anda pakai?
 
   - key: options.combinators.descendant
-    t: div span (descendant)
+    t: div span (keturunan)
   - key: options.combinators.child
-    t: div > span (child)
+    t: div > span (anak)
   - key: options.combinators.next_sibling
-    t: div + div (next sibling)
+    t: div + div (saudara terdekat)
   - key: options.combinators.subsequent_sibling
-    t: div ~ div (subsequent sibling)
+    t: div ~ div (saudara berikutnya)
 
   - key: features_others.tree_document_structure
     t: Tree / Struktur Dokumen
@@ -691,8 +713,8 @@ translations:
 
   - key: opinions.css_is_programming_language
     t: CSS adalah bahasa pemrograman
-  - key: opinions.css_is_programming_language.title # TODO
-    t: Programming Language
+  - key: opinions.css_is_programming_language.title
+    t: Bahasa Pemrograman
 
   - key: opinions.enjoy_writing_css
     t: Saya menikmati menulis CSS
