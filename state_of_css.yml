@@ -164,7 +164,7 @@ translations:
     t: Tidak pernah
 
   - key: options.css_for_email.1
-    t: Saya terkadang menulis CSS untuk klien email 
+    t: Saya terkadang menulis CSS untuk klien email
   - key: options.css_for_email.1.short
     t: Terkadang
 
@@ -219,7 +219,7 @@ translations:
   - key: options.css_pain_points.interactions
     t: Interaksi
   - key: options.css_pain_points.interactions.description
-    t: Merespon terhadap masukan pengguna atau event lainnya (scroll, hover, dll.).
+    t: Merespon terhadap masukan pengguna atau event lainnya (gulir, hover, dll.).
   - key: options.css_pain_points.architecture
     t: Arsitektur & Pemeliharaan
   - key: options.css_pain_points.architecture.description
@@ -249,7 +249,7 @@ translations:
   - key: options.css_missing_features.nesting
     t: Penyarangan
   - key: options.css_missing_features.nesting.description
-    t: Memungkinkan penyarangan gaya dalam CSS native.
+    t: Memungkinkan penyarangan gaya dalam CSS.
   - key: options.css_missing_features.parent_selector
     t: Selector Orang Tua
   - key: options.css_missing_features.parent_selector.description
@@ -378,7 +378,7 @@ translations:
 
   # typography
   - key: features.web_fonts
-    t: Web Fonts (@font-face)
+    t: Fon Web (@font-face)
   - key: features.variables_fonts
     t: Fon Variabel
   - key: features.line_breaking
@@ -501,9 +501,9 @@ translations:
     t: in
 
   - key: features_others.pseudo_elements
-    t: Pseudo Elements
+    t: Pseudo-elemen
   - key: features_others.pseudo_elements.description
-    t: Manakah dari pseudo-element berikut yang pernah Anda gunakan?
+    t: Manakah dari pseudo-elemen berikut yang pernah Anda gunakan?
 
   - key: options.pseudo_elements.before
     t: "::before"
@@ -525,7 +525,7 @@ translations:
   - key: features_others.combinators
     t: Kombinator
   - key: features_others.combinators.description
-    t: Yang mana saja kah dari selector CSS kombinasi berikut yang pernah anda pakai?
+    t: Yang mana saja kah dari selector CSS kombinasi berikut yang pernah Anda pakai?
 
   - key: options.combinators.descendant
     t: div span (keturunan)
@@ -729,7 +729,7 @@ translations:
     t: Browser mana yang Anda uji?
 
   - key: environments.form_factors
-    t: Betuk Form
+    t: Lingkungan Pengujian
   - key: environments.form_factors.description
     t: Lingkungan apa saja yang Anda uji?
   - key: environments.form_factors.others
@@ -758,12 +758,12 @@ translations:
     t: Fitur Aksesibilitas lainnya yang biasa Anda implementasikan
 
   - key: environments.css_for_print
-    t: CSS untuk tampilan
+    t: CSS untuk Tampilan Cetak
   - key: environments.css_for_print.description
-    t: Apakah Anda menulis gaya untuk cetak?
+    t: Apakah Anda menulis gaya untuk tampilan cetak?
 
   - key: environments.css_for_email
-    t: CSS untuk Email Klien
+    t: CSS untuk Klien Email
   - key: environments.css_for_email.description
     t: Apakah Anda menulis CSS untuk klien email?
 
