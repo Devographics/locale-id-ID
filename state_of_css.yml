@@ -51,7 +51,7 @@ translations:
     t: Fitur dan teknik-teknik aksesibilitas.
 
   - key: sections.media_queries.title
-    t: Media Query
+    t: Kueri Media 
   - key: sections.media_queries.description
     t: Cara-cara mengadaptasi situs Anda menurut perangkat atau preferensi pengguna.
 
@@ -78,7 +78,7 @@ translations:
   - key: sections.units_selectors.title
     t: Satuan & Selektor
   - key: sections.units_selectors.description
-    t: Uji pengetahuan Anda tentang satuan dan Selektor CSS.
+    t: Uji pengetahuan Anda tentang satuan dan selektor CSS.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-processor
@@ -99,7 +99,7 @@ translations:
   - key: sections.css_methodologies.title
     t: Metodologi CSS
   - key: sections.css_methodologies.description
-    t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
+    t: Cara yang teratur untuk menulis CSS yang lebih bersih.
 
   - key: sections.css_methodologies_others.title
     t: Metodologi CSS Lainnya.
@@ -120,7 +120,7 @@ translations:
   - key: sections.environments.title
     t: Lingkungan
   - key: sections.environments.description
-    t: Masalah lingkungan dan aksesibilitas mana yang Anda perhatikan saat menulis CSS?
+    t: Masalah lingkungan dan aksesibilitas apa saja yang Anda perhatikan saat menulis CSS?
   
   - key: sections.usage_css.title
     t: Pamakaian CSS
@@ -148,7 +148,7 @@ translations:
     t: Terkadang
 
   - key: options.css_for_print.2
-    t: Saya menulis gaya cetak untuk sebagian besar proyek.
+    t: Saya menulis gaya untuk cetak untuk sebagian besar proyek.
   - key: options.css_for_print.2.short
     t: Sering
 
@@ -203,7 +203,7 @@ translations:
   - key: options.what_do_you_use_css_for.websites
     t: Situs Web
   - key: options.what_do_you_use_css_for.games
-    t: Games
+    t: Permainan
   - key: options.what_do_you_use_css_for.portfolio
     t: Portfolio
   - key: options.what_do_you_use_css_for.extensions
@@ -297,7 +297,7 @@ translations:
   - key: options.css_missing_features.anchored_positioning
     t: Anchored Positioning
   - key: options.css_missing_features.anchored_positioning.description
-    t: Memposisikan elemen relatif pada sudut dari elemen lainnya.
+    t: Memposisikan elemen relatif dari sudut elemen lainnya.
 
   - key: options.css_missing_features.wrapping_detection
     t: Deteksi Wrapping
@@ -305,9 +305,9 @@ translations:
     t: Melakukan deteksi saat sebuah item flex atau grid telah melewati batas ke baris lain.
 
   - key: options.css_missing_features.more_pseudo_elements
-    t: Lebih banyak Pseudo-Element
+    t: Lebih banyak Pseudo-elemen
   - key: options.css_missing_features.more_pseudo_elements.description
-    t: Memiliki lebih dari dua pseudo-element per elemen.
+    t: Memiliki lebih dari dua pseudo-elemen per elemen.
 
   - key: options.css_missing_features.svg_in_css
     t: SVG-in-CSS
@@ -320,9 +320,9 @@ translations:
     t: Memungkinkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
 
   - key: options.css_missing_features.media_queries_variables
-    t: Variabel Media Query
+    t: Variabel Kueri Media
   - key: options.css_missing_features.media_queries_variables.description
-    t: Memungkinkan pengunaan variabel di dalam media query.
+    t: Memungkinkan pengunaan variabel di dalam kueri media.
 
   - key: options.css_missing_features.masonry_layout
     t: Tata Letak Masonry
@@ -332,7 +332,7 @@ translations:
   - key: options.css_missing_features.css_toggle
     t: CSS Toggle
   - key: options.css_missing_features.css_toggle.description
-    t: Sebuah cara untuk menghubungkan sebuah "Nilai toggle" dengan sebuah elemen.
+    t: Sebuah cara untuk menghubungkan sebuah "nilai toggle" dengan sebuah elemen.
 
   ###########################################################################
   # Features
@@ -405,7 +405,7 @@ translations:
 
   # other features
   - key: features.variables
-    t: Variabel CSS (Properti Lhusus)
+    t: Variabel CSS (Properti Khusus)
   - key: features.containment
     t: CSS Containment
 
@@ -449,7 +449,7 @@ translations:
   - key: options.css_missing_features.browser_support.description
     t: Dukungan browser yang lebih baik untuk fitur yang sudah ada.
   - key: options.css_missing_features.mixins
-    t: Mixins
+    t: Mixin
   - key: options.css_missing_features.mixins.description
     t: Mengelompokkan dan menggunakan ulang definisi secara dinamis.
   - key: features.color_functions
@@ -536,7 +536,7 @@ translations:
     t: div ~ div (saudara berikutnya)
 
   - key: features_others.tree_document_structure
-    t: Tree / Struktur Dokumen
+    t: Pohon / Struktur Dokumen
   - key: features_others.tree_document_structure.description
     t: Dari selektor CSS yang berhubungan dengan struktur berikut, manakah yang pernah Anda pakai?
 
