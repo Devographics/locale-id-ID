@@ -7,7 +7,7 @@ Repo ini berisi berkas-berkas bahasa Indonesia untuk State of Js/CSS/dll.
 ### 1. Menjadi penerjemah
 
 Untuk memulai menerjemahkan survei, anda harus bergabung ke dalam server Discord
-dan DM saya (sachaG) username GitHub anda, bersama dengan kode locale (id-ID, fr-Fr,
+dan DM saya (`sachaG`) username GitHub anda, bersama dengan kode locale (id-ID, fr-Fr,
 dll.) untuk bahasa yang ingin anda terjemahkan.
 
 Saya akan memberikan anda hak pengelola atas sebuah repo yang berisikan berkas-berkas
@@ -25,9 +25,9 @@ atau sebuah daftar dari semua string yang belum diterjemahkan:
 
 ### 3. mendapatkan penghargaan
 
-Setiap penerjemah akan dicantumkan namanya di situs manapun yang menggunakan
-hasil penerjemahan, dimulai dari aplikasi untuk mengisi survei. Walaupun ini akan
-diotomasi lewat API GitHub, untuk sekarang anda dapat menambahkan nama anda di sini:
+Anda dapat menambahkan nama anda di sini:
+
+- https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
 
 ### 4. Membuat perubahan anda terlihat
 
@@ -66,5 +66,7 @@ String-string berikut muncul dalam keduanya.
 ### Lainnya
 
 - `homepage.yml`
+
+## Dapatkan bantuan
 
 Bergabung dengan [Discord kami](https://discord.gg/zRDb35jfrt).
