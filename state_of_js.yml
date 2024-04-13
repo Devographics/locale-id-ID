@@ -48,7 +48,7 @@ translations:
     t: Bagaimana anda menyimpan dan memanipulasi data.
 
   - key: sections.browser_apis.title
-    t: Browser API
+    t: API Browser
   - key: sections.browser_apis.description
     t: Fitur-fitur yang disediakan oleh browser.
 
@@ -165,7 +165,7 @@ translations:
   # - key: options.js_pain_points.form_handling.description
   #   t: Creating forms, managing their state and errors, and saving their data.
   - key: options.js_pain_points.state_management
-    t: Manajemen State
+    t: Pengelolaan State
   - key: options.js_pain_points.state_management.description
     t: Mengelola state data global dalam aplikasi kompleks.
   # - key: options.js_pain_points.performance_issues
@@ -274,7 +274,7 @@ translations:
   - key: options.top_js_pain_points.performance
     t: Performa
   - key: options.top_js_pain_points.too_many_choices
-    t: Terlalu banyak pilihan
+    t: Terlalu Banyak Pilihan
   - key: options.top_js_pain_points.react
     t: React
   - key: options.top_js_pain_points.bundlers
@@ -296,11 +296,11 @@ translations:
   - key: options.currently_missing_from_js.static_typing
     t: Type statis
   - key: options.currently_missing_from_js.static_typing.description
-    t: Type bawaan; atau komentar bergaya TypeScript
+    t: Type bawaan; atau komentar-sebagai-type bergaya TypeScript
   - key: options.currently_missing_from_js.standard_library
-    t: Standar Pustaka
+    t: Pustaka Standar
   - key: options.currently_missing_from_js.standard_library.description
-    t: Sebuah standar pustaka dari utilitas umum
+    t: Sebuah pustaka standar yang berisi utilitas umum
   - key: options.currently_missing_from_js.pattern_matching
     t: Membandingkan Pola
   - key: options.currently_missing_from_js.pattern_matching.description
@@ -388,7 +388,7 @@ translations:
   - key: options.what_do_you_use_js_for.frontend_development
     t: Pengembangan Frontend
   - key: options.what_do_you_use_js_for.backend_development
-    t: Pengembangan Development
+    t: Pengembangan Backend
   - key: options.what_do_you_use_js_for.data_analysis
     t: Analisa Data
   - key: options.what_do_you_use_js_for.machine_learning
@@ -413,7 +413,7 @@ translations:
   - key: options.what_do_you_use_js_for.developer_tooling
     t: Alat untuk pengembang
   - key: options.what_do_you_use_js_for.automation
-    t: Otomatisasi
+    t: Otomasi
   - key: options.what_do_you_use_js_for.bots
     t: Bot
   - key: options.what_do_you_use_js_for.testing
@@ -541,7 +541,7 @@ translations:
   - key: features.decorators.description
     t: >
       Sederhananya, dekorator adalah salah satu cara untuk membungkus
-      sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
+      sebuah bagian kode dengan yang lainnya - secara harafiah "mendekorasi".
   - key: features.dynamic_import
     t: Dynamic Import
 
@@ -703,11 +703,11 @@ translations:
     t: Jawaban lain.
 
   - key: tools_others.text_editors
-    t: Text Editor
+    t: Editor Teks
   - key: tools_others.text_editors.description
     t: Text editor apa yang biasa Anda gunakan?
   - key: tools_others.text_editors.others
-    t: Text Editor lain
+    t: Editor teks lain
   - key: tools_others.text_editors.others.description
     t: Jawaban lain.
 
