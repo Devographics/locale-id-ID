@@ -27,6 +27,11 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.features.title
+    t: Fitur
+  - key: sections.features.description
+    t: Sintaks, API browser, dan fitur-fitur lainnya.
+
   - key: sections.syntax.title
     t: Sintaks
   - key: sections.syntax.description
@@ -76,6 +81,11 @@ translations:
     t: Kerangka Rendering
   - key: sections.rendering_frameworks.description
     t: Kerangka yang fokus untuk menampilkan dan menyediakan aplikasi Anda
+
+  - key: sections.meta_frameworks.title
+    t: Meta-Framework
+  - key: sections.meta_frameworks.description
+    t: Framework yang berfokus pada rendering dan menyajikan aplikasi anda
 
   - key: sections.back_end_frameworks.title
     t: Kerangka Back-end
@@ -236,10 +246,25 @@ translations:
   - key: options.top_js_pain_points.date_management.description
     aliasFor: options.js_pain_points.date_management.description
 
+  - key: options.top_js_pain_points.performance
+    t: Performa
+  - key: options.top_js_pain_points.performance.description
+    t: Menulis kode JavaScript yang cepat dan efisien
+
   - key: options.top_js_pain_points.build_tools
     t: Alat Build
+  - key: options.top_js_pain_points.build_tools.description
+    t: Mengelola alat untuk mem-bundle code anda
+
   - key: options.top_js_pain_points.typing
     t: Menulis Type
+  - key: options.top_js_pain_points.typing.description
+    t: Mengelola dan mengurus type
+
+  - key: options.top_js_pain_points.build_tools
+    t: Build Tools
+  - key: options.top_js_pain_points.typing
+    t: Typing
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
@@ -452,6 +477,10 @@ translations:
     t: Edge Rendering
   - key: options.js_app_patterns.edge_rendering.description
     t: Mengubah HTML yang terdapat pada edge sebelum mengirimnya ke klien
+  - key: options.js_app_patterns.partial_prerendering
+    t: Prerendering Parsial
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Merender sebuah halaman dengan sebuah cangkang pemuatan yang statis, namun tetap menjadikan beberapa bagian dinamis
 
   - key: options.js_app_patterns.micro_frontend
     t: Mikro Frontend
@@ -516,6 +545,41 @@ translations:
   - key: features.dynamic_import
     t: Dynamic Import
 
+  - key: features.syntax_features
+    t: Fitur Sintaks
+  - key: features.syntax_features.question
+    t: Dari fitur-fitur sintaks berikut, yang mana saja yang pernah anda pakai?
+
+  - key: features.string_features
+    t: Fitur String
+  - key: features.string_features.question
+    t: Fitur String mana yang pernah anda pakai?
+
+  - key: features.array_features
+    t: Fitur Array 
+  - key: features.array_features.question
+    t: Fitur Array mana yang pernah anda pakai?
+
+  - key: features.async_features
+    t: Async Features
+  - key: features.async_features.question
+    t: Dari fitur-fitur async berikut, mana yang pernah anda pakai?
+
+  - key: features.browser_api_features
+    t: Browser APIs
+  - key: features.browser_api_features.question
+    t: API browser yang pernah anda pakai?
+
+  - key: features.language_pain_points
+    t: Titik Sakit Bahasa
+  - key: features.language_pain_points.question
+    t: Apa saja titik sakit utama anda yang berhubungan dengan bahasa JavaScript?
+
+  - key: features.browser_apis_pain_points
+    t: Titik Sakit API Browser
+  - key: features.browser_apis_pain_points.question
+    t: Apa saja titik sakit utama anda yang berhubungan dengan API browser?
+
   # patterns
   - key: patterns.object_oriented_programming
     t: Pemrograman Berbasis Objek
@@ -553,6 +617,77 @@ translations:
     t: >
       Pustaka dimuat dari [Best of JS](https://bestofjs.org/). 
       Jika ada proyek yang hilang, Anda bisa [Kirim di sini](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: Kepuasan Framework Front-end
+  - key: tools.front_end_frameworks_happiness.question
+    t: Seberapa puas Anda dengan keadaan front-end frameworks?
+
+  - key: tools.front_end_frameworks_pain_points
+    t: Titik Sakit Framework Front-end 
+  - key: tools.front_end_frameworks_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan framework front-end?
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: Kepuasan Meta-Framework
+  - key: tools.meta_frameworks_happiness.question
+    t: Seberapa puas Anda dengan keadaan meta-frameworks?
+
+  - key: tools.meta_frameworks_pain_points
+    t: Titik Sakit Meta-Framework
+  - key: tools.meta_frameworks_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan meta-frameworks?
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: Kepuasan Pengujian
+  - key: tools.testing_happiness.question
+    t: Seberapa puas Anda dengan keadaan alat-alat pengujian?
+
+  - key: tools.testing_pain_points
+    t: Titik Sakit Pengujian
+  - key: tools.testing_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat pengujian?
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: Kepuasan Mobile & Desktop 
+  - key: tools.mobile_desktop_happiness.question
+    t: Seberapa puas Anda dengan keadaan alat-alat seluler & desktop?
+
+  - key: tools.mobile_desktop_pain_points
+    t: Mobile & Desktop Pain Points
+  - key: tools.mobile_desktop_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan JavaScript untuk membuat aplikasi seluler & desktop?
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: Kepuasan Build Tools
+  - key: tools.build_tools_happiness.question
+    t: Seberapa puas anda dengan keadaan build tools?
+
+  - key: tools.build_tools_pain_points
+    t: Titik Sakit Build Tools
+  - key: tools.build_tools_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat-alat build?
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Kepuasan Monorepo
+  - key: tools.monorepo_tools_happiness.question
+    t: Seberapa puas anda dengan keadaan monorepo tools?
+
+  - key: tools.monorepo_tools_pain_points
+    t: Titik Sakit Monorepo
+  - key: tools.monorepo_tools_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat-alat monorepo?
 
   ###########################################################################
   # Other Tools
@@ -814,6 +949,16 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools_others.backend_frameworks.others
 
+  - key: other_tools.ai_tools
+    t: Alat-alat AI
+  - key: other_tools.ai_tools.question
+    t: Dari alat-alat AI berikut, yang manakah yang anda sering pakai untuk membantu anda menulis kode?
+
+  - key: other_tools.hosting
+    t: Layanan Hosting
+  - key: other_tools.hosting.question
+    t: Layanan hosting manakah yang pernah anda pakai untuk aplikasi JavaScript?
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -826,6 +971,8 @@ translations:
     t: Pola Aplikasi lain
 
   - key: usage.what_do_you_use_js_for
+    t: Penggunaan JavaScript
+  - key: usage.what_do_you_use_js_for.question
     t: Untuk apa Anda menggunakan JavaScript?
   - key: usage.what_do_you_use_js_for.others
     t: Contoh kasus pemakaian JavaScript lainnya
@@ -841,6 +988,10 @@ translations:
     t: Edge atau serverless runtime mana yang biasa Anda gunakan?
   - key: tools_others.edge_runtimes.others
     t: Edge Runtime lain
+  - key: other_tools.edge_runtimes
+    aliasFor: tools_others.edge_runtimes
+  - key: other_tools.edge_runtimes.description
+    aliasFor: tools_others.edge_runtimes.question
 
   - key: usage.usage_type
     t: Pemakaian JavaScript
@@ -904,12 +1055,22 @@ translations:
     t: Seberapa senang Anda dengan Kerangka Rendering saat ini?
 
   - key: happiness.state_of_the_web
+    t: Kepuasan Teknologi Web
+  - key: happiness.state_of_the_web.question
     t: Seberapa senang Anda dengan teknologi web secara umum?
 
   - key: happiness.state_of_js
+    t: Kepuasan JavaScript
+  - key: happiness.state_of_js.question
     t: Seberapa senang Anda dengan JavaScript secara umum?
 
   # Pain Points
+
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: What aspects of JavaScript do you struggle with the most?
+
   - key: opinions.js_pain_points
     t: Poin Minus JavaScript
   - key: opinions.js_pain_points.description
@@ -927,6 +1088,12 @@ translations:
     aliasFor: opinions_others.js_pain_points.others
 
   # Missing Features
+
+  - key: usage.top_currently_missing_from_js
+    t: Missing Features
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
     t: Apa yang Anda rasa kurang dari JavaScript?
   - key: opinions.currently_missing_from_js.description
