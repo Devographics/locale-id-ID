@@ -959,22 +959,22 @@ translations:
   - key: css_pain_points.css_pain_points_wins
     t: Titik Sakit CSS
   - key: css_pain_points.css_pain_points_wins.description
-    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Results are ranked by number of tournament rounds won.
+    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Hasil diurutkan berdasarkan jumlah ronde turnamen yang dimenangkan.
 
   - key: css_pain_points.css_pain_points_matchups
     t: Titik Sakit CSS (Mencocokan)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Percentage of rounds won by left-hand item against top-side item.
+    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Persentase ronde yang dimenangkan oleh item sebelah kiri versus item atas.
 
   - key: css_missing_features.css_missing_features_wins
     t: Fitur-fitur Yang Hilang Dari CSS
   - key: css_missing_features.css_missing_features_wins.description
-    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Results are ranked by number of tournament rounds won.
+    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Hasil diurutkan berdasarkan jumlah ronde turnamen yang dimenangkan.
 
   - key: css_missing_features.css_missing_features_matchups
     t: Fitur-fitur Yang Hilang Dari CSS (Mencocokan)
   - key: css_missing_features.css_missing_features_matchups.description
-    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Percentage of rounds won by left-hand item against top-side item.
+    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Persentase ronde yang dimenangkan oleh item sebelah kiri versus item atas.
 
   - key: usage.css_js_balance
     t: Keseimbangan CSS vs JavaScript
