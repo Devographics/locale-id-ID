@@ -9,7 +9,7 @@ translations:
     t: Edisi 2023 dari survei tahunan tentang tren-tren terkini di ekosistem JavaScript.
 
   - key: general.livestream_announcement
-    t: Make sure to tune in untuk [siaran langsung hasil survei spesial kita](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (English)
+    t: Simaklah [siaran langsung hasil survei spesial kita](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (English)
 
   ###########################################################################
   # Introduction
@@ -30,7 +30,7 @@ translations:
 
       Kami juga telah mengganti kategori "back-end" yang umum dengan halaman **Rendering Frameworks** yang lebih spesifik dan menambahkan sebuah daftar baru berjudul **Video Creators** ke bagian Sumber daya. 
 
-      Akhirnya, pertanyaan Features dan Libraries juga memiliki sebuah popup **Comments** yang memungkinkan anda melihat komentar orang lain tentang item-item yang disebutkan dalam survei!
+      Akhirnya, pertanyaan Fitur dan Pustaka juga memiliki sebuah popup **Comments** yang memungkinkan anda melihat komentar orang lain tentang item-item yang disebutkan dalam survei!
 
       Dengan semua ini, mari kita lihat apa yang telah dilakukan JavaScript selama 2023!
 
@@ -179,7 +179,7 @@ translations:
     t: Dengan **{value}** komentar, tidak ada fitur lain yang menarik komentar sebanyak Private Fields.
 
   - key: award.most_commented_tool_award.comment
-    t: Dengan **{value}** komentar, React masih menjadi library yang paling banyak didiskusikan.
+    t: Dengan **{value}** komentar, React masih menjadi pustaka yang paling banyak didiskusikan.
 
   ###########################################################################
   # Conclusion
@@ -218,8 +218,8 @@ translations:
     t: VP dari Developer Experience di Vercel
   - key: picks.lee_robinson.description
     t: |
-      Two years in the making, SvelteKit is finally ready for production – 
-      dan it has no shortage of amazing features for developers.
+      Dua tahun dalam pengembangan, SvelteKit akhirnya siap untuk produksi – 
+      dan memiliki banyak sekali fitur yang bagus untuk para pengembang.
 
   # - key: picks.vadim_makeev.name
   #   t: Server-Side Rendering
@@ -350,9 +350,9 @@ translations:
     t: Twitch Coding Streamer & Content Creator
   - key: picks.miguel_angel_duran.description
     t: |
-      Astro adalah sebuah new exciting static site generator. 
-      Zero client JavaScript by default, lazy-loading hydration, 
-      dan framework-agnostic. Dibangun di atas Vite, Astro sangat cepat dan mudah untuk dipakai.
+      Astro adalah sebuah sebuah generator website statis baru. 
+      Tidak ada JavaScript di klien, hidrasi lazy-loading, 
+      dan bisa digunakan dengan framework apa saja. Dibangun di atas Vite, Astro sangat cepat dan mudah untuk dipakai.
 
   # https://sandpack.codesandbox.io/
   - key: picks.josh_comeau.name
@@ -361,18 +361,18 @@ translations:
     t: Pengembang perangkat lunak dan pengajar
   - key: picks.josh_comeau.description
     t: |
-      The folks at CodeSandbox open-sourced their ridiculously 
-      powerful in-browser bundler, dan packaged 
-      it up in a world-class embedded code editor. Such an amazing tool!
+      Teman-teman kita di CodeSandbox membuat bundler dalam browser
+      mereka sumber terbuka, dan mengemasnya 
+      dalam sebuah editor kode kelas dunia. Sungguh sebuah alat yang menakjubkan!
 
   # https://github.com/tc39/proposal-type-annotations
   - key: picks.rich_harris.name
-    t: Type Annotations Proposal
+    t: Proposal Type Annotations
   - key: picks.rich_harris.bio
     t: Principal Software Engineer, Vercel
   - key: picks.rich_harris.description
     t: |
-      I'm going to nominate the type annotations proposal, which was shared dengan the world this year.
+      Saya akan menominasikan type annotations, yang diumumkan tahun ini.
 
   # https://twitter.com/mooeypoo
   - key: picks.cassidy_williams.name
@@ -381,10 +381,10 @@ translations:
     t: CTO di Contenda, Memer dan Pemimpi
   - key: picks.cassidy_williams.description
     t: |
-      Moriel is an inspiring developer who gives passionate, 
-      interesting talks about internationalization dan accessibility, 
-      dan some of the things she's built dengan Vue are SO cool, 
-      everyone should check them out!
+      Moriel adalah seorang pengembang menginspirasi yang membawakan talk 
+      yang menarik tentang internasionalisasi dan aksesibilitas, 
+      dan beberapa hal yang ia buat dengan Vue SANGAT keren, 
+      semua orang harus melihatnya!
 
   # https://www.withdiode.com/
   - key: picks.charlie_gerard.name
@@ -393,9 +393,10 @@ translations:
     t: Senior Developer Advocate di Stripe, Penulis dan Creative Technologist
   - key: picks.charlie_gerard.description
     t: |
-      Diode is an interactive tool to build dan simulate hardware projects in the browser. 
-      As a hardware tinkerer, this is really exciting dan the interface built dengan 
-      Three.js is great!
+      Diode adalah sebuah alat interaktif untuk membuat dan mensimulasikan projek perangkat keras 
+      di dalam browser. 
+      Sebagai seorang penyuka perangkat keras, ini sangat seru, dan antarmukanya yang dibuat dengan Three.js
+      juga sangat keren!
 
   # https://arisa-fukuzaki.dev/
   - key: picks.alba_silvente.name
@@ -404,9 +405,9 @@ translations:
     t: Pengembang FrontEnd yang bekerja sebagai DevRel di Storyblok
   - key: picks.alba_silvente.description
     t: |
-      Arisa adalah sebuah hybrid between FrontEnd dan Dev Rels, lover of React and its ecosystem, 
-      she is always thinking about giving back to the community dan contributes by giving talks,
-       workshops dan articles on the subject.
+      Arisa adalah sebuah seorang FrontEnd dan Dev Rels, pencinta React dan ekosistemnya,
+      dia selalu berpikir tentang berkontribusi terhadap konnumitas dan melakukannya dengan membawakan seminar,
+       workshop dan menulis artikel tentang React.
 
   # https://github.com/statelyai/xstate
   - key: picks.matt_pocock.name
@@ -415,9 +416,9 @@ translations:
     t: Pengajar TypeScript dari Inggris, membuat Total TypeScript.
   - key: picks.matt_pocock.description
     t: |
-      If I were given something complicated to build from scratch, 
-      like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
-      It's the only library I can rely on to build complex systems.
+      Jika saya diberikan suatu yang sulit untuk dibuat dari awal, 
+      seperti sebuah spreadsheet, WYSIWYG, atau aplikasi video call, saya akan XState. 
+      Ini adalah satu-satunya pustaka yang saya bisa andalkan untuk membuat sistem yang kompleks.
 
   # https://beta.reactjs.org/
   - key: picks.kathryn_grayson_nanz.name
@@ -426,10 +427,10 @@ translations:
     t: Developer Advocate di Progress
   - key: picks.kathryn_grayson_nanz.description
     t: |
-      The new React docs are incredibly well-written, accessible for beginners, 
-      dan beautifully designed. 
-      Documentation is one of the hardest things to do well, 
-      so this fantastic example is my pick of the year!
+      Dokumentasi React yang baru ditulis dengan sangat baik, mudah untuk para pemula, 
+      dan dirancang dengan cantik. 
+      Dokumentasi adalah salah satu hal yang sulit untuk dilakukan dengan baik, 
+      jadi contoh yang bagus ini adalah pilihan saya untuk tahun ini!
 
   - key: picks.ryan_carniato.name
     t: Astro
@@ -437,7 +438,7 @@ translations:
     t: Pembuat Solid
   - key: picks.ryan_carniato.description
     t: |
-      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 dan bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+      Sementara Astro telah mmmpopulerkan arsitektur "Pulau" beberapa tahun terakhir, pada 2022 Astro mencapai 1.0 dan membawa server rendering sesuai permintaan. Tidak pernah semudah ini untuk membuat situs web yang bagus dengan lebih sedikit JavaScript.
 
   - key: picks.theo_browne.name
     t: tRPC
@@ -445,7 +446,7 @@ translations:
     t: Pengoceh Youtube & CEO @Ping.gg
   - key: picks.theo_browne.description
     t: |
-      2022 was a big year for fullstack type-safety, dan tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+      2022 adalah tahun yang besar untuk keamanan type fullstack, dan karenanya tRPC layak mendapatkan pujian. tRPC adalah salah satu pustaka yang membuat semua yang anda gunakan sebelumnya terasa… buruk, jujur saja. Saya tidak pernah merasa lebih produktif sebagai seorang full stack engineer.
 
   - key: picks.sebastien_lorber.name
     t: Remotion
@@ -453,7 +454,7 @@ translations:
     t: Pendiri This Week In React dan pengelola Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
-      The ability to create videos dengan React is rad. We can get creative dan use any cutting-edge web technology, not only DOM/CSS. Dengan the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+      Kemampuan untuk membuat video dengan React sangat keren. Kita bisa menjadi kreatif dan menggunakan teknologi web paling baru yang manapun, tidak hanya DOM/CSS. Dengan projek GitHub Unwrapped, Remotion terbukti bisa menanggung skala besar, me-render ribuan video dan menjadi sebuah alat pemasaran yang keren.
 
   - key: picks.ben_holmes.name
     t: Zod
@@ -461,9 +462,9 @@ translations:
     t: Pengelola sumber terbuka di Astro
   - key: picks.ben_holmes.description
     t: |
-      Runtime safety came to define 2022 dengan tRPC's rise to stardom. 
-      Now, dengan Astro using Zod for type-safe Markdown dan Remix users bringing Zod to form validation, 
-      it's becoming an must-have for any JavaScript developer
+      Keamanan runtime mendefinisikan tahun 2022 dengan naiknya ketenaran tRPC. 
+      Sekarang, dengan Astro yang menggunakan Zod untuk Markdown type-safe dan para pengguna Remix menggunakan Zod untuk validasi form, 
+      Zod menjadi harus digunakan pengembang JavaScript manapun
 
   - key: picks.tyler_mcginnis.name
     t: TanStack
@@ -480,7 +481,7 @@ translations:
     t: Insinyur Perangkat Lunak Senior, Netflix
   - key: picks.shaundai_person.description
     t: |
-      Sarah continues to give back to the community through blog posts, public speaking, dan most recently - her book "Engineering Management for the Rest of Us".
+      Sarah terus berkontribusi kepada komunitas lewat blog, seminar umum, dan yang paling baru - bukunya "Engineering Management for the Rest of Us".
 
   # - key: picks.xxxx.name
   #   t:
@@ -528,7 +529,7 @@ translations:
 
       Survei ini terbuka dan dapat diakses secara daring dan para responden tidak dipilih atau disaring dengan cara apapun. Para responden adalah campuran dari responden survei tahun lalu (diberitahu lewat sebuah milis khusus) dan dari media sosial. 
 
-      Perhatikan bahwa framework, library, dll. bebas mendorong audiens mereka untuk berparticipasi dalam survei dan beberapa dari mereka mengambil kesempatan ini via banner, tweets, dll. Sebuah perincian dari sumber lalu lintas dimasukkan dalam bagan "Sumber". 
+      Perhatikan bahwa framework, pustaka, dll. bebas mendorong audiens mereka untuk berparticipasi dalam survei dan beberapa dari mereka mengambil kesempatan ini via banner, tweets, dll. Sebuah perincian dari sumber lalu lintas dimasukkan dalam bagan "Sumber". 
 
       ### Perwakilan & Inklusivitas
 
@@ -548,9 +549,9 @@ translations:
 
       - **Penjualan kaos**. 
 
-      - **Bagan yang diponsori**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+      - **Bagan yang diponsori**: anggota komunitas dapat membuat donasi untuk survei dan kami akan menampilkan nama mereka di dalam laporan.  
 
-      - **Pranala Sponsor**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
+      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
 
       - **Pendanaan Lainnya**: tahun ini, [Google](https://www.google.com/) dan [Nijibox](https://nijibox.jp/) mendanai pekerjaan saya di survei ini secara langsung.
 
@@ -560,14 +561,14 @@ translations:
 
       Anda dapat menemukan sebuah ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). 
 
-      - **Pengambilan Data**: custom [Vulcan.js](http://vulcanjs.org/) app.
+      - **Pengambilan Data**: aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
 
-      - **Penyimpanan/Pemrosesan Data**: MongoDB & MongoDB Aggregations.
+      - **Penyimpanan/Pemrosesan Data**: Agregasi MongoDB & MongoDB.
 
-      - **API Data**: Node.js GraphQL API. 
+      - **API Data**: API GraphQL Node.js. 
 
-      - **Situs Web Hasil**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      - **Situs Web Hasil**: [Gatsby](https://www.gatsbyjs.com/) APlikasi React.
 
-      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka visualisasi data React. 
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Fon**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
