@@ -91,7 +91,7 @@ translations:
   - key: sections.css_frameworks.title
     t: Framework CSS
   - key: sections.css_frameworks.description
-    t: Library dan framework yang memberi Anda komponen atau gaya siap pakai.
+    t: Pustaka dan framework yang memberi Anda komponen atau gaya siap pakai.
 
   - key: sections.css_frameworks_others.title
     t: Framework CSS Lainnya
@@ -107,10 +107,10 @@ translations:
   - key: sections.css_in_js.title
     t: CSS-in-JS
   - key: sections.css_in_js.description
-    t: Library yang membantu mengintegrasikan CSS ke dalam kode Javascript.
+    t: Pustaka yang membantu mengintegrasikan CSS ke dalam kode Javascript.
 
   - key: sections.css_in_js_others.title
-    t: Library CSS-in-JS Lainnya
+    t: Pustaka CSS-in-JS Lainnya
 
   - key: sections.tools_others.title
     t: Alat Lainnya
@@ -788,7 +788,7 @@ translations:
     t: Frekuensi
 
   - key: tools_others.tool_evaluation
-    t: Evaluasi Library
+    t: Evaluasi Pustaka
   - key: tools_others.tool_evaluation.description
     t: Untuk setiap kecocokan, pilih faktor yang Anda prioritaskan ketika mempertimbangkan sebuah library baru.
 
