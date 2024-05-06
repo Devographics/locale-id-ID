@@ -20,13 +20,13 @@ translations:
 
       <span class="first-letter">S</span>etelah bertahun-tahun yang relatif stabil, sekarang banyak yang mempertanyakan status quo. 
 
-      Banyak framework front-end seperti Solid dan Qwik yang mengusulkan bahwa React mungkin pada akhirnya jawaban untuk semuanya, dan di sisi server Astro, Remix dan Next.js (dan yang lain-lainnya) membuat kita mempertimbangkan lagi seberapa banyak kode yang kita harus kirimkan ke klien. 
+      Banyak framework front-end seperti Solid dan Qwik yang mengusulkan bahwa React mungkin pada akhirnya jawaban untuk semuanya, dan di sisi server Astro, Remix dan Next.js (dan yang lain-lainnya) membuat kita mempertimbangkan lagi seberapa banyak kode yang seharusnya dikirimkan ke klien. 
 
-      Kita akan memerlukan banyak data jika kita ingin mengerti akan semua ini, dan faktanya survei tahun ini menerima **39,472** respons, hampir dua kali dari jumlah tahun lalu!
+      Kita akan memerlukan banyak data jika kita ingin mengerti akan semua ini, dan faktanya survei tahun ini menerima **39,472** respon, hampir dua kali dari jumlah tahun lalu!
 
-      Karena audiens yang lebih banyak ini anda mungkin akan melihat hasil yang tak terdua, misalnya beberapa fitur yang menurun tahun demi tahun dalam hal kesadaran atau penggunaan. 
+      Karena audiens yang lebih banyak ini anda mungkin akan melihat hasil yang tak terduga, misalnya beberapa fitur yang menurun tahun demi tahun dalam hal kesadaran atau penggunaan. 
 
-      Namun memiliki lebih banyak data dapat berarti pemahaman baru, dan itulah kenapa kami telah mengembangkan dua cara baru untuk berinteraksi dengan dataset kami: **Data Explorer** memungkinkan anda cross-reference dua variabel dan menyorot any outlying results; sementara **Chart Filters** memungkinkan anda menyaring bagan yang spesifik menurut pendapatan, negara, gender, dan banyak variabel demografik lainnya. 
+      Namun memiliki lebih banyak data dapat berarti pemahaman baru, dan itulah kenapa kami telah mengembangkan dua cara baru untuk berinteraksi dengan dataset kami: **Data Explorer** memungkinkan anda membandingkan dua variabel dan menyorot hasil yang ganjil; sementara **Chart Filters** memungkinkan anda menyaring bagan yang spesifik menurut pendapatan, negara, gender, dan banyak variabel demografik lainnya. 
 
       Kami juga telah mengganti kategori "back-end" yang umum dengan halaman **Rendering Frameworks** yang lebih spesifik dan menambahkan sebuah daftar baru berjudul **Video Creators** ke bagian Sumber daya. 
 
@@ -110,7 +110,7 @@ translations:
   - key: sections.opinions.description
     t: |
       Baik itu titik sakit yang menghalangi anda saat ini, atau fitur baru yang anda ingin lihat 
-      esok hari, ini adalah kesempatan anda untuk curhat dan berbagi keluh kesah anda dengan JavaScript!
+      di masa depan, ini adalah kesempatan anda untuk curhat dan berbagi keluh kesah anda dengan JavaScript!
 
   ###########################################################################
   # Charts
@@ -147,13 +147,13 @@ translations:
   - key: blocks.source.note
     t: >
 
-      Bagan ini mengumpulkan sekumpulan referrers, parameter URL, dan jawaban bebas. 
+      Bagan ini mengumpulkan sekumpulan referrer, parameter URL, dan jawaban bebas. 
 
       - State of JS: milis [State of JS](https://stateofjs.com).
 
-      - State of CSS: milis State of CSS; juga matches `email`, `by email`, dll.
+      - State of CSS: milis State of CSS; juga mencocokan `email`, `by email`, dll.
 
-      - Work: matches `work`, `colleagues`, `coworkers`, dll.
+      - Work: mencocokkan `work`, `colleagues`, `coworkers`, dll.
 
   ###########################################################################
   # Awards
@@ -189,18 +189,18 @@ translations:
     t: |
       <span class="first-line">JavaScript dan TypeScript lebih bersemangat daripada sebelumnya.</span> 
 
-      Kita melihat kelanjutan dari inovasi-inovasi yang dipimpin performa, kebanyakan dalam reaktivitas dan hidrasi (atau ketidakadaanya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) simplicity dalam ergonomik pengembang dan mengandalkan sang kompiler. Solid telah menjelajahi [pendekatan baru terhadap reaktivitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [menggeser model mental dengan resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      Kita melihat kelanjutan dari inovasi-inovasi yang dipimpin performa, kebanyakan dalam reaktivitas dan hidrasi (atau ketidakadaannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) mengutamakan kesederhanaan dalam ergonomik pengembang dan mengandalkan sang kompiler. Solid telah menjelajahi [pendekatan baru terhadap reaktivitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [menggeser model mental dengan resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
 
-      Inovasi juga menarik untuk dilihat di solusi multi-platform seperti Tauri, Ionic dan Flutter, yang membuka pintu untuk aplikasi yang dapat berjalan di berbagai platform.
+      Inovasi juga menarik untuk dilihat pada berbagai solusi multi-platform seperti Tauri, Ionic dan Flutter, yang membuka pintu untuk aplikasi yang dapat berjalan di berbagai platform.
 
-      Kita melihat talenta di seluruh dunia- seperti Nigeria dan sekarang India [memiliki pertumbuhan pengembang tercepat di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh duni, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+      Kita melihat talenta di seluruh dunia- seperti Nigeria dan sekarang India [memiliki pertumbuhan pengembang tercepat di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh dunia, ada berbagai proyek yang menakjubkan seperti [Chakra UI](https://chakra-ui.com/) dari Segun Adebayo, atau [Hoppscotch](https://hoppscotch.io/) dari Liyas Thomas, dan orang-orang yang mendukung pembelajaran dan pertumbuhan orang lain seperti Ada Nduka Oyom yang mendirikan [SheCodeAfrica](https://shecodeafrica.org/), sebuah organisasi non-profit yang telah membantu memberdayakan lebih dari 17K wanita di seluruh Afrika.
 
       Ketika kita melihat berbagai framework yang besar seperti React, Angular, atau Vue kita seringkali melihat kurangnya tingkat kepuasan, dan kita dapat bertanya apa artinya di masa depan. Saya yakin penurunan ini adalah sebuah fungsi dari seringya dipakai alat-alat tersebut untuk produksi, menemukan mengalami kelebihan dan kekurangan yang dimiliki tiap alat. Itu adalah tanda dari kedewasaaan dan apresiasi dari apa yang dapat ditawarkan alat-alat ini. Mereka juga akan terus mempelajari dari inovasi dalam ekosistem dan terus berevolusi.
 
       Pada akhirnya, Saya sangat gembira melihat kehadiran Vite yang absolut dalam bagian award untuk tahun kedua berturut-turut. Teknologi build dan serve sedang mengalami kemajuan besar dan kita semua mengalami manfaat dari semua kerja keras ini. Bravo!
 
   - key: conclusion.js2022.bio
-    t: Director of Engineering dan Web Infrastructure, Google
+    t: Direktur Engineering dan Web Infrastructure, Google
 
   ###########################################################################
   # Picks
@@ -529,7 +529,7 @@ translations:
 
       Survei ini terbuka dan dapat diakses secara daring dan para responden tidak dipilih atau disaring dengan cara apapun. Para responden adalah campuran dari responden survei tahun lalu (diberitahu lewat sebuah milis khusus) dan dari media sosial. 
 
-      Perhatikan bahwa framework, pustaka, dll. bebas mendorong audiens mereka untuk berparticipasi dalam survei dan beberapa dari mereka mengambil kesempatan ini via banner, tweets, dll. Sebuah perincian dari sumber lalu lintas dimasukkan dalam bagan "Sumber". 
+      Perhatikan bahwa framework, pustaka, dll. bebas mendorong audiens mereka untuk berpartisipasi dalam survei dan beberapa dari mereka mengambil kesempatan ini via banner, tweets, dll. Sebuah perincian dari sumber lalu lintas dimasukkan dalam bagan "Sumber". 
 
       ### Perwakilan & Inklusivitas
 
@@ -541,7 +541,7 @@ translations:
 
       - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha membuat suara segmen demografi manapun lebih mudah didengar, tak peduli sekecil apapun dalam data kami. 
 
-      - **Penurunan penghalang**: membuat survei ini terlalu panjang, tidak dapat diakses, lambat dimuat, hanya berbahasa Inggris, dll. semuanya dapat mengenakan sebuah "pajak usaha" yang menghalangi berbagai komunitas yang tidak dapat membayarnya. Memperbaiki hal ini dapat menurunkan penghalang masuk dan membuat audiens kami lebih beragam. 
+      - **Penurunan Penghalang**: membuat survei ini terlalu panjang, tidak dapat diakses, lambat dimuat, hanya berbahasa Inggris, dll. semuanya dapat mengenakan sebuah "pajak usaha" yang menghalangi berbagai komunitas yang tidak dapat membayarnya. Memperbaiki hal ini dapat menurunkan penghalang masuk dan membuat audiens kami lebih beragam. 
 
       ### Pendanaan Proyek
  
@@ -549,9 +549,9 @@ translations:
 
       - **Penjualan kaos**. 
 
-      - **Bagan yang diponsori**: anggota komunitas dapat membuat donasi untuk survei dan kami akan menampilkan nama mereka di dalam laporan.  
+      - **Bagan Bersponsor**: anggota komunitas dapat membuat donasi untuk survei dan kami akan menampilkan nama mereka di dalam laporan.  
 
-      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
+      - **Pranala Berponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
 
       - **Pendanaan Lainnya**: tahun ini, [Google](https://www.google.com/) dan [Nijibox](https://nijibox.jp/) mendanai pekerjaan saya di survei ini secara langsung.
 
@@ -567,7 +567,7 @@ translations:
 
       - **API Data**: API GraphQL Node.js. 
 
-      - **Situs Web Hasil**: [Gatsby](https://www.gatsbyjs.com/) APlikasi React.
+      - **Situs Web Hasil**: [Gatsby](https://www.gatsbyjs.com/) Aplikasi React.
 
       - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka visualisasi data React. 
 
