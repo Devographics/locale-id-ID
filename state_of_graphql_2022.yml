@@ -121,7 +121,7 @@ translations:
 
         - **3**: Low penggunaan, retensi rendah. Teknologi yang sulit direkomendasikan untuk saat ini.
 
-        - **4**: Penggunaan tinggi, retensi rendah. Pertimbangkan teknologi-teknologi berikut jika anda sedang menggunakannya.
+        - **4**: Penggunaan tinggi, retensi rendah. Pertimbangkan teknologi-teknologi berikut jika anda menggunakannya saat ini.
 
   ###########################################################################
   # Notes
@@ -129,7 +129,7 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      Jika anda tertarik untuk mempelajari lebih lanjut, kami [menulis sebuah pos blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) yang membahas dinamika gender survei ini.
+      Jika anda tertarik untuk mempelajari lebih lanjut, kami telah [menulis sebuah pos blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) yang membahas dinamika gender dari survei ini.
 
   - key: blocks.css_missing_features.note
     t: |
@@ -140,11 +140,11 @@ translations:
 
       Bagan ini mengumpulkan referrer, parameter URL, dan jawaban esai. 
 
-      - State of JS: [State of JS](https://stateofjs.com) mailing list.
+      - State of JS: milis [State of JS](https://stateofjs.com).
 
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, dll.
+      - State of CSS: milis State of CSS; juga mencocoki `email`, `by email` (lewat email), dll.
 
-      - Work: matches `work`, `colleagues`, `coworkers`, dll.
+      - Pekerjaan: mencocoki `work` (kerja), `colleagues` (kolega), `coworkers` (teman kerja), dll.
 
   ###########################################################################
   # Awards
@@ -163,7 +163,7 @@ translations:
     t: Dengan rasio ketertarikan sebesar **{value}**, Vite sekali lagi memenangkan emas!
 
   - key: award.most_write_ins_award.comment
-    t: Banyak pertanyaan yang juga menerima jawaban write-in, dan dengan sebutan sebanyak **{value}** Elm menjadi item yang paling populer.
+    t: Banyak pertanyaan yang juga menerima jawaban esai, dan dengan sebutan sebanyak **{value}** Elm menjadi item yang paling populer.
 
   ###########################################################################
   # Conclusion
@@ -172,17 +172,17 @@ translations:
   - key: conclusion.graphql2022
     t: |
 
-      <span class="first-line">GraphQL benar-benar menjadi bagian dari bagaimana kita membuat aplikasi modern hari ini.</span>
+      <span class="first-line">GraphQL benar-benar menjadi bagian dari cara kita membuat aplikasi modern hari ini.</span>
 
       Semakin banyak perusahaan membuat produk, layanan, peralatan, dan RFC dan sebagian besar pekerjaan tersebut dilakukan secara sumber terbuka, yang sungguh luar biasa untuk dilihat! Penting juga untuk sebuah ekosistem berkembang untuk memiliki persaingan sehat dan kolaborasi!
 
-      Hasilnya, cara kita mengkonsumsi GraphQL di sisi klien juga berubah, dengan berbagai pustaka, misalnya urql dan React Query, menjadi pilihan populer hari ini bersama dengan stalwarts seperti Apollo Client dan Relay. Juga sangat keren untuk melihat GraphQL terus berkembang dan bertumbuh dalam berbagai bahasa selan JavaScript – sekarang ada banyak server GraphQL dan klien-klien yang sudah stabil dalam sebagian besar bahasa pemrograman yang populer!
+      Hasilnya, cara kita mengkonsumsi GraphQL di sisi klien juga berubah, dengan berbagai pustaka, misalnya urql dan React Query, menjadi pilihan populer hari ini bersama dengan berbagai pendukung seperti Apollo Client dan Relay. Juga sangat keren untuk melihat GraphQL terus berkembang dan bertumbuh dalam berbagai bahasa selain JavaScript – sekarang ada banyak server GraphQL dan klien-klien yang stabil dalam sebagian besar bahasa pemrograman yang populer!
 
       GraphQL itu sendiri juga berubah, dengan berbagai perubahan yang diantisipasi semakin dekat untuk menjadi bagian spesifikasi resmi. Kita sebentar lagi akan melihat perubahan pada stream, defer, input polymorphism, dan juga peningkatan pada subscriptions dan live queries. 
 
       Terlebih lagi, sekarang terdapat berbagai perusahaan yang berfokus pada keamanan GraphQL, caching, menemukan error, deploying to the edge, dan meng-abstraksi database dan backend menjadi schema sederhana, dan lebih banyak lagi yang membuat bekerja dengan GraphQL lebih mudah lagi dari pada sebelumnya.
 
-      Kkta juga beru-baru ini melihat perilsan GraphiQL baru yang menjanjikan sebuah ekosistem plugin yang kuat, dependency yang lebih sedikit, dan bahkan mode gelap! dan [Yayasan GraphQL](https://graphql.org/foundation/) terus berkembang dengan bergabungnya anggota baru untuk membantu usaha dari semua yang terlibat dalam mendidik, membangun, dan mengarahkan masa depan GraphQL.
+      Kkta juga baru-baru ini melihat perilisan GraphiQL baru yang menjanjikan sebuah ekosistem plugin yang kuat, dependency yang lebih sedikit, dan bahkan mode gelap! dan [Yayasan GraphQL](https://graphql.org/foundation/) terus berkembang dengan bergabungnya anggota baru untuk membantu usaha dari semua yang terlibat dalam mendidik, membangun, dan mengarahkan masa depan GraphQL.
 
       GraphQL juga telah menemukan tempatnya dalam ekosistem, dan memiliki masa depan yang cemerlang!
 
@@ -300,7 +300,7 @@ translations:
       Survei ini, bersama dengan [State of CSS](https://stateofcss.com/) dan [State of JS](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
 
-      Karena ukuran sampel yang relatif kecil, survei ini harus dibaca sebagai **potret sebagian pengembang**, dan bukan dimaksudkan untuk mewakili seluruh ekosistem GraphQL.
+      Karena ukuran sampel yang relatif kecil, survei ini harus dibaca sebagai **gambaran dari sebagian pengembang**, dan bukan dimaksudkan untuk mewakili seluruh ekosistem GraphQL.
 
 
       Survei ini juga **tidak berafiliasi dengan GraphQL atau Facebook**.  
@@ -337,7 +337,7 @@ translations:
 
       - **Pranala Bersponsor**: pranala untuk sumber-sumber rekomendasi di bawah setiap halaman adalah persembahan dari partner kami [Frontend Masters](https://frontendmasters.com/).
 
-      - **Pembiayaan lain**: perusahaan-perusahaan yang terdaftar dalam Bagian "Partner Kami" di [halaman awal](/introduction) juga telah berkontribusi baik secara finansial atau yang lain. 
+      - **Pembiayaan Lain**: perusahaan-perusahaan yang terdaftar dalam Bagian "Partner Kami" di [halaman awal](/introduction) juga telah berkontribusi baik secara finansial atau yang lain. 
 
 
       Para sponsor tidak dapat menentukan isi survei atau bagaimana hasilnya ditunjukkan, dan sponsor hanya diputuskan setelah semua data telah diambil. 
