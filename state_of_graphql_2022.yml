@@ -214,18 +214,18 @@ translations:
     t: CEO & co-founder at Hasura
   - key: picks.tanmai_gopal.description
     t: |
-      Modern APIs need to handle an increasing volume of data, 
-      or fast-moving data that is a stream. 
-      Could we use GraphQL subscriptions as a streaming API?
+      API yang modern perlu menangani volume data yang semakin besar, 
+      atau data yang bergerak cepat yang merupakan sebuah stream. 
+      Dapatkan kita menggunakan GraphQL subscriptions sebagai sebuah API streaming?
 
   - key: picks.tim_suchanek.name
     t: Benjie Gillam
   - key: picks.tim_suchanek.bio
-    t: Software Engineer and Entrepreneur
+    t: Insinyur Perangkat Lunak dan Entrepreneur
   - key: picks.tim_suchanek.description
     t: |
-      Benjie is one of the main people pushing GraphQL forward. 
-      His engagement in the WG, TSC, and various foundation initiatives is second to none.
+      Benjie adalah salah satu dari orang-orang yang mendorong GraphQL maju. 
+      Keterlibatannya dalam WG, TSC, dan berbagai inisiatif yayasan lainnya tidak tertandingi.
 
   - key: picks.uri_goldshtein.name
     t: Pothos GraphQL
@@ -233,8 +233,8 @@ translations:
     t: Founder of The Guild
   - key: picks.uri_goldshtein.description
     t: |
-      Code-first, TS schema builder. Easy to use yet powerful, plugin based and very well maintained. 
-      If you go code first, this is the one to choose.
+      Pembangun schema code-first, TS. Mudah digunakan namun tetap kuat, berbasis plugin dan dikelola dengan sangat baik. 
+      Jika anda mengutamakan kode, ini yang harus dipilih.
 
   - key: picks.benjie_gillam.name
     t: SpecNews Podcast
@@ -242,8 +242,8 @@ translations:
     t: Community-funded OSS maintainer
   - key: picks.benjie_gillam.description
     t: |
-      Latest activities from the GraphQL Working Group summarised in just 5-10 minutes per month. 
-      Cutting edge GraphQL knowledge with minimal effort!
+      Aktivitas terbaru dari GraphQL Working Group dirangkum menjadi hanya 5-10 menit per bulan. 
+      Pengetahuan GraphQL mutakhir dengan usaha minimal!
 
   - key: picks.xxxx.name
     t:
