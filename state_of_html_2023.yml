@@ -5,34 +5,34 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2023 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: Edisi 2023 dari survei tahunan tentang tren-tren terbaru dalam ekosistem HTML.
 
   - key: introduction.html2023
     t: >
-      While JavaScript was taking over the web, and CSS was gaining new superpowers year over year, 
-      it could seem like HTML was content to stay dormant, happy to cede center stage to its younger siblings. 
-      After all once you've learned about `<div>`s and `<h>`s 1 through 6, what else is there to know?
+      Sementara JavaScript mengambil alih web, dan CSS memperoleh kekuatan super baru tahun demi tahun, 
+      sepertinya HTML terlihat puas untuk tetap diam, rela untuk memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
+      Toh setelah anda belajar tentang `<div>` dan `<h>`s 1 sampai 6, mau belajar apa lagi?
 
 
-      Quite a lot, as it turns out! Once again we drafted [Lea Verou](https://lea.verou.me/) to put her in-depth
-      knowledge of the web platform to work, and help us craft a survey that ended up reaching far
-      beyond pure HTML to cover accessibility, web components, and much more.
+      Cukup banyak, ternyata! Sekali lagi kami merekrut [Lea Verou](https://lea.verou.me/) untuk menggunakan
+      pengetahuannya yang dalam dari platform web, dan membantu kami membuat sebuah survei yang jauh meraih 
+      lebih dari HTML saja untuk membahas aksesibilitas, komponen web, dan lebih banyak lagi.
 
 
-      This partly explains why this report has taken so long to come out – there was 
-      just a *lot* of new data to process! Hopefully you'll find that the result was worth the wait.
+      Ini juga menjadi sebagian alasan kenapa laporan ini sangat lama untuk dikeluarkan – ada sangat 
+      *banyak * data baru untuk diproses! Kami harap anda tidak sia-sia menunggu hasilnya.
 
 
-      Beyond the data included here, we've also improved our **chart customization** feature to let you tailor 
-      each data visualization to an even greater degree. If you find any interesting
-      insights in the process, be sure to let us know!
+      Lebih dari data yang termasuk di sini, kami juga telah meningkatkan fitur **kostumisasi bagan** supaya anda dapat
+      menyesuaikan visualisasi data dengan tingkat yang lebih lanjut. Jika anda menemukan perspektif
+      yang menarik, tolong beritahu kami!
 
 
-      You can learn more about all this in [this post](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10), or by watching a [quick YouTube video](https://www.youtube.com/watch?v=G-rFwp2zUT4)
+      Anda dapat mempelajari lebih lanjut tentang semua ini [di dalam post ini](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10), atau dengan menonton sebuah [video YouTube singkat](https://www.youtube.com/watch?v=G-rFwp2zUT4)
 
 
-      With all this out of the day, welcome to the results for the first ever State of HTML survey. 
-      After this, I'm willing to bet you won't look at good old HTML quite the same way ever again!
+      Dengan ini, kami mengucapkan selamat datang ke hasil paling perdana survei State of HTML. 
+      Setelah ini, saya yakin anda tidak akan melihat HTML dengan cara yang sama lagi!
 
   ###########################################################################
   # Tshirt
@@ -43,34 +43,34 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of HTML T-Shirt
+      ## Dukung Survei ini dengan Kaos State of HTML
 
-      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+      Apakah anda merindukan zaman-zaman pertengahan 90an, ketika HTML masih menjadi raja dan sampul VHS dibungkus dengan karya seni yang futuristik dan penuh warna? 
 
-      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+      Kabar buruknya adalah bahkan dengan teknologi 2024, anda masih belum bisa membalikkan waktu untuk kembali menghidupi masa-masa kejayaan itu. Tapi yang *bisa* anda lakukan adalah memakai kaos retro original yang keren ini, yang dirancang oleh seoarang Christopher Kirk-Nielsen yang bertalenta.
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Tentang Kaos Ini
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Kami menggunakan kaos tri-blend super-lembut dengan ukuran ramping yang dicetak oleh mitra kami di Cotton Bureau.
 
   - key: tshirt.getit
-    t: Get It
+    t: Dapatkan
 
   - key: tshirt.price
-    t: USD $32 + shipping
+    t: USD $32 + pengiriman
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Tentang Perancang
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Lihatlah [desain kaos darinya yang lain](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections Introductions
@@ -78,11 +78,11 @@ translations:
 
   - key: sections.user_info.description.html2023
     t: |
-      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+      Selamat datang di hasil survei State of HTML. Edisi survei pertama ini mencapai sebanyak **20,904** responden dari seluruh dunia.
 
   - key: sections.features.description.html2023
     t: |
-      HTML features and other browser APIs
+      Fitur-fitur HTML dan API-API browser lainnya
 
   ###########################################################################
   # Other Content
@@ -90,23 +90,23 @@ translations:
 
   - key: features.all_features.description
     t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+      Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diabtara keduanya. 
 
 
-      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+      Ketahui bahwa anda juga dapat menemukan breakdown yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
 
   ###########################################################################
   # Sponsors
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Majukan keterampilan anda dengan kursus rekayasa front-end yang mendalam dan modern.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome untuk dukungannya terhadap pekerjaan kami.
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Temukan pekerjaan pengembang impian anda di Jepang sekarang.
   - key: sponsors.renderatl.description
-    t: The tech conference focused on Front-End Engineering.
+    t: Konferensi teknologi yang berfokus pada Rekayasa Front-End.
 
   ###########################################################################
   # Conclusion
@@ -116,22 +116,22 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+      *Wah!* Survei ini telah mengambil banyak upaya dari banyak orang melintasi enam benua. Survei ini tidak hanya mencetak rekor baru untuk respons paling banyak dalam debut survei “State of…”, antarmuka pengguna pengambilan data juga menghasilkan berbagai inovasi yang memberi kita perspektif baru terhadap sikap para pengembang, dan pengaruhnya akan jauh menjangkau melampaui cakupannya. 
 
 
-      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+      Beberapa berargumen bahwa memperbaiki HTML adalah sia-sia, namun survei ini membuktikan yang sebaliknya. **Para pengembang membutuhkan elemen HTML yang lebih interaktif**: tidak hanya terbatas kepada elemen-elemen seperti `<datalist>` dan API Popover yang paling banyak mengumpulkan sentimen positif di antara semua kategori, namun selain itu semua [elemen hilang teratas](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) adalah elemen interaktif. 
 
 
-      However, **making simple things easy** by providing canned functionality is no longer sufficient. Making complex things possible by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+      Namun, **membuat hal-hal sederhana menjadi mudah** dengan memberikan fungsionalitas terbatas tidak lagi cukup. Membuat hal-hal yang kompleks menjadi mungkin dengan dengan mendukung kostumisasi lengkap menjadi sebuah kebutuhan: kemampuan penyesuaian yang tidak cukup, terutama mengenai **penggayaan**, sejauh ini menjadi titik sakit teratas. 
 
 
-      As a result, form elements were also the elements [most frequently recreated](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+      Sebagai hasilnya, elemen-elemen form juga menjadi elemen [yang paling sering dibuat ulang](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); yang membuat baik para pengembang dan para pengguna menderita. Syukurnya, ada banyak inisiatif untuk memperbaiki hal ini, jadi masa depan terlihat cerah.
 
 
-      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+      Kebutuhan besar yang lain adalah kemampuan perluasan. Tidak berkelanjutan jika hanya badan-badan standar yang mempunyai kewenangan untuk mengembangkan HTML; dan selain itu, elemen-elemen umum tidak dapat menangani kebutuhan-kebutuhan yang begitu beragam. Sayangnya, **Web Components API** (dan terutama Shadow DOM), meskipun banyak dipakai, terlihat tidak cukup dalam hal mencukupi kebutuhan para pengembang dan memberikan sebuah pengalaman pengembangan yang baik, karena kedua hal tersebut memiliki pengalaman paling buruk dalam survei. Bagaimanapun, kegiatan yang sedang berlangsung yang berkaitan dengan hal-hal tersebut (beberapa diantaranya telah saya ikuti) membuat saya berharap, bahwa meskipun sejauh ini jalannya tidak mulus, mereka di jalur yang benar untuk mencapai potensial penuh.
 
 
-      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+      Yang mengantarkan saya ke poin terakhir saya: penting untuk mengingat bahwa survei ini hanyalah sebuah gambaran dari perspektif berbagai pengembang dan mencerminkan keadaan dari platform web pada saat ini. Namun, tujuan utama survei ini adalah untuk meningkatkan status quo dengan memberikan visibility terhadap kebutuhan para pengembang. Seberapa banyak dari keluhan hari ini yang akan ditangani di masa depan? Bergabunglah dengan kami di tahun ini untuk edisi survei ini yang kedua, dan mari kita cari tahu!
 
   ###########################################################################
   # About
@@ -149,24 +149,24 @@ translations:
 
       ### Survey Goals
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Survei ini dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Maka dari itu, survei ini berfokus pada mengantisipasi yang akan datang dalam beberapa tahun ke depan alih-alih menganalisa yang populer hari ini, yang menjadi alasan fitur-fitur atau teknologi yang saat ini paling banyak digunakan tidak selalu dimasukkan. 
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Survei ini juga harus dicerna sebagai **gambaran dari sebagian pengembang tertentu**, dan tidak dimaksudkan untuk mewakili seluruh ekosistem. 
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way.
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. 
 
-      ### Project Funding
+      ### Pembiayaan proyek
 
-      Funding from this project comes from a variety of sources:
+      Pembiyaan proyek ini datang dari beberapa sumber:
 
-      - **T-shirt sales**. 
+      - **Penjualan kaos**. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Pranala bersponsor**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
 
-      - **Other Funding**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+      - **Pembiayaan Lain**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
 
-      ### Technical Overview
+      ### Ikhtisar teknis
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
