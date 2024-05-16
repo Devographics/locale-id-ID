@@ -1,4 +1,4 @@
-locale: en-US
+locale: id-ID
 translations:
   ###########################################################################
   # General
@@ -54,7 +54,7 @@ translations:
 
   - key: tshirt.description
     t: |
-      Kami menggunakan kaos tri-blend super-lembut dengan ukuran ramping yang dicetak oleh mitra kami di Cotton Bureau.
+      Kami menggunakan kaos tri-blend super lembut berukuran ramping yang dicetak oleh mitra kami di Cotton Bureau.
 
   - key: tshirt.getit
     t: Dapatkan
@@ -93,7 +93,7 @@ translations:
       Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diabtara keduanya. 
 
 
-      Ketahui bahwa anda juga dapat menemukan breakdown yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
+      Ketahui bahwa anda juga dapat menemukan perincian yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
 
   ###########################################################################
   # Sponsors
@@ -139,9 +139,9 @@ translations:
 
   - key: about.content
     t: |
-      The 2023 State of HTML survey ran from September 19 to October 19 2023, and collected 20,904 responses. 
+      Survei State of HTML 2023 berjalan dari 19 September sampai 19 Oktober 2023, dan menerima 20,904 jawaban. 
 
-      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+      Usaha perancangan The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
 
       The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
 
