@@ -71,7 +71,7 @@ translations:
 
   - key: tshirt.designer.bio
     t: |
-      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, tapi juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
@@ -93,19 +93,23 @@ translations:
 
   - key: sections.tools_others.description
     t: |
-      Memilih sebuah teknologi sering berujung pada pilihan sulit antara memilih prioritas, dan pada tahun ini Kami berusaha untuk menangkap proses tersebut dengan menggunakan gaya format pertanyaan baru ala pertandingan.
+      Memilih sebuah teknologi sering berujung pada pilihan sulit antara memilih prioritas, 
+      dan pada tahun ini Kami berusaha untuk menangkap proses tersebut dengan menggunakan gaya format pertanyaan baru ala pertandingan.
 
   - key: sections.environments.description
     t: |
-      Aksesibilitas selalu jadi renungan saat mengembangkan aplikasi berbasis web, tetapi banyak pengembang yang sekarang sadar akan pentingnya mendahulukan fitur itu.
+      Aksesibilitas selalu jadi pertimbangan saat mengembangkan aplikasi berbasis web, 
+      tetapi banyak pengembang yang sekarang sadar akan pentingnya mendahulukan fitur itu.
 
   - key: sections.resources.description
     t: |
-      Blog yang disorot, podcast, dan situs web adalah awal yang bagus, tapi tahun ini kita memutuskan untuk selangkah lebih jauh lagi dan bahkan menyorot orang-orang yang membangun komunitas JavaScript!
+      Blog yang disorot, podcast, dan situs web adalah awal yang bagus, tapi tahun ini kita memutuskan untuk selangkah lebih jauh lagi 
+      dan bahkan menyorot orang-orang yang membangun komunitas JavaScript!
 
   - key: sections.opinions.description
     t: |
-      Baik itu hal yang merepotkan, atau fitur hilang yang diharapkan untuk segera bisa digunakan, ini adalah kesempatan Anda untuk membagikan keluhan seputar JavaScript!
+      Baik itu hal yang merepotkan, atau fitur hilang yang diharapkan untuk segera bisa digunakan, 
+      ini adalah kesempatan Anda untuk membagikan keluhan seputar JavaScript!
 
   ###########################################################################
   # Charts
@@ -121,7 +125,7 @@ translations:
   - key: blocks.tools_quadrant.description
     t: |
       Bagan ini menunjukkan **rasio retensi** dari setiap teknologi berdasarkan total **jumlah pengguna**.
-      yang di mana akan dipecah menjadi 4 kuadran:
+      yang mana akan dipecah menjadi 4 kuadran:
 
         - **1**: Pemakaian rendah, retensi tinggi. Teknologi yang patut diperhatikan.
 
@@ -150,9 +154,9 @@ translations:
 
       - State of JS: daftar surat [State of JS](https://stateofjs.com).
 
-      - State of CSS: daftar surat State of CSS; juga mencocokan `email`, `by email`, dll.
+      - State of CSS: daftar surat State of CSS; juga mencocokkan `email`, `dengan email`, dll.
 
-      - Work: mencocokan `work`, `colleagues`, `coworkers`, dll.
+      - Work: mencocokkan `kerja`, `kolega`, `rekan kerja`, dll.
 
   ###########################################################################
   # Awards
@@ -188,37 +192,37 @@ translations:
     t: |
       <span class="first-line">JavaScript dan TypeScript menjadi lebih hidup dari sebelumnya.</span> 
 
-      Kita melihat banyak inovasi-inovasi berkelanjutan, banyak diantaranya dalam reaktivitas dan hydration (atau kekurangannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      Kita melihat banyak inovasi-inovasi berkelanjutan, banyak diantaranya dalam reaktivitas dan hydration (atau kekurangannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) mengedepankan  kemudahan dalam pengembangan ergonomis dan tertuju pada compiler. Solid juga mengembangkan [metode baru untuk reaktifitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [shifted contoh mental Kami dalam keberlanjutan](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
 
-      Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+      Inovasi juga sangat di nanti-nantikan dalam solusi multi-platform seperti Tauri, Ionic dan Flutter, yang telah membuka pintu untuk melihat aplikasi yang dapat berada di lebih banyak platform.
 
-      We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+      Kita melihat distribusi talenta secara global- seperti Nigeria dan sekarang India [Menjadi negara dengan pertumbuhan pengembang tertinggi di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh dunia, ada banyak proyek menakjubkan seperti proyek Segun Adebayo [Chakra UI](https://chakra-ui.com/), atau proyek Liyas Thomas [Hoppscotch](https://hoppscotch.io/), dan orang-orang yang membantu orang lain belajar dan berkembang seperti Ada Nduka Oyom yang membuat [SheCodeAfrica](https://shecodeafrica.org/), yayasan yang telah membantu memberdayakan lebih dari 17k wanita di seluruh Benua Afrika.
 
-      When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+      Saat Kita melihat kembali pembentukan kerangka kerja seperti React, Angular, atau Vue kita sering melihat ketidakpuasan, dan orang-orang mungkin ingin tahu bagaimana kedepannya. Saya percaya bahwa ketidakpuasan ini sebagai tanda bahwa tool dalam proses battle-tested dan digunakan di production, dalam mencari kecacatan dan mencoba kelebihan yang dimiliki masing-masing tool. Ini adalah tanda kematangan dan apresiasi untuk apa yang bisa diberikan oleh sebuah tool. Mereka juga akan belajar dari inovasi-inovasi dan akan terus berkembang.
 
-      Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+      AKhir kata, Saya sangat senang melihat kehadiran Vite di dalam bagian penghargaan untuk dua tahun berturut-turut. Membangun dan menyediakan teknologi itu merupakan langkah yang sangat besar dan kita mendapat kemudahan dari kerja keras ini. Bravo!
 
   - key: conclusion.js2022.bio
-    t: Director of Engineering and Web Infrastructure, Google
+    t: Direktur Teknik dan Infrastruktur Web, Google
 
   ###########################################################################
   # Picks
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "Pilihan 2022 dariku: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: Kita bertanya kepada beberapa anggota komunitas JavaScript untuk membagikan "Pilihan terbaik tahun ini" versi mereka
 
   # https://svelte.dev/blog/announcing-sveltekit-1.0
   - key: picks.lee_robinson.name
     t: SvelteKit 1.0
   - key: picks.lee_robinson.bio
-    t: VP of Developer Experience at Vercel
+    t: Wakil Presiden dari Pengalaman Pengembang di Vercel
   - key: picks.lee_robinson.description
     t: |
-      Two years in the making, SvelteKit is finally ready for production – 
-      and it has no shortage of amazing features for developers.
+      Dua tahun proses pembuatan, SvelteKit akhirnya siap untuk production – 
+      dan itu mempunyai banyak fitur hebat untuk para pengembang.
 
   # - key: picks.vadim_makeev.name
   #   t: Server-Side Rendering
@@ -349,52 +353,51 @@ translations:
     t: Twitch Coding Streamer & Content Creator
   - key: picks.miguel_angel_duran.description
     t: |
-      Astro is a new exciting static site generator. 
-      Zero client JavaScript by default, lazy-loading hydration, 
-      and framework-agnostic. Built on top of Vite, it's blazing fast and easy to use.
+      Astro adalah static site generator baru yang menarik. 
+      secara default tanpa client JavaScript, lazy-loading hydration, 
+      dan framework-agnostic. dibangun di atas Vite, menjadikannya sangat cepat dan mudah digunakan.
 
   # https://sandpack.codesandbox.io/
   - key: picks.josh_comeau.name
     t: Sandpack
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: Pengembang perangkat lunak dan pengajar
   - key: picks.josh_comeau.description
     t: |
-      The folks at CodeSandbox open-sourced their ridiculously 
-      powerful in-browser bundler, and packaged 
-      it up in a world-class embedded code editor. Such an amazing tool!
+      Tim CodeSandbox menjadikan in-browser bundler yang menakjubkan menjadi open-source, 
+      dan dikemas dengan ditanam pada code editor kelas dunia. 
+      Sungguh tool yang luar biasa!
 
   # https://github.com/tc39/proposal-type-annotations
   - key: picks.rich_harris.name
-    t: Type Annotations Proposal
+    t: Proposal Type Annotation
   - key: picks.rich_harris.bio
-    t: Principal Software Engineer, Vercel
+    t: Principal Perangkat Lunak, Vercel
   - key: picks.rich_harris.description
     t: |
-      I'm going to nominate the type annotations proposal, which was shared with the world this year.
+      Saya akan menominasi proposal type annotation, yang telah kita bagikan pada dunia di tahun ini.
 
   # https://twitter.com/mooeypoo
   - key: picks.cassidy_williams.name
     t: Moriel Schottlender
   - key: picks.cassidy_williams.bio
-    t: CTO at Contenda, Memer and Dreamer
+    t: CTO di Contenda, Memer and Dreamer
   - key: picks.cassidy_williams.description
     t: |
-      Moriel is an inspiring developer who gives passionate, 
-      interesting talks about internationalization and accessibility, 
-      and some of the things she's built with Vue are SO cool, 
-      everyone should check them out!
+      Moriel adalah pengembang yang menginspirasi dan penuh semangat, 
+      pembicaraan menarik tentang internationalization dan aksesibilitas, 
+      dan beberapa hal yang dia buat menggunakan Vue sangatlah keren, 
+      Semua orang harus melihatnya!
 
   # https://www.withdiode.com/
   - key: picks.charlie_gerard.name
     t: Diode
   - key: picks.charlie_gerard.bio
-    t: Senior Developer Advocate at Stripe, Author and Creative Technologist
+    t: Advokat Pengembang Senior di Stripe, Pengarang dan Teknolog Kreatif
   - key: picks.charlie_gerard.description
     t: |
-      Diode is an interactive tool to build and simulate hardware projects in the browser. 
-      As a hardware tinkerer, this is really exciting and the interface built with 
-      Three.js is great!
+      Diode adalah tool interaktif untuk membangun dan mensimulasikan proyek piranti keras di dalam browser. 
+      Sebagai perakit piranti keras, ini adalah tool interaktif yang menarik dan interaktif yang dibuat dengan Three.js ini sangat hebat!
 
   # https://arisa-fukuzaki.dev/
   - key: picks.alba_silvente.name
@@ -405,7 +408,7 @@ translations:
     t: |
       Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
       she is always thinking about giving back to the community and contributes by giving talks,
-       workshops and articles on the subject.
+      workshops and articles on the subject.
 
   # https://github.com/statelyai/xstate
   - key: picks.matt_pocock.name
