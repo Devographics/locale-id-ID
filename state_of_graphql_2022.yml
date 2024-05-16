@@ -1,0 +1,360 @@
+locale: id-ID
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Edisi 2022 dari survei tahunan pengembang tentang tren-tren terbaru dalam ekosistem GraphQL.
+
+  - key: general.livestream_announcement
+    t: Nantikan [siaran langsung hasil survei spesial kami](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (Inggris)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.graphql2022
+    t: >
+
+      <span class="first-letter">S</span>ejak awal dibuat di Facebook pada September 2015, banyak pengembang telah menerima GraphQL sebagai cara yang baru dan menjanjikan untuk membuat API.
+
+
+      Namun 7 tahun kemudian, masih ada banyak pertanyaan: sebenarnya kapan kita membutuhkan GraphQL? Haruskah anda menulis API GraphQL anda secara manual atau membuatnya dari database anda? Dan apakah GraphQL akan menggatikan REST?
+
+
+      Untuk menjawab pertanyaan-pertanyaan tersebut dan lebih banyak lagi, kami membuat survei komunitas **State of GraphQL** yang paling perdana. Lebih dari 3,000 pengembang mengambil bagian tahun ini, dan ini baru permulaaan.
+
+
+      Kami harap anda senang menjelajahi datanya, dan jangan lupa untuk melihat [API GraphQL kami](https://graphiql.devographics.com/) juga!
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Kaos
+
+  - key: sections.tshirt.description
+    t: |
+      ## Dukung Survei ini Dengan Kaos State Of CSS 
+
+      Di antara kualitas video yang buruk, kaset yang besar, dan harus memutar balik, tidak ada yang dapat dirindukan dari era VHS. Namun satu hal yang kami *rindukan* adalah visual 90an yang dulu menghiasi kaset VHS yang kosong. 
+
+      Namun, berkat dari seniman bertalenta Christopher Kirk-Nielsen anda dapat menikmati semua kekerenan retro ini sambil juga merayakan kecintaan anda akan CSS dalam waktu yang bersamaan!
+
+  - key: tshirt.about
+    t: Tentang kaos ini
+
+  - key: tshirt.description
+    t: |
+      Kami menggunakan kaos tri-blend berkualitas tinggi yang sangat lembut dengan bentuk ramping yang dicetak dari mitra kami di Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Dapatkan
+
+  - key: tshirt.price
+    t: USD $29 + pengiriman
+
+  - key: tshirt.designer.heading
+    t: Tentang perancang kaos
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info_graphql2022.description
+    t: |
+      **3,094** responden telah mengikuti survei tahun ini.
+
+  - key: sections.features_graphql2022.description
+    t: |
+      GraphQL mungkin adalah sebuah konsep sederhana pada dasarnya, namun ada banyak fitur dan pola untuk dipertimbangkan di bawah permukaan.
+
+  - key: sections.libraries_graphql2022.description
+    t: |
+      Ekosistem GraphQL ternyata lumayan besar, dengan banyak pustaka yang berkompetisi untuk membantu anda membuat API anda.
+
+  - key: sections.tools_others_graphql2022.description
+    t: |
+      Memilih alat-alat yang tepat untuk digunakan bersama dengan GraphQL dapat membuat perbedaan yang besar.
+
+  - key: sections.usage_graphql2022.description
+    t: |
+      Kami tidak hanya ingin anda mengetahui bagaimana orang menggunakan GraphQL, namun juga *alasannya* – dan juga dimana kekurangan GraphQL…
+
+  - key: sections.resources_graphql2022.description
+    t: |
+      Kami yakin anda akan anda akan menemmukan paling tidak satu atau dua orang, podcast, atau blog baru untuk diikuti!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.graphql_language
+    aliasFor: sections.graphql_language.title
+  - key: options.features_categories.directives
+    aliasFor: sections.directives.title
+  - key: options.features_categories.security_performance
+    aliasFor: sections.security_performance.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Bagan berikut menunjukkan **rasio retensi** tiap teknologi dibandingkan **jumlah pengguna** total.
+      Ini bisa dibagi menjadi 4 kuadran:
+
+        - **1**: Penggunaan rendah, retensi tinggi. Teknologi yang patut diperhatikan.
+
+        - **2**: Penggunaan tinggi, retensi tinggi. Teknologi yang aman untuk diadopsi.
+
+        - **3**: Low penggunaan, retensi rendah. Teknologi yang sulit direkomendasikan untuk saat ini.
+
+        - **4**: Penggunaan tinggi, retensi rendah. Pertimbangkan teknologi-teknologi berikut jika anda menggunakannya saat ini.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Jika anda tertarik untuk mempelajari lebih lanjut, kami telah [menulis sebuah pos blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) yang membahas dinamika gender dari survei ini.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      Anda dapat menjelajahi dataset lengkap jawaban pertanyaan ini [dalam projek sampingan berikut](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      Bagan ini mengumpulkan referrer, parameter URL, dan jawaban esai. 
+
+      - State of JS: milis [State of JS](https://stateofjs.com).
+
+      - State of CSS: milis State of CSS; juga mencocoki `email`, `by email` (lewat email), dll.
+
+      - Pekerjaan: mencocoki `work` (kerja), `colleagues` (kolega), `coworkers` (teman kerja), dll.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Dengan peningkatan sebesar **{value}** pada 2021, operator nullish coalescing (??) dengan cepat telah menjadi bagian penting dari JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: esbuild baru berumur hampir dua tahun, namun menjadi semakin populer dengan peningkatan sebesar **{value}** selama setahun terakhir.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite mengambil tempat teratas dengan rasio retensi yang sangat tinggi, yaitu **{value}**!
+
+  - key: award.tool_interest_award.comment
+    t: Dengan rasio ketertarikan sebesar **{value}**, Vite sekali lagi memenangkan emas!
+
+  - key: award.most_write_ins_award.comment
+    t: Banyak pertanyaan yang juga menerima jawaban esai, dan dengan sebutan sebanyak **{value}** Elm menjadi item yang paling populer.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.graphql2022
+    t: |
+
+      <span class="first-line">GraphQL benar-benar menjadi bagian dari cara kita membuat aplikasi modern hari ini.</span>
+
+      Semakin banyak perusahaan membuat produk, layanan, peralatan, dan RFC dan sebagian besar pekerjaan tersebut dilakukan secara sumber terbuka, yang sungguh luar biasa untuk dilihat! Penting juga untuk sebuah ekosistem berkembang untuk memiliki persaingan sehat dan kolaborasi!
+
+      Hasilnya, cara kita mengkonsumsi GraphQL di sisi klien juga berubah, dengan berbagai pustaka, misalnya urql dan React Query, menjadi pilihan populer hari ini bersama dengan berbagai pendukung seperti Apollo Client dan Relay. Juga sangat keren untuk melihat GraphQL terus berkembang dan bertumbuh dalam berbagai bahasa selain JavaScript – sekarang ada banyak server GraphQL dan klien-klien yang stabil dalam sebagian besar bahasa pemrograman yang populer!
+
+      GraphQL itu sendiri juga berubah, dengan berbagai perubahan yang diantisipasi semakin dekat untuk menjadi bagian spesifikasi resmi. Kita sebentar lagi akan melihat perubahan pada stream, defer, input polymorphism, dan juga peningkatan pada subscriptions dan live queries. 
+
+      Terlebih lagi, sekarang terdapat berbagai perusahaan yang berfokus pada keamanan GraphQL, caching, menemukan error, deploying to the edge, dan meng-abstraksi database dan backend menjadi schema sederhana, dan lebih banyak lagi yang membuat bekerja dengan GraphQL lebih mudah lagi dari pada sebelumnya.
+
+      Kkta juga baru-baru ini melihat perilisan GraphiQL baru yang menjanjikan sebuah ekosistem plugin yang kuat, dependency yang lebih sedikit, dan bahkan mode gelap! dan [Yayasan GraphQL](https://graphql.org/foundation/) terus berkembang dengan bergabungnya anggota baru untuk membantu usaha dari semua yang terlibat dalam mendidik, membangun, dan mengarahkan masa depan GraphQL.
+
+      GraphQL juga telah menemukan tempatnya dalam ekosistem, dan memiliki masa depan yang cemerlang!
+
+  - key: conclusion.graphql2022.bio
+    t: Senior Developer Relations @ Grafbase
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Pilihan 2022 Saya: "
+  - key: picks.intro
+    t: Kami meminta komunitas GraphQL untuk membagikan “pilihan tahun ini” versi mereka
+
+  - key: picks.jamie_barton.name
+    t: GraphQL Mesh
+  - key: picks.jamie_barton.bio
+    t: Full Stack Developer & Educator
+  - key: picks.jamie_barton.description
+    t: |
+      Makin banyak orang mencari solusi untuk menjebatani antara 
+      semua layanan mereka. Mesh memungkinkan anda melakukannya dengan GraphQL, 
+      dan juga layanan non-GraphQL.
+
+  - key: picks.tanmai_gopal.name
+    t: Streaming over GraphQL Subscriptions
+  - key: picks.tanmai_gopal.bio
+    t: CEO & co-founder at Hasura
+  - key: picks.tanmai_gopal.description
+    t: |
+      API yang modern perlu menangani volume data yang semakin besar, 
+      atau data yang bergerak cepat yang merupakan sebuah stream. 
+      Dapatkan kita menggunakan GraphQL subscriptions sebagai sebuah API streaming?
+
+  - key: picks.tim_suchanek.name
+    t: Benjie Gillam
+  - key: picks.tim_suchanek.bio
+    t: Insinyur Perangkat Lunak dan Entrepreneur
+  - key: picks.tim_suchanek.description
+    t: |
+      Benjie adalah salah satu dari orang-orang yang mendorong GraphQL maju. 
+      Keterlibatannya dalam WG, TSC, dan berbagai inisiatif yayasan lainnya tidak tertandingi.
+
+  - key: picks.uri_goldshtein.name
+    t: Pothos GraphQL
+  - key: picks.uri_goldshtein.bio
+    t: Founder of The Guild
+  - key: picks.uri_goldshtein.description
+    t: |
+      Pembangun schema code-first, TS. Mudah digunakan namun tetap kuat, berbasis plugin dan dikelola dengan sangat baik. 
+      Jika anda mengutamakan kode, ini yang harus dipilih.
+
+  - key: picks.benjie_gillam.name
+    t: SpecNews Podcast
+  - key: picks.benjie_gillam.bio
+    t: Community-funded OSS maintainer
+  - key: picks.benjie_gillam.description
+    t: |
+      Aktivitas terbaru dari GraphQL Working Group dirangkum menjadi hanya 5-10 menit per bulan. 
+      Pengetahuan GraphQL mutakhir dengan usaha minimal!
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.nijibox.description
+    t: >
+      Dukungan One-stop untuk desain UX, kreativitas, dan pengembangan.
+
+  - key: sponsors.frontendmasters.description
+    t: >
+      Majukan keterampilan anda dengan berbagai kursus rekayasa front-end yang mendalam dan modern.
+
+  - key: sponsors.nhost.description
+    t: >
+      Nhost adalah sebuah alternatif Firebase sumber terbuka dengan GraphQL.
+
+  - key: sponsors.apollo.description
+    t: >
+      Supergraph dari Apollo memberdayakan berbagai produk dan tim-tim rekayasa untuk membuat pengalaman-pengalaman yang menakjubkan dengan cepat untuk pelanggan mereka.
+
+  - key: sponsors.the_guild.description
+    t: >
+      Ekosistem dan alat-alat sumber terbuka The Guild memberikan semua yang anda butuhkan untuk mengembankan API anda.
+
+  - key: sponsors.hasura.description
+    t: >
+      Jalankan Hasura secara lokal atau di cloud, dan hubungkan dengan basis data baru atau yang sudah ada untuk membuat sebuah API GraphQL kelas produksi.
+
+  - key: sponsors.graphql_wtf.description
+    t: >
+      Pelajari sesuatu yang baru dengan GraphQL, setiap minggu. Dapatkan episode baru secara langsung dari inbox anda.
+
+  - key: sponsors.grafbase.description
+    t: >
+      Backend GraphQL instan tanpa server. Grafbase memberikan pengelaman pengembang terbaik untuk men-deploy API GraphQL.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      Survei State of GraphQL 2022 berjalan dari 15 Juni, 2022 sampai 15 Juli, 2022, dan mendapatkan 3,094 respons. Survei ini sebagian besar dijalankan oleh saya, [Sacha Greif](https://sachagreif.com/), dengan bantuan dari tim kontributor sumber terbuka dan konsultan. 
+
+      ### Survey Goals
+
+      Survei ini, bersama dengan [State of CSS](https://stateofcss.com/) dan [State of JS](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
+
+
+      Karena ukuran sampel yang relatif kecil, survei ini harus dibaca sebagai **gambaran dari sebagian pengembang**, dan bukan dimaksudkan untuk mewakili seluruh ekosistem GraphQL.
+
+
+      Survei ini juga **tidak berafiliasi dengan GraphQL atau Facebook**.  
+
+      ### Perancangan Survei
+
+      Survei ini dirancang secara kolaboratif, dengan periode umpan balik terbuka dimana isi survei didiskusikan di GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). Semua pertanyaan survei adalah opsional. 
+
+      ### Audiens Survei
+
+      Survei ini dapat diakses siapa saja secara daring dan para responden tidak disaring atau diseleksi dengan cara apapun. Para responden sebagian besar masuk dari sosial media. 
+
+      ### Perwakilan & Inklusivitas
+
+      Sementara kami percaya bahwa penting untuk memberikan suara bagi setiap komunitas, nyatanya sebuah survei terbuka seperti yang ini, akan selalu sulit untuk mewakili semua orang, terutama ketika beroperasi lewat sistem sudah membawa bias masing-masing. 
+
+
+      Untuk menyeimbangi ini, kami mengimplementasikan tiga strategi berbeda:
+
+
+      - **Outreach**: kami selalu berusaha untuk mengampiri berbagai organisasi (misalnya organisasi yang berfokus pada BIPOC atau LGBTQ, atau platform pembelajaran daring) untuk mencoba membuat audiens kami beragam. 
+
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha mempermudah untuk mewakili suara dari segmen demografi manapun, tak peduli seberapa kecil dalam data kami. 
+
+      - **Penurunan Penghalang**: membuat surveinya terlalu panjang, tidak dapat diakses, lambat untuk dimuat, hanya berbahasa Inggris, dll. semuanya dapat berkontribusi dalam membuat suatu "pajak upaya" yang menghalangi sebagian anggota komunitas yang tidak dapat menanggungnya. Memperbaiki masalah-masalh tersebut dapat menurunkan penghalang masuk dan membuat audiens lebih beragam. 
+
+
+      ### Pembiayaan proyek
+
+      Pendanaan proyek ini datang dari beberapa sumber:
+
+
+      - **Bagan Bersponsor**: anggota komunitas dapat membuat donasi untuk survei ini, dan nama mereka akan ditampilkan dalam laporan.  
+
+      - **Pranala Bersponsor**: pranala untuk sumber-sumber rekomendasi di bawah setiap halaman adalah persembahan dari partner kami [Frontend Masters](https://frontendmasters.com/).
+
+      - **Pembiayaan Lain**: perusahaan-perusahaan yang terdaftar dalam Bagian "Partner Kami" di [halaman awal](/introduction) juga telah berkontribusi baik secara finansial atau yang lain. 
+
+
+      Para sponsor tidak dapat menentukan isi survei atau bagaimana hasilnya ditunjukkan, dan sponsor hanya diputuskan setelah semua data telah diambil. 
+
+      ### Ikhtisar Teknis
+
+      Anda dapat menemukan ikhtisar teknis yang lebih mendalam tentang bagaiman survei-survei dijalankan [di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+
+      - **Pengumpulan Data**: Aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
+
+      - **Penyimpanan/pemrosesan Data**: MongoDB & Agregasi MongoDB.
+
+      - **API Data**: API GraphQL Node.js. 
+
+      - **Situs Web Hasil**: Aplikasi React [Gatsby](https://www.gatsbyjs.com/).
+
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka visualisasi React. 
+
+      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
