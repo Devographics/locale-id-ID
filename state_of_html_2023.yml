@@ -10,7 +10,7 @@ translations:
   - key: introduction.html2023
     t: >
       Sementara JavaScript mengambil alih web, dan CSS memperoleh kekuatan super baru tahun demi tahun, 
-      sepertinya HTML terlihat puas untuk tetap diam, rela untuk memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
+      sepertinya HTML terlihat tetap diam saja, bahkan rela memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
       Toh setelah anda belajar tentang `<div>` dan `<h>`s 1 sampai 6, mau belajar apa lagi?
 
 
@@ -39,7 +39,7 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Kaos
 
   - key: sections.tshirt.description
     t: |
@@ -47,7 +47,7 @@ translations:
 
       Apakah anda merindukan zaman-zaman pertengahan 90an, ketika HTML masih menjadi raja dan sampul VHS dibungkus dengan karya seni yang futuristik dan penuh warna? 
 
-      Kabar buruknya adalah bahkan dengan teknologi 2024, anda masih belum bisa membalikkan waktu untuk kembali menghidupi masa-masa kejayaan itu. Tapi yang *bisa* anda lakukan adalah memakai kaos retro original yang keren ini, yang dirancang oleh seoarang Christopher Kirk-Nielsen yang bertalenta.
+      Kabar buruknya adalah bahkan dengan teknologi 2024, anda masih belum bisa membalikkan waktu untuk kembali menghidupi masa-masa kejayaan itu. Tapi yang *bisa* anda lakukan adalah memakai kaos retro original yang keren ini, yang dirancang oleh seorang Christopher Kirk-Nielsen yang bertalenta.
 
   - key: tshirt.about
     t: Tentang Kaos Ini
@@ -90,10 +90,10 @@ translations:
 
   - key: features.all_features.description
     t: |
-      Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diabtara keduanya. 
+      Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diantara keduanya. 
 
 
-      Ketahui bahwa anda juga dapat menemukan perincian yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
+      Anda juga dapat menemukan perincian yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
 
   ###########################################################################
   # Sponsors
@@ -116,7 +116,7 @@ translations:
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
   - key: conclusion.html2023
     t: >
-      *Wah!* Survei ini telah mengambil banyak upaya dari banyak orang melintasi enam benua. Survei ini tidak hanya mencetak rekor baru untuk respons paling banyak dalam debut survei “State of…”, antarmuka pengguna pengambilan data juga menghasilkan berbagai inovasi yang memberi kita perspektif baru terhadap sikap para pengembang, dan pengaruhnya akan jauh menjangkau melampaui cakupannya. 
+      *Wah!* Survei ini telah mengambil banyak upaya dari banyak orang melintasi enam benua. Survei ini tidak hanya mencetak rekor baru untuk respons paling banyak dalam debut survei “State of…”, antarmuka pengguna pengambilan data juga menghasilkan berbagai inovasi yang memberi perspektif baru terhadap sikap para pengembang, dan pengaruhnya akan menjangkau jauh melampaui cakupannya. 
 
 
       Beberapa berargumen bahwa memperbaiki HTML adalah sia-sia, namun survei ini membuktikan yang sebaliknya. **Para pengembang membutuhkan elemen HTML yang lebih interaktif**: tidak hanya terbatas kepada elemen-elemen seperti `<datalist>` dan API Popover yang paling banyak mengumpulkan sentimen positif di antara semua kategori, namun selain itu semua [elemen hilang teratas](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) adalah elemen interaktif. 
@@ -141,13 +141,13 @@ translations:
     t: |
       Survei State of HTML 2023 berjalan dari 19 September sampai 19 Oktober 2023, dan menerima 20,904 jawaban. 
 
-      Usaha perancangan The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+      Usaha perancangan dipimpin oleh [Lea Verou](https://lea.verou.me/) berkat sebuah dana hibah dari Google. Lea juga mengawasi prototyping, pengujian, dan implementasi dari antarmuka koleksi data; berkontribusi dalam bidang pemrosesan data; dan membantu dengan visualisasi data. 
 
-      The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+      Infrastruktur survei ini dikelola oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan bantuan dari tim kontributor sumber terbuka dan konsultan. 
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos tahun ini dirancang oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### Tujuan Survei
 
       Survei ini dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
@@ -163,9 +163,9 @@ translations:
 
       - **Penjualan kaos**. 
 
-      - **Pranala bersponsor**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Pranala bersponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah tiap halaman diberikan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
 
-      - **Pembiayaan Lain**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+      - **Pembiayaan Lain**: [Google](https://www.google.com/) dan [TokyoDev](https://www.tokyodev.com/) juga membantu membiayai survei ini.
 
       ### Ikhtisar teknis
 
