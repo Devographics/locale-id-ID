@@ -28,51 +28,67 @@ translations:
       ekosistem React. Beri tahu kami apa yang membuat anda bersemangat!
 
   # sections
-  - key: sections.components.title
-    t: Komponen
+  - key: sections.main_apis.title
+    t: API utama
   - key: sections.components.description
-    t: Komponen-komponen spesial yang diberikan React
+    t: Fitur-fitur React yang stabil dan
+
   - key: sections.hooks.title
     t: Hook
   - key: sections.hooks.description
     t: Hook bawaan React
-  - key: sections.other_apis.title
-    t: API-API lain
-  - key: sections.other_apis.description
-    t: API-API dan fitur-fitur lain
-  - key: sections.component_apis.title
-    t: API-API komponen
-  - key: sections.component_apis.description
-    t: API-API untuk memanipulasi komponen
-  - key: sections.legacy_apis.title
-    t: API-API lama
-  - key: sections.legacy_apis.description
-    t: API-API lama dan usang
 
+  - key: sections.new_apis.title
+    t: API-API baru 
+  - key: sections.other_apis.description
+    t: Fitur-fitur baru atau ekperimental
+
+  - key: sections.component_libraries.title
+    t: Library komponen
+  - key: sections.component_apis.description
+    t: Penyusun paling dasar dari front-end anda
+
+  # - key: sections.data_management.title
+  #   t: Data Management
+  # - key: sections.data_management.description
+  #   t: Loading and managing application data
+ 
   - key: sections.state_management.title
     t: Pengelolaan State
   - key: sections.state_management.description
     t: Library untuk mengelola state aplikasi
+
   - key: sections.data_loading.title
     t: Pemuatan Data
   - key: sections.data_loading.description
     t: Alat-alat untuk memuat dan mengelola data
-  - key: sections.ui_libraries.title
-    t: Library UI
-  - key: sections.ui_libraries.description
-    t: Library komponen dan UI lainnya.
-  - key: sections.meta_frameworks.title
-    t: Meta Framework
-  - key: sections.meta_frameworks.description
-    t: Framework untuk membantu merender dan menyajikan aplikasi React anda
-  - key: sections.testing.title
-    t: Pengetesan
-  - key: sections.testing.description
-    t: Alat-alat dan library pengetesan
-  - key: sections.mobile_development.title
-    t: Pengembangan seluler
-  - key: sections.mobile_development.description
-    t: Library dan alat-alat untuk pengembangan seluler
+
+  - key: sections.back_end_infrastructure.title
+    t: Back-End & Infrastruktur
+  - key: sections.back_end_infrastructure.description
+    t: Bundling & menyajikan aplikasi anda
+
+  # - key: sections.usage.title
+  #   t: Back-End & Infrastructure
+  # - key: sections.usage.description
+  #   t: Bundling & serving your app
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: Library UI
+  # - key: sections.ui_libraries.description
+  #   t: Library komponen dan UI lainnya.
+    #
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Framework
+  # - key: sections.meta_frameworks.description
+  #   t: Framework untuk membantu merender dan menyajikan aplikasi React anda
+    #
+  # - key: sections.testing.title
+  #   t: Pengetesan
+  # - key: sections.testing.description
+  #   t: Alat-alat dan library 
 
   - key: sections.other_tools.title
     t: Alat-alat lainnya
@@ -84,14 +100,201 @@ translations:
   - key: sections.usage_react.description
     t: Bagaimana anda menggunakan React setiap harinya
 
+  - key: tools.data_loading_heading
+    t: Library Pemuatan Data 
+
+  - key: tools.state_management_heading
+    t: Library Pengelolaan State 
+
+    # features
+
+  - key: features.main_apis_pain_points
+    t: Titik Sakit API Utama
+  - key: features.main_apis_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan API-API yang disebutkan di atas?
+
+  - key: features.hooks_pain_points
+    t: Titik Sakit Hook
+  - key: features.hooks_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan hook?
+
+  - key: features.new_apis_pain_points
+    t: Titik Sakit API baru
+  - key: features.new_apis_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi berhubungan dengan API baru?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, seringkali digunakan dengan sintaks `<>...</>`, memungkinkan anda mengelompokkan elemen tanpa sebuah node pembungkus.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` memungkinkan anda mengukur performa rendering dari sebuah pohon React secara terprogram.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` memungkinkan anda menemukan bug umum dalam komponen anda pada awal pengembangan.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` memungkinkan anda me-render beberapa anak ke bagian DOM yang berbeda.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` memungkinkan anda membuat sebuah konteks yang dapat dibaca atau diberikan sebuah komponen.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` memungkinkan komponen anda untuk mengekspos sebuah node DOM ke sebuah komponen orang tua dengan sebuah ref.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` memungkinkan anda menunda pemuatan kode sebuah komponen sampai komponen tersebut dirender untuk pertama kali.
+
+  - key: features.memo.description
+    t: >
+      `memo` memungkinkan anda melewati perenderan ulang sebuah komponen ketika prop komponen tersebut tidak berubah.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` memungkinkan anda membuat sebuah root untuk menampilkan komponen React di dalam sebuah node DOM di browser.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` memungkinkan anda menampilkan komponen React dalam sebuah node DOM di browser yang konten HTML-nya sebelumnya dibuat oleh `react-dom/server`.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` adalah sebuah Hook React yang memungkinkan anda meng-cache sebuah definisi fungsi between re-renders.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` adalah sebuah Hook React yang memungkinkan anda membaca dan berlangganan ke sebuah context dari komponen anda.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah label ke sebuah Hook custom di React DevTools.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` adalah sebuah Hook React yang memungkinkan anda menunda pembaruan sebagian dari UI.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` adalah sebuah Hook React yang memungkinkan anda mensinkronkan sebuah komponen dengan sebuah sistem eksternal.
+
+  - key: features.useid.description
+    t: >
+      `useId` adalah sebuah Hook React untuk membuat ID unik yang dapat digunakan untuk berbagai atribut aksesibilitas.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` adalah sebuah Hook React yang memungkinkan anda meng-cache hasil dari sebuah kalkulasi di antara perenderan ulang.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah reducer ke komponen anda.
+
+  - key: features.useref.description
+    t: >
+      `useRef` adalah sebuah Hook React yang memungkinkan anda mengakses sebuah nilai yang tidak diperlukan untuk perenderan.
+
+  - key: features.usestate.description
+    t: >
+      `useState` adalah sebuah Hook React yang memungkinkan anda menambahkan sebuah variabel state ke komponen anda.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` adalah sebuah Hook React yang memungkinkan anda berlangganan ke sebuah store eksternal.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` adalah sebuah Hook React yang memungkinkan anda memperbarui state tanpa memblokir UI.
+
+    # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` memungkinkan anda menampilkan sebuah a fallback sampai anak selesai dimuat.
+
+  - key: features.use_hook.description
+    t: >
+      `use` adalah sebuah Hook React that memungkinkan anda membaca nilai dari sebuah sumber daya seperti sebuah Promise context.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` adalah sebuah Hook React that memungkinkan anda memperbarui state tanpa memblokir UI.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` memungkinkan anda memperbarui state tanpa memblokir UI.
+
+  - key: features.react_server_components.description
+    t: >
+      Komponen yang berjalan hanya di server.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` menandakan berkas sumber yang komponennya dieksekusi di klien.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` menandakan fungsi sisi server yang dapat dipanggil dari kode sisi klien.
+
+  - key: features.server_actions.description
+    t: 
+      Solusi bawaan React untuk mutasi server.
+
+  - key: features.taint_api.description
+    t: >
+      Mencegah sebuah objek atau nilai spesifik dimasukkan ke sebuah Komponen Klien.
+
+  - key: features.cache.description
+    t: >
+      `cache` memungkinkan anda meng-cache hasil dari pengambilan atau komputasi data.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` adalah sebuah Hook yang memberikan anda informasi status dari submisi form yang terakhir.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` adalah sebuah Hook yang memungkinkan anda memperbarui state berdasarkan hasil dari sebuah aksi form.
+
   # tools
 
+  - key: tools.component_libraries_others
+    t: Library lain
+  - key: tools.component_libraries_others.question
+    t: Library komponen lain apa saja yang pernah anda gunakan?
+
+  - key: tools.component_libraries_pain_points
+    t: Titik Sakit Komponen
+  - key: tools.component_libraries_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi selama bekerja dengan komponen?
+
+  # - key: tools.ui_libraries_happiness
+  #   t: Happiness
+  # - key: tools.ui_libraries_happiness.description
+  #   t: How happy are you with the state of UI libraries?
+  #
   - key: tools.state_management_others
-    t: Library Pengelolaan State lainnya
-  - key: tools.state_management_happiness
-    t: Kepuasan
-  - key: tools.state_management_happiness.description
-    t: Seberapa puas anda dengan keadaan library pengelolaan state saat ini?
+    t: Library Pengelolaan State Lainnya
+  - key: tools.state_management_others.question
+    t: Library lain apa saja yang pernah anda gunakan untuk mengelola state dalam aplikasi anda?
+
+  - key: tools.state_management_pain_points
+    t: Titik Sakit Pengelolaan State
+  - key: tools.state_management_pain_points.question
+    t: Apa saja titik sakit yang pernah anda hadapi yang berkaitan dengan pengelolaan state?
+
+  # - key: tools.state_management_happiness
+  #   t: Library Pengelolaan State lainnya
+  # - key: tools.state_management_happiness
+  #   t: Kepuasan
+  # - key: tools.state_management_happiness.description
+  #   t: Seberapa puas anda dengan keadaan library pengelolaan state saat ini?
 
   - key: tools.data_loading_others
     t: Library Pemuatan Data lainnya
@@ -121,12 +324,17 @@ translations:
   - key: tools.testing_happiness.description
     t: Seberapa puas anda dengan keadaaan library saat ini?
 
-  - key: tools.mobile_development_others
-    t: Alat-alat Pengembangan Seluler lainnya
-  - key: tools.mobile_development_happiness
-    t: Kepuasan
-  - key: tools.mobile_development_happiness.description
-    t: Seberapa puas anda dengan keadaaan pengembangan seluler saat ini?
+  - key: other_tools.mobile_development
+    t: Pengembangan seluler
+  - key: other_tools.mobile_development.question
+    t: Library mana yang anda gunakan untuk untuk pengembangan seluler?
+
+  # - key: tools.mobile_development_others
+  #   t: Alat-alat Pengembangan Seluler lainnya
+  # - key: tools.mobile_development_happiness
+  #   t: Kepuasan
+  # - key: tools.mobile_development_happiness.description
+  #   t: Seberapa puas anda dengan keadaaan pengembangan seluler saat ini?
 
   # other tools
   - key: other_tools.forms.description
@@ -262,7 +470,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: Pola-pola aplikasi
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: Yang manakah dari pola-pola aplikasi dan rendering ini yang anda gunakan pada **tahun sebelumnya**?
 
   - key: options.js_app_patterns.single_page_app
@@ -383,3 +591,28 @@ translations:
     t: Langkah-langkah pertama
   - key: resources.first_steps_react.description
     t: Sumber-sumber mana yang anda gunakan untuk pertama kali belajar React?
+
+  - key: resources.blogs_news_magazines_react
+    t: Blog & Buletin
+  - key: resources.blogs_news_magazines_react.question
+    t: Blog, majalah, atau buletin mana yang anda konsultasikan untuk mengikuti berita React?
+
+  - key: resources.sites_courses_react
+    t: Situs & Kursus
+  - key: resources.sites_courses_react.question
+    t: Situs atau kursus mana yang anda gunakan untuk mempelajari React?
+
+  - key: resources.podcasts_react
+    t: Podcast
+  - key: resources.podcasts_react.question
+    t: Podcast React atau pengembangan web mana yang anda dengarkan?
+
+  - key: resources.video_creators_react
+    t: Kreator Video 
+  - key: resources.video_creators_react.question
+    t: Kreator video React atau pengembangan web mana yang anda tonton di YouTube, Twitch, dll.?
+
+  - key: resources.people_react
+    t: Orang-orang
+  - key: resources.people_react.question
+    t: Siapa yang anda baca, ikuti, atau hanya ingin soroti dalam komunitas React?

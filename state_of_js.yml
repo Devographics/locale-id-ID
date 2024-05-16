@@ -7,15 +7,15 @@ translations:
 
   - key: general.state_of_js.intro
     t: >
-        Dunia Javascript membutuhkan klasifikasi.
+      Dunia Javascript membutuhkan klasifikasi.
 
 
-        Sejak 2016, survei ini telah mengumpulkan
-        data dari 20.000+ pengembang setiap tahunnya untuk mengidentifikasi tren saat ini dan yang akan datang.
+      Sejak 2016, survei ini telah mengumpulkan
+      data dari 20.000+ pengembang setiap tahunnya untuk mengidentifikasi tren saat ini dan yang akan datang.
 
 
-        Ikuti survei dan bantu kami mencari tahu pustaka mana yang 
-        akan dipelajari oleh para pengembang, yang memiliki tingkat kepuasan terbaik, dan banyak lagi.
+      Ikuti survei dan bantu kami mencari tahu pustaka mana yang 
+      akan dipelajari oleh para pengembang, yang memiliki tingkat kepuasan terbaik, dan banyak lagi.
 
   - key: general.state_of_js.title
     t: Survei State of Javascript untuk pengembang
@@ -71,7 +71,7 @@ translations:
     t: Lapisan Data
   - key: sections.datalayer.description
     t: Memuat dan mengelola data aplikasi anda
-    
+
   - key: sections.rendering_frameworks.title
     t: Kerangka Rendering
   - key: sections.rendering_frameworks.description
@@ -91,7 +91,7 @@ translations:
     t: Mobile & Desktop
   - key: sections.mobile_desktop.description
     t: Javascript untuk perangkat selular dan aplikasi desktop
-  
+
   - key: sections.build_tools.title
     t: Alat Build
   - key: sections.build_tools.description
@@ -101,12 +101,12 @@ translations:
     t: Alat Monorepo
   - key: sections.monorepo_tools.description
     t: Alat yang digunakan untuk mengatur monorepo Javascript.
-  
+
   - key: sections.tools_others.title
     t: Alat lainnya
   - key: sections.tools_others.description
     t: Alat Javascript lainnya
-  
+
   - key: sections.other_tools.title
     t: Alat lainnya
   - key: sections.other_tools.description
@@ -116,7 +116,7 @@ translations:
     t: Sumber
   - key: sections.resources_js.description
     t: Sumber Javascript apa saja yang Anda pakai?
-  
+
   - key: sections.usage_js.title
     t: Pemakaian
   - key: sections.usage_js.description
@@ -140,7 +140,7 @@ translations:
   ###########################################################################
   # Options
   ###########################################################################
-  
+
   # JS pain points
   # - key: options.top_js_pain_points.browser_interoperability
   #   t: Browser Compatibility
@@ -337,7 +337,7 @@ translations:
     aliasFor: options.currently_missing_from_js.observable
   - key: options.top_currently_missing_from_js.observable.description
     aliasFor: options.currently_missing_from_js.observable.description
-  
+
   - key: options.top_currently_missing_from_js.static_typing
     t: Type statis
   - key: options.top_currently_missing_from_js.standard_library
@@ -380,7 +380,7 @@ translations:
     t: Visualisasi Data
   - key: options.what_do_you_use_js_for.graphics_animation
     t: Grafik & Animasi
-  
+
   - key: options.what_do_you_use_js_for.scripting
     t: Membuat skrip
   - key: options.what_do_you_use_js_for.command_line_tools
@@ -511,8 +511,8 @@ translations:
     t: Decorators
   - key: features.decorators.description
     t: >
-        Sederhananya, dekorator adalah salah satu cara untuk membungkus
-        sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
+      Sederhananya, dekorator adalah salah satu cara untuk membungkus
+      sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
   - key: features.dynamic_import
     t: Dynamic Import
 
@@ -602,7 +602,7 @@ translations:
     t: Alat build lain
   - key: tools_others.build_tools.others.description
     t: Jawaban lain.
-  
+
   - key: tools_others.non_js_languages
     t: Bahasa selain Javascript
   - key: tools_others.non_js_languages.description
@@ -650,7 +650,7 @@ translations:
     t: Layanan yang menyimpan data Anda dan memberikan API klien untuk mengaksesnya.
   - key: tools_others.backend_as_a_service.others
     t: Penyedia BaaS lainnya
-  
+
   - key: tools_others.date_management
     t: Manajemen Tanggal
   - key: tools_others.date_management.description
@@ -664,7 +664,7 @@ translations:
     t: Pustaka yang membantu dengan bagan dan visualisasi data lainnya.
   - key: tools_others.data_visualization.others
     t: Pustaka visualisasi data lainnya
-  
+
   - key: tools_others.graphics_animation
     t: Grafik & Animasi
   - key: tools_others.graphics_animation.description
@@ -820,7 +820,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: Pola Aplikasi
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: Berikut ini mana arsitektur dan pola rendering yang telah Anda gunakan **pada tahun ini**?
   - key: usage.js_app_patterns.others
     t: Pola Aplikasi lain
@@ -832,19 +832,19 @@ translations:
 
   - key: usage.js_ts_balance
     t: Keseimbangan Javascript/TypeScript
-  - key: usage.js_ts_balance.description
+  - key: usage.js_ts_balance.question
     t: Bagaimana caramu membagi waktu antara menulis kode Javascript dan TypeScript?
 
   - key: tools_others.edge_runtimes
     t: Javascript Edge/Serverless Runtime
-  - key: tools_others.edge_runtimes.description
+  - key: tools_others.edge_runtimes.question
     t: Edge atau serverless runtime mana yang biasa Anda gunakan?
   - key: tools_others.edge_runtimes.others
     t: Edge Runtime lain
 
   - key: usage.usage_type
     t: Pemakaian Javascript
-  - key: usage.usage_type.description
+  - key: usage.usage_type.question
     t: Dalam hal apa anda memilih Javascript sebagai bahasa pemrograman utama?
   - key: usage.usage_type.others
     t: Pemakaian lain
@@ -856,7 +856,7 @@ translations:
 
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
-  - key: usage.industry_sector_js.description
+  - key: usage.industry_sector_js.question
     t: Which industry sector(s) are you using Javascript in?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
@@ -908,7 +908,7 @@ translations:
 
   - key: happiness.state_of_js
     t: Seberapa senang Anda dengan Javascript secara umum?
-  
+
   # Pain Points
   - key: opinions.js_pain_points
     t: Poin Minus Javascript

@@ -1,0 +1,905 @@
+locale: id-ID
+namespace: html
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+  # Intro for stateofhtml.com
+  - key: general.state_of_html.intro
+    # aliasFor: general.html2023.survey_intro # Can we do that?
+    t: |
+      Sementara para pengembang web cenderung berfokus pada JavaScript and CSS, tidak ada yang mungkin kita lakukan tanpa HTML sebagai fondasinya.
+
+      Telah lama kelihatan bahwa HTML tidak berevolusi, namun itu mungkin mulai berubah.
+      Elemen-elemen baru seperti `<selectlist>` sudah di depan mata, fitur-fitur baru yang keren seperti popover,
+      dan sekumpulan API-API yang berhubungan dengan browser (Web Components, PWA, dll.).
+
+      Tahun ini, [Lea Verou](https://lea.verou.me/) mengemban tugas yang berat, yaitu memimpin perancangan survei baru ini, dari konten sampai UX dan lain-lainnya.
+
+      berdasarkah keberhasilan dari [State of JS](http://stateofjs.com/) dan [State of CSS](https://stateofcss.com/), kami memperkenalkan **State of HTML**;
+      satu bagian terakhir yang melengkapi trilogi, jadi kita dapat melacak evolusi plaftorm web secara keseluruhan.
+
+      Manfaatnya untuk anda:
+      - Hasil survei **digunakan oleh browser-browser** dan kelompok-kelompok standard **untuk pengutamaan peta jalur**.
+      Respon anda dapat membantu implementasi fitur yang anda inginkan, ketidakcocokan browser diprioritaskan, dan lubang-lubang lainnya diatasi.
+      - Belajar tentang fitur yang baru dan yang akan datang; tambahkan fitur-fitur ke daftar bacaan dan dapatkan sebuah daftar sumber di akhir survei!
+      - Dapatkan skor pengetahuan yang dipersonalisasi dan bandingkan diri anda dengan responden lainnya
+
+      Survei ini akan dibuka selama 3 minggu, namun respon yang masuk **dalam 9 hari pertama (sampai 1 Oktober)** akan memiliki dampak yang jauh lebih besar untuk Web,
+      karena data awal akan digunakan untuk usaha-usaha prioritisasi yang memiliki deadlines sebelum itu.
+
+  - key: general.state_of_html.description
+    t: Survei pengembang tahunan tentang platform web
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.forms.title
+    t: Form
+  - key: sections.forms.description
+    t: Elemen dan atribut yang berkaitan dengan form
+
+  - key: sections.interactivity.title
+    t: Interaktivitas
+  - key: sections.interactivity.description
+    t: API yang memungkinkan interaksi pengguna yang lebih kaya.
+
+  - key: sections.web_components.title
+    t: Web Components
+  - key: sections.web_components.description
+    t: Membuat & memakai web components.
+
+  - key: sections.content.title
+    t: Konten
+  - key: sections.content.description
+    t: Memasukkan, multimedia, data, dan fitur-fitur terkait konten lainnya.
+
+  - key: sections.external_content.title
+    t: Konten eksternal
+  - key: sections.external_content.description
+    t: Memasukkan sumber daya eksternal, dan API multimedia lainnya.
+
+  - key: sections.accessibility.title
+    t: Accessibility
+  - key: sections.accessibility.description
+    t: Membuat aplikasi dan situs yang dapat diakses semua orang.
+
+  - key: sections.mobile_web_apps.title
+    t: Web App mirip Native
+  - key: sections.mobile_web_apps.description
+    t: Menulis web app yang dioptimisasi untuk mobile dan desktop.
+
+  - key: sections.other_features.title
+    t: Fitur-fitur lain
+  - key: sections.other_features.description
+    t: Elemen HTML & API browser lainnya.
+
+  - key: sections.other_tools.title
+    t: Fitur dan Alat-alat Lainnya
+  - key: sections.other_tools.description
+    t: Alat atau fitur-fitur lain yang anda pakai sebagai bagian dari pekerjaan anda.
+
+  - key: sections.usage.title
+    t: Pemakaian
+  - key: sections.usage.description
+    t: Bagaimana anda menggunakan HTML.
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # forms
+
+  - key: features.form_controls
+    t: Kontrol Form
+  - key: features.form_controls.question
+    t: Kontrol form mana yang pernah anda gunakan?
+
+  - key: features.form_input_types
+    t: Tipe Input
+  - key: features.form_input_types.question
+    t: Tipe input mana yang pernah anda gunakan?
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.form_validation_features
+    t: Validasi Form
+  - key: features.form_validation_features.question
+    t: Darimanakah dari fitur validasi form berikut yang pernah anda gunakan?
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.forms_pain_points
+    t: Titik Sakit Form
+  - key: features.forms_pain_points.question
+    t: Apa saja titik sakit anda mengenai form HTML?
+  - key: features.forms_pain_points.description
+    t: |
+      Pertimbangkanlah berbagai kontrol form (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` dll.),
+      perilaku (e.g. validasi, autocomplete), menangani form via JS, API-API penyuntingan (e.g. `contentEditable`) dll.
+      Apapun yang menggangu anda boleh disebutkan — dukungan browser, fitur-fitur yang kurang, styling, dll.
+  - key: features.forms_pain_points.placeholder
+    t: |
+      Titik sakit #{index}…
+
+  # interactivity
+
+  - key: features.dom_attribute_features
+    t: Metode-metode DOM terkait atribut
+  - key: features.dom_attribute_features.question
+    t: Yang mana saja kah dari metode-metode DOM yang terkait dengan atribut berikut yang pernah anda gunakan?
+
+  - key: features.dom_html_features
+    t: Fitur-fitur HTML 
+  - key: features.dom_html_features.question
+    t: Yang mana saja kah dari fitur-fitur DOM HTML penanganan string berikut yang pernah anda gunakan?
+
+  - key: features.dom_methods
+    t: Metode-metode DOM Untuk Mengganti Orangtua
+
+  - key: features.dom_moving_element_features
+    t: Metode-metode DOM Memindah Elemen
+  - key: features.dom_moving_element_features.question
+    t: Yang mana saja kah dari metode-metode DOM pemindah elemen berikut yang pernah anda gunakan?
+  # - key: options.dom_methods.element_innerhtml.description
+  #   t: |
+  #     `element.innerHTML = rawHTML`
+  # - key: options.dom_methods.element_textcontent.description
+  #   t: |
+  #     `element.textContent = text`
+  # - key: options.dom_methods.element_insert_adjacent_html.description
+  #   t: |
+  #     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  # - key: options.dom_methods.element_insert_adjacent_element.description
+  #   t: |
+  #     `element.insertAdjacentElement("afterend", otherElement)`
+  # - key: options.dom_methods.element_append.description
+  #   t: |
+  #     `parent.append(...children)`
+  # - key: options.dom_methods.element_append_child.description
+  #   t: |
+  #     `parent.appendChild(child)`
+  # - key: options.dom_methods.element_before_after.description
+  #   t: |
+  #     `element.before(otherElement)`
+  # - key: options.dom_methods.element_replace_with.description
+  #   t: |
+  #     Replaced the older `parent.replaceChild(el2, el1)` method.
+  # - key: options.dom_methods.element_replace_child.description
+  #   t: |
+  #     `parent.replaceChild(newChild, oldChild)`
+  # - key: options.dom_methods.element_replace_children.description
+  #   t: |
+  #     `element.replaceChildren(...newChildren)`
+  # - key: options.dom_methods.element_toggle_attribute.description
+  #   t: |
+  #     `element.toggleAttribute("data-selected", isSelected)`
+  # - key: options.dom_methods.document_create_document_fragment.description
+  #   t: |
+  #     `let fragment = document.createDocumentFragment()`
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.interactivity_pain_points
+    t: Titik Sakit Interaktivitas
+  - key: features.interactivity_pain_points.question
+    t: Apa saja titik sakit anda terkait perubahan dinamis dalam HTML?
+  - key: features.interactivity_pain_points.description
+    t: |
+      Ketidakcocokan atau kurangnya dukungan antar browser, fitur yang kurang, dan masalah-masalah lainnya yang anda hadapi
+      terkait dengan elemen dan perilaku interaktif (kecuali form), manipulasi DOM, events, dan API-API yang terkait.
+
+  - key: features.interactivity_pain_points.placeholder
+    t: |
+      Titik sakit #{index}…
+
+  - key: features.interactivity_techniques
+    t: Metode-metode Interaktivitas
+  - key: features.interactivity_techniques.question
+    t: Methode-metoda mana saja yang pernah anda pakai untuk menambah interaktivitas atau memodifikasi HTML secara dinamis?
+  - key: options.interactivity_techniques.css_for_interactivity
+    t: CSS untuk interaktivitas (toggles, tab, dll.)
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: Library DOM JavaScript (jQuery, dll.)
+  - key: options.interactivity_techniques.js_framework
+    t: Framework JavaScript (React, Vue, dll.)
+  - key: options.interactivity_techniques.vanilla_js
+    t: JavaScript polos (tanpa framework atau library)
+  - key: options.interactivity_techniques.web_components
+    t: Web Components
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  # content
+
+  - key: features.machine_readable_features
+    t: Data Yang Dapat Dibaca Mesin
+  - key: features.machine_readable_features.question
+    t: Dari yang berikut ini, yang mana saja kah yang pernah anda pakai untuk memasukkan data yang dapat dibaca mesin HTML?
+  - key: options.machine_readable_features.rdfa.description
+    t: |
+      `property`, `typeof`, dll.
+  - key: options.machine_readable_features.json_ld.description
+    t: |
+      `<script type="application/ld+json">`
+  - key: options.machine_readable_features.microdata.description
+    t: |
+      `itemprop`, `itemscope`, dll.
+
+  - key: features.multiple_languages_support
+    t: Dukungan Multi-bahasa
+  - key: features.multiple_languages_support.question
+    t: Seberapa sering anda bekerja dalam proyek yang harus mendukung lebih dari satu bahasa?
+  - key: options.multiple_languages_support.never
+    t: Tidak pernah
+  - key: options.multiple_languages_support.infrequently
+    t: Jarang (kurang dari sekali setahun)
+  - key: options.multiple_languages_support.frequently
+    t: Sering (lebih dari setahun)
+  - key: options.multiple_languages_support.all_the_time
+    t: Selalu
+
+  - key: features.i18n_features
+    t: Fitur internasionalisasi
+  - key: features.i18n_features.question
+    t: Yang mana saja kah dari fitur-fitur internasionalisasi berikut yang pernah anda gunakan?
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  # - key: options.i18n_features.intl_datetimeformat.description
+  #   t:
+  # - key: options.i18n_features.intl_collator.description
+  #   t:
+  # - key: options.i18n_features.intl_listformat.description
+  #   t:
+  # - key: options.i18n_features.intl_numberformat.description
+  #   t:
+  # - key: options.i18n_features.intl_messageformat.description
+  #   t:
+  # - key: options.i18n_features.intl_pluralrules.description
+  #   t:
+  # - key: options.i18n_features.intl_relative_time_format.description
+  #   t:
+  # - key: options.i18n_features.intl_segmenter.description
+  #   t:
+  # - key: options.i18n_features.intl_localematcher.description
+  #   t:
+
+  - key: features.content_pain_points
+    t: Titik Sakit Konten
+  - key: features.content_pain_points.question
+    t: Apa saja titik sakit anda terkait dengan mengelola konten dalam HTML?
+  - key: features.content_pain_points.description
+    t: |
+      Pikirkanlah embedding (multimedia, iframes, SVG, dll), data yang dapat dibaca mesin, internasionalisasi & lokalisasi, keamanan & privasi, performa dll.
+      Fitur-fitur yang kurang, ketidakcocokan antar browser, dan masalah-masalah lain yang anda hadapi semua boleh disebutkan.
+  - key: features.content_pain_points.placeholder
+    t: |
+      Titik sakit #{index}…
+
+  # Content
+
+  - key: features.external_content_elements
+    t: Elemen konten eksternal
+  - key: features.external_content_elements.question
+    t: Dari elemen-elemen berikut, yang mana sajakah yang pernah anda gunakan?
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.privacy_security_features
+    t: |
+      Fitur-fitur Keamanan & Privasi
+  - key: features.privacy_security_features.question
+    t: |
+      Fitur-fitur keamanan & privasi yang mana sajakah yang pernah anda pakai?
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.rel_attribute
+    t: Petunjuk Sumber Daya
+  - key: features.rel_attribute.question
+    t: |
+      Nilai-nilai mana yang pernah anda pakai untuk atribut `rel` dari `<link>` ?
+
+  # - key: features.external_content_pain_points
+  #   t: External Content Pain Points
+  # - key: features.external_content_pain_points.question
+  #   t: What are your biggest pain points around using external content in HTML?
+  # - key: features.external_content_pain_points.placeholder
+  #   t: |
+  #     Pain point #{index}…
+  # - key: features.external_content_pain_points.description
+  #   t: |
+  #     External content includes `<iframe>`, graphics and multimedia, etc.
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: Web Components Libraries
+  - key: features.web_components_libraries.question
+    t: Have you used any Web Components libraries?
+
+  - key: features.web_components_features
+    t: Other Web Component Features
+  - key: features.web_components_features.question
+    t: Which of the following web component features have you used?
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+      `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.using_web_components_pain_points
+    t: Using Web Components Pain Points
+  - key: features.using_web_components_pain_points.question
+    t: What are your biggest pain points around *consuming* web components?
+  - key: features.using_web_components_pain_points.description
+    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+  - key: features.using_web_components_pain_points.placeholder
+    t: |
+      Pain point #{index}…
+
+  - key: features.making_web_components_pain_points
+    t: Making Web Components Pain Points
+  - key: features.making_web_components_pain_points.question
+    t: What are your biggest pain points around *making* web components?
+  - key: features.making_web_components_pain_points.description
+    t: |
+      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+  - key: features.making_web_components_pain_points.placeholder
+    t: |
+      Pain point #{index}…
+
+  # Accessibility
+
+  - key: features.accessibility_features
+    t: Accessibility Features
+  - key: features.accessibility_features.question
+    t: Which of these accessibility features have you used?
+
+  - key: features.accessibility_tools
+    t: Accessibility Tools
+  - key: features.accessibility_tools.question
+    t: What tools do you use for accessibility testing?
+
+  - key: features.accessibility_pain_points
+    t: Accessibility Pain Points
+  - key: features.accessibility_pain_points.question
+    t: What are your biggest pain points around web accessibility?
+  - key: features.accessibility_pain_points.placeholder
+    t: |
+      Pain point #{index}…
+
+  - key: features.accessibility_disabilities
+    t: User Disabilities
+  - key: features.accessibility_disabilities.question
+    t: What kind of user disabilities do you account for when making websites?
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    t: Hearing impairments
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: Deafness, tinnitus, etc.
+
+  - key: options.accessibility_disabilities.mobility_impairments
+    t: Mobility impairments
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: Arthritis, carpal tunnel, etc.
+
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: Learning disabilities
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: Dyslexia, dyscalculia, etc.
+
+  - key: options.accessibility_disabilities.cognitive_impairments
+    t: |
+      Other cognitive impairments
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      Anxiety, Autism, OCD, ADHD, etc.
+
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: Vestibular disorders
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: Epilepsy, vertigo, etc.
+
+  - key: options.accessibility_disabilities.low_vision
+    t: Low vision
+  - key: options.accessibility_disabilities.low_vision.description
+    t: Blindness, high myopia, etc.
+
+  - key: options.accessibility_disabilities.atypical_vision
+    t: Atypical color vision
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: Color blindness
+
+  - key: features.accessibility_screenreaders
+    t: Screen Readers
+  - key: features.accessibility_screenreaders.question
+    t: Which screen readers do you use for accessibility testing?
+
+  - key: features.accessibility_techniques
+    t: Other Accessibility Techniques
+  - key: features.accessibility_techniques.question
+    t: What other techniques are part of your regular accessibility strategy?
+
+  - key: options.accessibility_techniques.tabindex
+    t: |
+      Improving focus order with `tabindex`
+  - key: options.accessibility_techniques.tabindex.description
+    t: |
+      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+  - key: options.accessibility_techniques.keyboard_navigation
+    t: Intuitive keyboard navigation
+  - key: options.accessibility_techniques.keyboard_navigation.description
+    t: Other than tab order.
+  - key: options.accessibility_techniques.aria_attributes
+    t: ARIA attributes
+  - key: options.accessibility_techniques.aria_attributes.description
+    t: |
+      `role` and `aria-*` attributes
+  - key: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      Descriptive `alt` text
+  - key: options.accessibility_techniques.descriptive_alt_text.description
+    t: Providing alt text that describes the purpose or content of an image.
+  - key: options.accessibility_techniques.skip_to_content
+    t: Skip-to-content link
+  - key: options.accessibility_techniques.skip_to_content.description
+    t: Letting users skip straight to the main content of a page.
+  - key: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      `<fieldset>` and `<legend>`
+  - key: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      Using `<fieldset>` and `<legend>`  to group related form elements.
+  - key: options.accessibility_techniques.headings_hierarchy
+    t: Information Hierarchy
+  - key: options.accessibility_techniques.headings_hierarchy.description
+    t: |
+      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+  - key: options.accessibility_techniques.meaningful_link_text
+    t: Meaningful Link Text
+  - key: options.accessibility_techniques.meaningful_link_text.description
+    t: Ensuring that link text makes sense out of context
+  - key: options.accessibility_techniques.form_control_label
+    t: Form Control Labels
+  - key: options.accessibility_techniques.form_control_label.description
+    t: |
+      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+  - key: options.accessibility_techniques.visible_focus
+    t: Visible Focus Ring
+  - key: options.accessibility_techniques.visible_focus.description
+    t: Ensuring focus ring outline is clearly visible when needed.
+  - key: options.accessibility_techniques.pointer_alternative
+    t: Not Relying on Pointer Only
+  - key: options.accessibility_techniques.pointer_alternative.description
+    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+  - key: options.accessibility_techniques.good_color_contrast
+    t: Sufficient Contrast
+  - key: options.accessibility_techniques.good_color_contrast.description
+    t: Using contrast checkers to ensure sufficient color contrast.
+  - key: options.accessibility_techniques.color_alternative
+    t: Not Relying on Color Only
+  - key: options.accessibility_techniques.color_alternative.description
+    t: Ensuring that no information is conveyed by color alone.
+  - key: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      `prefers-reduced-motion` media query
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
+    t: Providing alternative CSS for users who prefer reduced motion.
+  - key: options.accessibility_techniques.prefers_contrast
+    t: |
+      `prefers-contrast` media query
+  - key: options.accessibility_techniques.prefers_contrast.description
+    t: Providing alternative CSS for users who prefer increased contrast.
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: PWA Features
+  - key: features.pwa_features.question
+    t: Have you used any of the following PWA technologies/APIs?
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.local_storage_features
+    t: Local storage features
+  - key: features.local_storage_features.question
+    t: Have you used any of the following to store data client-side?
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: features.pwa_app_manifest_fields
+    t: App Manifest Fields
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+
+  - key: features.native_apps_tools
+    t: Native Apps Tools
+  - key: features.native_apps_tools.question
+    t: Have you used any of these tools to build native apps?
+  - key: features.native_apps_tools.description
+    t: Excluding scripts, command-line apps, server-side code, etc.
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+  - key: options.native_apps_tools.native_languages
+    t: Native technologies
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, .NET, etc.
+  - key: options.native_apps_tools.webviews
+    t: Web app loaded via Webviews
+  - key: options.native_apps_tools.js_frameworks
+    t: JavaScript-based frameworks
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron, etc.
+  - key: options.native_apps_tools.other_frameworks
+    t: Non-JavaScript frameworks
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter, etc.
+
+  - key: features.mobile_web_apps_pain_points
+    t: Native-like Web Apps Pain Points
+  - key: features.mobile_web_apps_pain_points.question
+    t: What are your biggest pain points around making web apps that feel native?
+  - key: features.mobile_web_apps_pain_points.description
+    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+  - key: features.mobile_web_apps_pain_points.placeholder
+    t: |
+      Pain point #{index}
+
+  # Other Tools
+
+  - key: other_tools.site_generators
+    t: Site Generators
+  - key: other_tools.site_generators.question
+    t: Which of these static or dynamic site generators do you regularly use?
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.question
+    t: Which of these AI tools do you regularly use to help you write code?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: other_tools.blast_from_the_past
+    t: Blast from the Past!
+  - key: other_tools.blast_from_the_past.question
+    t: Have you ever used any of the following old-school elements?
+  - key: other_tools.blast_from_the_past.description
+    t: Blast from the past!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  # Usage
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: Kecocokan Antar Browser
+  - key: usage.html_interoperability_features.question
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena perbedaan antar browser atau kurangnya dukungan?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Fitur #{index}
+
+  - key: usage.html_functionality_features
+    t: Fungsionalitas Yang Terbatas
+  - key: usage.html_functionality_features.question
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena alasan lain (dan kenapa)?
+  - key: usage.html_functionality_features.description
+    t: |
+      Kandidat yang bagus mungkin fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
+
+      Tolong juga sebutkan alasannya, misalnya kurangnya fungsionalitas, styling yang sulit, aksesibilitas yang buruk, dll.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Fitur #1 (sulit untuk diberi style)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Fitur #2 (fungsionalitas terbatas, buruknya aksesibilitas)
+
+  - key: usage.what_do_you_use_html_for
+    t: Penggunaan HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: Untuk apa anda menggunakan HTML?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Dampak Terhadap Ekosistem
+  - key: usage.tools_for_other_developers.question
+    t: Selain diri anda sendiri, seberapa banyak pengembang yang menggunakan library, package, komponen, API dll. yang anda buat atau kelola?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Secara total, jika anda mengerjakan beberapa proyek yang digunakan oleh para pengembang.
+      Jika anda tidak yakin, ambil yang terdekat dengan perkiraan anda.
+      Untuk kode sumber terbuka, jumlah unduhan npm dapat memberikan poin data yang berguna.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 Tidak ada (Hanya saya)
+  - key: options.tools_for_other_developers.a_few
+    t: Beberapa pengembang lainnya (misalnya pengembang dalam sebuah tim kecil)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Kurang dari seratus pegngembang
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Kurang dari seribu pengembang
+  - key: options.tools_for_other_developers.more_than_100
+    t: Ratusan pengembang
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Ribuan pengembang
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Jutaan pengembang
+
+  - key: usage.html_missing_elements
+    t: Elemen Yang Hilang
+  - key: usage.html_missing_elements.question
+    t: Jika anda dapat menambahkan 3 elemen ke dalam HTML, apa saja kah?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Akordion
+  - key: options.html_missing_elements.alert
+    t: Alert
+  - key: options.html_missing_elements.calendar
+    t: Kalender
+  - key: options.html_missing_elements.carousel
+    t: Karousel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Palet Perintah
+  - key: options.html_missing_elements.context_menu
+    t: Menu Konteks / Menu Klik-kanan
+  - key: options.html_missing_elements.datatable
+    t: Data table (dengan penyortiran, penyaringan, dll.)
+  - key: options.html_missing_elements.dropdown_menu
+    t: Menu Dropdown
+  - key: options.html_missing_elements.image_zoom
+    t: Pembesaran Gambar
+  - key: options.html_missing_elements.progress_bar
+    t: Progress Bar
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Pengganti Sementara Saat Memuat
+  - key: options.html_missing_elements.switch
+    t: Switch / Toggle
+  - key: options.html_missing_elements.tabs
+    t: Tab
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Tooltip
+  - key: options.html_missing_elements.offcanvas
+    t: Area Luar Kanvas
+  - key: options.html_missing_elements.spinner
+    t: Animasi pemuatan
+  - key: options.html_missing_elements.segmented_button
+    t: Tombol Terpecah
+  - key: options.html_missing_elements.scroll_area
+    t: Pengguliran tak terbatas
+  - key: options.html_missing_elements.icon
+    t: Ikon
+  - key: options.html_missing_elements.star_rating
+    t: Penilaian Bintang
+
+  - key: usage.html_pain_points_freeform
+    t: Titik sakit lainnya
+  - key: usage.html_pain_points_freeform.question
+    t: Ada titik sakit lainnya terkait dengan penggunaan HTML dan teknologi terkait?
+
+  - key: usage.html_css_js_balance
+    t: Keseimbangan HTML/CSS vs JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: Bagaimana anda membagi waktu dalam menulis kode HTML/CSS dan JavaScript (atau TypeScript)?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  # other features
+
+  - key: features.foo_attribute
+    t: "Atribut `{id}`"
+
+  - key: features.slot_assignment
+    t: Pembagian slot eksplisit (`slot="foo"`)
+
+  - key: features.tabindex
+    t: "atribut `tabindex`"
+
+  - key: features.respimg
+    t: "atribut `srcset` dan `sizes`"
+
+  - key: features.model_element
+    t: "`<model>` untuk konten AR/VR/3D"
+
+  - key: features.slot_def
+    t: Mendefinisikan slot (`<slot>` dan `::slotted()`)
+
+  - key: features.controlslist
+    t: "atribut `controlslist`"
+
+  - key: features.popover_api
+    t: API Popover
+
+  - key: features.lazy_loading
+    t: Lazy loading
+
+  - key: features.sandbox_attr
+    t: "`atribut `sandbox` untuk iframe"
+
+  - key: features.details_element
+    t: "`<details>` dan `<summary>`"
+
+  - key: features.crossorigin
+    t: "atribut `crossorigin`"
+
+  - key: features.host_css
+    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+
+  - key: features.element_internals
+    t: "API `ElementInternals`"
+
+  - key: features.cors
+    t: CORS
+
+  - key: features.csp
+    t: Content-Security Policy (CSP)
+
+  - key: features.structured_data
+    t: Data terstruktur (RDFa, Microdata, Microformat)
+
+  - key: features.extended_builtins
+    t: Extended built-ins
+
+  - key: features.html_modules
+    t: Modul HTML
+
+  - key: features.accordion
+    t: Akordion Ekslusif
+
+  - key: features.imperative_slot
+    t: Pembagian slot imperatif
+
+  # - key: features.focusgroup
+  #   t: "`focusgroup` attribute"
+
+  - key: features.form_validation
+    t: Validasi Form
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "Petunjuk Sumber Daya: preconnect (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "Petunjuk Sumber Daya: prerender (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "Petunjuk Sumber Daya: preload (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: Petunjuk Sumber Daya (semua)
+
+  - key: features.rh_prefetch
+    t: "Petunjuk Sumber Daya: prefetch (`<link rel=prefetch>`)"
+
+  - key: features.declarative_shadow
+    t: Shadow DOM Deklaratif (`<template shadowrootmode="open">`)
+
+  - key: features.referrerpolicy
+    t: "atribut `referrerpolicy`"
+
+  - key: features.integrity
+    t: Subresource Integrity (atribut `integrity`)
+
+  - key: features.pwa_manifest
+    t: Manifest PWA 
+
+  - key: features.part_attr
+    t: Mengekspos bagian dari komponen (atribut `part`)
+
+  - key: features.part_selector
+    t: Memberi styling pada bagian komponen (`::part()`)
+
+  - key: features.svg_element
+    t: SVG Inline (`<svg>`)
+
+  - key: features.math_element
+    t: MathML Inline (`<math>`)
+
+  - key: features.scoped_element_registries
+    t: Scoped Custom Element Registries
+
+  - key: features.navigation_api
+    t: API Navigasi
+
+  - key: features.custom_elements_defining
+    t: Mendefinisikan Elemen Kustom 
+
+  - key: features.decoding
+    t: "atribut `decoding`"
+
+  - key: features.custom_elements_using
+    t: Menggunakan Elemen Kustom
+
+  - key: features.fencedframe
+    t: Fenced frames
+
+  - key: features.credentialless
+    t: iframe tanpa kredensial
+
+  - key: features.media_capture
+    t: HTML Media Capture
+
+  - key: features.contenteditable_plaintext
+    t: "Nilai `plaintext-only` untuk `contenteditable`"
+
+  - key: features.dom_parts
+    t: Bagian DOM
+
+  - key: features.fetchpriority
+    t: API Fetch Priority (atribut `fetchpriority`)
+
+  - key: features.autocomplete
+    t: '`autocomplete="hint"`'
+
+  - key: features.inert_attribute
+    t: "atribut `inert`"
+
+  - key: features.client_hints
+    t: Petunjuk klien HTTP 
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_html
+    t: |
+      Selamat datang di survei! Beberapa bagian pertama adalah tentang mengetahui
+      **fitur-fitur** HTML (dan berbagai API terkait) mana saja yang anda ketahui.
+
+      Ngomong-ngomong, jika anda ingin mempelajari tentang sebuah item dalam survei, anda dapat menambahkannya dalam daftar bacaan anda dengan mengklik ikon "+"!
