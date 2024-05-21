@@ -397,75 +397,76 @@ translations:
   - key: picks.charlie_gerard.description
     t: |
       Diode adalah tool interaktif untuk membangun dan mensimulasikan proyek piranti keras di dalam browser. 
-      Sebagai perakit piranti keras, ini adalah tool interaktif yang menarik dan interaktif yang dibuat dengan Three.js ini sangat hebat!
+      Sebagai perakit piranti keras, tool interaktif yang dibuat dengan Three.js ini sangat menarik dan hebat!
 
   # https://arisa-fukuzaki.dev/
   - key: picks.alba_silvente.name
     t: Arisa Fukuzaki
   - key: picks.alba_silvente.bio
-    t: FrontEnd developer working as DevRel at Storyblok
+    t: Pengembang FrontEnd yang bekerja sebagai DevRel di Storyblok
   - key: picks.alba_silvente.description
     t: |
-      Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
-      she is always thinking about giving back to the community and contributes by giving talks,
-      workshops and articles on the subject.
+      Arisa adalah gabungan pengembang antara FrontEnd dan DevRel, penggemar React beserta ekosistemnya, 
+      dia selalu berpikir untuk memberikan kontribusi pada komunitas dengan memberikan pidato, 
+      workshop dan artikel seputar React.
 
   # https://github.com/statelyai/xstate
   - key: picks.matt_pocock.name
     t: XState
   - key: picks.matt_pocock.bio
-    t: TypeScript educator from the UK, building Total TypeScript.
+    t: Pengajar TypeScript dari UK, pembuat Total TypeScript.
   - key: picks.matt_pocock.description
     t: |
-      If I were given something complicated to build from scratch, 
-      like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
-      It's the only library I can rely on to build complex systems.
+      Jika saya diberikan sesuatu yang kompleks untuk dibuat dari awal, 
+      seperti spreadsheet, WYSIWYG, atau aplikasi panggilan video, 
+      saya akan mengggunakan XState. 
+      itu satu-satunya pustaka yang bisa saya andalkan untuk membuat sistem yang kompleks.
 
   # https://beta.reactjs.org/
   - key: picks.kathryn_grayson_nanz.name
-    t: React Beta Docs
+    t: Dokumentasi React Beta
   - key: picks.kathryn_grayson_nanz.bio
-    t: Developer Advocate at Progress
+    t: Developer Advocate di Progress
   - key: picks.kathryn_grayson_nanz.description
     t: |
-      The new React docs are incredibly well-written, accessible for beginners, 
-      and beautifully designed. 
-      Documentation is one of the hardest things to do well, 
-      so this fantastic example is my pick of the year!
+      Dokumentasi React yang baru ditulis dengan sangat baik, mudah diakses untuk para pemula, 
+      dan didesain dengan cantik. 
+      Dokumentasi adalah salah satu hal yang sulit dibuat dengan benar, 
+      jadi ini merupakan contoh luar biasa ini adalah pilihanku untuk tahun ini!
 
   - key: picks.ryan_carniato.name
     t: Astro
   - key: picks.ryan_carniato.bio
-    t: Creator of Solid
+    t: Pencipta Solid
   - key: picks.ryan_carniato.description
     t: |
-      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+      Disaat Astro telah mempopulerkan arsitektur "Islands" dalam beberapa tahun kebelakang, pada 2022 kita bisa melihat versi 1.0 dan membawa on-demand server rendering. Ini merupakan cara termudah untuk membangun halaman web yang cantik tanpa mengirim begitu banyak JavaScript.
 
   - key: picks.theo_browne.name
     t: tRPC
   - key: picks.theo_browne.bio
-    t: Youtube Ranter & CEO @Ping.gg
+    t: Pembuat di Youtube & CEO @Ping.gg
   - key: picks.theo_browne.description
     t: |
-      2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+      2022 adalah tahun besar untuk fullstack type-safety, dan sebagian besar berkat tRPC. tRPC adalah salah satu pustaka langka yang membuat semua yang telah kau buat terasa... jelek. Baru kali ini aku merasa sangat productive sebagai full stack engineer.
 
   - key: picks.sebastien_lorber.name
     t: Remotion
   - key: picks.sebastien_lorber.bio
-    t: This Week In React founder and Docusaurus maintainer
+    t: Pencipta This Week In React dan pengelola Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
-      The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+      Kemampuan untuk menciptakan video dengan React itu sangat hebat. Kita bisa mengeluarkan kreatifitas dan memakai teknologi web canggih mana pun, tidak hanya DOM/CSS. dengan Proyek GitHub Unwrapped, itu telah membuktikan bisa berkembang, render ribuan video dan menjadi tool pemasaran yang luar biasa.
 
   - key: picks.ben_holmes.name
     t: Zod
   - key: picks.ben_holmes.bio
-    t: Open source maintainer at Astro
+    t: Pengelola Open source di Astro
   - key: picks.ben_holmes.description
     t: |
-      Runtime safety came to define 2022 with tRPC's rise to stardom. 
-      Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
-      it's becoming an must-have for any JavaScript developer
+      Keamanan Runtime menjadi nyata pada 2022 bersamaan dengan kepopuleran tRPC. 
+      Sekarang, dengan Astro memakai Zod untuk type-safe Markdown dan pengguna Remix memakai Zod untuk validasi form,
+      ini menjadi tool yang wajib dipakai oleh pengembang JavaScript
 
   - key: picks.tyler_mcginnis.name
     t: TanStack
@@ -473,8 +474,8 @@ translations:
     t: Founder, UI.dev
   - key: picks.tyler_mcginnis.description
     t: |
-      My JavaScript pick of the year is TanStack, or anything else that 
-      Tanner and Dominik make.
+      Pilihan JavaScript tahun ini adalah TanStack, atau apa pun yang dibuat oleh 
+      Tanner dan Dominik.
 
   - key: picks.shaundai_person.name
     t: Sarah Drasner
@@ -482,7 +483,7 @@ translations:
     t: Senior Software Engineer, Netflix
   - key: picks.shaundai_person.description
     t: |
-      Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
+      Sarah terus melanjutkan untuk memberikan kontribusi melalui postingan blog, bicara di depan umum, dan buku terbarunya berjudul "Engineering Management for the Rest of Us".
 
   - key: picks.xxxx.name
     t:
@@ -496,11 +497,11 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Tingkatkan kemampuanmu lebih dalam dengan kursus modern front-end engineering.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome telah mendukung karya kami.
   - key: sponsors.renderatl.description
-    t: This is a tech conference focused on Front-End Engineering.
+    t: Ini adalah konferensi teknologi yang berfokus pada Front-End Engineering.
 
   ###########################################################################
   # FAQ/About
@@ -508,68 +509,68 @@ translations:
 
   - key: about.content
     t: |
-      The 2022 State of JS survey ran from November 21 to December 22 2022, and collected 39,472 responses. The survey is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+      Survei State of JS tahun 2022 dijalankan dari 21 November hingga 22 December 2022, dan berhasil mengumpulkan 39,472 respon. survei ini dijalankan oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan banruan dari tim kontributor dan konsultan open-source . 
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos tahun ini didesain oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### Tujuan Survei
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Survei ini dibuat untuk memperkenalkan tren yang akan datang dalam ekosistem pengembangan web agar dapat membantu pengembang untuk membuat pilihan secara teknologi. 
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Dengan demikian, survei ini difokuskan untuk mengantisipasi apa yang akan datang untuk beberapa tahun ke depan daripada menganalisa apa yang sedang populer saat ini, itulah mengapa fitur atau teknologi yang sedang populer tidak selalu disertakan. 
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Perlu diketahui bahwa ini merupakan **gambaran dari beberapa pengembang di bidang yang spesifik**, dan bukan bermaksud untuk merepresentasikan seluruh ekosistem. 
 
-      ### Survey Design
+      ### Desain Survei
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+      Survei ini didesain dalam beberapa bagian berdasarkan survei tahun lalu, Berdasarkan periode umpan balik yang di mana garis besar survei didiskusikan [di GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
 
-      All survey questions were optional. 
+      Semua pertanyaan survei itu opsional. 
 
-      ### Survey Audience
+      ### Survei Audiens
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Survei ini dibuat terbuka secara daring dan responden tidak disaring atau dipilih secara khusus. Responden merupakan campuran dari responden dari survei sebelumnya (diberitahu melalui milis khusus) dan lalu lintas media sosial. 
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+      Perlu dicatat bahwa kerangka kerja, pustaka, dll. menganjurkan audiens mereka untuk berpartisipasi dalam survei dan beberapa bahkan ikut andil melalui spanduk, cuitan, dll. perincian mendetil terhadap asal mula sumber terdapat pada bagan "Sumber". 
 
-      ### Representativeness & Inclusivity
+      ### Keterwakilan & Inklusivitas
 
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+      Meskipun kami percaya bahwa penting untuk memberi suara kepada setiap komunitas, nyatanya survei terbuka seperti ini tidak akan selalu mewakili semua orang dengan baik, terutama ketika beroperasi lewat sebuah sistem yang sudah membawa bias masing-masing.  
 
-      In order to counter-balance this, we are implementing three distinct strategies:
+      Untuk mengimbangi hal ini, kami mengimplementasikan tiga strategi berbeda:
 
-      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+      - **Penjangkauan**: kami selalu berusaha untuk menjangkau berbagai organisasi berbeda (misalnya organisasi yang berfokus pada BIPOC- atau LGBTQ, atau platform pengajaran online) untuk mencoba membuat variasi dalam audiens kami. 
 
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha membuat suara segmen demografi manapun lebih mudah didengar, tak peduli sekecil apapun di dalam data kami. 
 
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+      - **Penurunan Penghalang**: membuat survei ini terlalu panjang, tidak dapat diakses, lambat dimuat, hanya berbahasa Inggris, dll. semua itu dapat mengakibatkan "pajak usaha" yang menghalangi berbagai komunitas yang tidak dapat membayarnya. Memperbaiki hal ini dapat menurunkan penghalang masuk dan membuat audiens kami lebih beragam.
+      
+      ### Pendanaan Proyek
 
-      ### Project Funding
+      Pendanaan proyek ini datang dari beberapa sumber:
 
-      Funding from this project comes from a variety of sources:
+      - **Penjualan kaos**. 
 
-      - **T-shirt sales**. 
+      - **Bagan Bersponsor**: anggota komunitas dapat membuat donasi untuk survei dan sebagai gantinya, kami akan menampilkan nama mereka di dalam laporan.  
+      
+      - **Pranala Berponsor**: pranala yang mengarah pada sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
 
-      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+      - **Pendanaan Lainnya**: tahun ini, [Google](https://www.google.com/) dan [Nijibox](https://nijibox.jp/) mendanai pekerjaan saya di survei ini secara langsung.
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+      Kontribusi atau sponsor apapun sangat diapreasiasi. Saya ingin secara khusus bekerja lebih erat dengan lebih banyak vendor browser, karena mereka memainkan peran yang sangat penting dalam ekosistem web.  
 
-      - **Other Funding**: this year, [Google](https://www.google.com/) and [Nijibox](https://nijibox.jp/) funded my work on the survey directly.
+      ### Peninjauan Teknis
 
-      Any contribution or sponsorship is greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      Anda dapat menemukan sebuah peninjauan teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4). 
 
-      ### Technical Overview
+      - **Pengumpulan data**: aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
+      - **Penyimpanan Data/Pemrosesan Data**: MongoDB & MongoDB Aggregations.
 
-      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+      - **API Data**: API Node.js GraphQL. 
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+      - **Laman Hasil**: [Gatsby](https://www.gatsbyjs.com/) Aplikasi React.
 
-      - **Data API**: Node.js GraphQL API. 
+      - **visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka React dataviz. 
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
-
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
-
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Tipe**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
