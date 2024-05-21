@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: Survei tahunan Edisi 2022 seputar trend terbaru dalam ekosistem JavaScript.
+    t: Survei tahunan edisi 2022 seputar trend terbaru dalam ekosistem JavaScript.
 
   - key: general.livestream_announcement
     t: Pastikan untuk mengikuti [siaran langsung hasil survei](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (Bahasa Inggris)
@@ -19,19 +19,19 @@ translations:
 
       <span class="first-letter">S</span>etelah bertahun-tahun stabilitas, sekarang banyak yang mempertanyakan kondisi saat ini.
 
-      Kerangka front-end baru seperti Solid dan Qwik berpendapat bahwa React mungkin bukan solusi untuk segalanya, dan pada posisi server Astro, Remix dan Next.js (beberapa diantaranya) membuat kita memikirkan kembali berapa banyak kode yang harus kita kirim ke klien.
+      Kerangka front-end baru seperti Solid dan Qwik berpendapat bahwa React mungkin bukan solusi untuk segalanya, dan pada posisi server Astro, Remix dan Next.js (beberapa diantaranya) membuat kami memikirkan kembali berapa banyak kode yang harus kami kirim ke klien.
 
-      Kita butuh semua data yang bisa kita dapatkan untuk memastikannya, bahkan survei tahun ini mendapat respon sebanyak **39,472**, hampir dua kali lipat dari tahun lalu! 
+      Kami butuh semua data yang bisa kami dapatkan untuk memastikannya, bahkan survei tahun ini mendapat respon sebanyak **39,472**, hampir dua kali lipat dari tahun lalu! 
 
       Karena banyaknya responden, Anda pasti menyadari hasil yang mengejutkan, seperti beberapa fitur yang turun secara berkala dalam hal kesadaran dan pemakaian. 
 
-      Tetapi mendapat banyak data juga berarti dapat membuka potensi baru, oleh karena itu Kami mengembangkan dua cara untuk berinteraksi dengan dataset Kami: **Jelajah Data** membolehkan Anda untuk melakukan referensi silang antara dua variabel dan menyorot hasil tertentu; sementara **Filter Bagan** membolehkan Anda untuk mem-filter spesifik bagan berdasarkan gaji, negara, jenis kelamin, dan variabel demografis lainnya. 
+      Tetapi mendapat banyak data juga berarti dapat membuka potensi baru, oleh karena itu kami mengembangkan dua cara untuk berinteraksi dengan dataset kami: **Jelajah Data** membolehkan Anda untuk melakukan referensi silang antara dua variabel dan menyorot hasil tertentu; sementara **Filter Bagan** membolehkan Anda untuk mem-filter spesifik bagan berdasarkan gaji, negara, jenis kelamin, dan variabel demografis lainnya. 
 
-      Kita juga mengganti kategori keseluruhan "back-end" dengan yang lebih spesifik **Kerangka Rendering** dan menambahkan sebuah daftar **Kreator Video** pada bagian sumber. 
+      Kami juga mengganti kategori keseluruhan "back-end" dengan yang lebih spesifik **Kerangka Rendering** dan menambahkan sebuah daftar **Kreator Video** pada bagian sumber. 
 
       Yang terakhir, pertanyaan seputar Fitur dan Pustaka juga sudah terdapat popup **Komentar** yang membolehkan Anda untuk melihat apa yang orang-orang pikirkan tentang item yang disebutkan dalam survei!
 
-      Tanpa berlama-lama lagi, mari kita cari tahu bagaimana keadaan JavaScript pada tahun 2022!
+      Tanpa berlama-lama lagi, mari kami cari tahu bagaimana keadaan JavaScript pada tahun 2022!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -46,9 +46,9 @@ translations:
     t: |
       ## Dukung Survei ini Dengan Kaos State of JavaScript
 
-      Antara kualitas video yang buruk, kaset yang tebal, dan perlu memutar ulang lagi, tidak banyak yang bisa kita rindukan dari era VHS. Tetapi ada satu *hal* yang kita rindukan ialah visual luar biasa yang disuguhkan pada kita dari era tahun 90-an yang menghiasi rekaman VHS yang kosong. 
+      Antara kualitas video yang buruk, kaset yang tebal, dan perlu memutar ulang lagi, tidak banyak yang bisa kami rindukan dari era VHS. Tetapi ada satu *hal* yang kami rindukan ialah visual luar biasa yang disuguhkan pada kami dari era tahun 90-an yang menghiasi rekaman VHS yang kosong. 
 
-      Tetapi sekarang, berkat talenta Christopher Kirk-Nielsen Anda dapat menikmati semua sensasi retro sembari merayakan cinta Kita pada JavaScript!
+      Tetapi sekarang, berkat talenta Christopher Kirk-Nielsen Anda dapat menikmati semua sensasi retro sembari merayakan cinta Kami pada JavaScript!
 
   - key: tshirt.about
     t: Tentang kaos
@@ -71,7 +71,7 @@ translations:
 
   - key: tshirt.designer.bio
     t: |
-      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, tapi juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, tapi juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
@@ -80,8 +80,8 @@ translations:
   - key: sections.user_info.description
     t: |
       Pada tahun ini, **39,471** responden mengambil bagian untuk mengisi survei. dan untuk membantu
-      menyorot suara dan wawasan mendalam yang berbeda, kita melakukan perlakuan khusus
-      untuk memberikan cara baru untuk membagi data kita.
+      menyorot suara dan wawasan mendalam yang berbeda, kami melakukan perlakuan khusus
+      untuk memberikan cara baru untuk membagi data kami.
 
   - key: sections.features.description
     t: |
@@ -89,12 +89,12 @@ translations:
 
   - key: sections.technologies.description
     t: |
-      Hasil tahun ini menunjukkan fregmentasi yang tinggi dalam dunia JavaScript. Terkadang hal ini membuat kita sakit kepala, tetapi kompetisi tersebut berhasil membuat sebuah ekosistem yang sangat dinamis.
+      Hasil tahun ini menunjukkan fregmentasi yang tinggi dalam dunia JavaScript. Terkadang hal ini membuat kami sakit kepala, tetapi kompetisi tersebut berhasil membuat sebuah ekosistem yang sangat dinamis.
 
   - key: sections.tools_others.description
     t: |
       Memilih sebuah teknologi sering berujung pada pilihan sulit antara memilih prioritas, 
-      dan pada tahun ini Kami berusaha untuk menangkap proses tersebut dengan menggunakan gaya format pertanyaan baru ala pertandingan.
+      dan pada tahun ini kami berusaha untuk menangkap proses tersebut dengan menggunakan gaya format pertanyaan baru ala pertandingan.
 
   - key: sections.environments.description
     t: |
@@ -103,7 +103,7 @@ translations:
 
   - key: sections.resources.description
     t: |
-      Blog yang disorot, podcast, dan situs web adalah awal yang bagus, tapi tahun ini kita memutuskan untuk selangkah lebih jauh lagi 
+      Blog yang disorot, podcast, dan situs web adalah awal yang bagus, tapi tahun ini kami memutuskan untuk selangkah lebih jauh lagi 
       dan bahkan menyorot orang-orang yang membangun komunitas JavaScript!
 
   - key: sections.opinions.description
@@ -141,7 +141,7 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      Jika Anda tertarik untuk mempelajari lebih lanjut, Kami [telah menulis sebuah postingan blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) tentang survei dinamika jenis kelamin.
+      Jika Anda tertarik untuk mempelajari lebih lanjut, kami telah [menulis sebuah postingan blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) tentang survei dinamika jenis kelamin.
 
   - key: blocks.css_missing_features.note
     t: |
@@ -152,9 +152,9 @@ translations:
 
       Bagan ini menggabungkan campuran dari referensi, parameter URL, dan jawaban bebas. 
 
-      - State of JS: daftar surat [State of JS](https://stateofjs.com).
+      - State of JS: mailis [State of JS](https://stateofjs.com).
 
-      - State of CSS: daftar surat State of CSS; juga mencocokkan `email`, `dengan email`, dll.
+      - State of CSS: mailis State of CSS; juga mencocokkan `email`, `dengan email`, dll.
 
       - Work: mencocokkan `kerja`, `kolega`, `rekan kerja`, dll.
 
@@ -176,7 +176,7 @@ translations:
     t: Dengan **{value}** rasio ketertarikan, Vite sekali lagi mendapatkan medali emas!
 
   - key: award.most_write_ins_award.comment
-    t: Banyak pertanyaan dan juga jawaban write-in yang diterima, dan dengan **{value}** kali penyebutan **Astro** berhasil menjadi item yang paling populer.
+    t: Banyak pertanyaan pasti menerima banyak jawaban, dan dengan **{value}** kali penyebutan **Astro** berhasil menjadi yang paling populer.
 
   - key: award.most_commented_feature_award.comment
     t: Dengan **{value}** komentar, tidak ada fitur yang bahkan mendekati jumlah peraihan umpan balik sebanyak Private Fields.
@@ -192,15 +192,15 @@ translations:
     t: |
       <span class="first-line">JavaScript dan TypeScript menjadi lebih hidup dari sebelumnya.</span> 
 
-      Kita melihat banyak inovasi-inovasi berkelanjutan, banyak diantaranya dalam reaktivitas dan hydration (atau kekurangannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) mengedepankan  kemudahan dalam pengembangan ergonomis dan tertuju pada compiler. Solid juga mengembangkan [metode baru untuk reaktifitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [shifted contoh mental Kami dalam keberlanjutan](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      Kami melihat banyak inovasi-inovasi berkelanjutan, banyak diantaranya dalam reaktivitas dan hydration (atau kekurangannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) mengedepankan  kemudahan dalam pengembangan ergonomis dan tertuju pada compiler. Solid juga mengembangkan [metode baru untuk reaktifitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [mengubah contoh mental kami dalam keberlanjutan](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
 
       Inovasi juga sangat di nanti-nantikan dalam solusi multi-platform seperti Tauri, Ionic dan Flutter, yang telah membuka pintu untuk melihat aplikasi yang dapat berada di lebih banyak platform.
 
-      Kita melihat distribusi talenta secara global- seperti Nigeria dan sekarang India [Menjadi negara dengan pertumbuhan pengembang tertinggi di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh dunia, ada banyak proyek menakjubkan seperti proyek Segun Adebayo [Chakra UI](https://chakra-ui.com/), atau proyek Liyas Thomas [Hoppscotch](https://hoppscotch.io/), dan orang-orang yang membantu orang lain belajar dan berkembang seperti Ada Nduka Oyom yang membuat [SheCodeAfrica](https://shecodeafrica.org/), yayasan yang telah membantu memberdayakan lebih dari 17k wanita di seluruh Benua Afrika.
+      Kami melihat distribusi talenta secara global- seperti Nigeria dan sekarang India [Menjadi negara dengan pertumbuhan pengembang tertinggi di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh dunia, ada banyak proyek menakjubkan seperti proyek Segun Adebayo [Chakra UI](https://chakra-ui.com/), atau proyek Liyas Thomas [Hoppscotch](https://hoppscotch.io/), dan orang-orang yang membantu orang lain belajar dan berkembang seperti Ada Nduka Oyom yang membuat [SheCodeAfrica](https://shecodeafrica.org/), yayasan yang telah membantu memberdayakan lebih dari 17k wanita di seluruh Benua Afrika.
 
-      Saat Kita melihat kembali pembentukan kerangka kerja seperti React, Angular, atau Vue kita sering melihat ketidakpuasan, dan orang-orang mungkin ingin tahu bagaimana kedepannya. Saya percaya bahwa ketidakpuasan ini sebagai tanda bahwa tool dalam proses battle-tested dan digunakan di production, dalam mencari kecacatan dan mencoba kelebihan yang dimiliki masing-masing tool. Ini adalah tanda kematangan dan apresiasi untuk apa yang bisa diberikan oleh sebuah tool. Mereka juga akan belajar dari inovasi-inovasi dan akan terus berkembang.
+      Saat Kami melihat kembali pembentukan kerangka kerja seperti React, Angular, atau Vue kami sering melihat ketidakpuasan, dan orang-orang mungkin ingin tahu bagaimana kedepannya. Saya percaya bahwa ketidakpuasan ini sebagai tanda bahwa tool dalam proses battle-tested dan digunakan di production, dalam mencari kecacatan dan mencoba kelebihan yang dimiliki masing-masing tool. Ini adalah tanda kematangan dan apresiasi untuk apa yang bisa diberikan oleh sebuah tool. Mereka juga akan belajar dari inovasi-inovasi dan akan terus berkembang.
 
-      AKhir kata, Saya sangat senang melihat kehadiran Vite di dalam bagian penghargaan untuk dua tahun berturut-turut. Membangun dan menyediakan teknologi itu merupakan langkah yang sangat besar dan kita mendapat kemudahan dari kerja keras ini. Bravo!
+      AKhir kata, Saya sangat senang melihat kehadiran Vite di dalam bagian penghargaan untuk dua tahun berturut-turut. Membangun dan menyediakan teknologi itu merupakan langkah yang sangat besar dan kami mendapat kemudahan dari kerja keras ini. Bravo!
 
   - key: conclusion.js2022.bio
     t: Direktur Teknik dan Infrastruktur Web, Google
@@ -212,7 +212,7 @@ translations:
   - key: picks.my_pick
     t: "Pilihan 2022 dariku: "
   - key: picks.intro
-    t: Kita bertanya kepada beberapa anggota komunitas JavaScript untuk membagikan "Pilihan terbaik tahun ini" versi mereka
+    t: Kami bertanya kepada beberapa anggota komunitas JavaScript untuk membagikan "Pilihan terbaik tahun ini" versi mereka
 
   # https://svelte.dev/blog/announcing-sveltekit-1.0
   - key: picks.lee_robinson.name
@@ -375,7 +375,7 @@ translations:
     t: Principal Perangkat Lunak, Vercel
   - key: picks.rich_harris.description
     t: |
-      Saya akan menominasi proposal type annotation, yang telah kita bagikan pada dunia di tahun ini.
+      Saya akan menominasi proposal type annotation, yang telah kami bagikan pada dunia di tahun ini.
 
   # https://twitter.com/mooeypoo
   - key: picks.cassidy_williams.name
@@ -440,7 +440,7 @@ translations:
     t: Pencipta Solid
   - key: picks.ryan_carniato.description
     t: |
-      Disaat Astro telah mempopulerkan arsitektur "Islands" dalam beberapa tahun kebelakang, pada 2022 kita bisa melihat versi 1.0 dan membawa on-demand server rendering. Ini merupakan cara termudah untuk membangun halaman web yang cantik tanpa mengirim begitu banyak JavaScript.
+      Disaat Astro telah mempopulerkan arsitektur "Islands" dalam beberapa tahun kebelakang, pada 2022 kami bisa melihat versi 1.0 dan membawa on-demand server rendering. Ini merupakan cara termudah untuk membangun halaman web yang cantik tanpa mengirim begitu banyak JavaScript.
 
   - key: picks.theo_browne.name
     t: tRPC
@@ -456,7 +456,7 @@ translations:
     t: Pencipta This Week In React dan pengelola Docusaurus
   - key: picks.sebastien_lorber.description
     t: |
-      Kemampuan untuk menciptakan video dengan React itu sangat hebat. Kita bisa mengeluarkan kreatifitas dan memakai teknologi web canggih mana pun, tidak hanya DOM/CSS. dengan Proyek GitHub Unwrapped, itu telah membuktikan bisa berkembang, render ribuan video dan menjadi tool pemasaran yang luar biasa.
+      Kemampuan untuk menciptakan video dengan React itu sangat hebat. Kami bisa mengeluarkan kreatifitas dan memakai teknologi web canggih mana pun, tidak hanya DOM/CSS. dengan Proyek GitHub Unwrapped, itu telah membuktikan bisa berkembang, render ribuan video dan menjadi tool pemasaran yang luar biasa.
 
   - key: picks.ben_holmes.name
     t: Zod
