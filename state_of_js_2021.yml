@@ -312,34 +312,34 @@ translations:
   - key: picks.kent_c_dodds.description
     t: |
       Fly membolehkanku (Seorang frontend engineer yang menyukai DevOps) 
-      untuk menyebarkan aplikasi nyata, didistrubusi secara global, siap produksi dengan penuh percaya diri.
+      untuk menyebarkan aplikasi nyata, didistrubusi secara global, 
+      siap produksi dengan penuh percaya diri.
 
   - key: picks.tejas_kumar.name
     t: Joe Haddad
   - key: picks.tejas_kumar.bio
-    t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+    t: Pengembang Web, Pembicara, dan Direktur DevRel di Xata
   - key: picks.tejas_kumar.description
     t: |
-      Joe works on Next.js at Vercel and is constantly looking to proudly 
-      demonstrate its power while actively listening 
-      to feedback from the community to support them better.
+      Joe mengerjakan Next.js di Vercel dan terus membuktikan kehebatannya 
+      dengan bangga selagi aktif mendengarkan umpan balik dari komunitas 
+      supaya bisa menjadi lebih baik lagi.
 
   - key: picks.wes_bos.name
-    t: TC39 Proposals
+    t: Proposal TC39
   - key: picks.wes_bos.bio
-    t: JavaScript Teacher & Podcast Host
+    t: Pengajar JavaScript & Pembawa Acara Podcast
   - key: picks.wes_bos.description
     t: |
-      A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+      Sebuah repo Git yang penuh dengan semua yang pernah diajukan untuk ditambahkan pada JavaScript. Seru sekali membaca semua ide yang dimiliki orang-orang untuk bahasa ini dan melihatnya melewati beberapa tahap.
 
   - key: picks.scott_tolinski.name
     t: SvelteKit
   - key: picks.scott_tolinski.bio
-    t: Creator of Level-Up Tuts, co-host of Syntax
+    t: Pencipta Level-Up Tuts, co-host Syntax
   - key: picks.scott_tolinski.description
     t: |
-      Svelte Kit provides the amazing developer experience of Svelte with all 
-      of the modern features of expected from a web platform.
+      Svelte Kit memberikan pengalaman Svelte beserta semua fitur modern dari platform web kepada pengembang dengan cara yang luar biasa.
 
   - key: picks.xxxx.name
     t:
@@ -352,11 +352,11 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Tingkatkan kemampuanmu dengan kursus modern front-end engineering.
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Browser untuk pengembang yang ambisius. Bangun web yang responsif, mudah diakses dan cepat dengan mudah.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome telah mendukung karya kami.
 
   ###########################################################################
   # FAQ/About
@@ -364,72 +364,72 @@ translations:
 
   - key: about.content
     t: >
-      The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      Survei State of JS tahun 2021 dijalankan dari 13 Januari hingga 2 Februari **2022**, dan berhasil mengumpulkan 16,085 respon. survei ini dijalankan olehku, [Sacha Greif](https://sachagreif.com/), dengan banruan dari tim kontributor dan konsultan open-source. 
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos tahun ini dirancang oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### Tujuan Survei
 
-      This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Survei ini, bersama dengan survei [State of CSS](https://stateofcss.com/), dibuat untuk memperkenalkan tren yang akan datang dalam ekosistem pengembangan web agar dapat membantu pengembang untuk membuat pilihan secara teknologi. 
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Dengan demikian, survei ini difokuskan untuk mengantisipasi apa yang akan datang untuk beberapa tahun ke depan daripada menganalisa apa yang sedang populer saat ini, itulah mengapa fitur atau teknologi yang sedang populer tidak selalu disertakan. 
 
-      They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+      Perlu diketahui bahwa ini merupakan **gambaran dari beberapa pengembang di bidang yang spesifik**, dan bukan bermaksud untuk merepresentasikan seluruh ekosistem. 
 
-      ### Survey Design
+      ### Rancangan Survei
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+      Survei ini dirancang dalam beberapa bagian berdasarkan survei tahun lalu, Berdasarkan periode umpan balik yang di mana garis besar survei didiskusikan [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
 
-      All survey questions were optional. 
+      Semua pertanyaan survei itu opsional. 
 
       ### Survey Audience
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Survei ini dibuat terbuka secara daring dan responden tidak disaring atau dipilih secara khusus. Responden merupakan campuran dari responden dari survei sebelumnya (diberitahu melalui milis khusus) dan lalu lintas media sosial.
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+      Perlu dicatat bahwa kerangka kerja, pustaka, dll. menganjurkan audiens mereka untuk berpartisipasi dalam survei dan beberapa bahkan ikut andil melalui spanduk, cuitan, dll. perincian mendetil terhadap asal mula sumber terdapat pada bagan "Sumber".
 
-      ### Representativeness & Inclusivity
+      ### Keterwakilan & Inklusivitas
 
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
-
-
-      In order to counter-balance this, we are implementing three distinct strategies:
+      Meskipun kami percaya bahwa penting untuk memberi suara kepada setiap komunitas, nyatanya survei terbuka seperti ini tidak akan selalu mewakili semua orang dengan baik, terutama ketika beroperasi lewat sebuah sistem yang sudah membawa bias masing-masing.
 
 
-      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
-
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
-
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
-
-      ### Project Funding
-
-      Funding from this project comes from a variety of sources:
+      Untuk mengimbangi hal ini, kami mengimplementasikan tiga strategi berbeda:
 
 
-      - **T-shirt sales**. 
+      - **Penjangkauan**: kami selalu berusaha untuk menjangkau berbagai organisasi berbeda (misalnya organisasi yang berfokus pada BIPOC- atau LGBTQ, atau platform pengajaran secara daring) untuk mencoba membuat variasi dalam audiens kami.
 
-      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha membuat suara segmen demografi manapun lebih mudah didengar, tak peduli sekecil apapun di dalam data kami. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Penurunan Penghalang**: membuat survei ini terlalu panjang, tidak dapat diakses, lambat dimuat, hanya berbahasa Inggris, dll. semua itu dapat mengakibatkan "pajak usaha" yang menghalangi berbagai komunitas yang tidak dapat membayarnya. Memperbaiki hal ini dapat menurunkan penghalang masuk dan membuat audiens kami lebih beragam.
 
-      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
+      ### Pendanaan Proyek
+
+      Pendanaan proyek ini datang dari beberapa sumber:
 
 
-      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      - **Penjualan kaos**. 
 
-      ### Technical Overview
+      - **Bagan Bersponsor**: anggota komunitas dapat membuat donasi untuk survei dan sebagai gantinya, kami akan menampilkan nama mereka di dalam laporan.  
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      - **Pranala Berponsor**: pranala yang mengarah pada sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
 
-      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+      - **Pendanaan Lainnya**: tahun ini, tim [Google Chrome](https://www.google.com/chrome/) menyisihkan anggarang untuk merekrut [konsultan aksesibilitas](https://fossheim.io/) untuk mengerjakan survei CSS dan JS.
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
 
-      - **Data API**: Node.js GraphQL API. 
+      Terlepas dari sumber pendanaan di atas, sebagian besar survei ini tetap didanai dari pendanaan pribadi dan setiap kontribusi atau sponsor akan sangat membanti. Saya ingin secara khusus bekerja lebih erat dengan lebih banyak vendor browser, karena mereka memainkan peran yang sangat penting dalam ekosistem web.
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      ### Peninjauan Teknis
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      Anda dapat menemukan sebuah peninjauan teknis yang lebih mendalam tentang bagaimana survei ini dijalankan [di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Pengumpulan data**: aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
+
+      - **Penyimpanan Data/Pemrosesan Data**: MongoDB & MongoDB Aggregations.
+
+      - **API Data**: API Node.js GraphQL. 
+
+      - **Laman Hasil**: [Gatsby](https://www.gatsbyjs.com/) Aplikasi React.
+
+      - **visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka React dataviz. 
+
+      - **Huruf**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
