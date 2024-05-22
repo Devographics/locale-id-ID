@@ -10,7 +10,7 @@ translations:
   - key: introduction.html2023
     t: >
       Sementara JavaScript mengambil alih web, dan CSS memperoleh kekuatan super baru setiap tahun, 
-      sepertinya HTML terlihat tetap diam saja, bahkan rela memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
+      sepertinya tidak ada perubahan pada HTML, bahkan ia rela memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
       Toh setelah anda belajar tentang `<div>` dan `<h>` 1 sampai 6, mau belajar apa lagi?
 
 
