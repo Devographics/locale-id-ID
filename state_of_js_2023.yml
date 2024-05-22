@@ -1,0 +1,574 @@
+# WIP DO NOT TRANSLATE YET
+locale: id-ID
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Edisi 2023 dari survei tahunan tentang tren-tren terkini di ekosistem JavaScript.
+
+  - key: general.livestream_announcement
+    t: Simaklah [siaran langsung hasil survei spesial kita](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pada 22 Februari! (English)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2023
+    t: |
+
+      <span class="first-letter">S</span>etelah bertahun-tahun yang relatif stabil, sekarang banyak yang mempertanyakan status quo. 
+
+      Banyak framework front-end seperti Solid dan Qwik yang mengusulkan bahwa React mungkin pada akhirnya jawaban untuk semuanya, dan di sisi server Astro, Remix dan Next.js (dan yang lain-lainnya) membuat kita mempertimbangkan lagi seberapa banyak kode yang seharusnya dikirimkan ke klien. 
+
+      Kita akan memerlukan banyak data jika kita ingin mengerti akan semua ini, dan faktanya survei tahun ini menerima **39,472** respon, hampir dua kali dari jumlah tahun lalu!
+
+      Karena audiens yang lebih banyak ini anda mungkin akan melihat hasil yang tak terduga, misalnya beberapa fitur yang menurun tahun demi tahun dalam hal kesadaran atau penggunaan. 
+
+      Namun memiliki lebih banyak data dapat berarti pemahaman baru, dan itulah kenapa kami telah mengembangkan dua cara baru untuk berinteraksi dengan dataset kami: **Data Explorer** memungkinkan anda membandingkan dua variabel dan menyorot hasil yang ganjil; sementara **Chart Filters** memungkinkan anda menyaring bagan yang spesifik menurut pendapatan, negara, gender, dan banyak variabel demografik lainnya. 
+
+      Kami juga telah mengganti kategori "back-end" yang umum dengan halaman **Rendering Frameworks** yang lebih spesifik dan menambahkan sebuah daftar baru berjudul **Video Creators** ke bagian Sumber daya. 
+
+      Akhirnya, pertanyaan Fitur dan Pustaka juga memiliki sebuah popup **Comments** yang memungkinkan anda melihat komentar orang lain tentang item-item yang disebutkan dalam survei!
+
+      Dengan semua ini, mari kita lihat apa yang telah dilakukan JavaScript selama 2023!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Kaos
+
+  - key: sections.tshirt.description
+    t: |
+      ## Dukung Survei ini Dengan Kaos State Of JavaScript 
+
+      Di antara kualitas video yang buruk, kaset yang besar, dan harus memutar balik, tidak ada yang dapat dirindukan dari era VHS. Namun satu hal yang kami *rindukan* adalah visual 90an yang dulu menghiasi kaset VHS yang kosong. 
+
+      Namun, berkat dari seniman bertalenta Christopher Kirk-Nielsen anda dapat menikmati semua kekerenan retro ini sambil juga merayakan kecintaan anda akan JavaScript dalam waktu yang bersamaan!
+
+  - key: tshirt.about
+    t: Tentang kaos ini
+
+  - key: tshirt.description
+    t: |
+      Kami menggunakan kaos tri-blend berkualitas tinggi yang sangat lembut dengan bentuk ramping yang dicetak dari mitra kami di Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Dapatkan
+
+  - key: tshirt.price
+    t: USD $29 + pengiriman
+
+  - key: tshirt.designer.heading
+    t: Tentang perancang kaos
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      Tahun ini, sebanyak **39,471** responden mengambil bagian dalam survei ini. dan untuk
+      membantu menyorot suara-suara yang berbeda dan surface deeper insights, kami mengupayakan secara khusus
+      untuk membuat cara-cara baru untuk memecah data kami.
+
+  - key: sections.features.description
+    t: |
+      JavaScript mungkin bergerak cepat, namun kelihatannya pengembang JavaScript bergerak lebih cepat lagi, karena banyak fitur-fitur relatif baru yang menunjukkan tingkat penggunaan yang tinggi.
+
+  - key: sections.technologies.description
+    t: |
+      Hasil tahun ini menunjukkan tingginya tingkat perpecahan di dunia JavaScript. Terkadang ini dapat membuat kesulitan, namun kompetisi membuat sebuah ekosistem yang sangat dinamis.
+
+  - key: sections.tools_others.description
+    t: |
+      Memilih sebuah teknologi dapat berujung pada rentetan pilihan yang sulit di antara 
+      prioritas yang berlawanan, dan tahun ini kami berusaha untuk menangkap proses ini menggunakan sebuah format pertanyaan berpasangan.
+
+  - key: sections.environments.description
+    t: |
+      Aksesibilitas telah lama menjadi hal yang tidak dipikirkan dalam pengembangan web, namun banyak pengembang
+      yang baru menyadari bahwa faktanya hal tersebut seharusnya menjadi dasar yang diatasnya hal-hal lain dibangun.
+
+  - key: sections.resources.description
+    t: |
+      Menyoroti blog, podcast, dan situs web adalah awal yang bagus, namun tahun ini kami memutuskan untuk mengambil satu langkah lebih jauh lagi 
+      dan menampilkan orang-orang yang membentuk komunitas JavaScript!
+
+  - key: sections.opinions.description
+    t: |
+      Baik itu titik sakit yang menghalangi anda saat ini, atau fitur baru yang anda ingin lihat 
+      di masa depan, ini adalah kesempatan anda untuk curhat dan berbagi keluh kesah anda dengan JavaScript!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Bagan ini memperlihatkan **perbandingan retensi** tiap teknologi dibandingkan dengan **jumlah pengguna** total.
+      Ini dapat dibagi menjadi empat kuadran:
+
+        - **1**: Penggunaan rendah, retensi tinggi. Teknologi yang patut diawasi.
+
+        - **2**: Penggunaan tinggi, retensi tinggi. Teknologi yang aman untuk dipakai.
+
+        - **3**: penggunaan rendah, retensi rendah. Teknologi yang sulit direkomendasi untuk saat ini.
+
+        - **4**: penggunaan tinggi, retensi rendah. Pertimbangkan lagi teknologi ini jika anda sedang memakainya.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Jika anda ingin mempelajari lebih lanjut, kami [menulis sebuah blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) yang addresses dinamika gender dari survei ini.
+
+  - key: blocks.source.note
+    t: >
+
+      Bagan ini mengumpulkan sekumpulan referrer, parameter URL, dan jawaban bebas. 
+
+      - State of JS: milis [State of JS](https://stateofjs.com).
+
+      - State of CSS: milis State of CSS; juga mencocokan `email`, `by email`, dll.
+
+      - Work: mencocokkan `work`, `colleagues`, `coworkers`, dll.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Dengan nilai progresi sebesar **{value}** pada 2023, **top-level await** dengan cepat menjadi bagian penting dalam JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** belum berumur dua tahun, namun alat tersebut sudah mendapatkan tempat dengan nilai progresi **{value}** dalam setahun kebelakang.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite mengambil tempat tertinggi dengan nilai retensi **{value}** yang sangat tinggi!
+
+  - key: award.tool_interest_award.comment
+    t: Dengan nilai rasio ketertarikan senilai **{value}**, Vite sekali lagi memenangkan emas!
+
+  - key: award.most_write_ins_award.comment
+    t: Banyak pertanyaan juga menerima jawaban esai, dan dengan sebutan sebanyak **{value}** **Astro** adalah item paling populer secara keseluruhan.
+
+  - key: award.most_commented_feature_award.comment
+    t: Dengan **{value}** komentar, tidak ada fitur lain yang menarik komentar sebanyak Private Fields.
+
+  - key: award.most_commented_tool_award.comment
+    t: Dengan **{value}** komentar, React masih menjadi pustaka yang paling banyak didiskusikan.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2022
+    t: |
+      <span class="first-line">JavaScript dan TypeScript lebih bersemangat daripada sebelumnya.</span> 
+
+      Kita melihat kelanjutan dari inovasi-inovasi yang dipimpin performa, kebanyakan dalam reaktivitas dan hidrasi (atau ketidakadaannya). Contohnya, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) mengutamakan kesederhanaan dalam ergonomik pengembang dan mengandalkan sang kompiler. Solid telah menjelajahi [pendekatan baru terhadap reaktivitas](https://www.youtube.com/watch?v=2iK9zzhSKo4), sementara Qwik [menggeser model mental dengan resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+
+      Inovasi juga menarik untuk dilihat pada berbagai solusi multi-platform seperti Tauri, Ionic dan Flutter, yang membuka pintu untuk aplikasi yang dapat berjalan di berbagai platform.
+
+      Kita melihat talenta di seluruh dunia- seperti Nigeria dan sekarang India [memiliki pertumbuhan pengembang tercepat di GitHub](https://octoverse.github.com/2022/global-tech-talent). Di seluruh dunia, ada berbagai proyek yang menakjubkan seperti [Chakra UI](https://chakra-ui.com/) dari Segun Adebayo, atau [Hoppscotch](https://hoppscotch.io/) dari Liyas Thomas, dan orang-orang yang mendukung pembelajaran dan pertumbuhan orang lain seperti Ada Nduka Oyom yang mendirikan [SheCodeAfrica](https://shecodeafrica.org/), sebuah organisasi non-profit yang telah membantu memberdayakan lebih dari 17K wanita di seluruh Afrika.
+
+      Ketika kita melihat berbagai framework yang besar seperti React, Angular, atau Vue kita seringkali melihat kurangnya tingkat kepuasan, dan kita dapat bertanya apa artinya di masa depan. Saya yakin penurunan ini adalah sebuah fungsi dari seringya dipakai alat-alat tersebut untuk produksi, menemukan mengalami kelebihan dan kekurangan yang dimiliki tiap alat. Itu adalah tanda dari kedewasaaan dan apresiasi dari apa yang dapat ditawarkan alat-alat ini. Mereka juga akan terus mempelajari dari inovasi dalam ekosistem dan terus berevolusi.
+
+      Pada akhirnya, Saya sangat gembira melihat kehadiran Vite yang absolut dalam bagian award untuk tahun kedua berturut-turut. Teknologi build dan serve sedang mengalami kemajuan besar dan kita semua mengalami manfaat dari semua kerja keras ini. Bravo!
+
+  - key: conclusion.js2022.bio
+    t: Direktur Engineering dan Web Infrastructure, Google
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Pilihan 2023 Saya: "
+  - key: picks.intro
+    t: Kami meminta anggota dari komunitas JavaScript untuk membagikan “pilihan tahun ini” mereka
+
+  # https://svelte.dev/blog/announcing-sveltekit-1.0
+  - key: picks.lee_robinson.name
+    t: SvelteKit 1.0
+  - key: picks.lee_robinson.bio
+    t: VP dari Developer Experience di Vercel
+  - key: picks.lee_robinson.description
+    t: |
+      Dua tahun dalam pengembangan, SvelteKit akhirnya siap untuk produksi – 
+      dan memiliki banyak sekali fitur yang bagus untuk para pengembang.
+
+  # - key: picks.vadim_makeev.name
+  #   t: Server-Side Rendering
+  # - key: picks.vadim_makeev.bio
+  #   t: DevRel, Podcaster & Web Standards Advocate
+  # - key: picks.vadim_makeev.description
+  #   t: |
+  #       The time has come to get our priorities straight.
+  #       UX > DX, and it has always been like that. Performance FTW!
+
+  # - key: picks.ben_ilegbodu.name
+  #   t: Lee Robinson
+  # - key: picks.ben_ilegbodu.bio
+  #   t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+  # - key: picks.ben_ilegbodu.description
+  #   t: |
+  #       Lee has been great at shepherding and advocating for Next.js.
+  #       He's helped me a ton with Next and continues to build excitement
+  #       for where it's going
+
+  # - key: picks.shawn_wang.name
+  #   t: Supabase
+  # - key: picks.shawn_wang.bio
+  #   t: Head of DX at Temporal
+  # - key: picks.shawn_wang.description
+  #   t: |
+  #       Supabase is making Postgres accessible to more developers and showing
+  #       everyone how a small focused team can out-ship peers 10x their size.
+
+  # - key: picks.sarah_drasner.name
+  #   t: Pawel Kozlowski
+  # - key: picks.sarah_drasner.bio
+  #   t: Director of Engineering, Core Developer Web at Google
+  # - key: picks.sarah_drasner.description
+  #   t: |
+  #       Pawel Kozlowski is the kind of developer who can be open-minded to different
+  #       approaches with humility and curiosity with the interest of improving things.
+
+  # - key: picks.sara_vieira.name
+  #   t: Paul Henschel
+  # - key: picks.sara_vieira.bio
+  #   t: International Agent of JS Bullshit
+  # - key: picks.sara_vieira.description
+  #   t: |
+  #       Paul's work on animations and ReactThreeFiber
+  #       have made doing any kind of 3D work on the web way easier.
+
+  # - key: picks.mark_erikson.name
+  #   t: Ryan Carniato
+  # - key: picks.mark_erikson.bio
+  #   t: Redux Maintainer
+  # - key: picks.mark_erikson.description
+  #   t: |
+  #       Ryan's reactive JS framework SolidJS hit 1.0,
+  #       and he wrote numerous articles analyzing advanced
+  #       JS framework implementation concepts.
+
+  # - key: picks.alyssa_nicoll.name
+  #   t: BroccoDev's Twitch Stream
+  # - key: picks.alyssa_nicoll.bio
+  #   t: Sr. Developer Advocate at Progress
+  # - key: picks.alyssa_nicoll.description
+  #   t: |
+  #     Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer,
+  #     developer, and most importantly teacher.
+  #     I always have a blast watching his streams and learning from him.
+
+  # - key: picks.michael_jackson.name
+  #   t: esbuild
+  # - key: picks.michael_jackson.bio
+  #   t: Co-founder of Remix
+  # - key: picks.michael_jackson.description
+  #   t: |
+  #     We have been building the Remix compiler on top of esbuild and it
+  #     has definitely raised the bar as far as JS bundlers are concerned.
+  #     It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+
+  # - key: picks.david_khourshid.name
+  #   t: Remix
+  # - key: picks.david_khourshid.bio
+  #   t: Pianist and founder of Stately
+  # - key: picks.david_khourshid.description
+  #   t: |
+  #       Remix is a full-stack web framework that feels old-school, but in a good way,
+  #       by putting you on the path to create fast, complex, and accessible modern web apps.
+
+  # - key: picks.kent_c_dodds.name
+  #   t: Fly.io
+  # - key: picks.kent_c_dodds.bio
+  #   t: Director of Developer Experience, Remix
+  # - key: picks.kent_c_dodds.description
+  #   t: |
+  #       Fly enabled me (a frontend engineer with a distain for DevOps)
+  #       to confidently deploy a real-world, globally-distributed, production-grade
+  #       app.
+
+  # - key: picks.tejas_kumar.name
+  #   t: Joe Haddad
+  # - key: picks.tejas_kumar.bio
+  #   t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+  # - key: picks.tejas_kumar.description
+  #   t: |
+  #       Joe works on Next.js at Vercel and is constantly looking to proudly
+  #       demonstrate its power while actively listening
+  #       to feedback from the community to support them better.
+
+  # - key: picks.wes_bos.name
+  #   t: TC39 Proposals
+  # - key: picks.wes_bos.bio
+  #   t: JavaScript Teacher & Podcast Host
+  # - key: picks.wes_bos.description
+  #   t: |
+  #       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+
+  # - key: picks.scott_tolinski.name
+  #   t: SvelteKit
+  # - key: picks.scott_tolinski.bio
+  #   t: Creator of Level-Up Tuts, co-host of Syntax
+  # - key: picks.scott_tolinski.description
+  #   t: |
+  #       Svelte Kit provides the amazing developer experience of Svelte with all
+  #       of the modern features of expected from a web platform.
+
+  # https://astro.build/
+  - key: picks.miguel_angel_duran.name
+    t: Astro
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Astro adalah sebuah sebuah generator website statis baru. 
+      Tidak ada JavaScript di klien, hidrasi lazy-loading, 
+      dan bisa digunakan dengan framework apa saja. Dibangun di atas Vite, Astro sangat cepat dan mudah untuk dipakai.
+
+  # https://sandpack.codesandbox.io/
+  - key: picks.josh_comeau.name
+    t: Sandpack
+  - key: picks.josh_comeau.bio
+    t: Pengembang perangkat lunak dan pengajar
+  - key: picks.josh_comeau.description
+    t: |
+      Teman-teman kita di CodeSandbox membuat bundler dalam browser
+      mereka sumber terbuka, dan mengemasnya 
+      dalam sebuah editor kode kelas dunia. Sungguh sebuah alat yang menakjubkan!
+
+  # https://github.com/tc39/proposal-type-annotations
+  - key: picks.rich_harris.name
+    t: Proposal Type Annotations
+  - key: picks.rich_harris.bio
+    t: Principal Software Engineer, Vercel
+  - key: picks.rich_harris.description
+    t: |
+      Saya akan menominasikan type annotations, yang diumumkan tahun ini.
+
+  # https://twitter.com/mooeypoo
+  - key: picks.cassidy_williams.name
+    t: Moriel Schottlender
+  - key: picks.cassidy_williams.bio
+    t: CTO di Contenda, Memer dan Pemimpi
+  - key: picks.cassidy_williams.description
+    t: |
+      Moriel adalah seorang pengembang menginspirasi yang membawakan talk 
+      yang menarik tentang internasionalisasi dan aksesibilitas, 
+      dan beberapa hal yang ia buat dengan Vue SANGAT keren, 
+      semua orang harus melihatnya!
+
+  # https://www.withdiode.com/
+  - key: picks.charlie_gerard.name
+    t: Diode
+  - key: picks.charlie_gerard.bio
+    t: Senior Developer Advocate di Stripe, Penulis dan Creative Technologist
+  - key: picks.charlie_gerard.description
+    t: |
+      Diode adalah sebuah alat interaktif untuk membuat dan mensimulasikan projek perangkat keras 
+      di dalam browser. 
+      Sebagai seorang penyuka perangkat keras, ini sangat seru, dan antarmukanya yang dibuat dengan Three.js
+      juga sangat keren!
+
+  # https://arisa-fukuzaki.dev/
+  - key: picks.alba_silvente.name
+    t: Arisa Fukuzaki
+  - key: picks.alba_silvente.bio
+    t: Pengembang FrontEnd yang bekerja sebagai DevRel di Storyblok
+  - key: picks.alba_silvente.description
+    t: |
+      Arisa adalah sebuah seorang FrontEnd dan Dev Rels, pencinta React dan ekosistemnya,
+      dia selalu berpikir tentang berkontribusi terhadap konnumitas dan melakukannya dengan membawakan seminar,
+       workshop dan menulis artikel tentang React.
+
+  # https://github.com/statelyai/xstate
+  - key: picks.matt_pocock.name
+    t: XState
+  - key: picks.matt_pocock.bio
+    t: Pengajar TypeScript dari Inggris, membuat Total TypeScript.
+  - key: picks.matt_pocock.description
+    t: |
+      Jika saya diberikan suatu yang sulit untuk dibuat dari awal, 
+      seperti sebuah spreadsheet, WYSIWYG, atau aplikasi video call, saya akan XState. 
+      Ini adalah satu-satunya pustaka yang saya bisa andalkan untuk membuat sistem yang kompleks.
+
+  # https://beta.reactjs.org/
+  - key: picks.kathryn_grayson_nanz.name
+    t: React Beta Docs
+  - key: picks.kathryn_grayson_nanz.bio
+    t: Developer Advocate di Progress
+  - key: picks.kathryn_grayson_nanz.description
+    t: |
+      Dokumentasi React yang baru ditulis dengan sangat baik, mudah untuk para pemula, 
+      dan dirancang dengan cantik. 
+      Dokumentasi adalah salah satu hal yang sulit untuk dilakukan dengan baik, 
+      jadi contoh yang bagus ini adalah pilihan saya untuk tahun ini!
+
+  - key: picks.ryan_carniato.name
+    t: Astro
+  - key: picks.ryan_carniato.bio
+    t: Pembuat Solid
+  - key: picks.ryan_carniato.description
+    t: |
+      Sementara Astro telah mmmpopulerkan arsitektur "Pulau" beberapa tahun terakhir, pada 2022 Astro mencapai 1.0 dan membawa server rendering sesuai permintaan. Tidak pernah semudah ini untuk membuat situs web yang bagus dengan lebih sedikit JavaScript.
+
+  - key: picks.theo_browne.name
+    t: tRPC
+  - key: picks.theo_browne.bio
+    t: Pengoceh Youtube & CEO @Ping.gg
+  - key: picks.theo_browne.description
+    t: |
+      2022 adalah tahun yang besar untuk keamanan type fullstack, dan karenanya tRPC layak mendapatkan pujian. tRPC adalah salah satu pustaka yang membuat semua yang anda gunakan sebelumnya terasa… buruk, jujur saja. Saya tidak pernah merasa lebih produktif sebagai seorang full stack engineer.
+
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: Pendiri This Week In React dan pengelola Docusaurus
+  - key: picks.sebastien_lorber.description
+    t: |
+      Kemampuan untuk membuat video dengan React sangat keren. Kita bisa menjadi kreatif dan menggunakan teknologi web paling baru yang manapun, tidak hanya DOM/CSS. Dengan projek GitHub Unwrapped, Remotion terbukti bisa menanggung skala besar, me-render ribuan video dan menjadi sebuah alat pemasaran yang keren.
+
+  - key: picks.ben_holmes.name
+    t: Zod
+  - key: picks.ben_holmes.bio
+    t: Pengelola sumber terbuka di Astro
+  - key: picks.ben_holmes.description
+    t: |
+      Keamanan runtime mendefinisikan tahun 2022 dengan naiknya ketenaran tRPC. 
+      Sekarang, dengan Astro yang menggunakan Zod untuk Markdown type-safe dan para pengguna Remix menggunakan Zod untuk validasi form, 
+      Zod menjadi harus digunakan pengembang JavaScript manapun
+
+  - key: picks.tyler_mcginnis.name
+    t: TanStack
+  - key: picks.tyler_mcginnis.bio
+    t: Pendiri, UI.dev
+  - key: picks.tyler_mcginnis.description
+    t: |
+      Pilihan JavaScript saya tahun ini adalah TanStack, atau apapun 
+      yang dibuat Tanner dan Dominik.
+
+  - key: picks.shaundai_person.name
+    t: Sarah Drasner
+  - key: picks.shaundai_person.bio
+    t: Insinyur Perangkat Lunak Senior, Netflix
+  - key: picks.shaundai_person.description
+    t: |
+      Sarah terus berkontribusi kepada komunitas lewat blog, seminar umum, dan yang paling baru - bukunya "Engineering Management for the Rest of Us".
+
+  # - key: picks.xxxx.name
+  #   t:
+  # - key: picks.xxxx.bio
+  #   t:
+  # - key: picks.xxxx.description
+  #   t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Majukan keterampilan anda dengan kursus rekayasa front-end yang mendalam dan modern.
+  - key: sponsors.google_chrome.description
+    t: Terima kasih kepada tim Google Chrome untuk mendukung pekerjaan kami.
+  - key: sponsors.renderatl.description
+    t: Ini adalah sebuah konferensi teknologi tentang Rekayasa Front-End.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      Survei State of JS 2023 berjalan dari November 21 sampai December 22 2022, dan mendapatkan 39,472 respon. Survei ini dijalankan oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan bantuan dari sebuah tim kontributor sumber terbuka dan konsultan. 
+
+      Logo dan kaos tahun ini dibuat oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Tujuan Survei
+
+      Survei ini dibuat untuk mengidentifikasi tren-tren yang akan datang dalam ekosistem pengembangan web agar membantu para pengembang developers membuat pilihan teknologi. 
+
+      Maka dari itu, survei ini berfokus pada mengantisipasi yang akan datang dalam beberapa tahun ke depan alih-alih menganalisis apa yang populer saat ini, itu lah kenapa fitur-fitur atau teknologi yang saat ini paling tersebar luas tidak selalu dimasukkan. 
+
+      Survei ini juga merupakan **gambaran dari sebagian kecil pengembang yang spesifik**, dan bukan dimaksudkan untuk mewakili seluruh ekosistem. 
+
+      ### Perancangan Survei
+
+      Survei ini dirancang sebagian berdasarkan survei tahun lalu, dengan sebuah masa umpan balik terbuka dimana outline survei didiskusikan [di GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+
+      Semua pertanyaan survei adalah opsional.
+
+      ### Audiens Survei
+
+      Survei ini terbuka dan dapat diakses secara daring dan para responden tidak dipilih atau disaring dengan cara apapun. Para responden adalah campuran dari responden survei tahun lalu (diberitahu lewat sebuah milis khusus) dan dari media sosial. 
+
+      Perhatikan bahwa framework, pustaka, dll. bebas mendorong audiens mereka untuk berpartisipasi dalam survei dan beberapa dari mereka mengambil kesempatan ini via banner, tweets, dll. Sebuah perincian dari sumber lalu lintas dimasukkan dalam bagan "Sumber". 
+
+      ### Perwakilan & Inklusivitas
+
+      Meskipun kami percaya bahwa penting untuk memberi suara kepada setiap komunitas, nyatanya survei terbuka seperti ini tidak akan selalu mewakili semua orang dengan baik, apalagi ketika beroperasi lewat sebuah sistem yang sudah membawa bias mereka masing-masing. 
+
+      Untuk mengimbangi hal ini, kami mengimplementasikan tiga strategi berbeda:
+
+      - **Penjangkauan**: kami selalu berusaha untuk menjangkau berbagai organisasi berbeda (misalnya organisasi yang berfokus pada BIPOC- atau LGBTQ, atau platform pengajaran online) untuk mencoba membuat variasi dalam audiens kami. 
+
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha membuat suara segmen demografi manapun lebih mudah didengar, tak peduli sekecil apapun dalam data kami. 
+
+      - **Penurunan Penghalang**: membuat survei ini terlalu panjang, tidak dapat diakses, lambat dimuat, hanya berbahasa Inggris, dll. semuanya dapat mengenakan sebuah "pajak usaha" yang menghalangi berbagai komunitas yang tidak dapat membayarnya. Memperbaiki hal ini dapat menurunkan penghalang masuk dan membuat audiens kami lebih beragam. 
+
+      ### Pendanaan Proyek
+ 
+      Pendanaan proyek ini datang dari beberapa sumber:
+
+      - **Penjualan kaos**. 
+
+      - **Bagan Bersponsor**: anggota komunitas dapat membuat donasi untuk survei dan kami akan menampilkan nama mereka di dalam laporan.  
+
+      - **Pranala Berponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [RenderATL](https://www.renderatl.com/).
+
+      - **Pendanaan Lainnya**: tahun ini, [Google](https://www.google.com/) dan [Nijibox](https://nijibox.jp/) mendanai pekerjaan saya di survei ini secara langsung.
+
+      Kontribusi atau sponsor apapun sangat diapreasiasi. Saya ingin secara khusus bekerja lebih erat dengan lebih banyak vendor browser, karena mereka memainkan peran yang sungguh penting dalam ekosistem web.  
+
+      ### Ikhtisar Teknis
+
+      Anda dapat menemukan sebuah ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). 
+
+      - **Pengambilan Data**: aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
+
+      - **Penyimpanan/Pemrosesan Data**: Agregasi MongoDB & MongoDB.
+
+      - **API Data**: API GraphQL Node.js. 
+
+      - **Situs Web Hasil**: [Gatsby](https://www.gatsbyjs.com/) Aplikasi React.
+
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka visualisasi data React. 
+
+      - **Fon**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
