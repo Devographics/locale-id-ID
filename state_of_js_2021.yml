@@ -210,7 +210,8 @@ translations:
     t: Direktur Developer Relations di Vercel
   - key: picks.lee_robinson.description
     t: |
-      SvelteKit menjadi cara baru untuk membangung web dan memiliki komunitas yang mendukung dan penuh gairah.
+      SvelteKit menjadi cara baru untuk membangung web dan memiliki komunitas 
+      yang mendukung dan penuh gairah.
 
   - key: picks.vadim_makeev.name
     t: Server-Side Rendering
@@ -265,7 +266,8 @@ translations:
   - key: picks.mark_erikson.description
     t: |
       hasil kreatif Ryan berupa kerangka kerja SolidJS menembus versi 1.0, 
-      dan dia telah menulis banyak artikel dalam menganalisa konsep implementasi kerangka kerja JS tingkat lanjut.
+      dan dia telah menulis banyak artikel dalam menganalisa 
+      konsep implementasi kerangka kerja JS tingkat lanjut.
 
   - key: picks.miguel_angel_duran.name
     t: Vite
@@ -339,7 +341,8 @@ translations:
     t: Pencipta Level-Up Tuts, co-host Syntax
   - key: picks.scott_tolinski.description
     t: |
-      Svelte Kit memberikan pengalaman Svelte beserta semua fitur modern dari platform web kepada pengembang dengan cara yang luar biasa.
+      Svelte Kit memberikan pengalaman Svelte beserta semua fitur modern 
+      dari platform web kepada pengembang dengan cara yang luar biasa.
 
   - key: picks.xxxx.name
     t:
