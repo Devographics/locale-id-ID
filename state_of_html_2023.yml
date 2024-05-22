@@ -9,9 +9,9 @@ translations:
 
   - key: introduction.html2023
     t: >
-      Sementara JavaScript mengambil alih web, dan CSS memperoleh kekuatan super baru tahun demi tahun, 
+      Sementara JavaScript mengambil alih web, dan CSS memperoleh kekuatan super baru setiap tahun, 
       sepertinya HTML terlihat tetap diam saja, bahkan rela memberikan perhatian kepada saudara-saudaranya yang lebih muda. 
-      Toh setelah anda belajar tentang `<div>` dan `<h>`s 1 sampai 6, mau belajar apa lagi?
+      Toh setelah anda belajar tentang `<div>` dan `<h>` 1 sampai 6, mau belajar apa lagi?
 
 
       Cukup banyak, ternyata! Sekali lagi kami merekrut [Lea Verou](https://lea.verou.me/) untuk menggunakan
@@ -20,7 +20,7 @@ translations:
 
 
       Ini juga menjadi sebagian alasan kenapa laporan ini sangat lama untuk dikeluarkan – ada sangat 
-      *banyak * data baru untuk diproses! Kami harap anda tidak sia-sia menunggu hasilnya.
+      *banyak* data baru untuk diproses! Kami harap anda tidak sia-sia menunggu hasilnya.
 
 
       Lebih dari data yang termasuk di sini, kami juga telah meningkatkan fitur **kostumisasi bagan** supaya anda dapat
