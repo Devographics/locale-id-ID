@@ -71,7 +71,7 @@ translations:
 
   - key: tshirt.designer.bio
     t: |
-      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, tapi juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, tapi juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. kami mendorong anda untuk melihat [rancangan kaos lainnya darinya](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
@@ -430,7 +430,7 @@ translations:
   - key: picks.kathryn_grayson_nanz.description
     t: |
       Dokumentasi React yang baru ditulis dengan sangat baik, mudah diakses untuk para pemula, 
-      dan didesain dengan cantik. 
+      dan dirancang dengan cantik. 
       Dokumentasi adalah salah satu hal yang sulit dibuat dengan benar, 
       jadi ini merupakan contoh luar biasa ini adalah pilihanku untuk tahun ini!
 
@@ -509,9 +509,9 @@ translations:
 
   - key: about.content
     t: |
-      Survei State of JS tahun 2022 dijalankan dari 21 November hingga 22 December 2022, dan berhasil mengumpulkan 39,472 respon. survei ini dijalankan oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan banruan dari tim kontributor dan konsultan open-source . 
+      Survei State of JS tahun 2022 dijalankan dari 21 November hingga 22 December 2022, dan berhasil mengumpulkan 39,472 respon. survei ini dijalankan oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan banruan dari tim kontributor dan konsultan open-source. 
 
-      Logo dan kaos tahun ini didesain oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos tahun ini dirancang oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
       ### Tujuan Survei
 
@@ -521,9 +521,9 @@ translations:
 
       Perlu diketahui bahwa ini merupakan **gambaran dari beberapa pengembang di bidang yang spesifik**, dan bukan bermaksud untuk merepresentasikan seluruh ekosistem. 
 
-      ### Desain Survei
+      ### Rancangan Survei
 
-      Survei ini didesain dalam beberapa bagian berdasarkan survei tahun lalu, Berdasarkan periode umpan balik yang di mana garis besar survei didiskusikan [di GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+      Survei ini dirancang dalam beberapa bagian berdasarkan survei tahun lalu, Berdasarkan periode umpan balik yang di mana garis besar survei didiskusikan [di GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
 
       Semua pertanyaan survei itu opsional. 
 
@@ -539,7 +539,7 @@ translations:
 
       Untuk mengimbangi hal ini, kami mengimplementasikan tiga strategi berbeda:
 
-      - **Penjangkauan**: kami selalu berusaha untuk menjangkau berbagai organisasi berbeda (misalnya organisasi yang berfokus pada BIPOC- atau LGBTQ, atau platform pengajaran online) untuk mencoba membuat variasi dalam audiens kami. 
+      - **Penjangkauan**: kami selalu berusaha untuk menjangkau berbagai organisasi berbeda (misalnya organisasi yang berfokus pada BIPOC- atau LGBTQ, atau platform pengajaran secara daring) untuk mencoba membuat variasi dalam audiens kami.
 
       - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha membuat suara segmen demografi manapun lebih mudah didengar, tak peduli sekecil apapun di dalam data kami. 
 
@@ -561,7 +561,7 @@ translations:
 
       ### Peninjauan Teknis
 
-      Anda dapat menemukan sebuah peninjauan teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4). 
+      Anda dapat menemukan sebuah peninjauan teknis yang lebih mendalam tentang bagaimana survei ini dijalankan [di sini](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4). 
 
       - **Pengumpulan data**: aplikasi [Vulcan.js](http://vulcanjs.org/) kustom.
 
@@ -573,4 +573,4 @@ translations:
 
       - **visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka React dataviz. 
 
-      - **Tipe**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Huruf**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
