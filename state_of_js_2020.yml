@@ -1,0 +1,283 @@
+locale: id-ID
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: Survei tahunan seputar trend terbaru dalam ekosistem JavaScript.
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: introduction.js2020
+      t: |
+
+            <span class="first-letter">Meski</span>tahun 2020 sangat buruk, Tetapi JavaScript masih tetap bisa melangkah maju. Sebagai bahasa pemrograman, itu terus mengalami perkembangan
+            berkat fitur baru seperti Optional Chaining dan Nullish Coalescing, Dengan meluasnya pemakaian TypeScript membuat static typing menjadi semakin populer. 
+
+            Dan dari sisi kerangka kerja, saat kami pikir semua akan melamban, Svelte datang dan mengguncang segalanya dengan cara barunya di sisi front-end. Bahkan build tool menunjukkan tanda-tanda aktifitas baru setelah bertahun-tahun didominasi oleh webpack. 
+
+            Tetapi yanfg berbeda kali ini adalah pemain “lama” –biasa disebut– takkan kemana-mana. Svelte dan Snowpack memang bagus, begitupun React dan webpack. Dan tentunya, mereka juga akhirnya akan menjadi mangsa kuburan JavaScrip, tapi tidak untuk waktu yang lama. 
+
+            Jadi mari menikmati apa yang kita dapatkan: sebuah ekosistem yang terus berkembang!
+
+            ### Join Our Launch Livestream!
+
+            Kami akan mengadakan [siaran langsung khusus peluncuran](https://stateofjs.com/2020stream/) berkolaborasi dengan rekan di kanal Twitch CodeItLive. Gabung bersama kami bersama para undangan seperti Sarah Drasner, Josh W. Comeau, dan Kent C. Berdiskusi bersama seputar tren JavaScript tahun lalu!
+            
+            ### Download Our Data
+
+            Kamu bisa [mengunduh data JSON untuk survei ini](https://www.kaggle.com/sachag/state-of-js). Beritahu kami jika kamu ingin membuat visualisasi datamu sendiri!
+
+            ### State of CSS
+
+            Jika kamu belum melihatnya, kami sangat menyarankan untuk melihat [Laporan Tren State of CSS 2020](https://2020.stateofcss.com/en-US/report/) untuk mendapat informasi terbaru tentang 3 tren utama CSS tahun lalu. 
+
+            ### Thanks
+
+            Terima kasih banyak kepada [Alexey Pyltsyn](https://github.com/lex111) telah membantu menerjemahkan.  
+
+            Begitu pula dengan [Amelia Wattenberger](https://wattenberger.com/) yang telah membantu kita memperbarui bagan miliknya “Changes Over Time” dari tahun lalu. Jika kamu ingin belajar bagaimana cara membuat visualisasi data yang keren, tidak ada yang lebih bagus dari [kursus video D3] miliknya(https://www.newline.co/fullstack-d3).
+            
+            ### Credits & Stuff
+
+            Survei State of JavaScript dibuat dan dikelola oleh [Sacha Greif](https://twitter.com/sachagreif) dan [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            Lihat [video ringkasan ini](https://www.youtube.com/watch?v=o4w1qEnZxbM) untuk mempelajari lebih lanjut tentang aspek teknis dari proyek, mulai dari mengumpulkan data hingga memvisualisasikan data. Pertanyaan? Umpan Balik? [Hubungi kami](mailto:hello@stateofjs.com) atau [gabung Discord kami](https://discord.gg/zRDb35jfrt).
+
+            Dan sekarang, mari kita lihat apa yang JavaScript siapkan untuk tahun ini!
+
+            <span class="conclusion__byline">– Sacha dan Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Kaos
+
+    - key: sections.tshirt.description
+      t: |
+          ## Dukung survei ini sekaligus tampil keren!
+
+          Kita sudah memperbarui 👕 Kaos State of JavaScript 👕 yang banyak digemari untuk pemandangan JavaScript di tahun 2020!
+
+          Kaos ini menampilkan ”tabel periodik dari JavaScript” yang menjabarkan pustaka paling populer yang dikelompokkan berdasarkan kategori, bersamaan dengan jumlah bintang GitHub-nya (dalam ribuan).
+
+          Kaos ini adalah cara yang bagus untuk memperkenalkan dirimu dengan ekosistem JavaScript, 
+          dan mungkin bisa mengobrol dengan pengembang JavaScript lain yang satu pemikiran!
+    
+    - key: tshirt.about
+      t: Tentang Kaos
+
+    - key: tshirt.description
+      t: |
+          Pembuatan dan pengiriman dikelola oleh [Cotton Bureau](https://cottonbureau.com/people/state-of-js). Desain dicetak pada kaos berwarna hitam tri-blend berkualitas tinggi yang sangat lembut. 
+
+    - key: tshirt.getit
+      t: Dapatkan
+
+    - key: tshirt.price
+      t: USD ${price} + pengiriman
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          Survei tahun ini mencapai **23,765** orang di **137** negara. Untuk pertama kalinya pada tahun ini,
+          kita dapat menerjemahkan pertanyaan survei kedalam banyak bahasa berkat tim sukarelawan yang hebat.
+
+    - key: sections.features.description
+      t: |
+          Meski sebagian besar responden sudah sadar akan sebagian besar fitur JavaScript yang disebutkan dalam survei, tapi masih banyak yang belum menggunakannya. 
+
+    - key: sections.technologies.description
+      t: |
+          Tipikal pustaka JavaScript yang baru menunjukkan retensi yang tinggi namun pemakaian rendah, yang terkadang membuat pemilihan teknologi yang tepat jadi agak sulit. Dengan data ini diharapkan dapat menuntunmu ke arah yang benar. 
+
+    - key: sections.javascript_flavors.description
+      t: |
+          Tren “varian” JavaScript yang melakukan compile menjadi standar kode dimulai dari beberapa tahun lalu oleh CoffeeScript, tetapi sekarang sudah jelah bahwa TypeScript telah menjadi pemimpin dalam ketegori ini. 
+
+    - key: sections.front_end_frameworks.description
+      t: |
+          Meski biasanya React dan Vue memimpin, tapi Svelte dengan cepat  membangun persaingan yang serius untuk mendapatkan mahkota front-end. 
+
+    - key: sections.datalayer.description
+      t: |
+          Meski lingkup lapisan data belum mengalami perubahan, ada satu yang terlihat jelas: GraphQL dan teknologi terkait akan tetap ada. 
+
+    - key: sections.back_end_frameworks.description
+      t: |
+          Lingkup back-end masih terpecah, tetapi tool Express menonjol sebagai dominan terkuat, sementara Next.js mempertahankan rasio retensi. 
+
+    - key: sections.testing.description
+      t: |
+          Ekosistem Pengujian jadi semakin meriah, dengan pemain baru seperti Testing Library dan Playwright mendapat
+          skor tinggi dalam indeks retensi. 
+
+    - key: sections.build_tools.description
+      t: |
+          Disaat dominasi webpack terlihat memenangkan perdebatan, kondisi build tools
+          telah meledak kembali dengan pemain baru seperti Snowpack dan esbuild, membuat kami memberikan bagian tersendiri untuk pertama kalinya semenjak 2017. 
+
+    - key: sections.mobile_desktop.description
+      t: |
+          JavaScript tidak hanya untuk browser, disaat Electron dan React Native menjadi dua nama 
+          yang paling dikenal dalam kategori ini, solusi lain seperti Expo dan Capacitor juga sudah mulai 
+          membuat ombak perubahan. 
+
+    - key: sections.other_tools.description
+      t: |
+          Keberagaman dan kuantitas pustaka, utilitas, dan tools lain yang memperlihatkan betapa luasnya ekosistem JavaScript, 
+          dan untuk pertama kalinya pada tahun ini kami juga mengikuti runtime Javascript seperti Deno dan Hermes. 
+
+    - key: sections.resources.description
+      t: |
+          Banyak sumber bagus yang dicantumkan di sini, dan kami yakin kamu akan menemukan dan mulai mengikuti beberapa blog atau podcast yang baru!
+
+    - key: sections.opinions.description
+      t: |
+          Meski segalanya terlihat bagus di dunia JavaScript, tetapi kelihatanya terdapat penurunan dari angka positif tertinggi dibanding tahun 2018. Apakah tren akan terus berlanjut? Nantikan tahun depan untuk melihat hasilnya!
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.source.note
+      t: >
+      
+        Bagan ini menggabungkan campuran dari referensi, parameter URL, dan jawaban bebas. 
+
+        - State of JS: mailis [State of JS](https://stateofjs.com); juga mencocokkan `email`, `dengan email`, dll.
+
+        - State of CSS: mailis [State of CSS](https://stateofcss.com/)
+
+        - Work: mencocokkan `kerja`, `kolega`, `rekan kerja`, dll.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    # - key: award.feature_adoption_delta_award.comment
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: TypeScript memang sudah populer, dan dengan **{value}** peningkatan dalam pemakaian, sepertinya masih akan lebih tersebar luas lagi.
+
+    - key: award.tool_satisfaction_award.comment
+      t: dengan tingkat retensi yang tinggi sebesar **{value}**, Testing Library telah menjadi tool paling disukai di tahun 2020. 
+
+    - key: award.tool_interest_award.comment
+      t: GraphQL terus menjadi yang ingin dipelajari oleh pengembang dengan rasio ketertarikan sebesar **{value}**, segera setelah pengembang punya waktu untuk mempelajarinya. 
+
+    - key: award.most_write_ins_award.comment
+      t: Orang-orang selalu bersemangat menyangkut text editor, dan dengan penyebutan sebanyak **{value}**, IntelliJ IDEA memenangkan penghargaan sebagai jawaban tertulis terbanyak. 
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Sedari dulu, filsuf telah merenungi paradoks dari JavaScript: di satu sisi, kamu tidak sabar untuk fitur bahasa dan pustak yang menjanjikan pengalaman pengembang yang jauh lebih baik. 
+
+            Tetapi di saat yang bersamaan, kamu haus akan stabilitas dan kemudahan supaya kamu tidak perlu menghabiskan setengah waktumu untuk berselancar di thread isu Github dan pertanyaan lama di Stack Overflow. 
+
+            Jadi apa yang diinginkan? Apakah kita ingin yang berkilau, atau yang bisa diandalkan? terlebih lagi, tahun 2020 menunjukkan kalau kita ingin *keduanya*. Berita baiknya komunitas JavaScript menerima tantangan itu, yang membuat tahun 2021 menjadi menarik!
+
+            Catatan: jika kamu masih ingin melihat lebih banyak statistik tentang JavaScript, kami merekomendasikan untuk melihat peringkat [Rising Stars](https://risingstars.js.org/2020/en/) tahunan dari [Best Of JS](https://bestofjs.org/).
+            
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'Pilihan 2021 saya:'
+    - key: picks.intro
+      t: Kami bertanya kepada beberapa anggota komunitas JavaScript untuk membagikan "Pilihan terbaik tahun ini" versi mereka
+
+    - key: picks.joshwcomeau.bio
+      t: Pengembang Software yang ubah haluan menjadi pengajar
+    - key: picks.joshwcomeau.description
+      t: |
+            Ini adalah sumber untuk pengenalan terhadap aksesibilitas yang bagus! 
+            Saya memilihnya karena sudah menjadi tugas kita sebagai pengembang JS untuk memastikan halaman web yang kita buat dapat diakses oleh semua orang, bukan hanya pengguna keyboard dan mouse saja.
+
+    - key: picks.swyx.bio
+      t: Infinite Builder
+    - key: picks.swyx.description
+      t: |
+            Svelte adalah lift luar angkas untuk kerangka kerja frontend. 
+            Itu membantumu menyediakan aplikasi dengan sangat cepat. 
+
+    - key: picks.kentcdodds.bio
+      t: Memperbaiki dunia dengan aplikasi yang berkualitas
+    - key: picks.kentcdodds.description
+      t: |
+            Remix adalah cara lain dari kerangka kerja React dengan memperhatikan pada peningkatan progresif. 
+            Itu memperkenalkan pada platform web dengan cara yang belum ada sebelumnya 
+            dan saya sangat senang dengan potensinya.
+
+    - key: picks.sarah_edo.bio
+      t: Tim Inti Vue.js
+    - key: picks.sarah_edo.description
+      t: |
+            Insomnia adalah sebuah aplikasi yang membolehkanmu untuk merancang, menguji, dan membagikan alur kerja API 
+            dengan UX yang bersih, dan lebih sederhana- itu mendukung REST dab GraphQL, 
+            meski lelucon lebih terlihat kalau memakai REST.
+    
+    - key: picks.ladyleet.bio
+      t: This Dot Labs, GDE, MVP
+    - key: picks.ladyleet.description
+      t: |
+            RedwoodJS dan kerengka kerja serupa mulai merubah cara kita berpikir tentang pengembangan aplikasi. 
+            itu membawa kemudahan dari Ruby on Rails ke dalam ekosistem front-end.
+
+    - key: picks.midudev.bio
+      t: Lead Frontend @ Adevinta & Content Creator
+    - key: picks.midudev.description
+      t: |
+            Bekerja dengan modul di ekosistem JavaScript itu selalu berantakan.
+            ES2020 hadir dengan ES Modules untuk mengakhirinya. Bahkan itu sudah stabil di Node.js. Yei!
+    
+    - key: picks.cassidoo.bio
+      t: Principal Developer Experience Engineer di Netlify
+    - key: picks.cassidoo.description
+      t: |
+            Ben adalah salah satu orang paling dermawan di komunitas JS. 
+            Dia aktif di open source (dalam tim inti Vue), 
+            secara konsisten membuat konten pembelajaran yang berguna untuk pengembang, dan sangat menyempatkan waktunya.
+            
+    - key: picks.lauragift_.bio
+      t: Pengembang Frontend @ PassionatePeople
+    - key: picks.lauragift_.description
+      t: |
+            Josh Comeau telah menjadi inspirasi bagiku, dan saya bisa bilang dalam komunitas JS secara keseluruhan. 
+            Dia menulis atrikel yang sangat bagus dalam blog-nya, dan itu termasuk blog terbaik yang saya baca di tahun 2020 karena itu membuatku terus mengikuti perkembangan terbaru tentang JavaScript atau membantuku belajar sesuatu yang baru.
+
+    - key: picks.tomdale.bio
+      t: JavaScript Thinkfluencer
+    - key: picks.tomdale.description
+      t: |
+            Volta membantu mengelola keseluruhan toolchain Javascript anda – terpikir nvm, tapi itu juga membantumu 
+            dan timmu agar tetap berada di versi Node, npm, CLI tool, dll, yang sama. 
+            Saya menyukainya karena sangat bagus untuk digunakan, dan itu pencetus penggunaan Rust dalam membuat tool yang cepat untuk JS.
+
+    - key: picks.markdalgleish.bio
+      t: Rekan pencipta dari CSS Modules, pencipta Playroom
+    - key: picks.markdalgleish.description
+      t: |
+            Mengotomatiskan penerbitan npm dengan kemampuan untuk menuliskan catatan rilis Markdown pada setiap perubahan. Changesets sangat meningkatkan kualitas dari catatan rilis dan pengelola versi kami pada tahun ini.
+
+    - key: picks.sachagreif.bio
+      t: Pencipta Survei State of JS
+    - key: picks.sachagreif.description
+      t: |
+            Best Of JS mengikuti Bintang GitHub di hampir setiap proyek JavaScript raksasa, dan itu menjadi sumber yang sangat berharga untuk membantu kita memutuskan apa yang akan diikutsertakan dalam survei!
