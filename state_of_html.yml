@@ -611,9 +611,12 @@ translations:
     t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena alasan lain (dan kenapa)?
   - key: usage.html_functionality_features.description
     t: |
-      Kandidat yang bagus mungkin fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
+      Fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
 
-      Tolong juga sebutkan alasannya, misalnya kurangnya fungsionalitas, styling yang sulit, aksesibilitas yang buruk, dll.
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
@@ -692,7 +695,9 @@ translations:
   - key: options.html_missing_elements.context_menu
     t: Menu Konteks / Menu Klik-kanan
   - key: options.html_missing_elements.datatable
-    t: Data table (dengan penyortiran, penyaringan, dll.)
+    t: Data table 
+  - key: options.html_missing_elements.datatable_description
+    t: dengan penyortiran, penyaringan, dll.
   - key: options.html_missing_elements.dropdown_menu
     t: Menu Dropdown
   - key: options.html_missing_elements.image_zoom
