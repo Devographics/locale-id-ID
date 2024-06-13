@@ -51,7 +51,7 @@ translations:
     t: Fitur dan teknik-teknik aksesibilitas.
 
   - key: sections.media_queries.title
-    t: Kueri Media 
+    t: Kueri Media
   - key: sections.media_queries.description
     t: Cara-cara mengadaptasi situs Anda menurut perangkat atau preferensi pengguna.
 
@@ -121,12 +121,12 @@ translations:
     t: Lingkungan
   - key: sections.environments.description
     t: Masalah lingkungan dan aksesibilitas apa saja yang Anda perhatikan saat menulis CSS?
-  
+
   - key: sections.usage_css.title
     t: Pamakaian CSS
   - key: sections.usage_css.description
     t: Bagaimana cara Anda memakai CSS.
-  
+
   - key: sections.resources_css.title
     t: Sumber-sumber
   - key: sections.resources_css.description
@@ -174,7 +174,7 @@ translations:
     t: Sering
 
   - key: options.css_for_email.3
-    t: Fokus utama saya adalah CSS untuk klien email 
+    t: Fokus utama saya adalah CSS untuk klien email
   - key: options.css_for_email.3.short
     t: Fokus utama
 
@@ -197,7 +197,7 @@ translations:
     t: Dokumen cetak
   - key: options.what_do_you_use_css_for.desktop_apps
     t: Aplikasi desktop
-  
+
   - key: options.what_do_you_use_css_for.e_commerce
     t: E-commerce
   - key: options.what_do_you_use_css_for.websites
@@ -244,7 +244,7 @@ translations:
     t: Isu performa
   - key: options.css_pain_points.performance_issues.description
     t: Berurusan dengan cacat scrolling, membuat animasi lebih halus, dll.
-  
+
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
     t: Penyarangan
@@ -358,7 +358,7 @@ translations:
     t: "Kueri `@container`"
   - key: features.at_container.description
     t: Termasuk kueri ukuran dan gaya
-  
+
   # shapes & graphics
   - key: features.shapes
     t: CSS Shapes
@@ -423,7 +423,7 @@ translations:
   - key: features.css_nesting
     t: Penyarangan CSS
   - key: features.shadow_dom_css
-    t: Fitur-fitur Shadow DOM 
+    t: Fitur-fitur Shadow DOM
   - key: features.individual_transform_properties
     t: Properti Transform Individual
   - key: features.comparison_functions
@@ -680,7 +680,7 @@ translations:
 
   - key: tools_others.utilities
     t: Alat-alat
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Alat manakan yang Anda sering pakai?
   - key: tools_others.utilities.others
     t: Alat-alat lain
@@ -692,7 +692,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -702,7 +702,7 @@ translations:
 
   - key: tools_others.browsers
     t: Browser
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Browser manakah yang Anda pakai selama pengembangan awal?
   - key: tools_others.browsers.others
     t: Browser lain
@@ -712,7 +712,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description
@@ -826,7 +826,7 @@ translations:
   - key: opinions.enjoy_writing_css.title
     t: Kesenangan
 
-  # Browser interoperability question 
+  # Browser interoperability question
   - key: opinions_others.browser_interoperability_features.others
     t: Ketidakcocokan antar browser
   - key: opinions_others.browser_interoperability_features.others.description
@@ -892,7 +892,7 @@ translations:
   - key: options.css_pain_points.na
     t: Tidak Ada
 
-  # Missing Features 
+  # Missing Features
   - key: opinions.css_missing_features
     t: Menurut Anda, apa yang saat ini hilang dari CSS?
   - key: opinions.css_missing_features.description
@@ -982,7 +982,7 @@ translations:
     t: Berapa banyak waktu yang Anda gunakan untuk menulis CSS (termasuk menulis HTML) dan kode JavaScript?
 
   - key: usage.css_usage_type
-    t: Pengunaan CSS 
+    t: Pengunaan CSS
   - key: usage.css_usage_type.description
     t: Dalam konteks apakah Anda menggunakan CSS?
   - key: usage.css_usage_type.others
