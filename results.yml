@@ -132,7 +132,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
-      
+
   - key: ranges.selector.years_of_experience
     t: Pengalaman
   - key: ranges.selector.yearly_salary
@@ -390,7 +390,7 @@ translations:
     t: Can I use
   - key: features.specification_link
     t: Spesifikasi W3C
-  
+
   # knowledge score
   - key: features.knowledge_score
     t: Skor Pengetahuan
@@ -468,7 +468,7 @@ translations:
     t: Tautan
   - key: blocks.people.responses
     t: Tanggapan
-  
+
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
     t: Kardinalitas Penggunaan Teknologi
@@ -480,7 +480,7 @@ translations:
 
   - key: blocks.cardinality.max
     t: Jawaban paling umum
-  
+
   # tools arrows
   - key: blocks.tools_arrows
     t: Perubahan
@@ -494,7 +494,7 @@ translations:
       - Tidak menampilkan teknologi yang baru berumur setahun. 
       - Rumus kecepatan = (opini terbaru - opini terlama) + (penggunaan terbaru) - (pengunaan terlama)
       - Kecepatan yang positif berarti pemakaian dan/atau opini positif telah meningkat seiring berjalannya waktu.
-  
+
   # tools quadrant
   - key: blocks.tools_quadrant
     t: Retensi vs Pemakaian
@@ -510,19 +510,19 @@ translations:
         - **HINDARI**: Pemakaian rendah, retensi rendah. Teknologi yang sebaiknya dihindari pada saat ini.
 
         - **ANALISA**: Pemakaian tinggi, retensi rendah. Harap pertimbangkan kembali teknologi ini jika Anda sedang memakainya.
-  
+
   # category other tools
   - key: blocks.category_other_tools
     t: Alat lainnya
   - key: blocks.category_other_tools.description
     t: Alat lainnya dalam kategori ini (jawaban bebas).
-  
+
   # tool experience
   - key: blocks.tool_experience
     t: "Pengalaman {name}"
   - key: blocks.tool_experience.description
     t: Pengalaman responden memakai {name}.
-  
+
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
     t: Pembagian Positif/Negatif
@@ -533,11 +533,11 @@ translations:
       kedua sisi dari titik pusat.
 
       Ketebalan balok melambangkan jumlah responden yang mengetahui sebuah teknologi.
-  
+
   # tool tier list
   - key: blocks.tools_tier_list
     t: Daftar Tingkatan Pustaka
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Bagan ini mengukur pustaka berdasarkan rasio retensi (persentase pengguna
       yang akan menggunakan lagi pustaka ini). Catatan: pustaka yang digunakan kurang dari 10% responden 
@@ -545,7 +545,7 @@ translations:
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
-  
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: Pengalaman Seiring Waktu
@@ -563,7 +563,7 @@ translations:
     t: |
       Keseluruhan pendapat tentang teknologi yang disurvei. segmen yang lebih gelap melambangkan opini positif,
       sementara segmen yang lebih terang melambangkan sentimen negatif.
-  
+
   # tools experience ranking
   - key: blocks.tools_experience_ranking
     t: Peringkat Seiring Waktu
@@ -581,7 +581,7 @@ translations:
       - Ketertarikan: **ingin mempelajarinya** / (**ingin mempelajarinya** + **tidak tertarik**)
       - Pemakaian: (**akan memakainya lagi** + **tidak akan memakainya lagi**) / **total**
       - Kesadaran: (**total** - **belum pernah mendengarnya**) / **total**
-  
+
   # tools experience linechart
   - key: blocks.tools_experience_linechart
     t: Rasio Seiring Waktu
@@ -589,7 +589,7 @@ translations:
     t: Rasio seiring waktu retensi, ketertarikan, penggunaan, dan kesadaran.
   - key: blocks.tools_experience_linechart.note
     aliasFor: blocks.tools_experience_ranking.note
-  
+
   # happiness
   - key: blocks.happiness
     t: Keseluruhan Tingkat Kepuasan
@@ -597,7 +597,7 @@ translations:
     t: |
       Dalam skala 1 (Sangat tidak puas) hingga 5 (Sangat puas), seberapa puas para pengembang
       terhadap keseluruhan kategori yang ada saat ini?
-  
+
   # newsletter
   - key: blocks.newsletter.title
     t: Tetap terhubung
@@ -609,7 +609,7 @@ translations:
     t: Email Anda
   - key: blocks.newsletter.submit
     t: Beritahu saya
-  
+
   # features_overview
   - key: blocks.features_overview
     t: Keseluruhan fitur
@@ -619,7 +619,7 @@ translations:
       **Lingkar dalam** melambangkan pengguna yang sudah pernah memakainya (responden *Pernah pakai*).
 
       Hover pada masing-masing lingkaran untuk melihat lebih detil, termasuk rasion di antara keduanya.
-    
+
   # features_experience_linechart
   - key: blocks.features_experience_linechart
     t: Rasio Seiring Waktu
@@ -631,14 +631,14 @@ translations:
 
       - Pemakaian: (**Pernah pakai**) / **total**
       - Kesadaran: (**Pernah pakai** + **Mengetahui**) / **total**
-    
+
   - key: blocks.features_experience_ranking
     t: Peringkat Seiring Waktu
   - key: blocks.features_experience_ranking.description
     t: Peringkat pemakaian dan kesadaran seiring waktu.
   - key: blocks.features_experience_ranking.note
     aliasFor: blocks.features_experience_linechart.note
-  
+
   # export
   - key: export.export
     t: Ekspor
@@ -680,7 +680,7 @@ translations:
       3. Dalam menu explorer, klik tombol mainkan ("Eksekusi Query").
 
       4. Salin dari hasil query yang sudah dimodifikasi (`{ data: … }` ) ke dalam kolom "Data Khusus" di atas lalu klik kirim.
-  
+
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Variasi Pemakaian
@@ -699,13 +699,13 @@ translations:
   - key: blocks.tools_usage_variations.note
     t: |
       Perlu diperhatikan bahwa alat yang memiliki tingkat keseluruhan pemakaian yang lebih rendah dapat lebih bervariasi.
-  
+
   # Recommended Resources
   - key: blocks.recommended_resources
     t: Rekomendasi Sumber
   - key: blocks.recommended_events
     t: Rekomendasi Acara
-  
+
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
     t: Peringkat Evaluasi Pustaka
@@ -716,11 +716,11 @@ translations:
     t: Peringkat Evaluasi Pustaka (Pertandingan)
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Faktor apa yang Anda prioritaskan saat melakukan evaluasi sebuah pustaka baru? Persentase dari babak yang dimenangkan pada bagian kiri dibandikan dengan bagian atas.
-  
+
   # other
   - key: blocks.freeform
     t: (Pertanyaan bebas)
-  
+
   # Reading List
   - key: features.reading_list
     t: Daftar Baca
@@ -731,7 +731,7 @@ translations:
       Fitur “Daftar Baca” membolehkan para responden untuk menyimpan item yang ingin mereka pelajari lebih lanjut
       disaat melakukan pengisian survei; dan akan mendapat rekap
       pada akhir survei.
-  
+
   ###########################################################################
   # Charts
   ###########################################################################
@@ -758,10 +758,10 @@ translations:
     t: Rata-rata {axis}
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
-    
+
   - key: chart_units.percentilesByFacet
     t: "{axis} Persentil"
-  
+
   - key: charts.average
     t: Rata-rata {axis}
   - key: charts.mean
@@ -808,7 +808,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-  
+
   - key: charts.axis_legends.happiness
     t: Kepuasan
   - key: charts.axis_legends.knowledge_score
@@ -829,19 +829,19 @@ translations:
     t: "% dari tampungan responden"
   - key: charts.axis_legends.users_percentageBucket
     aliasFor: charts.axis_legends.users_percentage_bucket
-  
+
   - key: charts.axis_legends.users_averageByFacet
     aliasFor: chart_units.average
   - key: charts.axis_legends.users_percentilesByFacet
     aliasFor: chart_units.percentilesByFacet
-  
+
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: Garis Bawah
   - key: charts.ranges_multiple_diverging_lines.positive_offset
     t: offset positif
   - key: charts.ranges_multiple_diverging_lines.negative_offset
     t: offset negatif
-  
+
   - key: charts.tools_arrows.negative_opinion
     t: Pendapat Negatif
   - key: charts.tools_arrows.positive_opinion
@@ -874,23 +874,23 @@ translations:
     t: Popularitas meningkat
   - key: charts.tools_arrows.popularity_negative
     t: Popularitas menurun
-  
+
   - key: charts.no_answer
     t: Tidak menjawab
   - key: charts.no_answer.short
     t: Tidak menjawab
-  
+
   - key: charts.other_answers
     t: Lainnya
   - key: charts.other_answers.short
     t: Lainnya
-  
+
   - key: charts.tick.links
     t: Tautan
-  
+
   - key: charts.resources
     t: Tautan yang berguna
-  
+
   - key: charts.facets_clarification
     t: >
       Catatan bahwa persentase yang ditampilkan di atas dipengaruhi oleh seberapa banyak keseluruhan responden
@@ -899,7 +899,7 @@ translations:
   - key: charts.average_clarification
     t: >
       Catatan bahwa rata-rata dihitung berdasarkan titik tengah dari setiap jarak sebagai perkiraan nilai representasi.
-  
+
   ###########################################################################
   # Comments
   ###########################################################################
@@ -957,7 +957,7 @@ translations:
     t: Dapatkan tautan
   - key: share.close
     t: Tutup
-  
+
   ###########################################################################
   # Views
   ###########################################################################
@@ -965,7 +965,7 @@ translations:
     t: Grafik
   - key: views.table
     t: Tabel
-  
+
   ###########################################################################
   # Tables
   ###########################################################################
@@ -1160,7 +1160,7 @@ translations:
   - key: hints.comments_hint
     t: >
       Tab <span class="hint-icon hint-comment-button">Komentar</span> membolehkan Anda untuk melihat komentar yang ditinggalkan oleh para responden selagi mereka mengisi survei.
-  
+
   ###########################################################################
   # Sponsor Chart
   ###########################################################################
@@ -1227,7 +1227,7 @@ translations:
 
   - key: sponsor.faq.public.description
     t: Iya. **username Twitter** dan juga **jumlah donasi** Anda akan ditampilkan secara publik di sebelah bagan.
-  
+
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
 
@@ -1251,7 +1251,7 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: Anda dapat memberikannya pada [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) atau [pada Discord Kami](https://discord.gg/tuWRUWVyJs).
-  
+
   ###########################################################################
   # Data Explorer
   ###########################################################################
@@ -1266,7 +1266,7 @@ translations:
   - key: hints.data_explorer
     t: |
       Ini adalah versi pratinjau untuk Jelajahi Data kami yang baru. jika Anda melihat isu atau data yang tidak konsisten, silahkan [beritahu kami]({issueLink}).
-    
+
   # heading
 
   - key: explorer.main_heading
@@ -1325,7 +1325,7 @@ translations:
     t: Waktu habis
   - key: explorer.timeout.description
     t: API tidak merespon tepat waktu. Silahkan coba lagi nanti, atau [Laporkan masalah]({issueLink}).
-  
+
   # share
 
   - key: explorer.share
@@ -1334,7 +1334,7 @@ translations:
     t: Bagikan “{xAxisLabel}” vs “{yAxisLabel}”
   - key: explorer.share.tweet
     t: “{xAxisLabel}” vs “{yAxisLabel}” dari survei {surveyName} {year}
-  
+
   # axis
 
   - key: explorer.axis_total
@@ -1351,7 +1351,7 @@ translations:
   - key: explorer.main_legend_count
     t: |
       **{totalCount}** responden, **1** titik = **{respondentsPerDot}** responden, **{dotsPerLine}** titik per baris
-  
+
   # controls
   - key: explorer.dots_per_line
     t: Titik per baris
