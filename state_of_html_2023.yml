@@ -112,9 +112,9 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2023.bio
+  - key: conclusion.html2023.lea_verou.bio
     t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
-  - key: conclusion.html2023
+  - key: conclusion.html2023.lea_verou
     t: >
       *Wah!* Survei ini telah mengambil banyak upaya dari banyak orang melintasi enam benua. Survei ini tidak hanya mencetak rekor baru untuk respons paling banyak dalam debut survei “State of…”, antarmuka pengguna pengambilan data juga menghasilkan berbagai inovasi yang memberi perspektif baru terhadap sikap para pengembang, dan pengaruhnya akan menjangkau jauh melampaui cakupannya. 
 
