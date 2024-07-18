@@ -11,10 +11,10 @@ translations:
 
       Flexbox, Grid, Multi-Column… Belum lagi paradigma baru seperti CSS-in-JS.
 
-      Jadi, setelah keberhasilan survei State Of JavaScript tahunan Kami, Kami telah memutuskan untuk mengambil pada dunia styles dan selectors. Kami berharap Anda akan membantu Kami mengidentifikasi tren terbaru, dan mencari tahu alat apa yang harus dipelajari dan digunakan selanjutnya!
+      Jadi, setelah keberhasilan survei State Of JavaScript tahunan kami, kami akan menghadapi dunia gaya dan selektor untuk berusaha mengidentifikasi tren terbaru, dan mencari tahu alat dan fitur apa yang harus dipelajari dan digunakan selanjutnya!
 
   - key: general.state_of_css.description
-    t: Survei tahunan para pengembang tentang trend terbaru seputar CSS
+    t: Survei tahunan para pengembang tentang tren terbaru seputar CSS
 
   ###########################################################################
   # Sections
@@ -43,22 +43,22 @@ translations:
   - key: sections.animations_transforms.title
     t: Animasi dan transformasi
   - key: sections.animations_transforms.description
-    t: Animasi dan transformasi element.
+    t: Animasi dan transformasi elemen.
 
   - key: sections.accessibility.title
     t: Aksesibilitas
   - key: sections.accessibility.description
-    t: Fitur Aksesibilitas dan teknik-teknik.
+    t: Fitur dan teknik-teknik aksesibilitas.
 
   - key: sections.media_queries.title
-    t: Media Query
+    t: Kueri Media
   - key: sections.media_queries.description
-    t: Cara mengadaptasi situs Anda ke perangkat atau preferensi pengguna.
+    t: Cara-cara mengadaptasi situs Anda menurut perangkat atau preferensi pengguna.
 
   - key: sections.selectors.title
-    t: Selector
+    t: Selektor
   - key: sections.selectors.description
-    t: CSS selector.
+    t: Selektor CSS.
 
   - key: sections.colors.title
     t: Warna
@@ -68,7 +68,7 @@ translations:
   - key: sections.javascript_apis.title
     t: API JavaScript
   - key: sections.javascript_apis.description
-    t: API JavaScript yang dupakai untuk mengendalikan atau melengkapi CSS.
+    t: API JavaScript yang dipakai untuk mengendalikan atau melengkapi CSS.
 
   - key: sections.other_features.title
     t: Fitur lainnya
@@ -76,9 +76,9 @@ translations:
     t: Fitur CSS lainnya.
 
   - key: sections.units_selectors.title
-    t: Unit & Selector
+    t: Satuan & Selektor
   - key: sections.units_selectors.description
-    t: Uji pengetahuan Anda tentang CSS unit dan selector.
+    t: Uji pengetahuan Anda tentang satuan dan selektor CSS.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-processor
@@ -89,20 +89,20 @@ translations:
     t: Pre-/Post-processor lainnya
 
   - key: sections.css_frameworks.title
-    t: Kerangka CSS
+    t: Framework CSS
   - key: sections.css_frameworks.description
-    t: Pustaka yang memberi Anda komponen dan gaya yang siap pakai.
+    t: Pustaka dan framework yang memberi Anda komponen atau gaya siap pakai.
 
   - key: sections.css_frameworks_others.title
-    t: Kerangka CSS Lainnya
+    t: Framework CSS Lainnya
 
   - key: sections.css_methodologies.title
     t: Metodologi CSS
   - key: sections.css_methodologies.description
-    t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
+    t: Cara yang teratur untuk menulis CSS yang lebih bersih.
 
   - key: sections.css_methodologies_others.title
-    t: Metodologi CSS Lainnya
+    t: Metodologi CSS Lainnya.
 
   - key: sections.css_in_js.title
     t: CSS-in-JS
@@ -120,13 +120,13 @@ translations:
   - key: sections.environments.title
     t: Lingkungan
   - key: sections.environments.description
-    t: lingkungan dan aksesibilitas mana yang Anda perhatikan saat menulis CSS?
-  
+    t: Masalah lingkungan dan aksesibilitas apa saja yang Anda perhatikan saat menulis CSS?
+
   - key: sections.usage_css.title
     t: Pamakaian CSS
   - key: sections.usage_css.description
     t: Bagaimana cara Anda memakai CSS.
-  
+
   - key: sections.resources_css.title
     t: Sumber-sumber
   - key: sections.resources_css.description
@@ -138,76 +138,76 @@ translations:
 
   # CSS for print
   - key: options.css_for_print.0
-    t: Saya (hampir) tidak pernah menulis print style
+    t: Saya (hampir) tidak pernah menulis gaya untuk cetak
   - key: options.css_for_print.0.short
     t: Tidak pernah
 
   - key: options.css_for_print.1
-    t: Saya terkadang menulis print style
+    t: Saya terkadang menulis gaya untuk cetak
   - key: options.css_for_print.1.short
     t: Terkadang
 
   - key: options.css_for_print.2
-    t: Saya menulis print style untuk sebagian besar proyek.
+    t: Saya menulis gaya untuk cetak untuk sebagian besar proyek.
   - key: options.css_for_print.2.short
     t: Sering
 
   - key: options.css_for_print.3
-    t: Fokus utama saya adalah CSS untuk print.
+    t: Saya berfokus terutama pada CSS untuk cetak.
   - key: options.css_for_print.3.short
     t: Fokus utama
 
   # CSS for email
   - key: options.css_for_email.0
-    t: Saya (hampir) tidak pernah menulis CSS untuk email klien
+    t: Saya (hampir) tidak pernah menulis CSS untuk klien email
   - key: options.css_for_email.0.short
     t: Tidak pernah
 
   - key: options.css_for_email.1
-    t: Saya terkadang menulis CSS untuk email klien
+    t: Saya terkadang menulis CSS untuk klien email
   - key: options.css_for_email.1.short
     t: Terkadang
 
   - key: options.css_for_email.2
-    t: Saya menulis CSS untuk email klien pada sebagian besar proyek
+    t: Saya menulis CSS untuk klien email pada sebagian besar proyek
   - key: options.css_for_email.2.short
     t: Sering
 
   - key: options.css_for_email.3
-    t: Fokus utama saya adalah CSS untuk email klien
+    t: Fokus utama saya adalah CSS untuk klien email
   - key: options.css_for_email.3.short
     t: Fokus utama
 
   # what do you use CSS for?
   - key: options.what_do_you_use_css_for.marketing_sites
-    t: Situs Pemasaran & halaman awal
+    t: Situs web pemasaran & halaman awal
   - key: options.what_do_you_use_css_for.design_systems
-    t: Sistem Desain
+    t: Sistem desain
   - key: options.what_do_you_use_css_for.blogs
-    t: Blog atau situs berorientasi text lainnya
+    t: Blog atau situs berorientasi teks lainnya
   - key: options.what_do_you_use_css_for.web_apps
-    t: Aplikasi Web
+    t: Aplikasi web
   - key: options.what_do_you_use_css_for.mobile_apps
-    t: Aplikasi Mobile
+    t: Aplikasi mobile
   - key: options.what_do_you_use_css_for.css_art
-    t: Seni CSS & ilustrasi
+    t: Seni & ilustrasi CSS
   - key: options.what_do_you_use_css_for.emails
     t: Email
   - key: options.what_do_you_use_css_for.printed_documents
-    t: Dokumen Cetak
+    t: Dokumen cetak
   - key: options.what_do_you_use_css_for.desktop_apps
-    t: Aplikasi Desktop
-  
+    t: Aplikasi desktop
+
   - key: options.what_do_you_use_css_for.e_commerce
     t: E-commerce
   - key: options.what_do_you_use_css_for.websites
     t: Situs Web
   - key: options.what_do_you_use_css_for.games
-    t: Games
+    t: Permainan
   - key: options.what_do_you_use_css_for.portfolio
     t: Portfolio
   - key: options.what_do_you_use_css_for.extensions
-    t: Extensi Browser
+    t: Ekstensi Browser
   - key: options.what_do_you_use_css_for.desktop
     t: Desktop
 
@@ -219,7 +219,7 @@ translations:
   - key: options.css_pain_points.interactions
     t: Interaksi
   - key: options.css_pain_points.interactions.description
-    t: Merespon terhadap masukan pengguna atau event lainnya (scroll, hover, dll.).
+    t: Merespon terhadap masukan pengguna atau event lainnya (gulir, hover, dll.).
   - key: options.css_pain_points.architecture
     t: Arsitektur & Pemeliharaan
   - key: options.css_pain_points.architecture.description
@@ -227,15 +227,15 @@ translations:
   - key: options.css_pain_points.layout_positioning
     t: Tata Letak & Posisi
   - key: options.css_pain_points.layout_positioning.description
-    t: Mengatur tata letak dan memastkan element berada di tempat yang seharusnya.
+    t: Mengatur tata letak dan memastikan elemen berada di tempat yang seharusnya.
   - key: options.css_pain_points.scoping_specificity
     t: Cakupan & Kekhususan
   - key: options.css_pain_points.scoping_specificity.description
-    t: Mengurus cascade, menimpa style, dll.
+    t: Menghadapi cascade, penimpaan gaya, dll.
   - key: options.css_pain_points.responsive_design
     t: Desain Responsif
   - key: options.css_pain_points.responsive_design.description
-    t: Mengadaptasikan tata letak dan desain untuk form factor yang berbeda.
+    t: Mengadaptasi tata letak dan desain untuk faktor bentuk yang berbeda.
   - key: options.css_pain_points.form_elements_styling
     t: Memberi Gaya Elemen Form
   - key: options.css_pain_points.form_elements_styling.description
@@ -244,16 +244,16 @@ translations:
     t: Isu performa
   - key: options.css_pain_points.performance_issues.description
     t: Berurusan dengan cacat scrolling, membuat animasi lebih halus, dll.
-  
+
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
-    t: Nesting
+    t: Penyarangan
   - key: options.css_missing_features.nesting.description
-    t: Membolehkan melakukan percabangan gaya dalam CSS native.
+    t: Memungkinkan penyarangan gaya dalam CSS.
   - key: options.css_missing_features.parent_selector
-    t: Parent Selector
+    t: Selektor Orang Tua
   - key: options.css_missing_features.parent_selector.description
-    t: Membolehkan memilih sebuah elemen parent berdasarkan elemen children.
+    t: Memungkinkan untuk memilih sebuah elemen orang tua berdasarkan elemen anak.
   - key: options.css_missing_features.browser_support
     t: Dukungan Browser
   - key: options.css_missing_features.browser_support.description
@@ -267,22 +267,22 @@ translations:
   - key: options.css_missing_features.color_functions.description
     aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
-    t: Container Queries
+    t: Kueri Kontainer
   - key: options.css_missing_features.container_queries.description
-    t: Membolehkan menulis gaya berdasarkan dimensi kontainer parent.
+    t: Memungkinkan penulisan gaya berdasarkan dimensi kontainer orang tua.
   - key: options.css_missing_features.scoping
     t: Scoping
   - key: options.css_missing_features.scoping.description
-    t: Membolehkan untuk lebih spesifik dalam di mana gaya tersebut akan diaplikasikan.
+    t: Membolehkan untuk mengaplikasikan gaya dengan lebih spesifik.
   - key: options.css_missing_features.subgrid
     t: Subgrid
   - key: options.css_missing_features.subgrid.description
-    t: Melakukan percabangan level subgrid yang dalam menjadi sebuah parent grid.
+    t: Melakukan penyarangan subgrid yang lebih dalam dengan grid orang tua.
 
   - key: options.css_missing_features.native_visually_hidden
-    t: Konten Tersembunyi
+    t: Konten yang Tersembunyi Secara Visual
   - key: options.css_missing_features.native_visually_hidden.description
-    t: Dukungan native untuk konten tersembunyi.
+    t: Dukungan bawaan untuk konten yang tersembunyi secara visual.
 
   - key: options.css_missing_features.generated_content_alt_text
     t: Teks Alt untuk konten buatan
@@ -292,12 +292,12 @@ translations:
   - key: options.css_missing_features.animate_to_auto
     t: Animasi ke `auto`
   - key: options.css_missing_features.animate_to_auto.description
-    t: Melakukan animasi sebuah dimensi elemen ke `auto`.
+    t: Menganimasikan sebuah dimensi elemen ke `auto`.
 
   - key: options.css_missing_features.anchored_positioning
     t: Anchored Positioning
   - key: options.css_missing_features.anchored_positioning.description
-    t: Memposisikan relatif elemen pada sudut dari arbitrary elemen lainnya.
+    t: Memposisikan elemen relatif dari sudut elemen lainnya.
 
   - key: options.css_missing_features.wrapping_detection
     t: Deteksi Wrapping
@@ -305,9 +305,9 @@ translations:
     t: Melakukan deteksi saat sebuah item flex atau grid telah melewati batas ke baris lain.
 
   - key: options.css_missing_features.more_pseudo_elements
-    t: Lebih banyak Pseudo-Element
+    t: Lebih banyak Pseudo-elemen
   - key: options.css_missing_features.more_pseudo_elements.description
-    t: Memiliki lebih dari dua pseudo-element per elemen.
+    t: Memiliki lebih dari dua pseudo-elemen per elemen.
 
   - key: options.css_missing_features.svg_in_css
     t: SVG-in-CSS
@@ -315,24 +315,24 @@ translations:
     t: Mendukung sintaks SVG di dalam kode CSS (seperti `background`).
 
   - key: options.css_missing_features.grid_lines_styling
-    t: Grid-lines Styling
+    t: Menggayakan garis Grid
   - key: options.css_missing_features.grid_lines_styling.description
-    t: Membolehkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
+    t: Memungkinkan untuk memberi gaya pada garis tak terlihat yang membagi sebuah grid.
 
   - key: options.css_missing_features.media_queries_variables
-    t: Variabel Media Query
+    t: Variabel Kueri Media
   - key: options.css_missing_features.media_queries_variables.description
-    t: Dapat menggunakan variabel di dalam media query.
+    t: Memungkinkan pengunaan variabel di dalam kueri media.
 
   - key: options.css_missing_features.masonry_layout
-    t: Masonry Layout
+    t: Tata Letak Masonry
   - key: options.css_missing_features.masonry_layout.description
-    t: Dukungan native untuk layout grid ala Pinterest.
+    t: Dukungan bawaan untuk layout grid ala Pinterest.
 
   - key: options.css_missing_features.css_toggle
     t: CSS Toggle
   - key: options.css_missing_features.css_toggle.description
-    t: Sebuah cara untuk menghubungkan sebuah "Nilai toggle" dengan sebuah elemen.
+    t: Sebuah cara untuk menghubungkan sebuah "nilai toggle" dengan sebuah elemen.
 
   ###########################################################################
   # Features
@@ -340,131 +340,139 @@ translations:
 
   # layout
 
-  - key: features.grid
-    t: CSS Grid
-  - key: features.subgrid
-    t: Subgrid
   - key: features.regions
     t: CSS Regions
-  - key: features.flexbox
-    t: Flexbox
   - key: features.multi_column
     t: CSS Multi-Column
   - key: features.writing_modes
     t: CSS Writing Modes
   - key: features.exclusions
     t: CSS Exclusions
-  - key: features.position_sticky
-    t: "<code>position: sticky</code>"
-  - key: features.logical_properties
-    t: Logical Properties
-  - key: features.logical_properties.description
-    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, dll.
-  - key: features.aspect_ratio
-    t: <code>aspect-ratio</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
+
+  - key: features.flexbox_gap
+    t: "Properti `gap` untuk flexbox"
+
+  - key: features.viewport_percentage_length_units
+    t: Satuan Viewport Kecil, Besar, dan Dinamis
+  - key: features.at_container
+    t: "Kueri `@container`"
+  - key: features.at_container.description
+    t: Termasuk kueri ukuran dan gaya
 
   # shapes & graphics
   - key: features.shapes
     t: CSS Shapes
-  - key: features.object_fit
-    t: <code>object-fit</code>
-  - key: features.clip_path
-    t: <code>clip-path</code>
   - key: features.masks
     t: CSS Masks
-  - key: features.blend_modes
-    t: Blend Modes
-  - key: features.blend_modes.description
-    t: The <code>mix-blend-mode</code> property
   - key: features.filter_effects
-    t: CSS Filter Effects
-  - key: features.backdrop_filter
-    t: <code>backdrop-filter</code>
+    t: Efek Filter CSS
 
-  # interactions
-  - key: features.scroll_snap
-    t: CSS Scroll Snap
-  - key: features.overscroll_behavior
-    t: <code>overscroll-behavior</code>
-  - key: features.overflow_anchor
-    t: <code>overflow-anchor</code>
-  - key: features.touch_action
-    t: <code>touch-action</code>
-  - key: features.pointer_events
-    t: <code>pointer-events</code>
+  - key: features.linear_easing_function
+    t: "fungsi easing `linear()`"
+  - key: features.blend_modes
+    t: Blend Mode
+  - key: features.intrinsic_sizing
+    t: Kata Kunci Pengukuran Intrinsik
+  - key: features.gradient_color_spaces
+    t: Interpolation Color Spaces
 
   # typography
   - key: features.web_fonts
-    t: Web fonts (@font-face)
+    t: Fon Web (@font-face)
   - key: features.variables_fonts
-    t: Variable fonts
+    t: Fon Variabel
   - key: features.line_breaking
-    t: Line breaking properties
-  - key: features.line_breaking.description
-    t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-  - key: features.font_variant
-    t: <code>font-variant-*</code>
-  - key: features.initial_letter
-    t: <code>initial-letter</code>
-  - key: features.font_variant_numeric
-    t: <code>font-variant-numeric</code>
-  - key: features.font_display
-    t: <code>font-display</code>
-  - key: features.line_clamp
-    t: <code>line-clamp</code>
-  - key: features.leading_trim
-    t: <code>leading-trim</code>
-  - key: features.direction
-    t: <code>direction</code>
+    t: Properti Jeda Baris
   - key: features.direction.description
-    t: Juga termasuk atribut HTML <code>dir</code>.
+    t: Juga termasuk atribut HTML `dir`.
 
-  # animations & transformstraan
+  # animations & transforms
   - key: features.transitions
-    t: CSS Transitions
+    t: Transisi CSS
   - key: features.transforms
-    t: CSS Transforms
+    t: Transformasi CSS
   - key: features.animations
-    t: CSS Animations
-  - key: features.perspective
-    t: <code>perspective</code>
+    t: Animasi CSS
 
-  # media queries
-  - key: features.feature_support_queries
-    t: Feature Support Queries (<code>@supports</code>)
-  - key: features.prefers_reduced_motion
-    t: <code>prefers-reduced-motion</code>
-  - key: features.prefers_color_scheme
-    t: <code>prefers-color-scheme</code>
-  - key: features.color_gamut
-    t: <code>color-gamut</code>
+  # media queries/accessibility
+  - key: features.tabindex
+    t: "Atribut HTML `tabindex`"
+
+  - key: features.aria_attributes
+    t: Atribut-atribut HTML ARIA
+  - key: features.aria_attributes.description
+    t: "`role`, `aria-label`, dll."
 
   # other features
   - key: features.variables
-    t: Variabel CSS (properti khusus)
+    t: Variabel CSS (Properti Khusus)
   - key: features.containment
     t: CSS Containment
-  - key: features.will_change
-    t: <code>will-change</code>
-  - key: features.calc
-    t: <code>calc()</code>
-  - key: features.houdini
-    t: Houdini
+
+  - key: features.css_nesting.description
+    t: Penyarangan CSS bawaan, tanpa pre- or post-processor.
+
+  - key: features.trigonometric_functions
+    t: Fungsi Trigonometrik
+  - key: features.exponential_functions
+    t: Fungsi Eksponensial
+  - key: features.sign_related_functions
+    t: Fungsi Sign (Positif dan Negatif)
+  - key: features.stepped_value_functions
+    t: Stepped Value Functions
+  - key: features.css_nesting
+    t: Penyarangan CSS
+  - key: features.shadow_dom_css
+    t: Fitur-fitur Shadow DOM
+  - key: features.individual_transform_properties
+    t: Properti Transform Individual
   - key: features.comparison_functions
-    t: CSS Comparison Functions
-  - key: features.comparison_functions.description
-    t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+    t: Fungsi Perbandingan CSS
+  - key: features.math_functions
+    t: Fungsi Matematika CSS
+  - key: features.viewport_units
+    t: Satuan Viewport (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Lapisan Cascade
+
+  # missing features (see also options)
+  - key: features.nesting
+    t: Penyarangan
+  - key: features.nesting.description
+    t: Memungkinkan penyarangan gaya dalam CSS native.
+  - key: features.parent_selector
+    t: Selektor Orang Tua
+  - key: features.parent_selector.description
+    t: Memungkinkan untuk memilih sebuah elemen orang tua berdasarkan elemen anak.
+  - key: options.css_missing_features.browser_support
+    t: Dukungan Browser
+  - key: options.css_missing_features.browser_support.description
+    t: Dukungan browser yang lebih baik untuk fitur yang sudah ada.
+  - key: options.css_missing_features.mixins
+    t: Mixin
+  - key: options.css_missing_features.mixins.description
+    t: Mengelompokkan dan menggunakan ulang definisi secara dinamis.
+  - key: features.color_functions
+    t: Fungsi Warna
+  - key: features.color_functions.description
+    t: Fungsi untuk memanipulasi nilai warna (`color()`, `color-mix()`, `contrast-color()`…).
+  - key: features.container_queries
+    t: Kueri Kontainer
+  - key: features.container_queries.description
+    t: Memungkinkan penulisan gaya berdasarkan dimensi kontainer orang tua.
+  - key: features.scoping
+    t: Scoping
+  - key: features.scoping.description
+    t: Memungkinkan untuk mengaplikasikan gaya dengan lebih spesifik.
 
   ###########################################################################
   # Units & Selectors
   ###########################################################################
 
   - key: features_others.units
-    t: Unit
+    t: Satuan
   - key: features_others.units.description
-    t: Manakah dari unit CSS berikut yang pernah Anda gunakan?
+    t: Manakah dari satuan CSS berikut yang pernah Anda gunakan?
 
   - key: options.units.px
     t: px
@@ -492,9 +500,9 @@ translations:
     t: in
 
   - key: features_others.pseudo_elements
-    t: Pseudo Elements
+    t: Pseudo-elemen
   - key: features_others.pseudo_elements.description
-    t: Manakah dari pseudo-element berikut yang pernah Anda gunakan?
+    t: Manakah dari pseudo-elemen berikut yang pernah Anda gunakan?
 
   - key: options.pseudo_elements.before
     t: "::before"
@@ -514,23 +522,23 @@ translations:
     t: "::backdrop"
 
   - key: features_others.combinators
-    t: Combinators
-  - key: features_others.combinators.description # TODO
-    t: Which of these combinations CSS selectors have you used?
+    t: Kombinator
+  - key: features_others.combinators.description
+    t: Yang mana saja kah dari Selektor CSS kombinasi berikut yang pernah Anda pakai?
 
   - key: options.combinators.descendant
-    t: div span (descendant)
+    t: div span (keturunan)
   - key: options.combinators.child
-    t: div > span (child)
+    t: div > span (anak)
   - key: options.combinators.next_sibling
-    t: div + div (next sibling)
+    t: div + div (saudara terdekat)
   - key: options.combinators.subsequent_sibling
-    t: div ~ div (subsequent sibling)
+    t: div ~ div (saudara berikutnya)
 
   - key: features_others.tree_document_structure
-    t: Tree / Struktur Dokumen
-  - key: features_others.tree_document_structure.description # TODO
-    t: Which of these structure related CSS selectors have you used?
+    t: Pohon / Struktur Dokumen
+  - key: features_others.tree_document_structure.description
+    t: Dari selektor CSS yang berhubungan dengan struktur berikut, manakah yang pernah Anda pakai?
 
   - key: options.tree_document_structure.root
     t: :root
@@ -569,26 +577,26 @@ translations:
 
   - key: features_others.attributes
     t: Atribut
-  - key: features_others.attributes.description # TODO
-    t: Which of these CSS attributes selectors have you used?
+  - key: features_others.attributes.description
+    t: Dari selektor atribut CSS berikut, yang manakah pernah Anda pakai?
 
   - key: options.attributes.presence
-    t: div[foo] (Presence)
+    t: div[foo] (Keadaan)
   - key: options.attributes.equality
-    t: div[foo="bar"] (Equality)
+    t: div[foo="bar"] (Kecocokan)
   - key: options.attributes.starts_with
-    t: div[foo^="bar"] (Starts with)
+    t: div[foo^="bar"] (Dimulai dengan)
   - key: options.attributes.ends_with
-    t: div[foo$="bar"] (Ends with)
+    t: div[foo$="bar"] (Berakhir dengan)
   - key: options.attributes.contains_word
-    t: div[foo~="bar"] (Contains word)
+    t: div[foo~="bar"] (Berisi kata)
   - key: options.attributes.contains_substring
-    t: div[foo*="bar"] (Contains substring)
+    t: div[foo*="bar"] (Berisi substring)
 
   - key: features_others.links_urls
-    t: Link/URLs
-  - key: features_others.links_urls.description # TODO
-    t: Which of these links & URLs related CSS selectors have you used?
+    t: Pranala/URL
+  - key: features_others.links_urls.description
+    t: Dari selektor CSS yang berhubungan dengan pranala & URL berikut, yang manakah yang pernah Anda pakai?
 
   - key: options.links_urls.any_link
     t: :any-link
@@ -601,8 +609,8 @@ translations:
 
   - key: features_others.interaction
     t: Interaksi
-  - key: features_others.interaction.description # TODO
-    t: Which of these interaction CSS selectors have you used?
+  - key: features_others.interaction.description
+    t: Dari selektor interaksi CSS berikut, yang mana sajakah yang pernah Anda pakai?
 
   - key: options.interaction.hover
     t: :hover
@@ -617,8 +625,8 @@ translations:
 
   - key: features_others.form_controls
     t: Kontrol Form
-  - key: features_others.form_controls.description # TODO
-    t: Which of these form related CSS selectors have you used?
+  - key: features_others.form_controls.description
+    t: Dari selektor CSS yang berhubungan dengan form berikut, yang mana sajakah yang pernah Anda pakai?
 
   - key: options.form_controls.enabled_disabled
     t: :enabled and :disabled
@@ -641,6 +649,75 @@ translations:
   - key: options.form_controls.required_optional
     t: :required and :optional
 
+  # slider
+  - key: options.css_js_balance.0
+    t: 100% CSS
+  - key: options.css_js_balance.4
+    t: 50%–50%
+  - key: options.css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: other_tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    t: pre- atau post-processor manakah yang Anda sering pakai?
+  - key: other_tools.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors_freeform
+    aliasFor: sections.pre_post_processors_others.title
+  - key: options.pre_post_processors.na
+    t: Tidak ada
+
+  - key: tools_others.utilities
+    t: Alat-alat
+  - key: tools_others.utilities.question
+    t: Alat manakan yang Anda sering pakai?
+  - key: tools_others.utilities.others
+    t: Alat-alat lain
+  - key: tools_others.utilities.others.description
+    t: Alat-alat lain (bidang bebas).
+  - key: options.utilities.na
+    t: Tidak ada
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.question
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+  - key: other_tools.utilities_freeform
+    aliasFor: tools_others.utilities.others
+
+  - key: tools_others.browsers
+    t: Browser
+  - key: tools_others.browsers.question
+    t: Browser manakah yang Anda pakai selama pengembangan awal?
+  - key: tools_others.browsers.others
+    t: Browser lain
+  - key: tools_others.browsers.others.description
+    t: Jawaban lain (bidang bebas).
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.question
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
+
   ###########################################################################
   # Environments
   ###########################################################################
@@ -651,19 +728,69 @@ translations:
     t: Browser mana yang Anda uji?
 
   - key: environments.form_factors
-    t: Betuk Form
+    t: Lingkungan Pengujian
   - key: environments.form_factors.description
-    t: Form bentuk apa yang Anda uji?
+    t: Lingkungan apa saja yang Anda uji?
+  - key: environments.form_factors.others
+    t: Lingkungan Pengujian Lainnya
+  - key: environments.form_factors.others.description
+    t: Faktor bentuk atau lingkungan lain yang biasanya Anda uji.
+
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors_freeform
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
+
+  - key: environments.accessibility_features
+    t: Fitur Aksesibilitas
+  - key: environments.accessibility_features.description
+    t: Fitur aksesibilitas mana yang biasa Anda implementasikan?
+  - key: environments.accessibility_features.others
+    t: Fitur Aksesibilitas lainnya
+  - key: environments.accessibility_features.others.description
+    t: Fitur Aksesibilitas lainnya yang biasa Anda implementasikan
 
   - key: environments.css_for_print
-    t: CSS untuk tampilan
+    t: CSS untuk Tampilan Cetak
   - key: environments.css_for_print.description
-    t: Apakah Anda menulis print style?
+    t: Apakah Anda menulis gaya untuk tampilan cetak?
 
   - key: environments.css_for_email
-    t: CSS untuk Email Klien
+    t: CSS untuk Klien Email
   - key: environments.css_for_email.description
-    t: Apakah Anda menulis CSS untuk email klien?
+    t: Apakah Anda menulis CSS untuk klien email?
+
+  - key: environments.what_do_you_use_css_for
+    t: Untuk apakah Anda menggunakan CSS?
+  - key: environments.what_do_you_use_css_for.description
+    t: Anda menggunakan CSS untuk jenis proyek seperti apa?
+  - key: environments.what_do_you_use_css_for.others
+    t: Jenis-jenis proyek lainnya
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
+  - key: usage.what_do_you_use_css_for_freeform
+    aliasFor: environments.what_do_you_use_css_for.others
+
+  - key: charts.axis_legends.css_for_print
+    t: Frekuensi
+  - key: charts.axis_legends.css_for_email
+    t: Frekuensi
+
+  - key: tools_others.tool_evaluation
+    t: Evaluasi Pustaka
+  - key: tools_others.tool_evaluation.description
+    t: Untuk setiap kecocokan, pilih faktor yang Anda prioritaskan ketika mempertimbangkan sebuah library baru.
 
   ###########################################################################
   # Opinions
@@ -671,46 +798,240 @@ translations:
 
   - key: opinions.css_easy_to_learn
     t: CSS mudah dipelajari
-  - key: opinions.css_easy_to_learn.title # TODO
-    t: Learning Curve
+  - key: opinions.css_easy_to_learn.title
+    t: Kurva Belajar
 
   - key: opinions.css_evolving_slowly
     t: CSS berkembang terlalu lambat
-  - key: opinions.css_evolving_slowly.title # TODO
-    t: Rate of Change
+  - key: opinions.css_evolving_slowly.title
+    t: Tingkat Perubahan
 
   - key: opinions.utility_classes_to_be_avoided
     t: Kelas utilitas (non-semantic) (.center, .large-text, dll.) harus dihindari
-  - key: opinions.utility_classes_to_be_avoided.title # TODO
-    t: Non-Semantic Classes
+  - key: opinions.utility_classes_to_be_avoided.title
+    t: Kelas Non-Semantik
 
   - key: opinions.selector_nesting_to_be_avoided
     t: Penyarangan pemilih (.foo .bar ul li {…}) harus di hindari
-  - key: opinions.selector_nesting_to_be_avoided.title # TODO
-    t: Selector Nesting
+  - key: opinions.selector_nesting_to_be_avoided.title
+    t: Selektor Penyarangan
 
   - key: opinions.css_is_programming_language
     t: CSS adalah bahasa pemrograman
-  - key: opinions.css_is_programming_language.title # TODO
-    t: Programming Language
+  - key: opinions.css_is_programming_language.title
+    t: Bahasa Pemrograman
 
   - key: opinions.enjoy_writing_css
     t: Saya menikmati menulis CSS
-  - key: opinions.enjoy_writing_css.title # TODO
-    t: Enjoyment
+  - key: opinions.enjoy_writing_css.title
+    t: Kesenangan
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Ketidakcocokan antar browser
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Apakah ada fitur-fitur CSS yang Anda sulit gunakan (atau hindari)
+      karena kurangnya dukungan, atau karena perbedaan antar browser?
+
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: usage.css_interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform.others
+    aliasFor: opinions_others.browser_interoperability_features.others
+
+  - key: usage.interoperability_features_freeform.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+  - key: usage.interoperability_features_freeform.others.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
+
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+
+  - key: options.css_interoperability_features.na
+    t: Tidak Ada
+
+  # Pain Points
+  - key: opinions.css_pain_points
+    t: Titik Sakit CSS
+  - key: opinions.css_pain_points.description
+    t: Untuk setiap kecocokan, pilih bagian dari CSS yang membuat Anda paling kesulitan.
+
+  - key: usage.other_pain_points_freeform
+    t: Ada titik sakit lainnya yang berhubungan dengan menulis CSS?
+  - key: usage.other_pain_points_freeform.others
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: opinions_others.css_pain_points.others
+    t: Titik Sakit CSS Lainnya
+
+  - key: usage.css_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_pain_points.description
+    aliasFor: usage.other_pain_points_freeform
+  - key: usage.css_pain_points_freeform
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: options.css_pain_points.na
+    t: Tidak Ada
+
+  # Missing Features
+  - key: opinions.css_missing_features
+    t: Menurut Anda, apa yang saat ini hilang dari CSS?
+  - key: opinions.css_missing_features.description
+    t: Untuk setiap kecocokan, pilih fitur yang Anda paling ingin gunakan dalam CSS saat ini.
+
+  - key: usage.missing_features_freeform
+    t: Fitur apa yang Anda rasa saat ini hilang dari CSS?
+  - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+  - key: usage.missing_features_freeform
+    aliasFor: usage.missing_features_freeform
+
+  - key: usage.css_missing_features
+    t: Fitur Yang Hilang
+  - key: usage.css_missing_features.description
+    aliasFor: usage.missing_features_freeform
 
   - key: opinions_others.css_missing_features.others
-    t: Apa yang Anda rasakan yang saat ini hilang dari CSS?
-  - key: opinions_others.css_missing_features.others.description
-    t: Fitur yang ingin Anda lihat di CSS suatu hari nanti.
+    t: Fitur Hilang Lainnya
+
+  - key: options.css_missing_features.na
+    t: Tidak Ada
+
+  # - key: opinions_others.css_missing_features.others.note
+  #   t: >
+  #       These results were normalized based on the contents of a freeform field.
+  #       To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
 
   - key: opinions.sum_up_one_word_css
     t: CSS dalam satu kata
   - key: opinions.sum_up_one_word_css.description
     t: Bagaimana Anda menyimpulkan opini Anda tentang CSS dalam satu kata?
 
+  - key: happiness.pre_post_processors
+    t: Seberapa senang Anda dengan keadaan umum pre/post-processor?
+  - key: happiness.css_in_js
+    t: Seberapa senang Anda dengan keadaan umum library CSS-in-JS?
+  - key: css_in_js.css_in_js_happiness
+    aliasFor: happiness.css_in_js
+  - key: happiness.css_frameworks
+    t: Seberapa senang Anda dengan keadaan umum framework CSS?
+  - key: css_frameworks.css_frameworks_happiness
+    aliasFor: happiness.css_frameworks
+
   - key: happiness.state_of_the_web
+    t: Keadaan Teknologi Web
+  - key: happiness.state_of_the_web.description
     t: Seberapa senang Anda dengan keadaan umum teknologi web?
+  - key: usage.state_of_the_web_happiness
+    aliasFor: happiness.state_of_the_web
+  - key: usage.state_of_the_web_happiness.description
+    aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
-    t: Seberapa senang Anda dengan keadaan umum CSS?
+    t: Keadaan CSS
+  - key: happiness.sate_of_css.description
+    t: Seberapa senang Anda dengan keadaan umum CSS saat ini?
+  - key: usage.state_of_css_happiness
+    aliasFor: happiness.state_of_css
+  - key: usage.state_of_css_happiness.description
+    aliasFor: happiness.state_of_css.description
+
+  # pain points/currently missing (results)
+  - key: css_pain_points.css_pain_points_wins
+    t: Titik Sakit CSS
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Hasil diurutkan berdasarkan jumlah ronde turnamen yang dimenangkan.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Titik Sakit CSS (Mencocokan)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Bagian mana dari CSS yang paling membuat Anda kesulitan? Persentase ronde yang dimenangkan oleh item sebelah kiri versus item atas.
+
+  - key: css_missing_features.css_missing_features_wins
+    t: Fitur-fitur Yang Hilang Dari CSS
+  - key: css_missing_features.css_missing_features_wins.description
+    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Hasil diurutkan berdasarkan jumlah ronde turnamen yang dimenangkan.
+
+  - key: css_missing_features.css_missing_features_matchups
+    t: Fitur-fitur Yang Hilang Dari CSS (Mencocokan)
+  - key: css_missing_features.css_missing_features_matchups.description
+    t: Fitur manakah yang paling Anda ingin gunakan dalam CSS saat ini? Persentase ronde yang dimenangkan oleh item sebelah kiri versus item atas.
+
+  - key: usage.css_js_balance
+    t: Keseimbangan CSS vs JavaScript
+  - key: usage.css_js_balance.description
+    t: Berapa banyak waktu yang Anda gunakan untuk menulis CSS (termasuk menulis HTML) dan kode JavaScript?
+
+  - key: usage.css_usage_type
+    t: Pengunaan CSS
+  - key: usage.css_usage_type.description
+    t: Dalam konteks apakah Anda menggunakan CSS?
+  - key: usage.css_usage_type.others
+    t: Pengunaan CSS Lainnya
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_css
+    t: Langkah Pertama Dengan CSS
+  - key: resources.first_steps_css.description
+    t: Ketika baru pertama memulai, sumber-sumber mana yang Anda gunakan untuk mempelajari CSS?
+
+  - key: resources.learning_methods_css
+    t: Metode Belajar CSS
+  - key: resources.learning_methods_css.description
+    t: Sumber-sumber mana yang Anda gunakan untuk mempelajari CSS?
+
+  # sites & courses
+  - key: resources.sites_courses_css
+    aliasFor: resources.sites_courses
+  - key: resources.sites_courses_css.description
+    t: Mana saja situs web/kursus/dll. yang berhubungan dengan CSS yang Anda gunakan untuk mempelajari CSS?
+
+  # podcasts
+  - key: resources.podcasts_css
+    aliasFor: resources.podcasts
+  - key: resources.podcasts_css.description
+    t: Podcast CSS mana kah yang Anda dengarkan?
+
+  # people
+  - key: resources.people_css.others
+    aliasFor: resources.people.others
+  - key: resources.people_css.others.description
+    t: Orang-orang yang Anda baca, ikuti, atau yang hanya Anda ingin sorot karena pekerjaan mereka dalam ekosistem CSS.
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      Selamat datang di survei! Bagian pertama ini adalah tentang mencari tahu 
+      **fitur-fitur** CSS mana yang Anda ketahui. 
+
+      Ngomong-ngomong, jika Anda ingin menjelaskan lebih lanjut tentang pilihan Anda, silahkan ketuk ikon "komentar"!
+
+  - key: tools.tools_intro_css
+    t: |
+      Bagian-bagian selanjutnya berfokus pada **library** dan **framework** yang menjadi bagian dari 
+      ekosistem CSS. Beri tahu kami apa yang membuat Anda bersemangat!
