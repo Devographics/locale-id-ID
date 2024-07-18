@@ -7,7 +7,7 @@ translations:
 
   - key: general.state_of_js.intro
     t: >
-      Dunia Javascript membutuhkan klasifikasi.
+      Dunia JavaScript membutuhkan klasifikasi.
 
 
       Sejak 2016, survei ini telah mengumpulkan
@@ -18,24 +18,29 @@ translations:
       akan dipelajari oleh para pengembang, yang memiliki tingkat kepuasan terbaik, dan banyak lagi.
 
   - key: general.state_of_js.title
-    t: Survei State of Javascript untuk pengembang
+    t: Survei State of JavaScript untuk pengembang
 
   - key: general.state_of_js.description
-    t: Survei tahunan pengembang untuk ekosistem Javascript
+    t: Survei tahunan pengembang untuk ekosistem JavaScript
 
   ###########################################################################
   # Sections
   ###########################################################################
 
+  - key: sections.features.title
+    t: Fitur
+  - key: sections.features.description
+    t: Sintaks, API browser, dan fitur-fitur lainnya.
+
   - key: sections.syntax.title
     t: Sintaks
   - key: sections.syntax.description
-    t: Tata bahasa Javascript
+    t: Tata bahasa JavaScript
 
   - key: sections.language.title
     t: Bahasa
   - key: sections.language.description
-    t: Kosakata Javascript
+    t: Kosakata JavaScript
 
   - key: sections.data_structures.title
     t: Struktur Data
@@ -43,7 +48,7 @@ translations:
     t: Bagaimana anda menyimpan dan memanipulasi data.
 
   - key: sections.browser_apis.title
-    t: Browser API
+    t: API Browser
   - key: sections.browser_apis.description
     t: Fitur-fitur yang disediakan oleh browser.
 
@@ -58,9 +63,9 @@ translations:
     t: Bagaimana anda lebih suka menulis kode
 
   - key: sections.javascript_flavors.title
-    t: Varian Javascript
+    t: Varian JavaScript
   - key: sections.javascript_flavors.description
-    t: Bahasa yang dikompilasi ke Javascript
+    t: Bahasa yang dikompilasi ke JavaScript
 
   - key: sections.front_end_frameworks.title
     t: Kerangka Front-end
@@ -77,10 +82,15 @@ translations:
   - key: sections.rendering_frameworks.description
     t: Kerangka yang fokus untuk menampilkan dan menyediakan aplikasi Anda
 
+  - key: sections.meta_frameworks.title
+    t: Meta-Framework
+  - key: sections.meta_frameworks.description
+    t: Framework yang berfokus pada rendering dan menyajikan aplikasi anda
+
   - key: sections.back_end_frameworks.title
     t: Kerangka Back-end
   - key: sections.back_end_frameworks.description
-    t: Javascript di server
+    t: JavaScript di server
 
   - key: sections.testing.title
     t: Pengujian
@@ -90,7 +100,7 @@ translations:
   - key: sections.mobile_desktop.title
     t: Mobile & Desktop
   - key: sections.mobile_desktop.description
-    t: Javascript untuk perangkat selular dan aplikasi desktop
+    t: JavaScript untuk perangkat selular dan aplikasi desktop
 
   - key: sections.build_tools.title
     t: Alat Build
@@ -100,12 +110,12 @@ translations:
   - key: sections.monorepo_tools.title
     t: Alat Monorepo
   - key: sections.monorepo_tools.description
-    t: Alat yang digunakan untuk mengatur monorepo Javascript.
+    t: Alat yang digunakan untuk mengatur monorepo JavaScript.
 
   - key: sections.tools_others.title
     t: Alat lainnya
   - key: sections.tools_others.description
-    t: Alat Javascript lainnya
+    t: Alat JavaScript lainnya
 
   - key: sections.other_tools.title
     t: Alat lainnya
@@ -115,12 +125,12 @@ translations:
   - key: sections.resources_js.title
     t: Sumber
   - key: sections.resources_js.description
-    t: Sumber Javascript apa saja yang Anda pakai?
+    t: Sumber JavaScript apa saja yang Anda pakai?
 
   - key: sections.usage_js.title
     t: Pemakaian
   - key: sections.usage_js.description
-    t: Bagaimana cara anda memakai Javascript
+    t: Bagaimana cara anda memakai JavaScript
 
   ###########################################################################
   # Survey Help
@@ -129,13 +139,13 @@ translations:
   - key: features.features_intro
     t: >
       Selamat datang di survei! Pada bagian pertama ini,
-      kita fokus pada **fitur** apa saja dari Javascript yang Anda ketahui.
+      kita fokus pada **fitur** apa saja dari JavaScript yang Anda ketahui.
       Dan jika Anda tahu tapi belum pernah mencobanya, itu juga tidak masalah!
 
   - key: tools.tools_intro
     t: >
       Pada beberapa bagian selanjutnya, kita akan fokus pada **pustaka** dan **kerangka** yang membuat 
-      ekosistem Javascript. Beritahu kita apa yang membuat Anda semangat memakainya!
+      ekosistem JavaScript. Beritahu kita apa yang membuat Anda semangat memakainya!
 
   ###########################################################################
   # Options
@@ -149,13 +159,13 @@ translations:
   # - key: options.js_pain_points.animations
   #   t: Animations
   # - key: options.js_pain_points.animations.description
-  #   t: Managing animations, transitions, etc. using Javascript.
+  #   t: Managing animations, transitions, etc. using JavaScript.
   # - key: options.js_pain_points.form_handling
   #   t: Form Handling
   # - key: options.js_pain_points.form_handling.description
   #   t: Creating forms, managing their state and errors, and saving their data.
   - key: options.js_pain_points.state_management
-    t: Manajemen State
+    t: Pengelolaan State
   - key: options.js_pain_points.state_management.description
     t: Mengelola state data global dalam aplikasi kompleks.
   # - key: options.js_pain_points.performance_issues
@@ -173,11 +183,11 @@ translations:
   - key: options.js_pain_points.finding_packages
     t: Mencari paket
   - key: options.js_pain_points.finding_packages.description
-    t: Mencari dan mengevaluasi paket Javascript.
+    t: Mencari dan mengevaluasi paket JavaScript.
   - key: options.js_pain_points.writing_modules
     t: Menulis Modul
   - key: options.js_pain_points.writing_modules.description
-    t: Menulis modul Javascript dan membagikannya sebagai paket.
+    t: Menulis modul JavaScript dan membagikannya sebagai paket.
   - key: options.js_pain_points.debugging
     t: Debugging
   - key: options.js_pain_points.debugging.description
@@ -236,10 +246,25 @@ translations:
   - key: options.top_js_pain_points.date_management.description
     aliasFor: options.js_pain_points.date_management.description
 
+  - key: options.top_js_pain_points.performance
+    t: Performa
+  - key: options.top_js_pain_points.performance.description
+    t: Menulis kode JavaScript yang cepat dan efisien
+
   - key: options.top_js_pain_points.build_tools
     t: Alat Build
+  - key: options.top_js_pain_points.build_tools.description
+    t: Mengelola alat untuk mem-bundle code anda
+
   - key: options.top_js_pain_points.typing
     t: Menulis Type
+  - key: options.top_js_pain_points.typing.description
+    t: Mengelola dan mengurus type
+
+  - key: options.top_js_pain_points.build_tools
+    t: Build Tools
+  - key: options.top_js_pain_points.typing
+    t: Typing
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
@@ -249,7 +274,7 @@ translations:
   - key: options.top_js_pain_points.performance
     t: Performa
   - key: options.top_js_pain_points.too_many_choices
-    t: Terlalu banyak pilihan
+    t: Terlalu Banyak Pilihan
   - key: options.top_js_pain_points.react
     t: React
   - key: options.top_js_pain_points.bundlers
@@ -271,11 +296,11 @@ translations:
   - key: options.currently_missing_from_js.static_typing
     t: Type statis
   - key: options.currently_missing_from_js.static_typing.description
-    t: Type bawaan; atau komentar bergaya TypeScript
+    t: Type bawaan; atau komentar-sebagai-type bergaya TypeScript
   - key: options.currently_missing_from_js.standard_library
-    t: Standar Pustaka
+    t: Pustaka Standar
   - key: options.currently_missing_from_js.standard_library.description
-    t: Sebuah standar pustaka dari utilitas umum
+    t: Sebuah pustaka standar yang berisi utilitas umum
   - key: options.currently_missing_from_js.pattern_matching
     t: Membandingkan Pola
   - key: options.currently_missing_from_js.pattern_matching.description
@@ -363,7 +388,7 @@ translations:
   - key: options.what_do_you_use_js_for.frontend_development
     t: Pengembangan Frontend
   - key: options.what_do_you_use_js_for.backend_development
-    t: Pengembangan Development
+    t: Pengembangan Backend
   - key: options.what_do_you_use_js_for.data_analysis
     t: Analisa Data
   - key: options.what_do_you_use_js_for.machine_learning
@@ -388,7 +413,7 @@ translations:
   - key: options.what_do_you_use_js_for.developer_tooling
     t: Alat untuk pengembang
   - key: options.what_do_you_use_js_for.automation
-    t: Otomatisasi
+    t: Otomasi
   - key: options.what_do_you_use_js_for.bots
     t: Bot
   - key: options.what_do_you_use_js_for.testing
@@ -435,7 +460,7 @@ translations:
   - key: options.js_app_patterns.progressive_enhancement
     t: Peningkatan Progresif (Progressive Enhancement)
   - key: options.js_app_patterns.progressive_enhancement.description
-    t: Memastikan sebuah aplikasi dapat berjalan bahkan tanpa Javascript
+    t: Memastikan sebuah aplikasi dapat berjalan bahkan tanpa JavaScript
   - key: options.js_app_patterns.incremental_static_generation
     t: Incremental Static Generation (ISG)
   - key: options.js_app_patterns.incremental_static_generation.description
@@ -452,6 +477,10 @@ translations:
     t: Edge Rendering
   - key: options.js_app_patterns.edge_rendering.description
     t: Mengubah HTML yang terdapat pada edge sebelum mengirimnya ke klien
+  - key: options.js_app_patterns.partial_prerendering
+    t: Prerendering Parsial
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Merender sebuah halaman dengan sebuah cangkang pemuatan yang statis, namun tetap menjadikan beberapa bagian dinamis
 
   - key: options.js_app_patterns.micro_frontend
     t: Mikro Frontend
@@ -512,9 +541,44 @@ translations:
   - key: features.decorators.description
     t: >
       Sederhananya, dekorator adalah salah satu cara untuk membungkus
-      sebuah bagian kode dengan yang lainnya - secara harfiah "decorating"
+      sebuah bagian kode dengan yang lainnya - secara harafiah "mendekorasi".
   - key: features.dynamic_import
     t: Dynamic Import
+
+  - key: features.syntax_features
+    t: Fitur Sintaks
+  - key: features.syntax_features.question
+    t: Dari fitur-fitur sintaks berikut, yang mana saja yang pernah anda pakai?
+
+  - key: features.string_features
+    t: Fitur String
+  - key: features.string_features.question
+    t: Fitur String mana yang pernah anda pakai?
+
+  - key: features.array_features
+    t: Fitur Array 
+  - key: features.array_features.question
+    t: Fitur Array mana yang pernah anda pakai?
+
+  - key: features.async_features
+    t: Async Features
+  - key: features.async_features.question
+    t: Dari fitur-fitur async berikut, mana yang pernah anda pakai?
+
+  - key: features.browser_api_features
+    t: Browser APIs
+  - key: features.browser_api_features.question
+    t: API browser yang pernah anda pakai?
+
+  - key: features.language_pain_points
+    t: Titik Sakit Bahasa
+  - key: features.language_pain_points.question
+    t: Apa saja titik sakit utama anda yang berhubungan dengan bahasa JavaScript?
+
+  - key: features.browser_apis_pain_points
+    t: Titik Sakit API Browser
+  - key: features.browser_apis_pain_points.question
+    t: Apa saja titik sakit utama anda yang berhubungan dengan API browser?
 
   # patterns
   - key: patterns.object_oriented_programming
@@ -554,6 +618,77 @@ translations:
       Pustaka dimuat dari [Best of JS](https://bestofjs.org/). 
       Jika ada proyek yang hilang, Anda bisa [Kirim di sini](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
 
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: Kepuasan Framework Front-end
+  - key: tools.front_end_frameworks_happiness.question
+    t: Seberapa puas Anda dengan keadaan front-end frameworks?
+
+  - key: tools.front_end_frameworks_pain_points
+    t: Titik Sakit Framework Front-end 
+  - key: tools.front_end_frameworks_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan framework front-end?
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: Kepuasan Meta-Framework
+  - key: tools.meta_frameworks_happiness.question
+    t: Seberapa puas Anda dengan keadaan meta-frameworks?
+
+  - key: tools.meta_frameworks_pain_points
+    t: Titik Sakit Meta-Framework
+  - key: tools.meta_frameworks_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan meta-frameworks?
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: Kepuasan Pengujian
+  - key: tools.testing_happiness.question
+    t: Seberapa puas Anda dengan keadaan alat-alat pengujian?
+
+  - key: tools.testing_pain_points
+    t: Titik Sakit Pengujian
+  - key: tools.testing_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat pengujian?
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: Kepuasan Mobile & Desktop 
+  - key: tools.mobile_desktop_happiness.question
+    t: Seberapa puas Anda dengan keadaan alat-alat seluler & desktop?
+
+  - key: tools.mobile_desktop_pain_points
+    t: Mobile & Desktop Pain Points
+  - key: tools.mobile_desktop_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan JavaScript untuk membuat aplikasi seluler & desktop?
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: Kepuasan Build Tools
+  - key: tools.build_tools_happiness.question
+    t: Seberapa puas anda dengan keadaan build tools?
+
+  - key: tools.build_tools_pain_points
+    t: Titik Sakit Build Tools
+  - key: tools.build_tools_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat-alat build?
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Kepuasan Monorepo
+  - key: tools.monorepo_tools_happiness.question
+    t: Seberapa puas anda dengan keadaan monorepo tools?
+
+  - key: tools.monorepo_tools_pain_points
+    t: Titik Sakit Monorepo
+  - key: tools.monorepo_tools_pain_points.question
+    t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan alat-alat monorepo?
+
   ###########################################################################
   # Other Tools
   ###########################################################################
@@ -568,11 +703,11 @@ translations:
     t: Jawaban lain.
 
   - key: tools_others.text_editors
-    t: Text Editor
+    t: Editor Teks
   - key: tools_others.text_editors.question
     t: Text editor apa yang biasa Anda gunakan?
   - key: tools_others.text_editors.others
-    t: Text Editor lain
+    t: Editor teks lain
   - key: tools_others.text_editors.others.description
     t: Jawaban lain.
 
@@ -604,25 +739,26 @@ translations:
     t: Jawaban lain.
 
   - key: tools_others.non_js_languages
-    t: Bahasa selain Javascript
+    t: Bahasa selain JavaScript
   - key: tools_others.non_js_languages.question
-    t: Apa bahasa pemrogramman selain Javascript yang Anda gunakan?
+    t: Apa bahasa pemrogramman selain JavaScript yang Anda gunakan?
+
   - key: tools_others.non_js_languages.others
     t: Bahasa lain
   - key: tools_others.non_js_languages.others.description
     t: Jawaban lain.
 
   - key: tools_others.javascript_flavors
-    t: Varian Javascript
+    t: Varian JavaScript
   - key: tools_others.javascript_flavors.question
-    t: Bahasa yang melakukan kompilasi ke Javascript
+    t: Bahasa yang melakukan kompilasi ke JavaScript
   - key: tools_others.javascript_flavors.others
-    t: Varian Javascript lain
+    t: Varian JavaScript lain
   - key: tools_others.javascript_flavors.others.description
     t: Jawaban lain.
 
   - key: tools_others.runtimes
-    t: Javascript Runtime
+    t: JavaScript Runtime
   - key: tools_others.runtimes.question
     t: Mesin/runtime/eksekusi apa yang biasa ada gunakan?
   - key: tools_others.runtimes.others
@@ -814,6 +950,16 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools_others.backend_frameworks.others
 
+  - key: other_tools.ai_tools
+    t: Alat-alat AI
+  - key: other_tools.ai_tools.question
+    t: Dari alat-alat AI berikut, yang manakah yang anda sering pakai untuk membantu anda menulis kode?
+
+  - key: other_tools.hosting
+    t: Layanan Hosting
+  - key: other_tools.hosting.question
+    t: Layanan hosting manakah yang pernah anda pakai untuk aplikasi JavaScript?
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -826,26 +972,32 @@ translations:
     t: Pola Aplikasi lain
 
   - key: usage.what_do_you_use_js_for
-    t: Untuk apa Anda menggunakan Javascript?
+    t: Penggunaan JavaScript
+  - key: usage.what_do_you_use_js_for.question
+    t: Untuk apa Anda menggunakan JavaScript?
   - key: usage.what_do_you_use_js_for.others
-    t: Contoh kasus pemakaian Javascript lainnya
+    t: Contoh kasus pemakaian JavaScript lainnya
 
   - key: usage.js_ts_balance
-    t: Keseimbangan Javascript/TypeScript
+    t: Keseimbangan JavaScript/TypeScript
   - key: usage.js_ts_balance.question
-    t: Bagaimana caramu membagi waktu antara menulis kode Javascript dan TypeScript?
+    t: Bagaimana caramu membagi waktu antara menulis kode JavaScript dan TypeScript?
 
   - key: tools_others.edge_runtimes
-    t: Javascript Edge/Serverless Runtime
+    t: JavaScript Edge/Serverless Runtime
   - key: tools_others.edge_runtimes.question
     t: Edge atau serverless runtime mana yang biasa Anda gunakan?
   - key: tools_others.edge_runtimes.others
     t: Edge Runtime lain
+  - key: other_tools.edge_runtimes
+    aliasFor: tools_others.edge_runtimes
+  - key: other_tools.edge_runtimes.description
+    aliasFor: tools_others.edge_runtimes.question
 
   - key: usage.usage_type
-    t: Pemakaian Javascript
+    t: Pemakaian JavaScript
   - key: usage.usage_type.question
-    t: Dalam hal apa anda memilih Javascript sebagai bahasa pemrograman utama?
+    t: Dalam hal apa anda memilih JavaScript sebagai bahasa pemrograman utama?
   - key: usage.usage_type.others
     t: Pemakaian lain
 
@@ -857,7 +1009,7 @@ translations:
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
-    t: Which industry sector(s) are you using Javascript in?
+    t: Which industry sector(s) are you using JavaScript in?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
 
@@ -866,27 +1018,27 @@ translations:
   ###########################################################################
 
   - key: opinions.js_moving_in_right_direction
-    t: Javascript bergerak ke arah yang benar
+    t: JavaScript bergerak ke arah yang benar
 
   - key: opinions.building_js_apps_overly_complex
-    t: Saat ini, membuat aplikasi Javascript terlalu rumit
+    t: Saat ini, membuat aplikasi JavaScript terlalu rumit
 
   - key: opinions.js_over_used_online
-    t: Javascript digunakan secara berlebihan
+    t: JavaScript digunakan secara berlebihan
 
   - key: opinions.enjoy_building_js_apps
-    t: Saya menikmati membangun aplikasi Javascript
+    t: Saya menikmati membangun aplikasi JavaScript
 
   - key: opinions.would_like_js_to_be_main_lang
-    t: Saya ingin Javascript menjadi bahasa pemrograman utama saya
+    t: Saya ingin JavaScript menjadi bahasa pemrograman utama saya
 
   - key: opinions.js_ecosystem_changing_to_fast
-    t: Ekosistem Javascript berubah terlalu cepat
+    t: Ekosistem JavaScript berubah terlalu cepat
 
   - key: opinions.missing_from_js
-    t: Apa yang anda rasa kurang dari Javascript?
+    t: Apa yang anda rasa kurang dari JavaScript?
   - key: opinions.missing_from_js.description
-    t: Fitur yang ingin anda lihat di Javascript suatu hari nanti.
+    t: Fitur yang ingin anda lihat di JavaScript suatu hari nanti.
 
   - key: happiness.front_end_frameworks
     t: Seberapa senang Anda dengan Kerangka Frontend saat ini?
@@ -904,40 +1056,56 @@ translations:
     t: Seberapa senang Anda dengan Kerangka Rendering saat ini?
 
   - key: happiness.state_of_the_web
+    t: Kepuasan Teknologi Web
+  - key: happiness.state_of_the_web.question
     t: Seberapa senang Anda dengan teknologi web secara umum?
 
   - key: happiness.state_of_js
-    t: Seberapa senang Anda dengan Javascript secara umum?
+    t: Kepuasan JavaScript
+  - key: happiness.state_of_js.question
+    t: Seberapa senang Anda dengan JavaScript secara umum?
 
   # Pain Points
+
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: What aspects of JavaScript do you struggle with the most?
+
   - key: opinions.js_pain_points
-    t: Poin Minus Javascript
+    t: Poin Minus JavaScript
   - key: opinions.js_pain_points.description
-    t: Jika ada, pilih aspek dari Javascript yang paling membuat Anda kesulitan.
+    t: Jika ada, pilih aspek dari JavaScript yang paling membuat Anda kesulitan.
   - key: opinions_others.js_pain_points.others
-    t: Poin minus Javascript lainnya
+    t: Poin minus JavaScript lainnya
 
   - key: opinions.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: opinions.top_js_pain_points.description
-    t: Pilih 3 aspek teratas dari Javascript yang paling membuat anda kesulitan.
+    t: Pilih 3 aspek teratas dari JavaScript yang paling membuat anda kesulitan.
   - key: opinions_others.top_js_pain_points.others
     aliasFor: opinions_others.js_pain_points.others
   - key: opinions.top_js_pain_points.others
     aliasFor: opinions_others.js_pain_points.others
 
   # Missing Features
+
+  - key: usage.top_currently_missing_from_js
+    t: Missing Features
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
-    t: Apa yang Anda rasa kurang dari Javascript?
+    t: Apa yang Anda rasa kurang dari JavaScript?
   - key: opinions.currently_missing_from_js.description
-    t: Jika ada, pilih fitur dari Javascript yang Anda ingin bisa pakai saat ini.
+    t: Jika ada, pilih fitur dari JavaScript yang Anda ingin bisa pakai saat ini.
   - key: opinions_others.currently_missing_from_js.others
     t: Fitur lainnya yang kurang
 
   - key: opinions.top_currently_missing_from_js
     aliasFor: opinions.currently_missing_from_js
   - key: opinions.top_currently_missing_from_js.description
-    t: Pilih 3 aspek teratas dari Javascript yang Anda ingin bisa pakai saat ini.
+    t: Pilih 3 aspek teratas dari JavaScript yang Anda ingin bisa pakai saat ini.
   - key: opinions_others.top_currently_missing_from_js.others
     aliasFor: opinions_others.currently_missing_from_js.others
   - key: opinions.top_currently_missing_from_js.others
@@ -945,30 +1113,30 @@ translations:
 
   # pain points/currently missing (results)
   - key: js_pain_points.js_pain_points_wins
-    t: Poin Minus Javascript
+    t: Poin Minus JavaScript
   - key: js_pain_points.js_pain_points_wins.description
-    t: Aspek dari Javascript yang paling membuat Anda kesulitan? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
+    t: Aspek dari JavaScript yang paling membuat Anda kesulitan? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
 
   - key: js_pain_points.js_pain_points_matchups
-    t: Poin Minus Javascript (Pertandingan)
+    t: Poin Minus JavaScript (Pertandingan)
   - key: js_pain_points.js_pain_points_matchups.description
-    t: Aspek dari Javascript yang paling membuat Anda kesulitan? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
+    t: Aspek dari JavaScript yang paling membuat Anda kesulitan? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
 
   - key: currently_missing_from_js.currently_missing_from_js_wins
-    t: Fitur yang hilang dari Javascript
+    t: Fitur yang hilang dari JavaScript
   - key: currently_missing_from_js.currently_missing_from_js_wins.description
-    t: Fitur dari Javascript yang Anda ingin bisa pakai saat ini? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
+    t: Fitur dari JavaScript yang Anda ingin bisa pakai saat ini? Hasil diurutkan berdasarkan jumlah kemenangan ronde turnamen.
 
   - key: currently_missing_from_js.currently_missing_from_js_matchups
-    t: Fitur yang hilang dari Javascript (Pertandingan)
+    t: Fitur yang hilang dari JavaScript (Pertandingan)
   - key: currently_missing_from_js.currently_missing_from_js_matchups.description
-    t: Fitur dari Javascript yang Anda ingin bisa pakai saat ini? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
+    t: Fitur dari JavaScript yang Anda ingin bisa pakai saat ini? Persentase kemenangan diukur dengan sisi kiri melawan sisi atas.
 
   ###########################################################################
   # Resources
   ###########################################################################
 
   - key: resources.first_steps_js
-    t: Langkah Pertama Bersama Javascript
+    t: Langkah Pertama Bersama JavaScript
   - key: resources.first_steps_js.description
-    t: Saat pertama mencoba, bagaimana cara Anda belajar Javascript?
+    t: Saat pertama mencoba, bagaimana cara Anda belajar JavaScript?
