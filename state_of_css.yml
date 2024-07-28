@@ -665,10 +665,10 @@ translations:
     aliasFor: sections.pre_post_processors.title
   - key: other_tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     t: pre- atau post-processor manakah yang Anda sering pakai?
   - key: other_tools.pre_post_processors.description
-    aliasFor: tools_others.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.question
   - key: tools_others.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors.others
@@ -729,7 +729,7 @@ translations:
 
   - key: environments.form_factors
     t: Lingkungan Pengujian
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: Lingkungan apa saja yang Anda uji?
   - key: environments.form_factors.others
     t: Lingkungan Pengujian Lainnya
@@ -739,7 +739,7 @@ translations:
   - key: usage.form_factors
     aliasFor: environments.form_factors
   - key: usage.form_factors.description
-    aliasFor: environments.form_factors.description
+    aliasFor: environments.form_factors.question
   - key: usage.form_factors.others
     aliasFor: environments.form_factors.others
   - key: usage.form_factors_freeform
@@ -749,7 +749,7 @@ translations:
 
   - key: environments.accessibility_features
     t: Fitur Aksesibilitas
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: Fitur aksesibilitas mana yang biasa Anda implementasikan?
   - key: environments.accessibility_features.others
     t: Fitur Aksesibilitas lainnya
@@ -758,17 +758,17 @@ translations:
 
   - key: environments.css_for_print
     t: CSS untuk Tampilan Cetak
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Apakah Anda menulis gaya untuk tampilan cetak?
 
   - key: environments.css_for_email
     t: CSS untuk Klien Email
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: Apakah Anda menulis CSS untuk klien email?
 
   - key: environments.what_do_you_use_css_for
     t: Untuk apakah Anda menggunakan CSS?
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: Anda menggunakan CSS untuk jenis proyek seperti apa?
   - key: environments.what_do_you_use_css_for.others
     t: Jenis-jenis proyek lainnya
@@ -776,7 +776,7 @@ translations:
   - key: usage.what_do_you_use_css_for
     aliasFor: environments.what_do_you_use_css_for
   - key: usage.what_do_you_use_css_for.description
-    aliasFor: environments.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.question
   - key: usage.what_do_you_use_css_for.others
     aliasFor: environments.what_do_you_use_css_for.others
   - key: usage.what_do_you_use_css_for_freeform
@@ -836,7 +836,7 @@ translations:
 
   - key: usage.css_interoperability_features
     aliasFor: opinions_others.browser_interoperability_features.others
-  - key: usage.css_interoperability_features.description
+  - key: usage.css_interoperability_features.question
     aliasFor: opinions_others.browser_interoperability_features.others.description
 
   - key: usage.css_interoperability_features_freeform
@@ -884,7 +884,7 @@ translations:
 
   - key: usage.css_pain_points
     aliasFor: opinions_others.css_pain_points.others
-  - key: usage.css_pain_points.description
+  - key: usage.css_pain_points.question
     aliasFor: usage.other_pain_points_freeform
   - key: usage.css_pain_points_freeform
     aliasFor: usage.other_pain_points_freeform
@@ -907,7 +907,7 @@ translations:
 
   - key: usage.css_missing_features
     t: Fitur Yang Hilang
-  - key: usage.css_missing_features.description
+  - key: usage.css_missing_features.question
     aliasFor: usage.missing_features_freeform
 
   - key: opinions_others.css_missing_features.others
@@ -943,7 +943,7 @@ translations:
     t: Seberapa senang Anda dengan keadaan umum teknologi web?
   - key: usage.state_of_the_web_happiness
     aliasFor: happiness.state_of_the_web
-  - key: usage.state_of_the_web_happiness.description
+  - key: usage.state_of_the_web_happiness.question
     aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
@@ -953,7 +953,7 @@ translations:
   - key: usage.state_of_css_happiness
     aliasFor: happiness.state_of_css
   - key: usage.state_of_css_happiness.description
-    aliasFor: happiness.state_of_css.description
+    aliasFor: happiness.state_of_css.question
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
@@ -978,12 +978,12 @@ translations:
 
   - key: usage.css_js_balance
     t: Keseimbangan CSS vs JavaScript
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: Berapa banyak waktu yang Anda gunakan untuk menulis CSS (termasuk menulis HTML) dan kode JavaScript?
 
   - key: usage.css_usage_type
     t: Pengunaan CSS
-  - key: usage.css_usage_type.description
+  - key: usage.css_usage_type.question
     t: Dalam konteks apakah Anda menggunakan CSS?
   - key: usage.css_usage_type.others
     t: Pengunaan CSS Lainnya

@@ -556,7 +556,7 @@ translations:
     t: Fitur String mana yang pernah anda pakai?
 
   - key: features.array_features
-    t: Fitur Array 
+    t: Fitur Array
   - key: features.array_features.question
     t: Fitur Array mana yang pernah anda pakai?
 
@@ -625,7 +625,7 @@ translations:
     t: Seberapa puas Anda dengan keadaan front-end frameworks?
 
   - key: tools.front_end_frameworks_pain_points
-    t: Titik Sakit Framework Front-end 
+    t: Titik Sakit Framework Front-end
   - key: tools.front_end_frameworks_pain_points.question
     t: Apa saja kesulitan yang pernah anda hadapi ketika menggunakan framework front-end?
 
@@ -656,7 +656,7 @@ translations:
   # mobile & desktop
 
   - key: tools.mobile_desktop_happiness
-    t: Kepuasan Mobile & Desktop 
+    t: Kepuasan Mobile & Desktop
   - key: tools.mobile_desktop_happiness.question
     t: Seberapa puas Anda dengan keadaan alat-alat seluler & desktop?
 
@@ -778,7 +778,7 @@ translations:
   - key: tools_others.form_factors
     aliasFor: environments.form_factors
   - key: tools_others.form_factors.description
-    aliasFor: environments.form_factors.description
+    aliasFor: environments.form_factors.question
 
   - key: tools_others.backend_as_a_service
     t: Penyedia Backend-as-a-Service
