@@ -120,6 +120,8 @@ translations:
     t: Pemrosesan Data
   - key: credits.back_end_development
     t: Pengembangan Back-End
+  - key: credits.survey_review
+    t: Ulasan Survei
 
   # support
   - key: general.support_from
@@ -156,6 +158,8 @@ translations:
   # thanks
   - key: general.back
     t: Kembali
+  - key: general.back_to_survey
+    t: Kembali ke survei
   - key: general.thanks
     t: >
       Terima kasih telah mengisi survei! Data anda telah tersimpan.
@@ -179,21 +183,31 @@ translations:
     t: Skor Utama
   - key: thanks.quiz_score
     t: Skor kuis
-  - key: thanks.score_explanation
+  - key: thanks.score_statistics
     t: >
-      Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
-      <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei, 
-      yang menempatkan anda di peringkat <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-      dari keseluruhan responden.
-  - key: thanks.score_explanation_no_ranking
+      Dari {total} fitur yang disebutkan di survei,
+      anda telah memakai {usage_count} dan telah mendengar {awareness_count} lagi,
+      menempatkan anda dalam {knowledgeRankingFromTop} teratas semua responden.
+      Bagus sekali!
+  - key: thanks.score_noranking
     t: >
-      Anda pernah mendengar atau menggunakan <span class="score-number score-number-known">{known}</span> dari
-      <span class="score-number score-number-total">{total}</span> fitur yang disebutkan dalam survei.
+      Dari {total} fitur yang disebutkan di survei,
+      anda telah memakai {usage_count} dan telah mendengar {awareness_count} lagi,
+      Bagus sekali!
+  - key: thanks.points
+    t: >
+      poin
+  - key: thanks.score_awareness_explanation
+    t: >
+      Supaya adil, persentase ini dihitung hanya berdasarkan dari {awareness_total} fitur yang anda ketahui
   - key: thanks.share_on_twitter
     t: Bagikan di Twitter
   - key: thanks.share_score_message
     t: >
       Saya mendapatkan skor pengetahuan {score}% pada survei #{hashtag} tahun ini! Ikuti survei di sini: {shareUrl}
+      Saya telah memakai {usage_count} fitur, dan mengetahui {awareness_count} lebih banyak,
+      menempatkan saya di {rank}% teratas dari semua responden.
+      Bisakah anda mengalahkan skor saya? {shareUrl}
   # share
   - key: general.share_subject
     t: >
@@ -303,6 +317,9 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: Pengalaman
+
   # other answer
   - key: options.other
     t: Lainnya…
@@ -333,6 +350,9 @@ translations:
     t: |
       <span class="option-chip option-main option-main-used">Sudah pakai</span> » <span class="option-chip option-negative">Pengalaman negatif</span>
 
+  - key: options.features.na
+    t: Tidak ada
+
   # features (short)
   - key: options.features.never_heard.short
     t: <span aria-hidden="true">🤷</span> Belum pernah dengar
@@ -340,6 +360,20 @@ translations:
     t: <span aria-hidden="true">👀</span> Pernah dengar
   - key: options.features.used.short
     t: <span aria-hidden="true">🤓</span> Sudah pakai
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -356,6 +390,83 @@ translations:
     t: Tahu tentang itu
   - key: options.features.used.short
     t: Sudah pakai
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: Respondents who have never heard about an item.
+  - key: options.experience.heard.description
+    t: Respondents who have heard about an item, but haven't used it.
+  - key: options.experience.used.description
+    t: Respondents who have used an item.
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: Sentiment
+
+  - key: options.sentiment.positive.label
+    t: Positive Sentiment
+  - key: options.sentiment.neutral.label
+    t: Neutral Sentiment
+  - key: options.sentiment.negative.label
+    t: Negative Sentiment
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: Positive
+  - key: options.sentiment.neutral.label.short
+    t: Neutral
+  - key: options.sentiment.negative.label.short
+    t: Negative
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: Respondents who are interested in learning more about a technology; or are willing to use it again.
+  - key: options.sentiment.neutral.description
+    t: Responents who did not indicate any sentiment about a technology.
+  - key: options.sentiment.negative.description
+    t: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.
 
   # patterns
   - key: options.patterns.use_never
@@ -477,6 +588,33 @@ translations:
   - key: options.age.range_more_than_65.short
     t: ">65"
 
+  # age 2
+  - key: options.age.range_under_20
+    t: 20 years old and under
+  - key: options.age.range_20_29
+    t: 20-29 years old
+  - key: options.age.range_30_39
+    t: 30-39 years old
+  - key: options.age.range_40_49
+    t: 40-49 years old
+  - key: options.age.range_50_59
+    t: 50-59 years old
+  - key: options.age.range_over_60
+    t: 60 years old or older
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
+
   # years of experience
   - key: options.years_of_experience.range_less_than_1
     t: Kurang dari 1 tahun
@@ -505,9 +643,45 @@ translations:
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20 tahun"
 
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: Kurang dari satu tahun
+  - key: options.years_of_experience.range_1_3
+    t: 1 sampai 3 tahun
+  - key: options.years_of_experience.range_4_6
+    t: 4 sampai 6 tahun
+  - key: options.years_of_experience.range_7_9
+    t: 7 sampai 9 tahun
+  - key: options.years_of_experience.range_10_12
+    t: 10 sampai 12 tahun
+  - key: options.years_of_experience.range_13_15
+    t: 13 sampai 15 tahun
+  - key: options.years_of_experience.range_16_20
+    t: 16 sampai 20 tahun
+  - key: options.years_of_experience.range_over_20
+    t: Lebih dari 20 tahun
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 years"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3 years
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6 years
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9 years
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12 years
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15 years
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20 years
+  - key: options.years_of_experience.range_over_20.short
+    t: ">20 years"
+
   # company size
   - key: options.company_size.na
-    t: N/A
+    t: 🚫 Tidak berlaku
   - key: options.company_size.range_1
     t: Hanya saya
   - key: options.company_size.range_1_5
@@ -563,6 +737,21 @@ translations:
   - key: options.yearly_salary.range_more_than_200
     t: Lebih dari $200k
 
+  - key: options.yearly_salary.range_0_20
+    t: $0k-$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k-$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k-$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k-$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k-$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k-$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k-$200k
+
   # salary (short versions)
   - key: options.yearly_salary.na.short
     t: N/A
@@ -594,18 +783,37 @@ translations:
     t: Ahli
 
   # Gender
+
   - key: options.gender.female
     t: Perempuan
   - key: options.gender.male
     t: Laki-laki
+  - key: options.gender.non_binary
+    t: Non-Binary atau Gender Non-Conforming
+  - key: options.gender.questioning
+    t: Mempertanyakan
+  - key: options.gender.prefer_not_to_say
+    t: Memilih untuk tidak memberitahu
+  - key: options.gender.not_listed
+    t: Tidak tercantum
 
   # Gender (short)
+
   - key: options.gender.female.short
     t: Perempuan
   - key: options.gender.male.short
     t: Laki-laki
+  - key: options.gender.non_binary.short
+    t: Non-Binary atau GNC
+  - key: options.gender.questioning.short
+    t: Mempertanyakan
+  - key: options.gender.prefer_not_to_say.short
+    t: Memilih untuk tidak memberitahu
+  - key: options.gender.not_listed.short
+    t: Tidak tercantum
 
   # Race & Ethnicity
+
   - key: options.race_ethnicity.white_european
     t: Berkulit Putih
   - key: options.race_ethnicity.south_asian
@@ -643,6 +851,7 @@ translations:
     t: Yahudi
 
   # Race & Ethnicity (short)
+
   - key: options.race_ethnicity.white_european.short
     t: Berkulit Putih
   - key: options.race_ethnicity.south_asian.short
@@ -781,10 +990,11 @@ translations:
     t: Transportasi
   - key: options.industry_sector.manufacturing
     t: Manufaktur
+
   - key: options.industry_sector.tech_it
     t: Teknologi & IT
   - key: options.industry_sector.human_resources
-    t: Human Resources
+    t: Sumber Daya Manusia
   - key: options.industry_sector.sports
     t: Olahraga
   - key: options.industry_sector.gaming
@@ -813,6 +1023,36 @@ translations:
     t: Desain
   - key: options.industry_sector.unemployed
     t: Tidak bekerja
+
+  - key: options.industry_sector.recruiting
+    t: Perekrutan
+  - key: options.industry_sector.agency
+    t: Agensi
+  - key: options.industry_sector.business
+    t: Bisnis
+  - key: options.industry_sector.communication
+    t: Komunikasi
+  - key: options.industry_sector.security
+    t: Keamanan
+
+  - key: options.industry_sector.ai
+    t: Kecerdasan Buatan (AI)
+  - key: options.industry_sector.advertising
+    t: Periklanan
+  - key: options.industry_sector.cloud_computing
+    t: Komputasi Awan
+  - key: options.industry_sector.consumer_electronics
+    t: Barang elektronik konsumen
+  - key: options.industry_sector.food
+    t: makanan
+  - key: options.industry_sector.hospitality_tourism
+    t: Hospitality / Pariwisata
+  - key: options.industry_sector.fashion
+    t: Mode/busana
+  - key: options.industry_sector.robotics
+    t: Robotik
+  - key: options.industry_sector.saas
+    t: SaaS (Software as a Service)
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -908,6 +1148,7 @@ translations:
     t: Acara
 
   # learning methods
+
   - key: resources.learning_methods
     t: Metode Belajar
 
@@ -997,6 +1238,7 @@ translations:
     t: Iya, kirim Saya email jika hasil survei sudah diterbitkan
 
   # usage type
+
   - key: usage.usage_type
     t: Tipe Pemakaian
 
@@ -1028,6 +1270,27 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
+  # - key: options.percentage_segments.range_0_10
+  #   t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
   - key: options.completion_stats.range_0_10
     aliasFor: options.percentage_segments.range_0_10
   - key: options.completion_stats.range_11_20
@@ -1048,6 +1311,27 @@ translations:
     aliasFor: options.percentage_segments.range_81_90
   - key: options.completion_stats.range_91_100
     aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
 
   - key: options.knowledge_score.range_0_10
     aliasFor: options.percentage_segments.range_0_10
@@ -1083,6 +1367,14 @@ translations:
     t: Sumber daring lainnya
   - key: options.source.blog
     t: Blog
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
 
   ###########################################################################
   # Tools
@@ -1093,11 +1385,9 @@ translations:
   - key: tools.other_tools.description
     t: Opsi lain yang Anda gunakan untuk bagian saat ini yang tidak disebutkan dalam daftar di atas
   - key: tools.happiness
-    t: Merasa bahagia untuk secara keseluruhan
+    t: Merasa bahagia secara keseluruhan
   - key: tools.happiness.description
-    t: >
-      Pada skala satu (sangat tidak bahagia) hingga lima (sangat bahagia), seberapa bahagia Anda 
-      pada keseluruhan yang berkaitan dengan opsi yang tercantum di atas?
+    t: Seberapa senang anda dengan keadaan saat ini sehubungan dengan opsi-opsi yang tercantum di atas?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1188,8 +1478,10 @@ translations:
     t: Status Disabilitas
   - key: user_info.disability_status.question
     t: >
-      Mana dari pilihan disabilitas ini yang pernah Anda alami? Pilih yang sesuai.
-      Catatan bahwa ini bisa termasuk disabilitas sementara ataupun cedera.
+      Mana dari pilihan disabilitas ini yang pernah Anda alami? 
+  - key: user_info.disability_status.prompt
+    t: >
+      Mohon centang semua yang sesuai. Perhatikan bahwa ini termasuk disabilitas sementara atau cedera. # disability status (other)
 
   # disability status (other)
   - key: user_info.disability_status.others
@@ -1277,7 +1569,8 @@ translations:
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Bagaimana cara Kami bisa mengembangkan survei ini?
-
+  - key: user_info.how_can_we_improve.question
+    t: Bagaimana kami dapat meningkatkan survei ini?
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1307,6 +1600,9 @@ translations:
     t: Jawaban lain.
   - key: options.blogs_news_magazines.na
     t: 🚫 Tidak ada
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/newsletter #{index}
 
   # sites & courses
   - key: resources.sites_courses
@@ -1319,6 +1615,31 @@ translations:
     t: Jawaban lain.
   - key: options.sites_courses.na
     t: 🚫 Tidak ada
+  - key: resources.sites_courses.placeholder
+    t: |
+      Situs/kursus #{index}
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Kursus berbayar
+  - key: resources.paid_courses.question
+    t: \**Sumber berbayar** manakah (kursus, video, buku, dll.) yang pernah anda pakai?
+  - key: options.paid_courses.na
+    t: 🚫 Tidak ada
+  - key: resources.paid_courses.placeholder
+    t: |
+      Kursus/buku #{index}…
+
+  # courses
+  - key: resources.courses
+    t: Kursus & Materi Pelatihan
+  - key: resources.courses.question
+    t: Kursus atau materi mana (video, buku, dll.) yang pernah anda pakai?
+  - key: options.courses.na
+    t: 🚫 Tidak ada
+  - key: resources.courses.placeholder
+    t: |
+      Kursus/buku/dll. #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1331,6 +1652,9 @@ translations:
     t: Jawaban lain.
   - key: options.podcasts.na
     t: 🚫 Tidak ada
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
 
   # people
   - key: resources.people
@@ -1349,6 +1673,9 @@ translations:
       (Nama dipisah dengan koma)
   - key: options.people.na
     t: 🚫 Tidak ada
+  - key: resources.people.placeholder
+    t: |
+      Orang #{index}…
 
   # other surveys
   - key: resources.other_surveys
@@ -1374,6 +1701,9 @@ translations:
     t: Kreator Video Lain
   - key: options.video_creators.na
     t: 🚫 Tidak ada
+  - key: resources.video_creators.placeholder
+    t: |
+      Kreator video #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1416,3 +1746,17 @@ translations:
     t: Ingin pakai lagi
   - key: followups.sentiment_negative_experience
     t: Pengalaman negatif
+
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Pelajari lebih lanjut…
