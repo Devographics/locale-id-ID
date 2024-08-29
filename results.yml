@@ -184,7 +184,7 @@ translations:
   - key: options.first_steps.view_source
     t: Lihat Sumber
   - key: options.first_steps.copy_paste
-    t: Copy/paste
+    t: Salin/tempel
   - key: options.first_steps.trial_and_error
     t: Trial & Error
   - key: options.first_steps.documentation
@@ -238,10 +238,10 @@ translations:
     t: Pengenalan
 
   - key: sections.demographics.title
-    t: Demographics
+    t: Demografi
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Kaos
 
   - key: sections.technologies.title
     t: Teknologi
@@ -437,7 +437,7 @@ translations:
   ###########################################################################
 
   - key: tools.all_items.experience
-    t: Libraries Experience & Sentiment
+    t: Pengalaman & Sentimen Pustaka 
 
   - key: tools.all_items.experience.short
     aliasFor: tools.experience
@@ -825,9 +825,9 @@ translations:
     t: "({count} responden)"
 
   - key: charts.nth_percentile
-    t: "{percentile}th persentil"
+    t: "Persentil ke-{percentile}"
   - key: charts.nth_percentile_value
-    t: "persentil ke-{percentile}: {value}"
+    t: "Persentil ke-{percentile}: {value}"
 
   - key: charts.freeform_data_indicator
     t: (jawaban bebas)
@@ -918,7 +918,7 @@ translations:
   - key: charts.tools_arrows.x_axis
     t: Jarak sumbu X
   - key: charts.tools_arrows.y_axis
-    t: jarak sumbu Y
+    t: Jarak sumbu Y
   - key: charts.tools_arrows.legend
     t: Informasi
   - key: charts.tools_arrows.velocity
@@ -1090,11 +1090,11 @@ translations:
   - key: table.percentageSurvey
     aliasFor: table.percentage_survey
   - key: table.percentage_question
-    t: "% dari pertanyaan responden"
+    t: "% dari responden pertanyaan"
   - key: table.percentageQuestion
     aliasFor: table.percentage_question
   - key: table.percentage_facet
-    t: "% dari facet responden"
+    t: "% dari responden facet"
   - key: table.percentageFacet
     aliasFor: table.percentage_facet
   - key: table.count
@@ -1590,7 +1590,7 @@ translations:
   - key: filters.delete_variant_confirm
     t: Hapus varian bagan “{name}”?
   - key: filters.edit_variant
-    t: Edit ops…
+    t: Edit opsi…
   - key: filters.filters.description
     t: |
       Definisikan sebuah kombinasi dari beberapa penyaring untuk membandingkan beberapa versi dari bagan yang sama bersamping-sampingan
@@ -1709,7 +1709,7 @@ translations:
     t: Opsi Lanjutan
 
   - key: filters.options.cutoff
-    t: Batas Cutoff 
+    t: Batas Cutoff
   - key: filters.options.cutoff.description
     t: Kecualikan nilai yang berada di bawah batas ini dari data
 
