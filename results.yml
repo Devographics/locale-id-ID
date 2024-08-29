@@ -75,6 +75,42 @@ translations:
   - key: options.experience_ranking.awareness
     t: Tingkat Kesadaran
 
+  - key: ratios.interest
+    aliasFor: options.experience_ranking.interest
+  - key: ratios.usage
+    aliasFor: options.experience_ranking.usage
+  - key: ratios.awareness
+    aliasFor: options.experience_ranking.awareness
+  - key: ratios.retention
+    t: Retensi
+  - key: ratios.positivity
+    t: Positivitas
+
+  - key: ratios.interest.description
+    t: >
+      Proposi dari **sentimen positif** dari responden yang **pernah mendengar tentang** sebuah item
+  - key: ratios.usage.description
+    t: >
+      Proposi dari responden yang **pernah memakai** sebuah item
+  - key: ratios.awareness.description
+    t: >
+      Proporsi dari responden yang **pernah mendengar tentang atau pernah memakai** sebuah item
+  - key: ratios.retention.description
+    t: >
+      Proporsi dari **sentimen positif** dari responden yang **pernah memakai** sebuah item
+  - key: ratios.positivity.description
+    t: >
+      Proporsi dari **sentimen positif** dari semua responden
+
+  - key: modes.rank
+    t: Rank
+  - key: modes.value
+    t: Nilai
+  - key: modes.rank.description
+    t: Place berdasarkan rank
+  - key: modes.value.description
+    t: Place berdasarkan nilai
+
   - key: options.features_mode.grouped
     t: Dikelompokkan
   - key: options.features_mode.awareness_rank
@@ -244,10 +280,6 @@ translations:
     t: Bahasa
   - key: user_info.locale.description
     t: Bahasa apa yang responden gunakan untuk mengisi survei?
-  - key: user_info.locale.note
-    t: >
-      Data ini disimpan secara otomatis berdasarkan pengaturan yang responden gunakan saat mengisi survei; 
-      Kami tidak menampilkan bahasa yang kurang dari 20 responden.
 
   - key: user_info.source
     t: Sumber
@@ -255,6 +287,9 @@ translations:
     t: Darimana responden mengetahui tentang survei ini?
   - key: user_info.source.note
     t: Data ini didapat berdasarkan referensi, pelacak URL, dan jawaban oleh responden.
+
+  - key: options.source.other_answers
+    t: Sumber-sumber lainnya
 
   - key: user_info.source_by_gender
     t: Sumber Berdasarkan Jenis Kelamin
@@ -400,9 +435,10 @@ translations:
   ###########################################################################
   # Tools & Methodologies
   ###########################################################################
+
   - key: tools.all_items.experience
     t: Libraries Experience & Sentiment
-  
+
   - key: tools.all_items.experience.short
     aliasFor: tools.experience
 
@@ -465,6 +501,10 @@ translations:
     t: npm
   - key: blocks.entity.youtube_link
     t: YouTube
+  - key: blocks.entity.mdn_link
+    t: MDN
+  - key: blocks.entity.caniuse_link
+    t: CanIUse
 
   # people
   - key: blocks.people.name
@@ -503,6 +543,8 @@ translations:
   # tools quadrant
   - key: blocks.tools_quadrant
     t: Retensi vs Pemakaian
+  - key: tools.scatterplot_overview
+    aliasFor: blocks.tools_quadrant
   - key: blocks.tools_quadrant.description
     t: |
       Bagan ini menampilkan **rasio retensi** setiap teknlogi berdasarkan **jumlah pengguna**.
@@ -658,6 +700,8 @@ translations:
     t: Dapatkan Data JSON
   - key: export.export_graphql
     t: Dapatkan Query GraphQL
+  - key: export.export_filters
+    t: Filters Code
 
   - key: custom_data.heading
     t: Bagan Khusus
@@ -729,13 +773,10 @@ translations:
   # Reading List
   - key: features.reading_list
     t: Daftar Baca
-  - key: features.reading_list.description
-    t: Berapa banyak responden menambahkan masing-masing item ke dalam daftar baca mereka?
   - key: features.reading_list.note
     t: >
-      Fitur “Daftar Baca” membolehkan para responden untuk menyimpan item yang ingin mereka pelajari lebih lanjut
-      disaat melakukan pengisian survei; dan akan mendapat rekap
-      pada akhir survei.
+      Seberapa banyak sebuah item ditambahkan ke daftar baca responden, sebuah fitur yang memungkinkan responden
+      untuk mempelajari lebih lanjut tentang topik tertentu saat mereka mengisi survei.
 
   ###########################################################################
   # Charts
@@ -764,6 +805,9 @@ translations:
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
+  - key: chart_units.facetCounts
+    t: Counts
+
   - key: chart_units.percentilesByFacet
     t: "{axis} Persentil"
 
@@ -771,12 +815,26 @@ translations:
     t: Rata-rata {axis}
   - key: charts.mean
     t: Nilai Rata-rata
-  - key: charts.overall
-    t: Keseluruhan
   - key: charts.all_respondents
     t: Seluruh Responden
+  - key: charts.overall
+    aliasFor: charts.all_respondents
   - key: charts.facet_responses
     t: "{count} tanggapan"
+  - key: charts.facet_respondents
+    t: "({count} responden)"
+
+  - key: charts.nth_percentile
+    t: "{percentile}th persentil"
+  - key: charts.nth_percentile_value
+    t: "persentil ke-{percentile}: {value}"
+
+  - key: charts.freeform_data_indicator
+    t: (jawaban bebas)
+  - key: charts.insufficient_data
+    t: Data Tidak Cukup
+  - key: charts.insufficient_data.description
+    t: Segmen dengan responden kurang dari {value} tidak termasuk ke dalam hasil.
 
   - key: charts.axis_legends.years_of_experience
     t: Tahun Pengalaman
@@ -799,6 +857,8 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Ketertarikan %
   - key: charts.axis_legends.satisfaction_percentage
+    t: Retensi %
+  - key: charts.axis_legends.retention_percentage
     t: Retensi %
   - key: charts.axis_legends.usage_percentage
     t: Pemakaian %
@@ -885,10 +945,38 @@ translations:
   - key: charts.no_answer.short
     t: Tidak menjawab
 
+  - key: charts.no_match
+    t: Jawaban yang tidak dapat dicocokkan
+  - key: charts.no_match.short
+    t: Jawaban yang tidak dapat dicocokkan
+  - key: charts.no_match.description
+    t: Jawaban bebas yang tidak dapat dicocokan dengan sebuah datapoint spesifik
+
+  - key: charts.cutoff_answers
+    t: Jawaban Terpotong
+  - key: charts.cutoff_answers.short
+    t: Jawaban Terpotong
+  - key: charts.cutoff_answers.description
+    t: Jawaban yang memiliki skor di bawah batas
+
   - key: charts.other_answers
     t: Lainnya
   - key: charts.other_answers.short
     t: Lainnya
+  - key: charts.other_answers.description
+    t: Jawaban lain yang tidak termasuk di atas
+
+  - key: charts.overlimit_answers
+    t: Melebihi batas
+  - key: charts.overlimit_answers.short
+    t: Melebihi batas
+  - key: charts.overlimit_answers.description
+    t: Jawaban yang melebihi jumlah item yang diminta
+
+  - key: charts.freeform_data
+    t: Data bebas
+  - key: charts.freeform_data.description
+    t: Data yang diambil dari bidang input bebas
 
   - key: charts.tick.links
     t: Tautan
@@ -904,6 +992,18 @@ translations:
   - key: charts.average_clarification
     t: >
       Catatan bahwa rata-rata dihitung berdasarkan titik tengah dari setiap jarak sebagai perkiraan nilai representasi.
+
+  - key: charts.share
+    t: Bagikan Bagan…
+  - key: charts.export
+    t: Ekspor Data…
+
+  - key: charts.mode
+    t: >
+      Mode:
+  - key: charts.view
+    t: >
+      View:
 
   ###########################################################################
   # Comments
@@ -921,6 +1021,13 @@ translations:
     t: Laporkan komentar ini
   - key: comments.share
     t: Bagikan komentar
+
+  - key: comments.filter.experience
+    t: "Pengalaman: "
+  - key: comments.filter.sentiment
+    t: "Sentimen: "
+  - key: comments.filter.all
+    t: Semua
 
   ###########################################################################
   # Sharing
@@ -1067,6 +1174,11 @@ translations:
   - key: award.tool_usage_delta_award.description
     t: Pengharagaan untuk teknologi dengan perkembangan tahunan “Akan pakai lagi” terbesar.
 
+  - key: award.tool_retention_award.title
+    t: Retensi Tertinggi
+  - key: award.tool_retention_award.description
+    t: Dihadiahkan kepada teknologi dengan persentase tertinggi dari pengguna kembali.
+
   - key: award.tool_satisfaction_award.title
     t: Retensi Tertinggi
   - key: award.tool_satisfaction_award.description
@@ -1101,6 +1213,11 @@ translations:
     t: Pustaka yang Paling Banyak Ditanggapi
   - key: award.most_commented_tool_award.description
     t: Pengharagaan untuk pustaka yang paling banyak mendapatkan tanggapan.
+
+  - key: award.most_loved_tool_award.title
+    t: Pustaka Paling Disukai
+  - key: award.most_loved_tool_award.description
+    t: Dihadiahkan kepada teknologi dengan proporsi pendapat positif tertinggi.
 
   ###########################################################################
   # Hints
@@ -1460,10 +1577,23 @@ translations:
     t: Dokumentasi
   - key: filters.compare_chart
     t: Kustomisasi “{chartName}”
+  - key: filters.edit_variant_with_name
+    t: Edit “{name}”
+  - key: filters.edit_name
+    t: "Edit Nama"
+  - key: filters.edit_name.description
+    t: "Edit nama varian bagan:"
+  - key: filters.create_variant
+    t: Buat Varian baru
+  - key: filters.delete_variant
+    t: Hapus Bagan
+  - key: filters.delete_variant_confirm
+    t: Hapus varian bagan “{name}”?
+  - key: filters.edit_variant
+    t: Edit ops…
   - key: filters.filters.description
     t: |
-      Dengan memakai kombinasi filter demografis, Anda dapat memuat hingga 4 **Seri data khusus** untuk dimuat
-      secara dinamis dan dibandingkan dengan data awal untuk pertanyaan ini.
+      Definisikan sebuah kombinasi dari beberapa penyaring untuk membandingkan beberapa versi dari bagan yang sama bersamping-sampingan
   - key: filters.facets.description
     t: |
       Pilih sebuah variabel untuk memecah setiap bar menjadi "facet".
@@ -1475,6 +1605,11 @@ translations:
     t: Facet
   - key: filters.facet
     t: "Facet:"
+
+  - key: filters.facet_view
+    t: Bar bersegmen
+  - key: filters.grid_view
+    t: Grid bersamping-sampingan
 
   - key: filters.series.heading
     t: Seri {index}
@@ -1503,6 +1638,10 @@ translations:
     t: salah satu
   - key: filters.operators.nin
     t: bukan salah satu
+  - key: filters.operators.lt
+    t: lebih kecil dari
+  - key: filters.operators.gt
+    t: lebih besar dari
   - key: filters.value.add
     t: Tambah Nilai
   - key: filters.value.delete
@@ -1547,3 +1686,145 @@ translations:
 
   - key: filters.facet.select
     t: Pilih sebuah facet…
+
+  - key: filters.by_x
+    t: Berdasarkan {name}
+
+  - key: filters.vs_x
+    t: Vs. {name}
+
+  - key: dataloader.failed_request
+    t: >
+      Oh tidak! request API gagal dengan pesan berikut ini:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Kirimkan sebuah laporan bug untuk memberitahu kami tentang masalah ini, dan kami akan melakukan yang terbaik
+      untuk memperbaikinya:
+  - key: dataloader.submit_issue
+    t: Kirimkan Isu
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: Opsi Lanjutan
+
+  - key: filters.options.cutoff
+    t: Batas Cutoff 
+  - key: filters.options.cutoff.description
+    t: Kecualikan nilai yang berada di bawah batas ini dari data
+
+  - key: filters.options.limit
+    t: Batas
+  - key: filters.options.limit.description
+    t: Bataskan hasil hingga n item pertama
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: Tampilkan data series bawaan (tanpa filter) ketika menggunakan mode Grid
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      Kelompokkan berdasarkan:
+  - key: charts.group.experience
+    t: pengalaman
+  - key: charts.group.sentiment
+    t: Sentimen
+
+  - key: charts.display_mode
+    t: >
+      Mode tampilan:
+  - key: charts.display_mode.split
+    t: Tampilan Belah
+  - key: charts.display_mode.stacked
+    t: Tampilan Bertumpuk
+
+  - key: charts.order
+    t: >
+      Pengurutan:
+
+  - key: charts.sort_by
+    t: >
+      Urutkan berdasarkan:
+  - key: charts.sort_by_sort
+    t: >
+      Urutkan berdasarkan "**{sort}**""
+  - key: charts.sorted_by_sort_order
+    t: >
+      Diurutkan berdasark "**{sort}**"", **{order}**
+  - key: charts.order.asc
+    t: Naik
+  - key: charts.order.desc
+    t: Turun
+
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: Dapatkan data Bagan
+  - key: charts.actions.share
+    t: Bagikan Bagan
+
+  - key: charts.vs
+    t: vs.
+
+  - key: charts.custom_variant
+    t: Varian {index}
+  - key: charts.new_variant_name_prompt
+    t: Masukan sebuah nama pendek yang deskriptif untuk bagan baru anda (e.g. “vs. Pendapatan”, “berdasarkan Gender”, dll.)
+
+  - key: charts.show_all_rows
+    t: Tampilkan Semua
+  - key: charts.show_all_rows.x_hidden
+    t: Tampilkan Semua ({count} tersembunyi)
+
+  - key: charts.metadata.completion
+    t: >
+      **{value}** tingkat penyelesaian (dari {total} peserta survei)
+  - key: charts.metadata.respondents
+    t: >
+      **{value}** responden pertanyaan
+  - key: charts.metadata.average
+    t: >
+      **{value}** nilai mean (rata-rata)
+  - key: charts.metadata.median
+    t: >
+      **{value}** nilai median 
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      **{value}%**  dari responden menjawab "**{answer}**"
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+      **{value}%** dari responden memiliki sentimen **{answer}**
+
+  - key: charts.multiexp.cell_tooltip
+    t: >
+      **{value}%** dari responden menjawab "**{experience}**" dan memiliki sentimen **{sentiment}**
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      **{value}%** dari responden menjawab "**{experience}**" dan tidak memilih sentimen apapun
+
+  ###########################################################################
+  # Raw Freeform Answers
+  ###########################################################################
+
+  - key: answers.answers
+    t: Jawaban Bebas
+  - key: answers.answers_for
+    t: Jawaban yang cocok dengan “{name}”
+  - key: answers.description
+    t: |
+      Jawaban-jawaban bebas berikut dicocokkan dengan kata kunci **{name}** berdasarkan
+      pemrosesan data otomatis dan manual.
+  - key: answers.report_abuse
+    t: Laporkan jawaban ini
