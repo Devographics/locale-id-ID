@@ -400,6 +400,11 @@ translations:
   ###########################################################################
   # Tools & Methodologies
   ###########################################################################
+  - key: tools.all_items.experience
+    t: Libraries Experience & Sentiment
+  
+  - key: tools.all_items.experience.short
+    aliasFor: tools.experience
 
   # general
   - key: tools.links
