@@ -1396,7 +1396,7 @@ translations:
 
   - key: explorer.total_respondents
     t: |
-      (**{totalCount}** total responden)
+      (total **{totalCount}** responden)
 
   - key: explorer.count_per_dot
     t: |
