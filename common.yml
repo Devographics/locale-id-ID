@@ -400,23 +400,23 @@ translations:
     aliasFor: options.features.used.label.short
 
   - key: options.experience.never_heard.description
-    t: Respondents who have never heard about an item.
+    t: Responden yang belum pernah dengar.
   - key: options.experience.heard.description
-    t: Respondents who have heard about an item, but haven't used it.
+    t: Responden yang sudah dengar, tetapi belum pernah pakai.
   - key: options.experience.used.description
-    t: Respondents who have used an item.
+    t: Responden yang sudah pakai.
 
   # sentiments
 
   - key: options.sentiment.title
-    t: Sentiment
+    t: Sentimen
 
   - key: options.sentiment.positive.label
-    t: Positive Sentiment
+    t: Sentimen Positif
   - key: options.sentiment.neutral.label
-    t: Neutral Sentiment
+    t: Sentimen Netral
   - key: options.sentiment.negative.label
-    t: Negative Sentiment
+    t: Sentimen Negatif
 
   - key: options.sentiment.never_heard.positive.label
     aliasFor: followups.sentiment_interested
@@ -434,11 +434,11 @@ translations:
     aliasFor: followups.sentiment_negative_experience
 
   - key: options.sentiment.positive.label.short
-    t: Positive
+    t: Positif
   - key: options.sentiment.neutral.label.short
-    t: Neutral
+    t: Netral
   - key: options.sentiment.negative.label.short
-    t: Negative
+    t: Negatif
   - key: options.sentiment.positive.short
     aliasFor: options.sentiment.positive.label.short
   - key: options.sentiment.neutral.short
@@ -462,11 +462,11 @@ translations:
     aliasFor: followups.sentiment_negative_experience
 
   - key: options.sentiment.positive.description
-    t: Respondents who are interested in learning more about a technology; or are willing to use it again.
+    t: Responden yang tertarik untuk belajar tentang sebuah teknologi; atau yang ingin menggunakannya lagi.
   - key: options.sentiment.neutral.description
-    t: Responents who did not indicate any sentiment about a technology.
+    t: Responden yang tidak memiliki sentimen akan sebuah teknologi.
   - key: options.sentiment.negative.description
-    t: Respondents who are not interested in learning more about a technology; or have used it and had a negative experience.
+    t: Responden yang tidak tertarik untuk belajar tentang sebuah teknologi; atau yang sudah pernah pakai dan memiliki pengalaman negatif.
 
   # patterns
   - key: options.patterns.use_never
@@ -590,17 +590,17 @@ translations:
 
   # age 2
   - key: options.age.range_under_20
-    t: 20 years old and under
+    t: 20 tahun atau kurang
   - key: options.age.range_20_29
-    t: 20-29 years old
+    t: 20-29 tahun
   - key: options.age.range_30_39
-    t: 30-39 years old
+    t: 30-39 tahun
   - key: options.age.range_40_49
-    t: 40-49 years old
+    t: 40-49 tahun
   - key: options.age.range_50_59
-    t: 50-59 years old
+    t: 50-59 tahun
   - key: options.age.range_over_60
-    t: 60 years old or older
+    t: 60 tahun atau lebih
 
   - key: options.age.range_under_20.short
     t: "<20"
@@ -663,21 +663,21 @@ translations:
 
   # years of experience v2 (short versions)
   - key: options.years_of_experience.range_under_1.short
-    t: "<1 years"
+    t: "<1 tahun"
   - key: options.years_of_experience.range_1_3.short
-    t: 1-3 years
+    t: 1-3 tahun
   - key: options.years_of_experience.range_4_6.short
-    t: 4-6 years
+    t: 4-6 tahun
   - key: options.years_of_experience.range_7_9.short
-    t: 7-9 years
+    t: 7-9 tahun
   - key: options.years_of_experience.range_10_12.short
-    t: 10-12 years
+    t: 10-12 tahun
   - key: options.years_of_experience.range_13_15.short
-    t: 13-15 years
+    t: 13-15 tahun
   - key: options.years_of_experience.range_16_20.short
-    t: 16-20 years
+    t: 16-20 tahun
   - key: options.years_of_experience.range_over_20.short
-    t: ">20 years"
+    t: ">20 tahun"
 
   # company size
   - key: options.company_size.na
@@ -1110,7 +1110,7 @@ translations:
 
   # learning methods
   - key: options.first_steps.na
-    t: Tidak ada
+    t: 🚫 Tidak ada
   - key: options.first_steps.books
     t: Buku
   - key: options.first_steps.videos
@@ -1491,6 +1491,8 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
+    t: Sumber
+  - key: user_info.how_did_user_find_out_about_the_survey
     t: Bagaimana Anda mengetahui tentang survei ini?
   - key: user_info.email
     t: Email Anda
@@ -1571,6 +1573,7 @@ translations:
     t: Bagaimana cara Kami bisa mengembangkan survei ini?
   - key: user_info.how_can_we_improve.question
     t: Bagaimana kami dapat meningkatkan survei ini?
+  
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1686,6 +1689,9 @@ translations:
     t: Survei tambahan yang tidak disebutkan di atas
   - key: options.other_surveys.na
     t: 🚫 Tidak ada
+
+
+
 
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
