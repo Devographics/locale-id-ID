@@ -88,7 +88,6 @@ translations:
     t: |
       Sementara percakapan tentang JavaScript seringkali berujung pada framework mana untuk dipilih, harus diingat bahwa ada satu galaksi yang berisi alat, layanan, dan platform lain untuk dijelajahi!
 
-
   - key: sections.usage.description
     t: |
       Sekali lagi sepertinya TypeScript telah ditetapkan sebagai baku, paling di antara tidak responden survei. Namun terlepas dari itu, penggunaan JavaScript masih bervariasi!
@@ -163,22 +162,22 @@ translations:
 
   - key: conclusion.js2023.cassidy_williams
     t: |
-      <span class="first-line">Y'all, what a cool year to be on the internet.</span>
+      <span class="first-line">Hai semuanya, ini tahun yang bagus untuk berselancar di internet.</span>
 
-      There's so many interesting and exciting changes happening, and I've got my popcorn next to my keyboard, building and watching!
+      Ada banyak sekali hal menarik yang terjadi, dan aku bahkan menyiapkan popcorn di sebelah keyboardku, membangun sembari menonton watching!
 
-      The fact that so many "smaller" libraries like Preact, Solid, and htmx are climbing in positive sentiment over something massive like Next.js is fascinating. We're starting to see Angular make a bit of a comeback, and we'll see if that trend continues next year. We're seeing people fall out of love with some of the industry darlings. We're seeing very Rusty systems grow. Astro feels like it's off to the races in developer support.
+      Fakta bahwa banyak pustaka "kecil" seperti Preact, Solid, dan htmx yang mendapatkan sentimen positif melebihi sesuatu yang besar seperti Next.js itu merupakan hal yang luar biasa. Kita mulai bisa melihat kalau Angular mulai bangkit kembali, dan kita akan lihat apakah tren ini akan berlanjut di tahun depan. Kita bisa melihat banyak orang yang jatuh cinta pada industri ini. Kita melihat sistem tua yang berkarat ini berkembang. Astro juga sepertinya mulai ikut dalam lomba dukungan developer.
 
-      In terms of actual browser features, it almost feels like we're going too fast for the world to catch up. Which is not always a bad thing, necessarily! But I totally echo the sentiments that browser support is my primary concern over all the cool things coming out. 
+      Dalam hal fitur peramban, rasanya kita bergerak terlalu cepat sampai-sampai dunia belum dapat mengejar kita. Bukan berarti itu hal yang buruk! Tapi aku setuju dengan sentimen bahwa dukungan browser menjadi perhatian utamaku dibandingkan hal-hal keren lainnya.
 
-      That being said, I'm personally loving using some of the new array features and the fact that more and more folks are supporting PWAs.
+      Meski begitu, Aku sendiri suka menggunakan beberapa fitur array dan bahkan mulai banyak orang yang mendukung PWA.
 
-      Next year, let's improve the diversity of responses, get more people developing, and hopefully all of the new and exciting changes err on the side of fun, rather than intimidating! Thanks Sacha and team for including me here, and for running another awesome and valuable survey.
+      Tahun depan, mari kita tingkatkan keberagaman respon, ajak lebih banyak orang untuk melakukan pengembangan, dan semoga saja semua hal baru yang keren ini berada si sisi yang menyenangkan, bukannya malah mengintimidasi! Terima kasih kepada Sacha dan tim yang membolehkanku tampil, dan juga karena telah mengelola survei yang menakjubkan.
 
-      See you online!
+      Sampai ketemu lagi!
 
   - key: conclusion.js2023.cassidy_williams.bio
-    t: Dev advocate, engineer, open sourcer, and memer
+    t: Dev advocate, engineer, open sourcer, dan memer
 
   - key: conclusion.js2023.theo_browne
     t: |
@@ -210,7 +209,7 @@ translations:
   - key: picks.emma_bostian.name
     t: How to build trust as a new engineering manager
   - key: picks.emma_bostian.bio
-    t: Engineering Manager, instructor, and co-host of the Ladybug Podcast.
+    t: Engineering Manager, instructor, dan co-host dari Ladybug Podcast.
   - key: picks.emma_bostian.description
     t: |
       Saya menemukan postingan blog LeadDev di kategori _Skills for new managers_ sangat berharga sebagai seorang Engineering Manager baru. Mereka menyediakan sumber yang bagus untuk siapapun yang ingin meningkatkan keterampilan rekayasa dan kepemimpinan mereka!
@@ -219,7 +218,7 @@ translations:
   - key: picks.fireship.name
     t: Pocketbase
   - key: picks.fireship.bio
-    t: Google developer expert, data enthusiast, and YouTuber
+    t: Google developer expert, data enthusiast, dan YouTuber
   - key: picks.fireship.description
     t: |
       Pilihan saya tahun ini adalah projek Pocketbase -sebuah backend sumber terbuka yang ditenagai SQLite. SDK JavaScript yang deisediakan memberikan para pengembang web semua yang dibutuhkan untuk membuat sebuah aplikasi serius, dan yang menakjubkan, bisa dideploy sebagai satu binary ke server $5 mana saja.
@@ -237,28 +236,28 @@ translations:
   - key: picks.david_khourshid.name
     t: tldraw
   - key: picks.david_khourshid.bio
-    t: Creator of XState and founder of [http://stately.ai](Stately)
+    t: Pencipta XState dan pencipta [http://stately.ai](Stately)
   - key: picks.david_khourshid.description
     t: |
-      Much more than an infinite canvas, tldraw reimagines what is possible with user interfaces, from its impressive AI experiments to its attention to drawing detail. Its source code is readily available too, and I appreciate the state machines and extensible API for endless tinkering.
+      Lebih dari kanvas yang tak terbatas, tldraw membayangkan kembali kemungkinan untuk antarmuka pengguna, mulai dari eksperimen AI yang manakjubkan hingga perhatian pada detil gambar. Sumber kode juga sudah tersedia, dan saya menghargai state machines dan extensible API dalam melakukan uji coba tanpa batas.
 
   # https://replicache.dev/
   - key: picks.dax_raad.name
     t: Replicache
   - key: picks.dax_raad.bio
-    t: Building [SST](https://sst.dev/) and [terminal](https://www.terminal.shop/)
+    t: Membangun [SST](https://sst.dev/) dan [terminal](https://www.terminal.shop/)
   - key: picks.dax_raad.description
     t: |
-      No technology has had a bigger impact on the quality of what I've shipped in years.  I think they are carrying the torch on pushing what can be done on the web.
+      Belum ada teknologi yang memiliki pengaruh lebih besar dalam hal kualitas dari yang pernah saya bangun selama bertahun-tahun. Kurasa semua itu membawa obor dalam mendorong apa yang bisa kita lakukan di web.
 
   # https://lexical.dev/
   - key: picks.german_jablonski.name
     t: Lexical
   - key: picks.german_jablonski.bio
-    t: CEO and creator of [Fluski](https://fluski.com/), notes and spreadsheet manager
+    t: CEO dan pencipta [Fluski](https://fluski.com/), manejer notes dan spreadsheet
   - key: picks.german_jablonski.description
     t: |
-      It's been an exceptional year for the Meta text editor. Its ingenious data model and lifecycle have greatly influenced the way I program.
+      Ini merupakan tahun yang luar biasa bagi Meta text editor. Model data dan siklus hidupnya telah sangat mempengaruhi saya dalam membuat program.
 
   # https://marvinh.dev/blog/speeding-up-javascript-ecosystem/
   - key: picks.alina_listunova.name
@@ -267,7 +266,7 @@ translations:
     t: Front-end Developer, Technical Translator 🇺🇦
   - key: picks.alina_listunova.description
     t: |
-      Started in late 2022, this ongoing article series by Preact developer Marvin Hagemeister reveals time-inefficient elements in modern JavaScript projects and approaches. It is truly a fascinating piece for performance-conscious professionals.
+      Dimulai pada akhir 2022, seri artikel berkelanjutan ini yang ditulis oleh pengembang Preact, Marvin Hagemeister, memperlihatkan elemen yang tidak efisien dalam proyek JavaScript modern. Ini merupakan bagian yang menakjubkan untuk para profesional yang ketat akan efisiensi.
 
   # https://www.rspack.dev/
   - key: picks.shadowingszy.name
@@ -276,7 +275,7 @@ translations:
     t: Architect of Datawhale, senior front-end R&D engineer of ByteDance
   - key: picks.shadowingszy.description
     t: |
-      Rspack is a Rust-based web bundler with extremely excellent performance. By using Rust, it has solved a large number of performance bottlenecks of JS bundler. And it can be compatible with the ecosystem of webpack.
+      Rspack adalah web bundler berbasis Rust yang sangat cepat. Dengan menggunakan Rust, itu telah menyelesaikan banyak hambatan kinerja dari JS bundler. Bahkan itu kompatibel dengan ekosistem webpack.
 
   # https://unjs.io/
   - key: picks.quarkstuff.name
@@ -285,7 +284,7 @@ translations:
     t: Web & Game dev nerd
   - key: picks.quarkstuff.description
     t: |
-      The UnJS ecosystem is like a developer's toybox. From ofetch and consola to citty and nitro, there is likely something there for your next big project.
+      Ekosistem UnJS seperti sebuah kotak mainan para pengembang. Mulai dari ofetch dan consola hingga citty dan nitro, pasti selalu ada yang bisa kau pakai untuk proyek besarmu.
 
   # https://www.npmjs.com/package/tess2
   - key: picks.martin_heidegger.name
@@ -294,7 +293,7 @@ translations:
     t: Web developer, event organizer
   - key: picks.martin_heidegger.description
     t: |
-      I have not done a lot of JavaScript last year, but I was impressed by the tess2 algorithm, a 10-year-old npm library that still performs well!
+      Tahun lalu aku belum melakukan banyak hal dengan JavaScript, tapi aku kagum pada algoritma tess2, sebuah pustaka npm berumur 10 tahun yang masih bekerja dengan sangat baik!
 
   # https://auto-animate.formkit.com/
   - key: picks.sacha_greif.name
@@ -303,7 +302,7 @@ translations:
     t: State of JS creator
   - key: picks.sacha_greif.description
     t: |
-      Formkit's AutoAnimate library, which you can see in action right here on this site, does exactly what its name implies and somehow figures out how to add animations to your apps with a single line of code!
+      Pustaka AutoAnimate dari Formkit, yang membolehkanmu untuk melihat aksi langsung pada situsnya, seperti namanya dan ntah mengapa bisa menambahkan animasi pada aplikasimu hanya dengan sebaris kode!
 
   # https://nuxt.com/
   - key: picks.rexhent.name
@@ -312,7 +311,7 @@ translations:
     t: Aspiring Linux and web developer
   - key: picks.rexhent.description
     t: |
-      Nuxt is focused on DX & UX. It's stable and continuously improving. It has the best devtools out of any framework and has created UnJS, and other tooling that powers new frameworks, like Nitro. They are a pillar of the FOSS community.
+      Nuxt berfokus pada DX & UX. Itu stabil dan terus berkembang. Nuxt juga memiliki devtool terbaik dari kerangka kerja mana pun dan telah menciptakan UnJS, dan tooling lainnya yang menjadi pondasi kerangka kerja baru, seperti Nitro. Mereka adalah pilar dari komunitas FOSS.
 
   # https://medium.com/@devgustavovasquez/the-future-of-web-development-embracing-interoperable-runtimes-bd2006e9b9d7
   - key: picks.gustavo_vasquez.name
@@ -321,7 +320,7 @@ translations:
     t: Software Engineer 🇧🇷
   - key: picks.gustavo_vasquez.description
     t: |
-      Web Interoperable Runtimes are execution environments that allow code to run consistently across multiple platforms and environments. I believe that working with such a standard exposes us to the future of web development.
+      Web Interoperable Runtimes adalah execution environments yang membolehkan anda untuk menjalankan kode secara konsisten lintas platform dan environment. Saya percaya dengan menerapkan standar bekerja yang seperti ini dapat mendorong kita menuju masa depan pengembangan web.
 
   # https://x.com/wunderacle
   - key: picks.augustin_mauroy.name
@@ -330,7 +329,7 @@ translations:
     t: Web developer and an OSS enthusiast
   - key: picks.augustin_mauroy.description
     t: |
-      Claudio is a superb person. He helped me to grow as a dev, but he also made it possible to redesign the Node website, thanks to his leadership skills. And he continues to push the Node project forward.
+      Claudio itu orang yang hebat. Tidak hanya membantu saya belajar sebagai pengembang, dia juga yang membuat desain ulang halaman web Node menjadi kenyataan, semua itu berkat kemampuan kepemimpinannya. Dan dia terus mendorong maju proyek Node.
 
   # https://www.electronjs.org/
   - key: picks.kilian_valkhof.name
@@ -339,7 +338,7 @@ translations:
     t: Creator of Polypane Browser for Developers
   - key: picks.kilian_valkhof.description
     t: |
-      With everyday apps like VS Code, Figma, Discord, Slack and 1Password all running on Electron, it remains an integral part of the JS and developer ecosystem. Many tools we all use wouldn't exist without it, and when used correctly it's a powerful platform indeed.
+      Dengan aplikasi sehari-hari seperti VS Code, Figma, Discord, Slack dan 1Password berjalan di atas Electron, itu tetap akan jadi bagian integral dari JS dan ekosistem pengembang. Banyak tool yang kita gunakan takkan ada tanpanya, dan saat kita menggunakannya dengan benar, itu memang sebuah platform yang luar biasa.
 
   # https://x.com/dawntraoz
   - key: picks.arisa_fukuzaki.name
