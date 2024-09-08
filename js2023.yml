@@ -164,7 +164,7 @@ translations:
     t: |
       <span class="first-line">Hai semuanya, ini tahun yang bagus untuk berselancar di internet.</span>
 
-      Ada banyak sekali hal menarik yang terjadi, dan aku bahkan menyiapkan popcorn di sebelah keyboardku, membangun sembari menonton watching!
+      Ada banyak sekali hal menarik yang terjadi, dan aku bahkan menyiapkan popcorn di sebelah keyboardku, membangun sembari menonton!
 
       Fakta bahwa banyak pustaka "kecil" seperti Preact, Solid, dan htmx yang mendapatkan sentimen positif melebihi sesuatu yang besar seperti Next.js itu merupakan hal yang luar biasa. Kita mulai bisa melihat kalau Angular mulai bangkit kembali, dan kita akan lihat apakah tren ini akan berlanjut di tahun depan. Kita bisa melihat banyak orang yang jatuh cinta pada industri ini. Kita melihat sistem tua yang berkarat ini berkembang. Astro juga sepertinya mulai ikut dalam lomba dukungan developer.
 
@@ -221,7 +221,7 @@ translations:
     t: Google developer expert, data enthusiast, dan YouTuber
   - key: picks.fireship.description
     t: |
-      Pilihan saya tahun ini adalah projek Pocketbase -sebuah backend sumber terbuka yang ditenagai SQLite. SDK JavaScript yang deisediakan memberikan para pengembang web semua yang dibutuhkan untuk membuat sebuah aplikasi serius, dan yang menakjubkan, bisa dideploy sebagai satu binary ke server $5 mana saja.
+      Pilihan saya tahun ini adalah projek Pocketbase -sebuah backend sumber terbuka yang ditenagai SQLite. SDK JavaScript yang disediakan memberikan para pengembang web semua yang dibutuhkan untuk membuat sebuah aplikasi serius, dan yang menakjubkan, bisa dideploy sebagai satu binary ke server $5 mana saja.
 
   # https://www.localfirst.fm/
   - key: picks.rich_harris.name
@@ -257,7 +257,7 @@ translations:
     t: CEO dan pencipta [Fluski](https://fluski.com/), manejer notes dan spreadsheet
   - key: picks.german_jablonski.description
     t: |
-      Ini merupakan tahun yang luar biasa bagi Meta text editor. Model data dan siklus hidupnya telah sangat mempengaruhi saya dalam membuat program.
+      Ini merupakan tahun yang luar biasa bagi Meta text editor. Model data dan siklus hidupnya telah sangat membantu saya dalam membuat program.
 
   # https://marvinh.dev/blog/speeding-up-javascript-ecosystem/
   - key: picks.alina_listunova.name
@@ -302,7 +302,7 @@ translations:
     t: State of JS creator
   - key: picks.sacha_greif.description
     t: |
-      Pustaka AutoAnimate dari Formkit, yang membolehkanmu untuk melihat aksi langsung pada situsnya, seperti namanya dan ntah mengapa bisa menambahkan animasi pada aplikasimu hanya dengan sebaris kode!
+      Pustaka AutoAnimate dari Formkit, yang memperlihatkan langsung cara kerjanya pada situs, melakukan persis apa yang tersirat dari namanya dan entah bagaimana bisa menambahkan animasi pada aplikasimu hanya dengan sebaris kode!
 
   # https://nuxt.com/
   - key: picks.rexhent.name
@@ -320,7 +320,7 @@ translations:
     t: Software Engineer 🇧🇷
   - key: picks.gustavo_vasquez.description
     t: |
-      Web Interoperable Runtimes adalah execution environments yang membolehkan anda untuk menjalankan kode secara konsisten lintas platform dan environment. Saya percaya dengan menerapkan standar bekerja yang seperti ini dapat mendorong kita menuju masa depan pengembangan web.
+      Web Interoperable Runtimes adalah lingkungan eksekusi yang membolehkan anda untuk menjalankan kode secara konsisten lintas platform dan environment. Saya percaya dengan menerapkan standar bekerja yang seperti ini dapat mendorong kita menuju masa depan pengembangan web.
 
   # https://x.com/wunderacle
   - key: picks.augustin_mauroy.name
