@@ -11,7 +11,7 @@ translations:
 
       Flexbox, Grid, Multi-Column… Belum lagi paradigma baru seperti CSS-in-JS.
 
-      Jadi, setelah keberhasilan survei State Of JavaScript tahunan kami, kami akan menghadapi dunia gaya dan selektor untuk berusaha mengidentifikasi tren terbaru, dan mencari tahu alat dan fitur apa yang harus dipelajari dan digunakan selanjutnya!
+      Jadi inilah dimana peran State of CSS: kita akan menghadapi dunia penggayaan dan selektor untuk mencoba mengidentifikasi tren terbaru, dan mencari tahu alat dan fitur apa yang harus dipelajari dan digunakan selanjutnya!
 
   - key: general.state_of_css.description
     t: Survei tahunan para pengembang tentang tren terbaru seputar CSS
@@ -74,6 +74,11 @@ translations:
     t: Fitur lainnya
   - key: sections.other_features.description
     t: Fitur CSS lainnya.
+
+  - key: sections.math_features.title
+    t: Matematika
+  - key: sections.math_features.description
+    t: Fitur Matematika.
 
   - key: sections.units_selectors.title
     t: Satuan & Selektor
@@ -245,6 +250,15 @@ translations:
   - key: options.css_pain_points.performance_issues.description
     t: Berurusan dengan cacat scrolling, membuat animasi lebih halus, dll.
 
+  - key: options.css_pain_points.accessibility
+    t: Aksesibilitas
+  - key: options.css_pain_points.accessibility.description
+    t: Menjaga konten tetap mudah diakses
+  - key: options.css_pain_points.animations
+    t: Animasi
+  - key: options.css_pain_points.animations.description
+    t: Membuat animasi dan transisi
+
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
     t: Penyarangan
@@ -354,6 +368,8 @@ translations:
 
   - key: features.viewport_percentage_length_units
     t: Satuan Viewport Kecil, Besar, dan Dinamis
+  - key: features.viewport_percentage_length_units.question
+    aliasFor: features.viewport_percentage_length_units
   - key: features.at_container
     t: "Kueri `@container`"
   - key: features.at_container.description
@@ -369,12 +385,18 @@ translations:
 
   - key: features.linear_easing_function
     t: "fungsi easing `linear()`"
+  - key: features.linear_easing_function.question
+    aliasFor: features.linear_easing_function
   - key: features.blend_modes
     t: Blend Mode
+  - key: features.blend_modes.question
+    aliasFor: features.blend_modes
   - key: features.intrinsic_sizing
     t: Kata Kunci Pengukuran Intrinsik
   - key: features.gradient_color_spaces
     t: Interpolation Color Spaces
+  - key: features.gradient_color_spaces.question
+    aliasFor: features.gradient_color_spaces
 
   # typography
   - key: features.web_fonts
@@ -414,6 +436,8 @@ translations:
 
   - key: features.trigonometric_functions
     t: Fungsi Trigonometrik
+  - key: features.trigonometric_functions.question
+    aliasFor: features.trigonometric_functions
   - key: features.exponential_functions
     t: Fungsi Eksponensial
   - key: features.sign_related_functions
@@ -426,14 +450,20 @@ translations:
     t: Fitur-fitur Shadow DOM
   - key: features.individual_transform_properties
     t: Properti Transform Individual
+  - key: features.individual_transform_properties.question
+    aliasFor: features.individual_transform_properties
   - key: features.comparison_functions
     t: Fungsi Perbandingan CSS
+  - key: features.comparison_functions.question
+    aliasFor: features.comparison_functions
   - key: features.math_functions
     t: Fungsi Matematika CSS
   - key: features.viewport_units
     t: Satuan Viewport (`vh`, `vw`)
   - key: features.cascade_layers
     t: Lapisan Cascade
+  - key: features.cascade_layers.question
+    aliasFor: features.cascade_layers
 
   # missing features (see also options)
   - key: features.nesting
@@ -652,14 +682,38 @@ translations:
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
+  - key: options.css_js_balance.1
+    t: "|"
+  - key: options.css_js_balance.2
+    t: "|"
+  - key: options.css_js_balance.3
+    t: "|"
   - key: options.css_js_balance.4
     t: 50%–50%
+  - key: options.css_js_balance.5
+    t: "|"
+  - key: options.css_js_balance.6
+    t: "|"
+  - key: options.css_js_balance.7
+    t: "|"
   - key: options.css_js_balance.8
     t: 100% JS
 
   ###########################################################################
   # Other Tools
   ###########################################################################
+
+  - key: tools.css_frameworks
+    t: CSS Frameworks
+  - key: tools.css_frameworks.question
+    t: Which CSS frameworks do you use?
+  - key: tools.css_frameworks.prompt
+    t: Frameworks or libraries that give you pre-made components or styles.
+
+  - key: tools.css_in_js
+    t: CSS-in-JS
+  - key: tools.css_in_js.question
+    t: Which CSS-in-JS libraries do you use?
 
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
@@ -678,6 +732,11 @@ translations:
   - key: options.pre_post_processors.na
     t: Tidak ada
 
+  - key: tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools.pre_post_processors.question
+    aliasFor: tools_others.pre_post_processors.question
+
   - key: tools_others.utilities
     t: Alat-alat
   - key: tools_others.utilities.question
@@ -688,6 +747,11 @@ translations:
     t: Alat-alat lain (bidang bebas).
   - key: options.utilities.na
     t: Tidak ada
+
+  - key: tools.utilities
+    aliasFor: tools_others.utilities
+  - key: tools.utilities.question
+    aliasFor: tools_others.utilities.question
 
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
@@ -700,6 +764,11 @@ translations:
   - key: other_tools.utilities_freeform
     aliasFor: tools_others.utilities.others
 
+  - key: tools.utilities
+    aliasFor: tools_others.utilities
+  - key: tools.utilities.question
+    aliasFor: tools_others.utilities.question
+
   - key: tools_others.browsers
     t: Browser
   - key: tools_others.browsers.question
@@ -708,6 +777,11 @@ translations:
     t: Browser lain
   - key: tools_others.browsers.others.description
     t: Jawaban lain (bidang bebas).
+
+  - key: tools.browsers
+    aliasFor: tools_others.browsers
+  - key: tools.browsers.question
+    aliasFor: tools_others.browsers.question
 
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
@@ -777,6 +851,9 @@ translations:
     aliasFor: environments.what_do_you_use_css_for
   - key: usage.what_do_you_use_css_for.question
     aliasFor: environments.what_do_you_use_css_for.question
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
   - key: usage.what_do_you_use_css_for.others
     aliasFor: environments.what_do_you_use_css_for.others
   - key: usage.what_do_you_use_css_for_freeform
@@ -864,6 +941,8 @@ translations:
     aliasFor: features.color_functions.description
   - key: options.css_interoperability_features.cascade_layers
     aliasFor: features.cascade_layers
+  - key: options.css_interoperability_features.scrollbar
+    t: Penggayaan Scrollbar 
 
   - key: options.css_interoperability_features.na
     t: Tidak Ada
@@ -986,7 +1065,32 @@ translations:
   - key: usage.css_usage_type.question
     t: Dalam konteks apakah Anda menggunakan CSS?
   - key: usage.css_usage_type.others
+    t: Penggunaan CSS Lainnya
+
+  - key: usage.usage_type
+    aliasFor: usage.css_usage_type
+  - key: usage.usage_type.question
+    aliasFor: usage.css_usage_type.question
+  - key: usage.css_usage_type.others
     t: Pengunaan CSS Lainnya
+
+  # design_methodology
+  - key: usage.design_methodology
+    t: Metodologi desain
+  - key: usage.design_methodology.question
+    t: Manakah yang paling baik menggambarkan bagaimana anda merancang dengan CSS?
+  - key: options.design_methodology.implement_other_peoples_designs
+    t: Saya mengimplementasikan desain orang lain
+  - key: options.design_methodology.design_in_design_apps
+    t: Saya membuat desain saya sendiri di aplikasi desain, kemudian mengimplementasikannya dengan CSS
+  - key: options.design_methodology.design_in_css
+    t: Saya mengimplementasi desain saya sendiri secara langsung dengan CSS
+
+  # favorite_new_feature
+  - key: usage.favorite_new_features
+    t: Fitur Baru Favorit
+  - key: usage.favorite_new_features.question
+    t: Fitur CSS baru manakah yang anda mulai pakai tahun ini?
 
   ###########################################################################
   # Resources
@@ -1008,6 +1112,14 @@ translations:
   - key: resources.sites_courses_css.description
     t: Mana saja situs web/kursus/dll. yang berhubungan dengan CSS yang Anda gunakan untuk mempelajari CSS?
 
+  # blogs_news_magazines
+  - key: resources.blogs_news_magazines.question
+    t: blog/majalah/newsletter/dll. manakah yang anda baca untuk mengikuti perkembangan CSS?
+
+  # courses
+  - key: resources.courses.question
+    t: kursus atau material apa (video, buku, dll.) yang anda pakai untuk mempelajari CSS?
+
   # podcasts
   - key: resources.podcasts_css
     aliasFor: resources.podcasts
@@ -1019,6 +1131,9 @@ translations:
     aliasFor: resources.people.others
   - key: resources.people_css.others.description
     t: Orang-orang yang Anda baca, ikuti, atau yang hanya Anda ingin sorot karena pekerjaan mereka dalam ekosistem CSS.
+
+  - key: resources.people.question
+    t: Siapa yang anda baca, ikuti, atau hanya ingin soroti dalam ekosistem CSS?
 
   ###########################################################################
   # Survey Help

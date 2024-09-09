@@ -98,16 +98,16 @@ translations:
 
   - key: sections.user_info.description.css2024
     t: |
-      This year's survey reached **9,190** developers throughout the world.
+      Survei tahun ini mencapai **9,190** pengembang di seluruh dunia.
 
   - key: sections.features.description.css2024
     t: |
-      CSS has been on a roll lately, and many of the new features introduced are
-      slowly but surely being adopted by the developer community.
+      CSS telah banyak berkembang akhir-akhir ini, dan banyak dari fitur-fitur baru yang diperkenalkan
+      perlahan-lahan mulai diadopsi oleh para pengembang.
 
   - key: sections.css_frameworks.description.css2024
     t: |
-      Once again, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
+      Sekali lagi, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
 
   - key: sections.css_in_js.description.css2024
     t: |
@@ -116,15 +116,15 @@ translations:
 
   - key: sections.other_tools.description.css2024
     t: |
-      30 years after the invention of the browser, we're still seeing innovation in that space with new entrants like Brave and Arc; or specialized tools like Polypane gaining marketshare.
+      30 tahun setelah penciptaan browser, kita masih melihat inovasi dengan peserta baru seperti Brave dan Arc; atau alat-alat khusus seperti Polypane yang mulai mengambil pangsa pasar.
 
   - key: sections.usage.description.css2024
     t: |
-      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
+      Tak peduli bagaimana anda menggunnakan CSS, datanya menunjukkan bahwa memastikan kode anda bekerja di semua browser masih menjadi perhatian, terutama untuk fitur-fitur baru seperti `:has()`.
 
   - key: sections.resources.description.css2024
     t: |
-      Between blogs, YouTube channels, and podcasts, the CSS community is more vibrant than ever.
+      Di antara blog, kanal YouTube, dan podcast, komunitas CSS makin beragam dari sebelumnya.
 
   ###########################################################################
   # Charts
@@ -149,36 +149,36 @@ translations:
 
   - key: user_info.country_low_vs_high_income.description.css2024
     t: >
-      Splitting respondents between low-income and high-income brackets gives
-      us two very different lists of countries.
+      Membagi responden berdasarkan penghasilan tinggi dan rendah memberikan
+      dua daftar negara yang sangat berbeda.
 
   - key: user_info.higher_education_degree_by_gender.description.css2024
     t: >
-      Women representation was higher than expected among respondents 
-      with a higher-education diploma in areas unrelated to CSS, potentially 
-      indicating a lot of career changes.
+      Perwakilan wanita lebih tinggi dari yang diperkirakan diantara para responden
+      dengan diploma pendidikan tinggi pada bidang yang tidak terkait dengan CSS, 
+      berpotensi menunjukkan banyaknya perubahan karir.
 
   - key: user_info.source_by_gender.description.css2024
     t: >
-      Although the low total counts make it hard to draw any conclusions,
-      the proportion of women was highest among respondents 
-      who came across the survey from their workplace or through word-of-mouth, 
-      especially compared to social networks such as Twitter or YouTube.
+      Meskipun sulit membuat kesimpulan mengingat jumlah total yang rendah,
+      jumlah wanita adalah paling tinggi diantara para responden 
+      yang mendengar survei ini dari tempat kerja mereka atau dari mulut ke mulut, 
+      terutama dibandingkan dengan jejaring sosial seperti Twitter atau YouTube.
 
   - key: user_info.source_by_race_ethnicity.description.css2024
     t: >
-      Again keeping in mind the low sample size, when considering race and ethnicity,
-      YouTube stands out as one of the most diverse source of traffic to the survey.
+      Kembali mengingat jumlah sampel yang rendah, ketika mempertimbangkan ras dan etnis,
+      YouTube mencolok sebagai salah satu sumber survei paling beragam.
 
   - key: user_info.average_income_by_company_size.description.css2024
     t: >
-      We find the highest-paid respondents working for large companies, although
-      it's notable that solo workers show a slight income advantage over small companies.
+      Kami menemukan para responden dengan gaji lebih banyak bekerja untuk perusahaan besar, namun
+      perlu dicatat bahwa pekerja solo memiliki gaji lebih dibandingkan yang bekerja pada perusahaan kecil.
 
   - key: user_info.yearly_salary_usa_vs_the_world.description.css2024
     t: >
-      When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
-      developers are over-represented in the higher income brackets.
+      Ketika membandingkan gaji di A.S. dengan seluruh dunia, jelas bahwa para pengembang
+      A.S. banyak yang masuk ke golongan gaji tinggi.
 
   ###########################################################################
   # Awards
@@ -536,51 +536,51 @@ translations:
       The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
 
-      ### Survey Goals
+      ### Tujuan Survei
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
-
-
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Survei ini, bersama dengan survei [State of JavaScript](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2023](https://web.dev/interop-2023/).
+      Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan. 
 
 
-      ### Survey Design
+      Selain itu, data survei ini juga digunakan oleh para vendor browser untuk memprioritaskan fitur-fitur dan menginformasikan berbagai inisiatif seperti [Interop 2023](https://web.dev/interop-2023/).
 
-      This year, survey design was lead by [Chen Hui Jing](https://chenhuijing.com/) thanks to a funding grant from the Google Chrome team. All survey questions were optional. 
 
-      ### Survey Audience
+      ### Perancangan Survei
+
+      Tahun ini, perancangan survei dipimpin oleh [Chen Hui Jing](https://chenhuijing.com/) berkat sebuah dana hibah dari tim Google Chrome. Semua pertanyaan survei adalah opsional. 
+
+      ### Audiens Survei
 
       The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
 
-      ### Project Funding
+      ### Pendanaan Proyek 
 
-      Funding from this project comes from a variety of sources:
+      Pendanaan proyek ini datang dari beberapa sumber:
 
-      - **T-shirt sales**. 
+      - **Penjualan kaos**. 
 
-      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
 
-      - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+      - **Bagan yang disponsori**: dimulai dari tahun lalu, semua orang dapat memilih untuk mensponsori sebuah bagan untuk $10 atau lebih. Avatar Twitter sponsor tersebut akan ditampilkan di samping bagan tersebut.
 
-      - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+      - **Google**: tahun ini, tim [Google Chrome](https://www.google.com/chrome/) menyisakan sejumlah uang untuk mempekerjakan Lea untuk membantu merancang survei, dan juga mendanai saya secara langsung untuk mendukung apa yang saya kerjakan. 
 
-      - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
-
-
-      ### Technical Overview
-
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
-
-      ### Feedback
+      - **Nijibox**: [Nijibox](https://nijibox.jp/) dari Jepang juga telah setuju untuk mensponsori usaha saya untuk membuat survei ini lebih berkelanjutan. 
 
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+      ### Ikhtisar Teknis
 
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/193)
+      Anda dapat menemukan ikhtisar teknis lebih mendalam tentang bagaimana survei dijalankan [disini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
 
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+      ### Umpan Balik
 
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+
+      - [Laporkan sebuah masalah teknis](https://github.com/Devographics/Monorepo/issues)
+
+      - [Kirim saran untuk tahun depan](https://github.com/Devographics/surveys/issues/193)
+
+      - [Masalah non-teknis lainnya](https://github.com/Devographics/surveys/issues)
+
+      - [Gabung Discord Kami](https://discord.gg/tuWRUWVyJs)
