@@ -1,0 +1,172 @@
+locale: id-ID
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Edisi 2024 dari survei tahunan tentang tren-tren terbaru dalam ekosistem HTML.
+
+  - key: introduction.html2024
+    t: >
+      TODO
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Kaos
+
+  - key: sections.tshirt.description
+    t: |
+      ## Dukung Survei ini dengan Kaos State of HTML
+
+      Apakah anda merindukan zaman-zaman pertengahan 90an, ketika HTML masih menjadi raja dan sampul VHS dibungkus dengan karya seni yang futuristik dan penuh warna? 
+
+      Kabar buruknya adalah bahkan dengan teknologi 2024, anda masih belum bisa membalikkan waktu untuk kembali menghidupi masa-masa kejayaan itu. Tapi yang *bisa* anda lakukan adalah memakai kaos retro original yang keren ini, yang dirancang oleh seorang Christopher Kirk-Nielsen yang bertalenta.
+
+  - key: tshirt.about
+    t: Tentang Kaos Ini
+
+  - key: tshirt.description
+    t: |
+      Kami menggunakan kaos tri-blend super lembut berukuran ramping yang dicetak oleh mitra kami di Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Dapatkan
+
+  - key: tshirt.price
+    t: USD $32 + pengiriman
+
+  - key: tshirt.designer.heading
+    t: Tentang Perancang
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Lihatlah [desain kaos darinya yang lain](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.html2024
+    t: |
+      Selamat datang di hasil survei State of HTML. Edisi survei pertama ini mencapai sebanyak **20,904** responden dari seluruh dunia.
+
+  - key: sections.features.description.html2024
+    t: |
+      Fitur-fitur HTML dan API-API browser lainnya
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features
+    t: All Features
+  - key: features.all_features.description
+    t: |
+      Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diantara keduanya.
+
+
+      Anda juga dapat menemukan perincian yang lebih spesifik dari data yang sama dalam subseksi setiap fitur.
+
+  - key: features.forms_features
+    t: Formulir Pengalaman & Sentimen
+
+  - key: features.interactivity_features
+    t: Pengalaman interaktifitas & Sentimen
+
+  - key: features.content_features
+    t: Pengalaman Konten & Sentimen
+
+  - key: features.web_components_main_features
+    t: Pengalaman Komponen Web & Sentimen
+
+  - key: features.web_components_main_features
+    t: Pengalaman Komponen Web & Sentimen
+
+  - key: features.accessibility_features
+    t: Pengalaman Akesibilitas & Sentimen
+
+  - key: features.mobile_web_apps_features
+    t: Pengalaman Aplikasi Web Mobile & Sentimen
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Tingkatkan kemampuanmu lebih dalam dengan kursus front-end modern.
+  - key: sponsors.google_chrome.description
+    t: Terima kasih kepada tim Google Chrome karena telah mendukung pekerjaan kami.
+  - key: sponsors.tokyodev.description
+    t: Temukan pekerjaan impian kalian di Jepang sekarang juga.
+  - key: sponsors.renderatl.description
+    t: Konferensi Teknologi yang terfokus pada web.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2024.lea_verou.bio
+    t: Anggota Grup Teknik Arsitektur W3C & Peneliti MIT CSAIL
+  - key: conclusion.html2024.lea_verou
+    t: >
+      *Wah!* Survei ini telah mengambil banyak upaya dari banyak orang melintasi enam benua. Survei ini tidak hanya mencetak rekor baru untuk respons paling banyak dalam debut survei “State of…”, antarmuka pengguna pengambilan data juga menghasilkan berbagai inovasi yang memberi perspektif baru terhadap sikap para pengembang, dan pengaruhnya akan menjangkau jauh melampaui cakupannya.
+
+
+      Beberapa berargumen bahwa memperbaiki HTML adalah sia-sia, namun survei ini membuktikan yang sebaliknya. **Para pengembang membutuhkan elemen HTML yang lebih interaktif**: tidak hanya terbatas kepada elemen-elemen seperti `<datalist>` dan API Popover yang paling banyak mengumpulkan sentimen positif di antara semua kategori, namun selain itu semua [elemen hilang teratas](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) adalah elemen interaktif. 
+
+
+      Namun, **membuat hal-hal sederhana menjadi mudah** dengan memberikan fungsionalitas terbatas tidak lagi cukup. Membuat hal-hal yang kompleks menjadi mungkin dengan dengan mendukung kostumisasi lengkap menjadi sebuah kebutuhan: kemampuan penyesuaian yang tidak cukup, terutama mengenai **penggayaan**, sejauh ini menjadi titik sakit teratas. 
+
+
+      Sebagai hasilnya, elemen-elemen form juga menjadi elemen [yang paling sering dibuat ulang](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features); yang membuat baik para pengembang dan para pengguna menderita. Syukurnya, ada banyak inisiatif untuk memperbaiki hal ini, jadi masa depan terlihat cerah.
+
+
+      Kebutuhan besar yang lain adalah kemampuan perluasan. Tidak berkelanjutan jika hanya badan-badan standar yang mempunyai kewenangan untuk mengembangkan HTML; dan selain itu, elemen-elemen umum tidak dapat menangani kebutuhan-kebutuhan yang begitu beragam. Sayangnya, **Web Components API** (dan terutama Shadow DOM), meskipun banyak dipakai, terlihat tidak cukup dalam hal mencukupi kebutuhan para pengembang dan memberikan sebuah pengalaman pengembangan yang baik, karena kedua hal tersebut memiliki pengalaman paling buruk dalam survei. Bagaimanapun, kegiatan yang sedang berlangsung yang berkaitan dengan hal-hal tersebut (beberapa diantaranya telah saya ikuti) membuat saya berharap, bahwa meskipun sejauh ini jalannya tidak mulus, mereka di jalur yang benar untuk mencapai potensial penuh.
+
+
+      Yang mengantarkan saya ke poin terakhir saya: penting untuk mengingat bahwa survei ini hanyalah sebuah gambaran dari perspektif berbagai pengembang dan mencerminkan keadaan dari platform web pada saat ini. Namun, tujuan utama survei ini adalah untuk meningkatkan status quo dengan memberikan visibility terhadap kebutuhan para pengembang. Seberapa banyak dari keluhan hari ini yang akan ditangani di masa depan? Bergabunglah dengan kami di tahun ini untuk edisi survei ini yang kedua, dan mari kita cari tahu!
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      Survei State of HTML 2024 berjalan dari 19 September sampai 19 Oktober 2023, dan menerima 20,904 jawaban. 
+
+      Usaha perancangan dipimpin oleh [Lea Verou](https://lea.verou.me/) berkat sebuah dana hibah dari Google. Lea juga mengawasi prototyping, pengujian, dan implementasi dari antarmuka koleksi data; berkontribusi dalam bidang pemrosesan data; dan membantu dengan visualisasi data. 
+
+      Infrastruktur survei ini dikelola oleh [Sacha Greif](https://sachagreif.com/) dan [Eric Burel](https://www.lbke.fr/), dengan bantuan dari tim kontributor sumber terbuka dan konsultan. 
+
+      Logo dan kaos tahun ini dirancang oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Tujuan Survei
+
+      Survei ini dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
+
+      Maka dari itu, survei ini berfokus pada mengantisipasi yang akan datang dalam beberapa tahun ke depan alih-alih menganalisa yang populer hari ini, yang menjadi alasan fitur-fitur atau teknologi yang saat ini paling banyak digunakan tidak selalu dimasukkan. 
+
+      Survei ini juga harus dicerna sebagai **gambaran dari sebagian pengembang tertentu**, dan tidak dimaksudkan untuk mewakili seluruh ekosistem. 
+
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. 
+
+      ### Pembiayaan proyek
+
+      Pembiyaan proyek ini datang dari beberapa sumber:
+
+      - **Penjualan kaos**. 
+
+      - **Pranala bersponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah tiap halaman diberikan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
+
+      - **Pembiayaan Lain**: [Google](https://www.google.com/) dan [TokyoDev](https://www.tokyodev.com/) juga membantu membiayai survei ini.
+
+      ### Ikhtisar teknis
+
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
