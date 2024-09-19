@@ -7,9 +7,46 @@ translations:
   - key: general.results.description
     t: Edisi 2024 dari survei tahunan tentang tren-tren terbaru dalam ekosistem HTML.
 
+  - key: general.html2024.survey_intro
+    t: |
+
+      HTML was the original web technology, and the fact that it's more relevant than ever three decades later is kind of amazing. 
+
+      But despite its name, this surveys goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover! 
+
+      So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+
+      This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this second edition of the State of HTML survey!
+
+  - key: features.features_intro_html2024
+    t: |
+      Welcome to the survey! This first part is all about sharing your experience with various web platform features:
+
+
+      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+
+      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+
+      - **Used it**: you've used this at least once, even if it was just to play around. 
+
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
   - key: introduction.html2024
     t: >
-      TODO
+      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+
+      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+
+      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+
+      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
   # Tshirt
@@ -86,9 +123,6 @@ translations:
   - key: features.web_components_main_features
     t: Pengalaman Komponen Web & Sentimen
 
-  - key: features.web_components_main_features
-    t: Pengalaman Komponen Web & Sentimen
-
   - key: features.accessibility_features
     t: Pengalaman Akesibilitas & Sentimen
 
@@ -136,6 +170,48 @@ translations:
   ###########################################################################
   # About
   ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html2024
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html2024.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 10-15 minutes.
+
+  - key: faq.learn_more_html2024
+    t: Where can I learn more?
+  - key: faq.learn_more_html2024.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+
+  - key: faq.survey_design_html2024
+    t: How was this survey designed?
+  - key: faq.survey_design_html2024.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/246) involving browser vendors and the web development community.
+
+  - key: faq.results_released_html2024
+    t: When will the results be released?
+  - key: faq.results_released_html2024.description
+    t: The survey will run from September 12 to October 1, 2024, and the survey results will be released shortly after.
+
+  - key: faq.who_should_take_survey_html2024
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2024.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.data_used_html2024
+    t: How will this data be used?
+  - key: faq.data_used_html2024.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2024
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2024.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
 
   - key: about.content
     t: |
