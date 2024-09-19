@@ -10,27 +10,27 @@ translations:
   - key: general.html2024.survey_intro
     t: |
 
-      HTML was the original web technology, and the fact that it's more relevant than ever three decades later is kind of amazing. 
+      HTML adalah teknologi web yang paling awal, dan fakta bahwa HTML semakin relevan dari sebelumnya tiga abad kemudian sungguh luar biasa. 
 
-      But despite its name, this surveys goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover! 
+      Namun meskipun namanya HTML, survei ini membahas lebih dari sekedar HTML dan mencakup semua area dari platform web secara keseluruhan – dan ada *sangat banyak* hal untuk dibahas! 
 
-      So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+      Jadi seperti yang anda duga, merancang sebuah survei seperti ini selalu melibatkan pilihan sulit. Tahun ini, kami memutuskan untuk berfokus pada fitur-fitur baru dan yang akan datang untuk membantu anda tetap mendapatkan informasi baru; dan juga bagian-bagian yang paling menarik perhatian para vendor browser.
 
-      This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this second edition of the State of HTML survey!
+      Ini berarti bahwa jawaban-jawaban anda dapat berdampak langsung pada peta jalur pengembangan browser yang anda gunakan saat ini. Yang adalah kenapa I'm so excited to open this second edition of the State of HTML survey!
 
   - key: features.features_intro_html2024
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various web platform features:
+      Selamat datang ke survei! Bagian pertama ini adalah tentang membagikan pengalaman anda dengan berbagai fitur-fitur platform web:
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **Tidak pernah mendengarnya**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **Pernah mendengarnya**: anda telah membaca atau mempelajarinya, namun tidak pernah memakainya. 
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **Pernah memakainya**: anda pernah memakai ini paling tidak sekali, bahkan jika hanya untuk bermain-main. 
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      O iya, jika anda ingin memberitahu kami lebih tentang pilihan anda, klik ikon "komentar"!
 
   ###########################################################################
   # Introduction
@@ -175,43 +175,43 @@ translations:
     t: How long will answering the survey take?
   - key: faq.how_long_will_survey_take_html2024.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 10-15 minutes.
+      Tergantung dari jumlah pertanyaan yang anda jawab (semua pertanyaan bisa dilewati),
+      mengisi survei ini akan memakan waktu 10-15 menit.
 
   - key: faq.learn_more_html2024
-    t: Where can I learn more?
+    t: Dimana saya dapat mempelajari lebih lanjut?
   - key: faq.learn_more_html2024.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+    t: Anda dapat mempelajari lebih tentang survei ini di [post pengumuman kami](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
 
   - key: faq.survey_design_html2024
-    t: How was this survey designed?
+    t: Bagaimana survei ini dibuat?
   - key: faq.survey_design_html2024.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/246) involving browser vendors and the web development community.
+      Survei ini dirancang sebagai hasil dari [proses rancangan terbuka](https://github.com/Devographics/surveys/issues/246) yang melibatkan vendor-vendor dan komunitas pengembangan web.
 
   - key: faq.results_released_html2024
-    t: When will the results be released?
+    t: Kapan hasilnya akan dirilis?
   - key: faq.results_released_html2024.description
-    t: The survey will run from September 12 to October 1, 2024, and the survey results will be released shortly after.
+    t: Survei ini akan dijalankan dari 12 September sampai 1 Oktober 2024, dan hasil survei akan dibagikan segera setelahnya.
 
   - key: faq.who_should_take_survey_html2024
-    t: Who should take this survey?
+    t: Siapa yang harus mengisi survei ini?
   - key: faq.who_should_take_survey_html2024.description
     t: >
-      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Ini adalah sebuah survei terbuka untuk siapa saja yang membuat website atau aplikasi web, baik secara regular atau kadang-kadang saja, baik untuk pekerjaan, atau sebagai pelajar, atau sekedar untuk bersenang-senang!
 
   - key: faq.data_used_html2024
-    t: How will this data be used?
+    t: Bagaimana data dari survei ini akan digunakan?
   - key: faq.data_used_html2024.description
     t: >
-      All data collected will be released openly for any developer or company to consult.
-      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+      Semua data yang diambil akan dirilis secara terbuka untuk digunakan pengembang atau perusahaan manapun.
+      Para vendor browser [menggunakan data ini](https://web.dev/blog/interop-2024) untuk mengutamakan area-area fokus dan memprioritaskan peta jalur mereka.
 
   - key: faq.survey_goals_html2024
-    t: What are the survey's goals?
+    t: Apakah tujuan survei ini?
   - key: faq.survey_goals_html2024.description
     t: >
-      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+      Tujuan survei ini adalah untuk mengukur tingkat pengetahuan fitur-fitur HTML baru dan API browser, dan membantu para pengembang untuk mengetahui bagaimana penggunaan mereka berubah.
 
   - key: about.content
     t: |
