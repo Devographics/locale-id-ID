@@ -10,17 +10,17 @@ translations:
   - key: general.html2024.survey_intro
     t: |
 
-      HTML adalah teknologi web yang paling awal, dan fakta bahwa HTML semakin relevan dari sebelumnya tiga abad kemudian sungguh luar biasa. 
+      HTML adalah teknologi web yang sudah lama ada, dan fakta bahwa HTML semakin relevan setelah tiga abad kemudian itu sungguh luar biasa.
 
       Namun meskipun namanya HTML, survei ini membahas lebih dari sekedar HTML dan mencakup semua area dari platform web secara keseluruhan – dan ada *sangat banyak* hal untuk dibahas! 
 
       Jadi seperti yang anda duga, merancang sebuah survei seperti ini selalu melibatkan pilihan sulit. Tahun ini, kami memutuskan untuk berfokus pada fitur-fitur baru dan yang akan datang untuk membantu anda tetap mendapatkan informasi baru; dan juga bagian-bagian yang paling menarik perhatian para vendor browser.
 
-      Ini berarti bahwa jawaban-jawaban anda dapat berdampak langsung pada peta jalur pengembangan browser yang anda gunakan saat ini. Yang adalah kenapa I'm so excited to open this second edition of the State of HTML survey!
+      Ini berarti bahwa jawaban-jawaban anda dapat berdampak langsung pada peta jalur pengembangan browser yang anda gunakan saat ini. Yang adalah kenapa saya sangat bersemangat untuk membuka edisi kedua dari survei HTML!
 
   - key: features.features_intro_html2024
     t: |
-      Selamat datang ke survei! Bagian pertama ini adalah tentang membagikan pengalaman anda dengan berbagai fitur-fitur platform web:
+      Selamat datang di survei! Bagian pertama ini adalah tentang membagikan pengalaman anda dengan berbagai fitur-fitur platform web:
 
 
       - **Tidak pernah mendengarnya**: ini pertama kalinya anda melihatnya  – atau anda pernah mendengarnya namun tidak tahu apa itu. 
@@ -30,7 +30,7 @@ translations:
       - **Pernah memakainya**: anda pernah memakai ini paling tidak sekali, bahkan jika hanya untuk bermain-main. 
 
 
-      O iya, jika anda ingin memberitahu kami lebih tentang pilihan anda, klik ikon "komentar"!
+      Oh iya, jika anda ingin memberitahu kami lebih tentang pilihan anda, klik ikon "komentar"!
 
   ###########################################################################
   # Introduction
@@ -176,12 +176,12 @@ translations:
   - key: faq.how_long_will_survey_take_html2024.description
     t: >
       Tergantung dari jumlah pertanyaan yang anda jawab (semua pertanyaan bisa dilewati),
-      mengisi survei ini akan memakan waktu 10-15 menit.
+      mengisi survei ini akan memakan waktu sekitar 10-15 menit.
 
   - key: faq.learn_more_html2024
     t: Dimana saya dapat mempelajari lebih lanjut?
   - key: faq.learn_more_html2024.description
-    t: Anda dapat mempelajari lebih tentang survei ini di [post pengumuman kami](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+    t: Anda dapat mempelajari lebih tentang survei ini di [pengumuman kami](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
 
   - key: faq.survey_design_html2024
     t: Bagaimana survei ini dibuat?
@@ -192,10 +192,10 @@ translations:
   - key: faq.results_released_html2024
     t: Kapan hasilnya akan dirilis?
   - key: faq.results_released_html2024.description
-    t: Survei ini akan dijalankan dari 12 September sampai 1 Oktober 2024, dan hasil survei akan dibagikan segera setelahnya.
+    t: Survei ini akan berlangsung dari 12 September sampai 1 Oktober 2024, dan hasil survei akan dibagikan segera setelahnya.
 
   - key: faq.who_should_take_survey_html2024
-    t: Siapa yang harus mengisi survei ini?
+    t: Siapa saja yang boleh mengisi survei ini?
   - key: faq.who_should_take_survey_html2024.description
     t: >
       Ini adalah sebuah survei terbuka untuk siapa saja yang membuat website atau aplikasi web, baik secara regular atau kadang-kadang saja, baik untuk pekerjaan, atau sebagai pelajar, atau sekedar untuk bersenang-senang!
@@ -208,7 +208,7 @@ translations:
       Para vendor browser [menggunakan data ini](https://web.dev/blog/interop-2024) untuk mengutamakan area-area fokus dan memprioritaskan peta jalur mereka.
 
   - key: faq.survey_goals_html2024
-    t: Apakah tujuan survei ini?
+    t: Apa tujuan survei ini?
   - key: faq.survey_goals_html2024.description
     t: >
       Tujuan survei ini adalah untuk mengukur tingkat pengetahuan fitur-fitur HTML baru dan API browser, dan membantu para pengembang untuk mengetahui bagaimana penggunaan mereka berubah.
