@@ -7,9 +7,46 @@ translations:
   - key: general.results.description
     t: Edisi 2024 dari survei tahunan tentang tren-tren terbaru dalam ekosistem HTML.
 
+  - key: general.html2024.survey_intro
+    t: |
+
+      HTML adalah teknologi web yang sudah lama ada, dan fakta bahwa HTML semakin relevan setelah tiga abad kemudian itu sungguh luar biasa.
+
+      Namun meskipun namanya HTML, survei ini membahas lebih dari sekedar HTML dan mencakup semua area dari platform web secara keseluruhan – dan ada *sangat banyak* hal untuk dibahas! 
+
+      Jadi seperti yang anda duga, merancang sebuah survei seperti ini selalu melibatkan pilihan sulit. Tahun ini, kami memutuskan untuk berfokus pada fitur-fitur baru dan yang akan datang untuk membantu anda tetap mendapatkan informasi baru; dan juga bagian-bagian yang paling menarik perhatian para vendor browser.
+
+      Ini berarti bahwa jawaban-jawaban anda dapat berdampak langsung pada peta jalur pengembangan browser yang anda gunakan saat ini. Yang adalah kenapa saya sangat bersemangat untuk membuka edisi kedua dari survei HTML!
+
+  - key: features.features_intro_html2024
+    t: |
+      Selamat datang di survei! Bagian pertama ini adalah tentang membagikan pengalaman anda dengan berbagai fitur-fitur platform web:
+
+
+      - **Tidak pernah mendengarnya**: ini pertama kalinya anda melihatnya  – atau anda pernah mendengarnya namun tidak tahu apa itu. 
+
+      - **Pernah mendengarnya**: anda telah membaca atau mempelajarinya, namun tidak pernah memakainya. 
+
+      - **Pernah memakainya**: anda pernah memakai ini paling tidak sekali, bahkan jika hanya untuk bermain-main. 
+
+
+      Oh iya, jika anda ingin memberitahu kami lebih tentang pilihan anda, klik ikon "komentar"!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
   - key: introduction.html2024
     t: >
-      TODO
+      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+
+      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+
+      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+
+      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
   # Tshirt
@@ -66,7 +103,7 @@ translations:
   ###########################################################################
 
   - key: features.all_features
-    t: All Features
+    t: Semua Fitur
   - key: features.all_features.description
     t: |
       Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diantara keduanya.
@@ -82,9 +119,6 @@ translations:
 
   - key: features.content_features
     t: Pengalaman Konten & Sentimen
-
-  - key: features.web_components_main_features
-    t: Pengalaman Komponen Web & Sentimen
 
   - key: features.web_components_main_features
     t: Pengalaman Komponen Web & Sentimen
@@ -136,6 +170,48 @@ translations:
   ###########################################################################
   # About
   ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html2024
+    t: Surveinya akan memakan waktu berapa lama?
+  - key: faq.how_long_will_survey_take_html2024.description
+    t: >
+      Tergantung dari jumlah pertanyaan yang anda jawab (semua pertanyaan bisa dilewati),
+      mengisi survei ini akan memakan waktu sekitar 10-15 menit.
+
+  - key: faq.learn_more_html2024
+    t: Dimana saya dapat mempelajari lebih lanjut?
+  - key: faq.learn_more_html2024.description
+    t: Anda dapat mempelajari lebih tentang survei ini di [pengumuman kami](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+
+  - key: faq.survey_design_html2024
+    t: Bagaimana survei ini dibuat?
+  - key: faq.survey_design_html2024.description
+    t: >
+      Survei ini dirancang sebagai hasil dari [proses rancangan terbuka](https://github.com/Devographics/surveys/issues/246) yang melibatkan vendor-vendor dan komunitas pengembangan web.
+
+  - key: faq.results_released_html2024
+    t: Kapan hasilnya akan dirilis?
+  - key: faq.results_released_html2024.description
+    t: Survei ini akan berlangsung dari 12 September sampai 1 Oktober 2024, dan hasil survei akan dibagikan segera setelahnya.
+
+  - key: faq.who_should_take_survey_html2024
+    t: Siapa saja yang boleh mengisi survei ini?
+  - key: faq.who_should_take_survey_html2024.description
+    t: >
+      Ini adalah sebuah survei terbuka untuk siapa saja yang membuat website atau aplikasi web, baik secara regular atau kadang-kadang saja, baik untuk pekerjaan, atau sebagai pelajar, atau sekedar untuk bersenang-senang!
+
+  - key: faq.data_used_html2024
+    t: Bagaimana data dari survei ini akan digunakan?
+  - key: faq.data_used_html2024.description
+    t: >
+      Semua data yang diambil akan dirilis secara terbuka untuk digunakan pengembang atau perusahaan manapun.
+      Para vendor browser [menggunakan data ini](https://web.dev/blog/interop-2024) untuk mengutamakan area-area fokus dan memprioritaskan peta jalur mereka.
+
+  - key: faq.survey_goals_html2024
+    t: Apa tujuan survei ini?
+  - key: faq.survey_goals_html2024.description
+    t: >
+      Tujuan survei ini adalah untuk mengukur tingkat pengetahuan fitur-fitur HTML baru dan API browser, dan membantu para pengembang untuk mengetahui bagaimana penggunaan mereka berubah.
 
   - key: about.content
     t: |
