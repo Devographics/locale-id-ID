@@ -23,7 +23,7 @@ translations:
       Selamat datang ke survei! Bagian pertama ini adalah tentang membagikan pengalaman anda dengan berbagai fitur-fitur platform web:
 
 
-      - **Tidak pernah mendengarnya**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **Tidak pernah mendengarnya**: ini pertama kalinya anda melihatnya  – atau anda pernah mendengarnya namun tidak tahu apa itu. 
 
       - **Pernah mendengarnya**: anda telah membaca atau mempelajarinya, namun tidak pernah memakainya. 
 
@@ -103,7 +103,7 @@ translations:
   ###########################################################################
 
   - key: features.all_features
-    t: All Features
+    t: Semua Fitur
   - key: features.all_features.description
     t: |
       Bagan ini merangkum semua pertanyaan fitur survei ini. Balok-balok utama mewakili pengalaman responden; yang dibagi lagi menurut sentimen sang responden. Anda dapat mengganti pengelompokkan untuk beralih diantara keduanya.
@@ -172,7 +172,7 @@ translations:
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_html2024
-    t: How long will answering the survey take?
+    t: Surveinya akan memakan waktu berapa lama?
   - key: faq.how_long_will_survey_take_html2024.description
     t: >
       Tergantung dari jumlah pertanyaan yang anda jawab (semua pertanyaan bisa dilewati),
