@@ -552,197 +552,6 @@ translations:
     t: |
       Titik sakit #{index}
 
-  # Other Tools
-
-  - key: other_tools.site_generators
-    t: Generator Situs
-  - key: other_tools.site_generators.question
-    t: Dari generator situs statis atau dinamis berikut, manakah yang anda gunakan secara rutin?
-
-  - key: other_tools.ai_tools
-    t: Alat-alat AI
-  - key: other_tools.ai_tools.question
-    t: Alat-alat AI manakah yang anda gunakan secara rutin untuk membantu anda menulis kode?
-
-  - key: other_tools.machine_readable_features
-    aliasFor: features.machine_readable_features
-  - key: other_tools.machine_readable_features.question
-    aliasFor: features.machine_readable_features.question
-
-  - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
-
-  - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
-  - key: other_tools.blast_from_the_past.question
-    t: Pernahkan anda menggunakan salah satu dari elemen-elemen tua berikut?
-  - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
-  - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
-
-  # Usage
-
-  # - key: usage.html_existing_features
-  #   t: Unusable HTML Features
-  # - key: usage.html_existing_features.question
-  #   t: Which existing HTML features are you unable to use?
-  # - key: usage.html_existing_features.description
-  #   t: |
-  #     Existing HTML features that you find yourself recreating using custom components.
-  # - key: usage.html_existing_features.placeholder
-  #   t: |
-  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
-
-  - key: usage.html_interoperability_features
-    t: Kecocokan Antar Browser
-  - key: usage.html_interoperability_features.question
-    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena perbedaan antar browser atau kurangnya dukungan?
-  # - key: usage.html_interoperability_features.description
-  #   t: |
-  #     Any type of API the survey has asked about is within scope.
-  - key: usage.html_interoperability_features.placeholder
-    t: |
-      Fitur #{index}
-
-  - key: usage.html_functionality_features
-    t: Fungsionalitas Yang Terbatas
-  - key: usage.html_functionality_features.question
-    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena alasan lain (dan kenapa)?
-  - key: usage.html_functionality_features.description
-    t: |
-      Fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
-  # - key: usage.html_functionality_features.description
-  #   t: |
-  #     Existing HTML features that you often have to recreate or augment using JS.
-
-  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
-
-  - key: usage.html_functionality_features.placeholder.1
-    t: |
-      Fitur #1 (sulit untuk diberi style)
-  - key: usage.html_functionality_features.placeholder.2
-    t: |
-      Fitur #2 (fungsionalitas terbatas, buruknya aksesibilitas)
-
-  - key: usage.what_do_you_use_html_for
-    t: Penggunaan HTML
-  - key: usage.what_do_you_use_html_for.question
-    t: Untuk apa anda menggunakan HTML?
-  - key: options.what_do_you_use_html_for.blogs
-    aliasFor: options.what_do_you_use_css_for.blogs
-  - key: options.what_do_you_use_html_for.design_systems
-    aliasFor: options.what_do_you_use_css_for.design_systems
-  - key: options.what_do_you_use_html_for.desktop_apps
-    aliasFor: options.what_do_you_use_css_for.desktop_apps
-  - key: options.what_do_you_use_html_for.emails
-    aliasFor: options.what_do_you_use_css_for.emails
-  - key: options.what_do_you_use_html_for.marketing_sites
-    aliasFor: options.what_do_you_use_css_for.marketing_sites
-  - key: options.what_do_you_use_html_for.mobile_apps
-    aliasFor: options.what_do_you_use_css_for.mobile_apps
-  - key: options.what_do_you_use_html_for.printed_documents
-    aliasFor: options.what_do_you_use_css_for.printed_documents
-  - key: options.what_do_you_use_html_for.web_apps
-    aliasFor: options.what_do_you_use_css_for.web_apps
-
-  - key: usage.tools_for_other_developers
-    t: Dampak Terhadap Ekosistem
-  - key: usage.tools_for_other_developers.question
-    t: Selain diri anda sendiri, seberapa banyak pengembang yang menggunakan library, package, komponen, API dll. yang anda buat atau kelola?
-  - key: usage.tools_for_other_developers.description
-    t: |
-      Secara total, jika anda mengerjakan beberapa proyek yang digunakan oleh para pengembang.
-      Jika anda tidak yakin, ambil yang terdekat dengan perkiraan anda.
-      Untuk kode sumber terbuka, jumlah unduhan npm dapat memberikan poin data yang berguna.
-  - key: options.tools_for_other_developers.na
-    t: 🚫 Tidak ada (Hanya saya)
-  - key: options.tools_for_other_developers.a_few
-    t: Beberapa pengembang lainnya (misalnya pengembang dalam sebuah tim kecil)
-  - key: options.tools_for_other_developers.less_than_100
-    t: Kurang dari seratus pegngembang
-  - key: options.tools_for_other_developers.less_than_1000
-    t: Kurang dari seribu pengembang
-  - key: options.tools_for_other_developers.more_than_100
-    t: Ratusan pengembang
-  - key: options.tools_for_other_developers.more_than_1000
-    t: Ribuan pengembang
-  - key: options.tools_for_other_developers.more_than_1000000
-    t: Jutaan pengembang
-
-  - key: usage.html_missing_elements
-    t: Elemen Yang Hilang
-  - key: usage.html_missing_elements.question
-    t: Jika anda dapat menambahkan 3 elemen ke dalam HTML, apa saja kah?
-  # - key: usage.html_missing_elements.description
-  #   t: |
-  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
-
-  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
-
-  - key: options.html_missing_elements.accordion
-    t: Akordion
-  - key: options.html_missing_elements.alert
-    t: Alert
-  - key: options.html_missing_elements.calendar
-    t: Kalender
-  - key: options.html_missing_elements.carousel
-    t: Karousel
-  - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
-  - key: options.html_missing_elements.command_palette
-    t: Palet Perintah
-  - key: options.html_missing_elements.context_menu
-    t: Menu Konteks / Menu Klik-kanan
-  - key: options.html_missing_elements.datatable
-    t: Data table 
-  - key: options.html_missing_elements.datatable_description
-    t: dengan penyortiran, penyaringan, dll.
-  - key: options.html_missing_elements.dropdown_menu
-    t: Menu Dropdown
-  - key: options.html_missing_elements.image_zoom
-    t: Pembesaran Gambar
-  - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
-  - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Pengganti Sementara Saat Memuat
-  - key: options.html_missing_elements.switch
-    t: Switch / Toggle
-  - key: options.html_missing_elements.tabs
-    t: Tab
-  # - key: options.html_missing_elements.toast_message
-  #   t: Toast Message
-  - key: options.html_missing_elements.tooltip
-    t: Tooltip
-  - key: options.html_missing_elements.offcanvas
-    t: Area Luar Kanvas
-  - key: options.html_missing_elements.spinner
-    t: Animasi pemuatan
-  - key: options.html_missing_elements.segmented_button
-    t: Tombol Terpecah
-  - key: options.html_missing_elements.scroll_area
-    t: Pengguliran tak terbatas
-  - key: options.html_missing_elements.icon
-    t: Ikon
-  - key: options.html_missing_elements.star_rating
-    t: Penilaian Bintang
-
-  - key: usage.html_pain_points_freeform
-    t: Titik sakit lainnya
-  - key: usage.html_pain_points_freeform.question
-    t: Ada titik sakit lainnya terkait dengan penggunaan HTML dan teknologi terkait?
-
-  - key: usage.html_css_js_balance
-    t: Keseimbangan HTML/CSS vs JavaScript/TypeScript
-  - key: usage.html_css_js_balance.question
-    t: Bagaimana anda membagi waktu dalam menulis kode HTML/CSS dan JavaScript (atau TypeScript)?
-  - key: options.html_css_js_balance.0
-    t: 100% HTML/CSS
-  - key: options.html_css_js_balance.4
-    t: 50%–50%
-  - key: options.html_css_js_balance.8
-    t: 100% JS
-
   # other features
 
   - key: features.foo_attribute
@@ -897,6 +706,265 @@ translations:
 
   - key: features.client_hints
     t: Petunjuk klien HTTP 
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: other_tools.site_generators
+    t: Generator Situs
+  - key: other_tools.site_generators.question
+    t: Dari generator situs statis atau dinamis berikut, manakah yang anda gunakan secara rutin?
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+
+  - key: other_tools.validation_tools
+    t: Validation Tools
+  - key: other_tools.validation_tools.question
+    t: Which of these validation tools do you regularly use?
+
+  - key: other_tools.ai_tools
+    t: Alat-alat AI
+  - key: other_tools.ai_tools.question
+    t: Alat-alat AI manakah yang anda gunakan secara rutin untuk membantu anda menulis kode?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: other_tools.blast_from_the_past
+    t: Blast from the Past!
+  - key: other_tools.blast_from_the_past.question
+    t: Pernahkan anda menggunakan salah satu dari elemen-elemen tua berikut?
+  - key: other_tools.blast_from_the_past.description
+    t: Blast from the past!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
+
+  - key: other_tools.performance_tools
+    t: Performance Tools
+  - key: other_tools.performance_tools.question
+    t: What tools & services do you use to track and improve the performance of your websites?
+
+  - key: options.performance_tools.browser_devtools
+    t: Browser Devtools
+
+  - key: other_tools.analytics_tools
+    t: Analytics Tools
+  - key: other_tools.analytics_tools.question
+    t: What analytics tools & services do you use to monitor your websites?
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: Kecocokan Antar Browser
+  - key: usage.html_interoperability_features.question
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena perbedaan antar browser atau kurangnya dukungan?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Fitur #{index}
+
+  - key: usage.html_functionality_features
+    t: Fungsionalitas Yang Terbatas
+  - key: usage.html_functionality_features.question
+    t: Fitur-fitur HTML atau API browser manakah yang tidak bisa anda pakai karena alasan lain (dan kenapa)?
+  - key: usage.html_functionality_features.description
+    t: |
+      Fitur-fitur HTML yang anda harus buat ulang atau tambahkan menggunakan JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
+
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Fitur #1 (sulit untuk diberi style)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Fitur #2 (fungsionalitas terbatas, buruknya aksesibilitas)
+
+  - key: usage.html_new_features
+    t: New Features
+  - key: usage.html_new_features.question
+    t: Which of these new and upcoming features are you most excited about?
+
+  - key: usage.what_do_you_use_html_for
+    t: Penggunaan HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: Untuk apa anda menggunakan HTML?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Dampak Terhadap Ekosistem
+  - key: usage.tools_for_other_developers.question
+    t: Selain diri anda sendiri, seberapa banyak pengembang yang menggunakan library, package, komponen, API dll. yang anda buat atau kelola?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Secara total, jika anda mengerjakan beberapa proyek yang digunakan oleh para pengembang.
+      Jika anda tidak yakin, ambil yang terdekat dengan perkiraan anda.
+      Untuk kode sumber terbuka, jumlah unduhan npm dapat memberikan poin data yang berguna.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 Tidak ada (Hanya saya)
+  - key: options.tools_for_other_developers.a_few
+    t: Beberapa pengembang lainnya (misalnya pengembang dalam sebuah tim kecil)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Kurang dari seratus pegngembang
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Kurang dari seribu pengembang
+  - key: options.tools_for_other_developers.more_than_100
+    t: Ratusan pengembang
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Ribuan pengembang
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Jutaan pengembang
+
+  - key: usage.html_missing_elements
+    t: Elemen Yang Hilang
+  - key: usage.html_missing_elements.question
+    t: Jika anda dapat menambahkan 3 elemen ke dalam HTML, apa saja kah?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Akordion
+  - key: options.html_missing_elements.alert
+    t: Alert
+  - key: options.html_missing_elements.calendar
+    t: Kalender
+  - key: options.html_missing_elements.carousel
+    t: Karousel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Palet Perintah
+  - key: options.html_missing_elements.context_menu
+    t: Menu Konteks / Menu Klik-kanan
+  - key: options.html_missing_elements.datatable
+    t: Data table 
+  - key: options.html_missing_elements.datatable_description
+    t: dengan penyortiran, penyaringan, dll.
+  - key: options.html_missing_elements.dropdown_menu
+    t: Menu Dropdown
+  - key: options.html_missing_elements.image_zoom
+    t: Pembesaran Gambar
+  - key: options.html_missing_elements.progress_bar
+    t: Progress Bar
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Pengganti Sementara Saat Memuat
+  - key: options.html_missing_elements.switch
+    t: Switch / Toggle
+  - key: options.html_missing_elements.tabs
+    t: Tab
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Tooltip
+  - key: options.html_missing_elements.offcanvas
+    t: Area Luar Kanvas
+  - key: options.html_missing_elements.spinner
+    t: Animasi pemuatan
+  - key: options.html_missing_elements.segmented_button
+    t: Tombol Terpecah
+  - key: options.html_missing_elements.scroll_area
+    t: Pengguliran tak terbatas
+  - key: options.html_missing_elements.icon
+    t: Ikon
+  - key: options.html_missing_elements.star_rating
+    t: Penilaian Bintang
+
+  - key: usage.html_pain_points_freeform
+    t: Titik sakit lainnya
+  - key: usage.html_pain_points_freeform.question
+    t: Ada titik sakit lainnya terkait dengan penggunaan HTML dan teknologi terkait?
+
+  - key: usage.html_css_js_balance
+    t: Keseimbangan HTML/CSS vs JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: Bagaimana anda membagi waktu dalam menulis kode HTML/CSS dan JavaScript (atau TypeScript)?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.web_platform_resources
+    t: Web Platform Resources
+  - key: resources.web_platform_resources.question
+    t: Which of these resources do you consult to stay informed about web platform features?
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.opinions_intro
+    t: For the following questions, let us know how much you agree with each statement.
+
+  - key: opinions.accessibility_is_valued
+    t: Accessibility
+  - key: opinions.accessibility_is_valued.question
+    t: Accessibility is valued in my workplace or professional environment
+
+  - key: opinions.keeping_informed_is_challenging
+    t: Keeping Informed
+  - key: opinions.keeping_informed_is_challenging.question
+    t: Keeping informed about new web platform features is a challenge
+
+  - key: opinions.browser_interoperability_is_obstacle
+    t: Browser Interoperability
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: The lack of browser interoperability is a major obstacle to web development
+
+  - key: opinions.web_platform_right_direction
+    t: Web Platform
+  - key: opinions.web_platform_right_direction.question
+    t: The web platform is moving in the right direction overall
 
   ###########################################################################
   # Survey Help
