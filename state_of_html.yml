@@ -316,14 +316,14 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Pustaka Web Components 
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: Pernahkah anda menggunakan pustaka Web Components?
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: Fitur-fitur Web Component Lain
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: Yang manakah dari fitur-fitur web component berikut yang pernah anda gunakan?
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -591,7 +591,7 @@ translations:
     t: "atribut `crossorigin`"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: Menggayakan component host (`:host`, `:host()`, `:host-context()`)
 
   - key: features.element_internals
     t: "API `ElementInternals`"
@@ -722,9 +722,9 @@ translations:
     aliasFor: tools_others.browsers.question
 
   - key: other_tools.validation_tools
-    t: Validation Tools
+    t: Alat-alat Validasi
   - key: other_tools.validation_tools.question
-    t: Which of these validation tools do you regularly use?
+    t: Yang manakah dari alat-alat validasi berikut yang anda gunakan secara rutin?
 
   - key: other_tools.ai_tools
     t: Alat-alat AI
@@ -749,17 +749,17 @@ translations:
     t: <span aria-hidden="true">🚫</span> Tidak satupun dari yang di atas
 
   - key: other_tools.performance_tools
-    t: Performance Tools
+    t: Alat-alat Performa
   - key: other_tools.performance_tools.question
-    t: What tools & services do you use to track and improve the performance of your websites?
+    t: Alat-alat dan layanan apa yang anda gunakan untuk melacak dan memperbaiki performa situs-situs web anda?
 
   - key: options.performance_tools.browser_devtools
-    t: Browser Devtools
+    t: Devtools di Browser 
 
   - key: other_tools.analytics_tools
-    t: Analytics Tools
+    t: AAlat-alat analitik
   - key: other_tools.analytics_tools.question
-    t: What analytics tools & services do you use to monitor your websites?
+    t: Alat-alat dan layanan analitik yang anda gunakan untuk memonitor situs-situs web anda?
 
   ###########################################################################
   # Usage
@@ -808,9 +808,9 @@ translations:
       Fitur #2 (fungsionalitas terbatas, buruknya aksesibilitas)
 
   - key: usage.html_new_features
-    t: New Features
+    t: Fitur-fitur baru
   - key: usage.html_new_features.question
-    t: Which of these new and upcoming features are you most excited about?
+    t: Dari fitur-fitur baru berikut, yang mana saja yang anda paling antisipasi?
 
   - key: usage.what_do_you_use_html_for
     t: Penggunaan HTML
@@ -935,36 +935,36 @@ translations:
   ###########################################################################
 
   - key: resources.web_platform_resources
-    t: Web Platform Resources
+    t: Sumber-sumber Platform Web
   - key: resources.web_platform_resources.question
-    t: Which of these resources do you consult to stay informed about web platform features?
+    t: Sumber-sumber manakah yang anda konsultasikan untuk mendapat informasi tentang fitur-fitur di platform web?
 
   ###########################################################################
   # Opinions
   ###########################################################################
 
   - key: opinions.opinions_intro
-    t: For the following questions, let us know how much you agree with each statement.
+    t: Untuk pertanyaan-pertanyaan berikut, beritahu kami seberapa anda setuju dengan masing-masing pernyataan.
 
   - key: opinions.accessibility_is_valued
-    t: Accessibility
+    t: Aksesibilitas
   - key: opinions.accessibility_is_valued.question
-    t: Accessibility is valued in my workplace or professional environment
+    t: Aksesibilitas sangat bernilai di tempat kerja atau lingkungan profesional saya
 
   - key: opinions.keeping_informed_is_challenging
-    t: Keeping Informed
+    t: Mendapat Informasi Ierbaru
   - key: opinions.keeping_informed_is_challenging.question
-    t: Keeping informed about new web platform features is a challenge
+    t: Mendapat Informasi Ierbaru tentang fitur-fitur baru di platform web adalah sebuah tantangan
 
   - key: opinions.browser_interoperability_is_obstacle
-    t: Browser Interoperability
+    t: Interoperabilitas Browser
   - key: opinions.browser_interoperability_is_obstacle.question
-    t: The lack of browser interoperability is a major obstacle to web development
+    t: Kurangnya kecocokan antar browser adalah penghalang besar pengembangan web
 
   - key: opinions.web_platform_right_direction
     t: Web Platform
   - key: opinions.web_platform_right_direction.question
-    t: The web platform is moving in the right direction overall
+    t: Platform web sedang bergerak di arah yang benar secara keseluruhan
 
   ###########################################################################
   # Survey Help
