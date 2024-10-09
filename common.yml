@@ -1569,10 +1569,16 @@ translations:
       data email anda akan dikirim kepada pihak ketiga dan akan dihapus dari data kami.
 
   # how can we improve the survey?
+  - key: user_info.did_you_run_into_technical_issues
+    t: Masalah Teknis
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: Apakah Anda pernah mengalami masalah teknis disaat mengisi survei ini?
+
+  # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Bagaimana cara Kami bisa mengembangkan survei ini?
   - key: user_info.how_can_we_improve.question
-    t: Bagaimana kami dapat meningkatkan survei ini?
+    t: Bagaimana lagi kami dapat meningkatkan survei ini?
   
   ###########################################################################
   # Usage

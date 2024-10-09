@@ -14,19 +14,8 @@ translations:
       Elemen-elemen baru seperti `<selectlist>` sudah di depan mata, fitur-fitur baru yang keren seperti popover,
       dan sekumpulan API-API yang berhubungan dengan browser (Web Components, PWA, dll.).
 
-      Tahun ini, [Lea Verou](https://lea.verou.me/) mengemban tugas yang berat, yaitu memimpin perancangan survei baru ini, dari konten sampai UX dan lain-lainnya.
-
       berdasarkah keberhasilan dari [State of JS](http://stateofjs.com/) dan [State of CSS](https://stateofcss.com/), kami memperkenalkan **State of HTML**;
       satu bagian terakhir yang melengkapi trilogi, jadi kita dapat melacak evolusi plaftorm web secara keseluruhan.
-
-      Manfaatnya untuk anda:
-      - Hasil survei **digunakan oleh browser-browser** dan kelompok-kelompok standard **untuk pengutamaan peta jalur**.
-      Respon anda dapat membantu implementasi fitur yang anda inginkan, ketidakcocokan browser diprioritaskan, dan lubang-lubang lainnya diatasi.
-      - Belajar tentang fitur yang baru dan yang akan datang; tambahkan fitur-fitur ke daftar bacaan dan dapatkan sebuah daftar sumber di akhir survei!
-      - Dapatkan skor pengetahuan yang dipersonalisasi dan bandingkan diri anda dengan responden lainnya
-
-      Survei ini akan dibuka selama 3 minggu, namun respon yang masuk **dalam 9 hari pertama (sampai 1 Oktober)** akan memiliki dampak yang jauh lebih besar untuk Web,
-      karena data awal akan digunakan untuk usaha-usaha prioritisasi yang memiliki deadlines sebelum itu.
 
   - key: general.state_of_html.description
     t: Survei pengembang tahunan tentang platform web
