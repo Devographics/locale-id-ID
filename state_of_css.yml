@@ -841,7 +841,7 @@ translations:
     t: Apakah Anda menulis CSS untuk klien email?
 
   - key: environments.what_do_you_use_css_for
-    t: Untuk apakah Anda menggunakan CSS?
+    t: Pemakaian CSS
   - key: environments.what_do_you_use_css_for.question
     t: Anda menggunakan CSS untuk jenis proyek seperti apa?
   - key: environments.what_do_you_use_css_for.others
