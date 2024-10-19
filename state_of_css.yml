@@ -416,6 +416,12 @@ translations:
   - key: features.animations
     t: Animasi CSS
 
+  - key: features.discrete_properties_animations
+    t: Animasi Properti Diskret
+
+  - key: features.discrete_properties_animations.description
+    t: Membuat animasi masuk dan keluar dengan mudah untuk elemen yang bisa ditutup seperti dialog popover.
+
   # media queries/accessibility
   - key: features.tabindex
     t: "Atribut HTML `tabindex`"

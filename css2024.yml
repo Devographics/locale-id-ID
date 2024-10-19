@@ -4,12 +4,6 @@ translations:
   # General
   ###########################################################################
 
-  - key: features.discrete_properties_animations
-    t: foobar
-
-  - key: features.discrete_properties_animations.description
-    t: baz123
-
   - key: general.results.description
     t: Edisi 2024 dari survei tahunan tentang tren-tren terkini dalam ekosistem CSS.
 
@@ -107,12 +101,6 @@ translations:
 
   - key: sections.css_frameworks.description.css2024
     t: |
-      Sekali lagi, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
-
-  - key: sections.css_in_js.description.css2024
-    t: |
-      After some initial growth, it seems like the CSS-in-JS sector has plateaued, and
-      the fact that native CSS itself is adopting many of its main advantages is probably a big contributing factor.
 
   - key: sections.other_tools.description.css2024
     t: |
@@ -553,15 +541,9 @@ translations:
 
       ### Audiens Survei
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Survei terbuka ini dapat diakses secara daring dan para responden tidak disaring atau dipilih dengan cara apa pun. Para responden kebanyakan merupakan campurang responden dari survei-survei sebelumnya (yang diberitahu lewat sebuah milis khusus) dan lalu lintas media sosial. 
 
       ### Pendanaan Proyek 
-
-      Pendanaan proyek ini datang dari beberapa sumber:
-
-      - **Penjualan kaos**. 
-
-      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
 
       - **Bagan yang disponsori**: dimulai dari tahun lalu, semua orang dapat memilih untuk mensponsori sebuah bagan untuk $10 atau lebih. Avatar Twitter sponsor tersebut akan ditampilkan di samping bagan tersebut.
 
@@ -569,6 +551,7 @@ translations:
 
       - **Nijibox**: [Nijibox](https://nijibox.jp/) dari Jepang juga telah setuju untuk mensponsori usaha saya untuk membuat survei ini lebih berkelanjutan. 
 
+      - [TokyoDev](https://www.tokyodev.com/) juga mensponsori survei ini secara berkelanjutan. 
 
       ### Ikhtisar Teknis
 
