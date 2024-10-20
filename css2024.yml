@@ -96,8 +96,7 @@ translations:
 
   - key: sections.features.description.css2024
     t: |
-      CSS telah banyak berkembang akhir-akhir ini, dan banyak dari fitur-fitur baru yang diperkenalkan
-      perlahan-lahan mulai diadopsi oleh para pengembang.
+      Bukan sebuah rahasia bahwa CSS sedang menambah fitur-fitur pada tingkat yang sangat cepat – yang adalah kenapa ada lebih dari *50* pertanyaan tentang mereka tahun ini!
 
   - key: sections.css_frameworks.description.css2024
     t: |
@@ -122,182 +121,181 @@ translations:
 
   - key: user_info.country.takeaway.css2024
     t: >
-      While the U.S. still represented the largest single demographic, we were still happy to see a good mix of countries among the rest of our respondents – although Asia sadly continues to be under-represented.
+      Sementara A.S. masih mewakili demografik terbesar, kami masih senang melihat negara-negara lain di antara responden – meskipun Asia sayangnya masih terus kurang terwakili.
 
   - key: user_info.locale.takeaway.css2024
     t: >
-      Many thanks to our volunteer translators for making the surveys available in so many different languages!
+      Terima kasih banyak kepada para relawan penerjemah untuk membuat survei-survei ini tersedia dalam banyak sekali bahasa!
 
   - key: user_info.completion_stats.takeaway.css2024
     t: >
-      Despite the survey's length, an overwhelming majority of respondents took the time to complete it from start to finish!
+      Meskipun survei yang agak panjang, sebagian besar para responden mengambil waktu untuk mengisinya dari awal sampai akhir!
 
   - key: user_info.age.takeaway.css2024
     t: >
-      CSS isn't doing great among Gen Alpha respondents, possibly because they're too busy playing Fortnite. 
+      CSS sedang tidak disukai di antara para responden Gen Alpha, mungkin karena mereka terlalu sibuk main Fortnite. 
 
-      Wait, Fortnite is still a thing right…?
+      Tunggu, masih pada main Fortnite kan…?
 
   - key: user_info.years_of_experience.takeaway.css2024
     t: >
-      This chart reveals that most respondents were lucky enough to never have to deal with `float`-based positioning.
+      Bagan ini mengungkap bahwa sebagian besar responden cukup beruntung untuk tidak pernah berurusan dengan pemosisian berbasis `float`.
 
   - key: user_info.company_size.takeaway.css2024
     t: >
-      The larger the company, the higher the salary. Although if you're good enough, our data shows that you can earn a decent living no matter your company's size.
+      Semakin besar perusahaan, semakin besar gajinya. Namun jika anda cukup baik, data kami menunjukkan bahwa anda bisa mendapatkan gaji yang pantas tak peduli seberapa besar perusahaan anda.
 
   - key: user_info.yearly_salary.takeaway.css2024
     t: >
-      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+      Sementara kita sering mendengar cerita gaji enam digit di Silicon Valley, kenyataannya sebagian besar pengembang front-end di dunia memiliki gaji yang jauh lebih sedikit, yang menjadi jelas ketika membandingkan A.S. dan sisa seluruh dunia.
 
   - key: user_info.higher_education_degree.takeaway.css2024
     t: >
-      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming – a good sign for the many among us who discovered a passion for web development further along in life.
+      Sementara mendapatkan sebuah gelar memastikan penambahan gaji anda, ternyata gelarnya tidak harus terkait dengan programming – sebuah tanda yang bagus bagi kita yang menemukan gairah untuk pengembangan web di kemudian hari.
 
   - key: user_info.gender.takeaway.css2024
     t: >
-      Canada, Spain, the U.K., and the U.S. had the highest proportion of women respondents. 
+      Kanada, Spanyol, Inggris Raya, dan A.S. memiliki proporsi terbesar responden wanita. 
 
-      Our data also shows women's income to be lagging compared to other groups. While the reasons behind this are beyond the scope of this report, it’s clear that women in our industry do face some unique challenges.
+      Data kamu juga menunjukkan bahwa pendapatan wanita kurang dibandingkan yang lain. Sementara alasan-alasannya berada di luar jangkauan laporan ini, jelas bahwa para wanita di industri kita menghadapi tantangan unik.
 
   - key: user_info.race_ethnicity.takeaway.css2024
     t: >
-      Non-white respondents were more likely to be younger and have less experience – which hopefully points to a ongoing diversification of the industry.
+      Responden non-kulit putih berkemungkinan lebih muda dan memiliki pengalaman yang lebih sedikit – yang harapannya menunjukkan pemeragaraman yang sedang berjalan di industri.
 
   - key: user_info.disability_status.takeaway.css2024
     t: >
-      Thanks to the continued efforts of accessibility advocates, we now accept the fact that disabilities (permanent or not) should be taken into account as part of the design & development process.
+      Berkat upaya yang berlanjut dari para pendukung aksesibilitas, kita menerima fakta bahwa kelainan (permanen atau tidak) harus diperhitungkan sebagai bagian proses perancangan & pengembangan.
 
   - key: user_info.source.takeaway.css2024
     t: >
-      While most respondents knew about the survey from previous years, Kevin Powell also sent a large chunk of survey takers our way.
+      Sementara sebagian besar responden tahu tentang survei ini dari tahun-tahun sebelumnya, sebagian besar pengisi survei tahu dari Kevin Powell.
 
   # features
 
   - key: features.all_features
-    t: Features
+    t: Fitur-fitur
 
   - key: features.all_features.takeaway.css2024
     t: >
-      Filter Effects (`blur()`, `contrast()`, etc.) were the unexpected most-used CSS feature of 2024, with 75.4% of respondents having used them; with the `:has()` selector a close second with 72.8%. 
+      Efek-efek filter (`blur()`, `contrast()`, dll.) adalah fitur CSS yang paling banyak digunakan dalam 2024, dengan 75.4% responden yang pernah memakainya; dengan selektor `:has()` di posisi kedua dengan 72.8%. 
 
-      When ranking for sentiment on the other hand, Subgrid turned out to be the most loved feature, with 51.5% of respondents willing to use it again.
+      Sementara untuk ranking sentimen, Subgrid ternyata merupakan fitur paling disenangi, dengan 51.5% responden ingin menggunakannya kembali.
 
-      The least-used feature? None other than `hanging-punctuation`, with 84.7% of respondents never having even heard about it!
+      Fitur yang paling jarang digunakan? tidak lain adalah `hanging-punctuation`, dengan 84.7% para responden yang bahkan tidak pernah mendengarnya!
 
   - key: features.reading_list.takeaway.css2024
     t: >
-      The Reading List lets you save items you want to learn more about after the survey is complete. 
+      Daftar Baca memungkinkan anda menyimpan item yang anda ingin pelajari lebih lanjut setelah survei selesai. 
 
-      So it's no coincidence that the least-known-about feature, `hanging-punctuation`, also tops our Reading List rankings as the item developers saved the most!
+      Jadi bukan sebuah kebetulan bahwa fitur yang paling tidak diketahui, `hanging-punctuation`, juga menjadi item paling banyak ditambahkan ke dalam daftar baca!
 
   # tools
 
   - key: tools.css_frameworks.takeaway.css2024
     t: >
-      When it comes to CSS frameworks & UI libraries, Tailwind CSS continues to forge its own path far ahead of other, more traditional competitors.
+      Ketika berbicara tentang framework CSS & pustaka UI, Tailwind CSS masih to forge its own path far di depan kompetitor lain, yang lebih tradisional.
 
   - key: tools.css_in_js.takeaway.css2024
     t: >
-      While some of CSS-in-JS's appeal might've been made obsolete by newer CSS features such as variables, recent innovations like typed styles and build-time compilation show that the space still has a lot to offer.
+      Sementara sebagian dari daya tarik CSS-in-JS telah dibuat usang oleh fitur-fitur CSS baru seperti variabel, berbagai inovasi baru seperti typed styles dan kompilasi build-time menunjukkan bahwa masih banyak yang ditawarkan di sini.
 
   - key: tools.pre_post_processors.takeaway.css2024
     t: >
-      Sass/SCSS is still the leader here, but it'll be interesting to see if its usage will remain stable now that many of its key features have been absorbed by CSS itself.
+      Sass/SCSS masih memimpin di sini, namun akan menarik untuk melihat jika penggunaannya tetap stabil mengingat banyak fitur-fitur kunci telah diserap oleh CSS.
 
   - key: tools.utilities.takeaway.css2024
     t: >
-      There is no shortage of ways to format, minify, and otherwise tweak your CSS code to your liking.
+      Banyak sekali cara untuk memformat, minifikasi, dan menyesuaikan kode CSS sesuka hati anda.
 
   - key: tools.browsers.takeaway.css2024
     t: >
-      While the big four browsers dominate this chart, Arc is slowly creeping up the browser rankings, going from 7.8% to 12% usage year over year.
+      Sementara empat browser besar mendominasi bagan ini, Arc perlahan mulai mendaki browser rankings, dimana tingkat pengunaannya naik dari 7.8% menjadi 12% tahun per tahun.
 
   # usage
 
   - key: usage.form_factors.takeaway.css2024
     t: >
-      An encouraging sign of accessibility's growing importance, screen reader testing has gone up from 16.6% to 19% year-over-year.
+      Sebuah tanda naiknya kepentingan aksesibilitas, pengujian pembaca layar telah naik dari 16.6% menjadi 19% tahun per tahun.
 
   - key: usage.what_do_you_use_css_for.takeaway.css2024
     t: >
-      While this data is unsurprising, it's a nice reminder that CSS can do a lot more than format webpages.
+      Sementara data ini tidak mengejutkan, adalah sebuah pengingat bagus bahwa CSS dapat melakukan jauh lebih banyak dari sekedar memberi format halaman web.
 
   - key: usage.industry_sector.takeaway.css2024
     t: >
-      Did you know you can filter this survey's data by Industry Sector? Just click "Add Filters…" on any other chart!
+      Tahukah anda bahwa anda dapat menyaring data survei ini menurut Sektor Industri? Klik "Tambahkan Filter…" di bagan lain manapun!
 
   - key: usage.usage_type.takeaway.css2024
     t: >
-      Whether you build websites profesionally or just dabble, there's no wrong way to use CSS!
+      Tak peduli anda membuat situs web secara profesional atau hanya bermain-main, tidak ada cara yang salah untuk memakai CSS!
 
   - key: usage.design_methodology.takeaway.css2024
     t: >
-      While a large majority of respondents use CSS to implement pre-existing designs, it'll be interesting to see if this changes as design apps evolve, and AI tools become capable of going straight from idea to code.
+      Sementara sebagian besar responden menggunakan CSS untuk mengimplementasikan rancangan yang sudah ada, akan menarik untuk melihat jika ini akan berubah seiring berkembangnya aplikasi desain, dan alat-alat AI yang sudah mampu mengubah ide menjadi kode.
 
   - key: usage.css_js_balance.takeaway.css2024
     t: >
-      Even in the context of a CSS survey, it turns out a majority of respondents still spend most of their time in the JavaScript ecosystem. Only time will tell if this too will shift now that CSS is becoming more capable.
+      Bahkan dalam konteks survei CSS, ternyata sebagian besar responden masih menggunakan sebagian besar waktu mereka dalam ekosistem JavaScript. Hanya waktu yang bsia menjawab jika ini juga akan berubah mengingat CSS sekarang menjadi lebih mampu.
 
   - key: usage.css_interoperability_features.takeaway.css2024
     t: >
-      There are few worse feelings that knowing a new feature will solve your issue perfectly, yet not being able to use it because of poor browser support. 
+      Ada sedikit perasaan yang lebih buruk daripada mengetahui sebuah fitur dapat memecahkan masalah anda dengan sempurna, namun tidak bisa menggunakannya karena dukungan browser yang buruk. 
 
 
-      This is the case with Anchor Positioning, a promising new feature that is sadly not yet broadly supported.
+      Ini adalah kasus dari Anchor Positioning, sebuah fitur baru yang menjanjikan yang sayangnya belum didukung secara luas.
 
 
-      Container Queries on the other hand *are* [available at a baseline level](https://web.dev/blog/cq-stable) and ready to be used, despite showing up in many respondent's answers!
+      Di sisi lain, Container Query *sudah* [tersedia di tingkat dasar](https://web.dev/blog/cq-stable) dan siap untuk dipakai, meskipun banyak muncul dalam jawaban para responden!
 
   - key: usage.css_missing_features.takeaway.css2024
     t: >
-      In the absence of a magic wand that lets us conjure up any CSS feature we can dream of, the best we can hope for is that this data can help push browser vendors in the right direction!
+      Karena tidak ada tongkat ajaib yang memungkinkan kita membuat fitur CSS apapun yang dapat kita impikan, hal terbaik yang dapat kita harapkan adalah data ini dapat membantu mendorong para vendor browser ke arah yang benar!
 
 
-      The good news: conditional logic, mixins, and masonry layouts are all currently being worked on in some form or another!
+      Kabar baiknya: logika kondisional, mixin, dan tata letak masonry semuanya sedang dalam tahap pengerjaan!
 
   - key: usage.css_pain_points.takeaway.css2024
     t: >
-      While browser support remains the eternal CSS pain point, Tailwind CSS is also proving to be a source of frustration for some – while others complain that it's not used enough!
+      Sementara dukungan browser tetap menjadi titik sakit CSS abadi, Tailwind CSS terbukti menjadi sumber kekecewaan bagi beberapa orang – sementara yang lain mengeluh bahwa Tailwind tidak cukup digunakan!
 
   - key: usage.favorite_new_features.takeaway.css2024
     t: >
-      Long-awaited feature, sensible implementation, good browser support: `:has()` has it all, and tops the rankings of the best new CSS feature of 2024!
+      Fitur yang ditunggu-tunggu, implementasi yang masuk akal, dukungan browser yang baik: `:has()` punya semuanya, dan mengambil peringkat teratas dari fitur CSS terbaik tahun 2024!
 
   - key: usage.state_of_the_web_happiness.takeaway.css2024
     t: >
-      While we do love to complain about the state of thigns, it turns out happiness levels have remained surprisingly constent over the years.
+      Sementara kita senang mengeluh tentang keadaan berbagai hal, ternyata tingkat kebahagiaan tetap konstan selama bertahun-tahun.
 
   - key: usage.state_of_css_happiness.takeaway.css2024
     t: >
-      We are even seeing a slight uptick when it comes to CSS specifically, proof that the hard work by browser vendors, working groups, and the CSS community at large is not going unnoticed!
+      Kita bahkan melihat sedikit kenaikan ketika membicarakan CSS secara spesifik, bukti bahwa kerja keras dari para vendor browser, kelompok kerja, dan komunitas CSS pada umumnya tidak luput dari perhatian!
 
   # resources
 
   - key: resources.blogs_news_magazines.takeaway.css2024
     t: >
-      Despite CSS-Tricks going through a change of ownership over the last few years, it's managed to hold onto its number one ranking when it comes to CSS blogs.
+      Meskipun CSS-Tricks berganti kepemilikan beberapa tahun terakhir, situs web ini masih menjadi nomor satu dalam blog CSS.
 
   - key: resources.courses.takeaway.css2024
     t: >
-      Free resources like MDN and YouTube videos are essential tools for learning CSS, but it's also worth pointing out Josh Comeau's excellent material.
+      Sumber-sumber gratis seperti MDN dan video YouTube adalah alat-alat yang esensial untuk pembelajaran CSS, namun perlu juga menyebutkan materi Josh Comeau yang bagus.
 
   - key: resources.podcasts.takeaway.css2024
     t: >
-      Syntax may retain its top spot for now, but Web Standards and The CSS Podcast show that you can be quite successful by addressing a specific language or topic.
+      Syntax mungkin menjadi yang teratas untuk sekarang, namun Web Standards dan The CSS Podcast menunjukkan bahwa anda dapat menjadi cukup sukses dengan membahas sebuah bahasa atau topik spesifik.
 
   - key: resources.video_creators.takeaway.css2024
     t: >
-      Kevin Powell shows once again that when it comes to CSS on YouTube, nobody else can quite match his reach and popularity.
+      Kevin Powell menunjukkan sekali lagi bahwa ketika membicarakan CSS di YouTube, tidak ada orang yang dapat menandingi jangkauan dan popularitasnya.
 
   - key: resources.people.takeaway.css2024
     t: >
-      While Kevin takes the lead here once more, it's nice to see Adam, Una, Josh, and Lea's work recognized by the community!
+      Sementara Kevin kembali menjadi yang teratas di sini, senang melihat pekerjaan Adam, Una, Josh, dan Lea diakui oleh komunitas!
 
   - key: resources.other_surveys.takeaway.css2024
     t: >
-      You won't be surprised to hear that we consider surveys an essential learning tool – and for that reason we're always on the lookout for new competit… I mean, friends!
-
+      Anda tidak akan kaget mendengar bahwa kami menganggap survei sebagai alat belajar yang esensial – dan karena itu kami selalu mengamati kompetitor ba… Maksudnya, teman!
 
   ###########################################################################
   # Awards
@@ -305,15 +303,15 @@ translations:
 
   - key: award.most_used_feature_award.comment
     t: |
-      **Filter effects** have been around for a while, and they are still as useful as ever!
+      **Efek filter** telah ada sejak lama, dan masih sangat berguna!
 
   - key: award.least_used_feature_award.comment
     t: |
-      `hanging-punctuation` wins the prize for being the most unknown CSS feature!
+      `hanging-punctuation` memenangkan hadiah untuk menjadi fitur CSS paling tidak diketahui!
 
   - key: award.most_loved_feature_award.comment
     t: |
-      With {value}% of respondents having a positive impression of **Subgrid**, it takes the top spot in our rankings.
+      Dengan {value}% responden memiliki opini positif tentang **Subgrid**, ini menjadi yang teratas dalam ranking.
 
   - key: award.most_commented_feature_award.comment
     t: |
@@ -326,20 +324,25 @@ translations:
   - key: conclusion.css2024.ahmad_shadeed
     t: |
 
-      <span class="first-line">Over the past two years, CSS has evolved so much</span> that keeping up with all the new features feels like a full-time job. This means there are many topics and ideas to explore and experiment with.
+      <span class="first-line">Selama dua tahun terakhir, CSS telah banyak berevolusi</span> sampai-sampai mengikuti perkembangan fitur-fitur baru terasa seperti pekerjaan penuh waktu. Ini berarti ada banyak topik dan ide untuk dijelajahi dan dieksperimentasikan.
 
-      For example, after being requested for years CSS `:has()` turned out to be one of the most powerful additions to CSS and significantly reduced the need for JavaScript. To me, it’s comparable to the transition from using CSS floats to Flexbox, which allowed us to create nearly any layout we could imagine.
+      Contohnya, setelah diminta selama bertahun-tahun CSS `:has()` menjadi salah satu tambahan paling powerful ke CSS dan mengurangi kebutuhan akan JavaScript secara signifikan. Bagi saya, ini dapat dibandingkan dengan transisi dari menggunakan CSS float ke Flexbox, yang memungkinkan kita membuat tata letak apapun yang dapat dibayangkan.
 
-      CSS **container size and style queries** are also game-changers for building components that need to work in different contexts. Currently, only size container queries have full support across all major browsers, though their adoption remains limited.
+      CSS **container size dan style query** juga revolusioner untuk membuat komponen yang harus bekerja dalam konteks yang berbeda. Saat ini, hanya size container query yang memiliki dukungan penuh di antara semua browser besar, meskipun pengunaannya masih terbatas.
 
-      Looking ahead to 2025, I hope to see wider usage of size container queries, full browser support for **scroll-driven animations**, style queries, and **anchor positioning**. What more could we ask for?
+      Melihat ke depan menuju 2025, Saya harap saya dapat melihat penggunaan size container query yang bertambah, dukungan browser penuh untuk **animasi berbasis gulir**, style query, dan **anchor positioning**. Apa lagi yang bisa kita minta?
 
   - key: conclusion.css2024.ahmad_shadeed.bio
-    t: Design Engineer and author of [Debugging CSS](https://debuggingcss.com/)
+    t: Design Engineer dan penulis [Debugging CSS](https://debuggingcss.com/)
 
   ###########################################################################
   # Picks
   ###########################################################################
+
+  - key: picks.my_pick
+    t: "Pilihan 2024 Saya: "
+  - key: picks.intro
+    t: Kami meminta beberapa perwakilan dari komunitas CSS untuk membagikan “pilihan tahun ini” mereka
 
   - key: picks.chris_coyier.name
     t: Google's CSS Contributions
@@ -348,6 +351,9 @@ translations:
   - key: picks.chris_coyier.description
     t: |
       It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins — and they are all doing big cool stuff publicly mostly.
+
+
+      *Note: fantasai now works at Apple.*
 
   - key: picks.temani_afif.name
     t: |
@@ -451,7 +457,7 @@ translations:
     t: "Question 01"
   - key: quiz.quiz_dave_shea.question
     t: >
-      In May 2003, Dave Shea launched a site that showcased CSS's flexibility and adaptability. What was that site's name?
+      Pada Mei 2003, Dave Shea meluncurkan sebuah situs web yang menunjukan fleksibilitas dan kemampuan beradaptasi CSS. Apa nama situs web tersebut?
   - key: options.quiz_dave_shea.css_playground
     t: CSS Playground
   - key: options.quiz_dave_shea.style_jungle
@@ -460,7 +466,7 @@ translations:
     t: CSS Zen Garden
   - key: quiz.quiz_dave_shea.answer
     t: >
-      [CSS Zen Garden](https://www.csszengarden.com/) made a big impression by demonstrating what was possible when you kept markup and styling separate.
+      [CSS Zen Garden](https://www.csszengarden.com/) membuat kesan yang besar dengan mendemonstrasikan apa yang dapat dilakukan ketika anda memisahkan markup dan penggayaan.
   - key: quiz.quiz_dave_shea.description
     aliasFor: quiz.quiz_dave_shea.question
 
@@ -468,7 +474,7 @@ translations:
     t: "Question 02"
   - key: quiz.quiz_css_spec.question
     t: >
-      Which of these organizations maintains the CSS specification?
+      Yang manakah dari organisasi berikut yang memelihara spesifikasi CSS?
   - key: options.quiz_css_spec.w3c
     t: W3C
   - key: options.quiz_css_spec.w3schools
@@ -477,7 +483,7 @@ translations:
     t: MDN
   - key: quiz.quiz_css_spec.answer
     t: >
-      The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
+      [CSS Working Group](https://www.w3.org/groups/wg/css) dari W3C memielihara spec CSS, yang kemudian diimplementasikan oleh para vendor browser.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
 
@@ -486,49 +492,51 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Tambah keterampilan anda dengan kursus rekayasa front-end yang mendalam dan modern.
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Browser untuk para pengembang ambisius. Bangun situs web resposif, aksesibel dan cepat dengan mudah.
   - key: sponsors.nijibox.description
-    t: UX and Product Development consulting in the heart of Tokyo.
+    t: Konsultasi UX dan Pengembangan Produk di jantung Tokyo.
   - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
+    t: Konferensi teknologi terbesar dengan sebuah bagian khusus Design & CSS.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome untuk dukungannya untuk pekerjaan kami.
+  - key: sponsors.tokyodev.description
+    t: Temukan pekerjaan pengembang impian anda di Jepang hari ini.
 
   ###########################################################################
   # FAQ/About
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_css2024
-    t: How long will answering the survey take?
+    t: Mengisi survei akan memakan waktu berapa lama?
   - key: faq.how_long_will_survey_take_css2024.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 15-20 minutes.
+      Tergantung berapa banyak pertanyaan yang anda jawab (semua pertanyaan dapat dilewati),
+      menyelesaikan survei akan memakan waktu sekitar 15-20 menit.
 
   - key: faq.learn_more_css2024
-    t: Where can I learn more?
+    t: Dimana saya dapat mempelajari lebih lanjut?
   - key: faq.learn_more_css2024.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+    t: Anda dapat mempalajari lebih banyak tentang survei ini dalam [post pengumuman kami](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
 
   - key: faq.survey_design_css2024
-    t: How was this survey designed?
+    t: Bagaimana survei ini dirancang?
   - key: faq.survey_design_css2024.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/245) involving browser vendors and the web development community.
+      Survei ini dirancang sebagai hasil dari [proses perancangan terbuka](https://github.com/Devographics/surveys/issues/245) yang melibatkan para vendor browser dan komunitas pengembangan web.
 
   - key: faq.results_released_css2024
-    t: When will the results be released?
+    t: Kapan hasilnya akan dirilis?
   - key: faq.results_released_css2024.description
-    t: The survey will run from August 17 to September 7, 2024, and the survey results will be released shortly after.
+    t: Survei ini akan berjalan dari 17 Agustus sampai 7 September 2024, dan hasil survei akan dibagikan segera setelahnya.
 
   - key: about.content
     t: >
-      The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants. 
+      Survei State of CSS 2023 berjalan dari 17 Agustus sampai 12 September 2024, dan mendapatkan 9,704 respons. Survei ini dijalankan oleh [Devographics](https://www.devographics.com/), dengan bantuan dari sebuah tim yang terdiri dari para kontributor dan konsultan sumber terbuka. 
 
 
-      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos State of CSS dirancang dan dianimasikan oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
 
       ### Tujuan Survei
