@@ -103,6 +103,13 @@ translations:
   - key: general.numeric_input.invalid_input
     t: Tolong pastikan anda memasukkan sebuah angka yang valid.
 
+  - key: general.numeric_input.unit.years
+    t: years
+  - key: general.numeric_input.unit.years_old
+    t: years old
+  - key: general.numeric_input.unit.hours
+    t: hours
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
@@ -367,6 +374,7 @@ translations:
 
       Dengan begitu, mari kita lihat sejauh mana CSS telah berevolusi pada 2023!
 
+  # Intro for actual survey page
   - key: general.html2023.survey_intro
     t: |
       Sementara para pengembang web cenderung berfokus pada JavaScript dan CSS, tapi semua itu tidak akan mungkin tanpa HTML yang berfunsi sebagai pondasinya.
@@ -379,9 +387,15 @@ translations:
 
       Dimulai dari kesuksesan [State of JS](http://stateofjs.com/) dan [State of CSS](https://stateofcss.com/), Kami persembahkan State of HTML;
       potongan terakhir yang hilang yang akan melengkapi trilogi platform web Kami, jadi Kami dapat mengikuti evolusi dari platform web secara keseluruhan.
-      Seperti biasa, respon di sini membantu para vendor browser untuk dapat memprioritaskan pekerjaan mereka menuju kompabilitas yang lebih baik,
-      jadi dengan menjawab survei ini Anda bisa mendapat timbal balik sebesar 10 kali lipat.
 
+      Benefits to you:
+      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
+      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
+      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
+      - Get a personalized knowledge score and see how you compare to other respondents
+
+      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
+      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
 
   - key: general.react2023.survey_intro
     t: |
@@ -545,50 +559,6 @@ translations:
     t: Kapan hasilnya akan dirilis?
   - key: faq.results_released_html2023.description
     t: Survei ini akan berjalan dari 19 September hingga 10 Oktober, dan hasil surveinya akan dipublikasi tidak lama setelahnya.
-
- # React 2023
-
-  - key: faq.data_used_react2023 
-    t: Bagaimana data ini akan digunakan?
-  - key: faq.data_used_react2023.description
-    t: >
-      Semua data yang diambil akan disediakan secara umum. Para pengembang atau perusahaan dapat menggunakannya untuk memfokuskan area dan menginformasikan peta jalur mereka.
-
-
-  - key: faq.survey_goals_react2023
-    t: Apa tujuan survei ini?
-  - key: faq.survey_goals_react2023.description
-    t: >
-      Tujuan survei ini adalah untuk mengukur tingkat kepopuleran dan kesadaran dari API React, dan juga berbagai library dalam ekosistem React.
-
-  - key: faq.who_should_take_survey_react2023
-    t: Siapa yang harus mengikuti survei ini?
-  - key: faq.who_should_take_survey_react2023.description
-    t: >
-      Ini adalah survei terbuka bagi siapapun yang menggunakan React, sering maupun jarang, sebagai bagian dari pekerjaan, sebagai seorang pelajar, atau hanya untuk bersenang-senang!
-
-  - key: faq.how_long_will_survey_take_react2023
-    t: Berapa lama durasi survei ini?
-  - key: faq.how_long_will_survey_take_react2023.description
-    t: >
-      Tergantung dari berapa pertanyaan yang anda jawab (semua pertanyaan bersifat opsional),
-      mengisi survei ini seharusnya memakan waktu sekitar 15-20 menit.
-
-  - key: faq.learn_more_react2023
-    t: Dimana saya bisa mempelajari lebih lanjut?
-  - key: faq.learn_more_react2023.description
-    t: Anda dapat mempelajari tentang survei ini lebih lanjut di [kiriman pengumuman kami](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
-
-  - key: faq.survey_design_react2023
-    t: Bagaimana survei ini dirancang?
-  - key: faq.survey_design_react2023.description
-    t: >
-      Survei ini dirancang dengan input dari komunitas lewat sebuah [thread umpan balik terbuka](https://github.com/Devographics/surveys/issues/85).
-
-  - key: faq.results_released_react2023
-    t: Kapan hasil survei ini dirilis?
-  - key: faq.results_released_react2023.description
-    t: Survei ini akan berjalan dari 27 Oktober sampai 15 November, dan hasil surveinya akan dirilis tidak lama setelahnya.
 
   # JS 2023
 
