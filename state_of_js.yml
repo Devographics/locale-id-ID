@@ -950,14 +950,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: Alat-alat AI
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Dari alat-alat AI berikut, yang manakah yang anda sering pakai untuk membantu anda menulis kode?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Layanan Hosting
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Layanan hosting manakah yang pernah anda pakai untuk aplikasi JavaScript?
 
   ###########################################################################
