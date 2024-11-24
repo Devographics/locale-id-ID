@@ -305,9 +305,9 @@ translations:
     t: Membandingkan Pola
   - key: options.currently_missing_from_js.pattern_matching.description
     t: Sebuah keyword `match` baru untuk membandingkan pola objek.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Operator Pipa
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: Sebuah operator `|>` baru untuk memberikan hasil fungsi ke fungsi lainnya.
   - key: options.currently_missing_from_js.decorators
     t: Dekorator
@@ -342,10 +342,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -379,7 +379,7 @@ translations:
     t: Dekorator
   - key: options.top_currently_missing_from_js.multithreading
     t: Multithread
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: Operator Pipa
   - key: options.top_currently_missing_from_js.native_observables
     t: Observable Bawaan
@@ -598,7 +598,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
