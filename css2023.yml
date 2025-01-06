@@ -194,7 +194,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2023
+  - key: conclusion.css2023.chen_hui_jing
     t: |
       <span class="first-line">Seiring penggunaan fitur CSS baru semakin tinggi, penggunaan framework CSS semakin menurun.</span>
 
@@ -208,7 +208,7 @@ translations:
 
       Namun seperti yang disebutkan [Lea Verou](https://lea.verou.me/) tahun lalu, dengan berbagai inisiatif seperti [Interop](https://wpt.fyi/interop-2023) yang menyatukan browser-browser, fitur-fitur yang dianggap tidak mungkin awalnya sekarang bisa menjadi realita!
 
-  - key: conclusion.css2023.bio
+  - key: conclusion.css2023.chen_hui_jing.bio
     t: Developer Experience Engineer @ Interledger Foundation
 
   ###########################################################################

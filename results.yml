@@ -437,7 +437,7 @@ translations:
   ###########################################################################
 
   - key: tools.all_items.experience
-    t: Pengalaman & Sentimen Pustaka 
+    t: Pengalaman & Sentimen Pustaka
 
   - key: tools.all_items.experience.short
     aliasFor: tools.experience
@@ -1042,7 +1042,7 @@ translations:
   - key: share.site.title
     t: Dapatkan hasil {siteTitle}
   - key: share.site.twitter_text
-    t: "Dapatkan hasil {siteTitle} {link} {hashtag}"
+    t: "Dapatkan hasil {siteTitle} {link}"
   - key: share.site.subject
     t: "Hasil Survei {siteTitle}"
   - key: share.site.body
@@ -1792,7 +1792,7 @@ translations:
       **{value}** nilai mean (rata-rata)
   - key: charts.metadata.median
     t: >
-      **{value}** nilai median 
+      **{value}** nilai median
 
   ###########################################################################
   # Multi Items Experience Chart

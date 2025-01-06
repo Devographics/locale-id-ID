@@ -112,9 +112,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: Alat yang digunakan untuk mengatur monorepo JavaScript.
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Alat lainnya
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Alat JavaScript lainnya
 
   - key: sections.other_tools.title
@@ -305,9 +305,9 @@ translations:
     t: Membandingkan Pola
   - key: options.currently_missing_from_js.pattern_matching.description
     t: Sebuah keyword `match` baru untuk membandingkan pola objek.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Operator Pipa
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: Sebuah operator `|>` baru untuk memberikan hasil fungsi ke fungsi lainnya.
   - key: options.currently_missing_from_js.decorators
     t: Dekorator
@@ -342,10 +342,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -379,7 +379,7 @@ translations:
     t: Dekorator
   - key: options.top_currently_missing_from_js.multithreading
     t: Multithread
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: Operator Pipa
   - key: options.top_currently_missing_from_js.native_observables
     t: Observable Bawaan
@@ -598,7 +598,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
@@ -693,271 +693,271 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.libraries
+  - key: tools.libraries
     t: Pustaka
-  - key: tools_others.libraries.question
+  - key: tools.libraries.question
     t: Pustaka apa yang biasa Anda gunakan?
-  - key: tools_others.libraries.others
+  - key: tools.libraries.others
     t: Pustaka lain
-  - key: tools_others.libraries.others.description
+  - key: tools.libraries.others.description
     t: Jawaban lain.
 
-  - key: tools_others.text_editors
+  - key: tools.text_editors
     t: Editor Teks
-  - key: tools_others.text_editors.question
+  - key: tools.text_editors.question
     t: Text editor apa yang biasa Anda gunakan?
-  - key: tools_others.text_editors.others
+  - key: tools.text_editors.others
     t: Editor teks lain
-  - key: tools_others.text_editors.others.description
+  - key: tools.text_editors.others.description
     t: Jawaban lain.
 
-  - key: tools_others.utilities
+  - key: tools.utilities
     t: Utilitas
-  - key: tools_others.utilities.question
+  - key: tools.utilities.question
     t: Utilitas atau alat apa yang biasa Anda gunakan?
-  - key: tools_others.utilities.others
+  - key: tools.utilities.others
     t: Utilitas lain
-  - key: tools_others.utilities.others.description
+  - key: tools.utilities.others.description
     t: Jawaban lain.
 
-  - key: tools_others.browsers
+  - key: tools.browsers
     t: Browser
-  - key: tools_others.browsers.question
+  - key: tools.browsers.question
     t: Browser apa yang biasanya Anda gunakan untuk melakukan pengembangan?
-  - key: tools_others.browsers.others
+  - key: tools.browsers.others
     t: Browser lain
-  - key: tools_others.browsers.others.description
+  - key: tools.browsers.others.description
     t: Jawaban lain.
 
-  - key: tools_others.build_tools
+  - key: tools.build_tools
     t: Alat Build
-  - key: tools_others.build_tools.question
+  - key: tools.build_tools.question
     t: Alat build apa yang Anda gunakan?
-  - key: tools_others.build_tools.others
+  - key: tools.build_tools.others
     t: Alat build lain
-  - key: tools_others.build_tools.others.description
+  - key: tools.build_tools.others.description
     t: Jawaban lain.
 
-  - key: tools_others.non_js_languages
+  - key: tools.non_js_languages
     t: Bahasa selain JavaScript
-  - key: tools_others.non_js_languages.question
+  - key: tools.non_js_languages.question
     t: Apa bahasa pemrogramman selain JavaScript yang Anda gunakan?
 
-  - key: tools_others.non_js_languages.others
+  - key: tools.non_js_languages.others
     t: Bahasa lain
-  - key: tools_others.non_js_languages.others.description
+  - key: tools.non_js_languages.others.description
     t: Jawaban lain.
 
-  - key: tools_others.javascript_flavors
+  - key: tools.javascript_flavors
     t: Varian JavaScript
-  - key: tools_others.javascript_flavors.question
+  - key: tools.javascript_flavors.question
     t: Bahasa yang melakukan kompilasi ke JavaScript
-  - key: tools_others.javascript_flavors.others
+  - key: tools.javascript_flavors.others
     t: Varian JavaScript lain
-  - key: tools_others.javascript_flavors.others.description
+  - key: tools.javascript_flavors.others.description
     t: Jawaban lain.
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript Runtime
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Mesin/runtime/eksekusi apa yang biasa ada gunakan?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Runtime lain
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Jawaban lain.
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Paket Registri
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Biasanya anda mendapat paket dari Paket registri apa?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Paket Registri lain
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Jawaban lain.
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
-  - key: tools_others.backend_as_a_service
+  - key: tools.backend_as_a_service
     t: Penyedia Backend-as-a-Service
-  - key: tools_others.backend_as_a_service.question
+  - key: tools.backend_as_a_service.question
     t: Layanan yang menyimpan data Anda dan memberikan API klien untuk mengaksesnya.
-  - key: tools_others.backend_as_a_service.others
+  - key: tools.backend_as_a_service.others
     t: Penyedia BaaS lainnya
 
-  - key: tools_others.date_management
+  - key: tools.date_management
     t: Manajemen Tanggal
-  - key: tools_others.date_management.question
+  - key: tools.date_management.question
     t: Pustaka yang membantu dalam manajemen tanggal dan zona waktu.
-  - key: tools_others.date_management.others
+  - key: tools.date_management.others
     t: Pustaka manajemen tanggal lainnya
 
-  - key: tools_others.data_visualization
+  - key: tools.data_visualization
     t: Visualisasi Data
-  - key: tools_others.data_visualization.question
+  - key: tools.data_visualization.question
     t: Pustaka yang membantu dengan bagan dan visualisasi data lainnya.
-  - key: tools_others.data_visualization.others
+  - key: tools.data_visualization.others
     t: Pustaka visualisasi data lainnya
 
-  - key: tools_others.graphics_animation
+  - key: tools.graphics_animation
     t: Grafik & Animasi
-  - key: tools_others.graphics_animation.question
+  - key: tools.graphics_animation.question
     t: Pustaka khusus untuk grafik dan animasi.
-  - key: tools_others.graphics_animation.others
+  - key: tools.graphics_animation.others
     t: Pustaka grafik & animasi lainnya
 
-  - key: tools_others.data_fetching
+  - key: tools.data_fetching
     t: Data Fetching
-  - key: tools_others.data_fetching.question
+  - key: tools.data_fetching.question
     t: Pustaka yang menangani data fetching dan caching.
-  - key: tools_others.data_fetching.others
+  - key: tools.data_fetching.others
     t: Pustaka data fetching lainnya
 
   - key: other_tools.libraries
-    aliasFor: tools_others.libraries
+    aliasFor: tools.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.question
+    aliasFor: tools.libraries.question
   - key: other_tools.libraries.others
-    aliasFor: tools_others.libraries.others
+    aliasFor: tools.libraries.others
   - key: other_tools.libraries.others.description
-    aliasFor: tools_others.libraries.others.description
+    aliasFor: tools.libraries.others.description
 
   - key: other_tools.text_editors
-    aliasFor: tools_others.text_editors
+    aliasFor: tools.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.question
+    aliasFor: tools.text_editors.question
   - key: other_tools.text_editors.others
-    aliasFor: tools_others.text_editors.others
+    aliasFor: tools.text_editors.others
   - key: other_tools.text_editors.others.description
-    aliasFor: tools_others.text_editors.others.description
+    aliasFor: tools.text_editors.others.description
 
   - key: other_tools.utilities
-    aliasFor: tools_others.utilities
+    aliasFor: tools.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.question
+    aliasFor: tools.utilities.question
   - key: other_tools.utilities.others
-    aliasFor: tools_others.utilities.others
+    aliasFor: tools.utilities.others
   - key: other_tools.utilities.others.description
-    aliasFor: tools_others.utilities.others.description
+    aliasFor: tools.utilities.others.description
 
   - key: other_tools.browsers
-    aliasFor: tools_others.browsers
+    aliasFor: tools.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.question
+    aliasFor: tools.browsers.question
   - key: other_tools.browsers.others
-    aliasFor: tools_others.browsers.others
+    aliasFor: tools.browsers.others
   - key: other_tools.browsers.others.description
-    aliasFor: tools_others.browsers.others.description
+    aliasFor: tools.browsers.others.description
 
   - key: other_tools.build_tools
-    aliasFor: tools_others.build_tools
+    aliasFor: tools.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.question
+    aliasFor: tools.build_tools.question
   - key: other_tools.build_tools.others
-    aliasFor: tools_others.build_tools.others
+    aliasFor: tools.build_tools.others
   - key: other_tools.build_tools.others.description
-    aliasFor: tools_others.build_tools.others.description
+    aliasFor: tools.build_tools.others.description
 
   - key: other_tools.non_js_languages
-    aliasFor: tools_others.non_js_languages
+    aliasFor: tools.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.question
+    aliasFor: tools.non_js_languages.question
   - key: other_tools.non_js_languages.others
-    aliasFor: tools_others.non_js_languages.others
+    aliasFor: tools.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
-    aliasFor: tools_others.non_js_languages.others.description
+    aliasFor: tools.non_js_languages.others.description
 
   - key: other_tools.javascript_flavors
-    aliasFor: tools_others.javascript_flavors
+    aliasFor: tools.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.question
+    aliasFor: tools.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
-    aliasFor: tools_others.javascript_flavors.others
+    aliasFor: tools.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
-    aliasFor: tools_others.javascript_flavors.others.description
+    aliasFor: tools.javascript_flavors.others.description
 
-  - key: tools_others.backend_frameworks
+  - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
+  - key: tools.backend_frameworks.description
     t: Frameworks for generating APIs and managing back-ends
-  - key: tools_others.backend_frameworks.others
+  - key: tools.backend_frameworks.others
     t: Other Back-end Frameworks
 
   - key: other_tools.runtimes
-    aliasFor: tools_others.runtimes
+    aliasFor: tools.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.question
+    aliasFor: tools.runtimes.question
   - key: other_tools.runtimes.others
-    aliasFor: tools_others.runtimes.others
+    aliasFor: tools.runtimes.others
   - key: other_tools.runtimes.others.description
-    aliasFor: tools_others.runtimes.others.description
+    aliasFor: tools.runtimes.others.description
 
   - key: other_tools.package_registries
-    aliasFor: tools_others.package_registries
+    aliasFor: tools.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.question
+    aliasFor: tools.package_registries.question
   - key: other_tools.package_registries.others
-    aliasFor: tools_others.package_registries.others
+    aliasFor: tools.package_registries.others
   - key: other_tools.package_registries.others.description
-    aliasFor: tools_others.package_registries.others.description
+    aliasFor: tools.package_registries.others.description
 
   - key: other_tools.form_factors
-    aliasFor: tools_others.form_factors
+    aliasFor: tools.form_factors
   - key: other_tools.form_factors.description
-    aliasFor: tools_others.form_factors.description
+    aliasFor: tools.form_factors.description
 
   - key: other_tools.backend_as_a_service
-    aliasFor: tools_others.backend_as_a_service
+    aliasFor: tools.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.question
+    aliasFor: tools.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
-    aliasFor: tools_others.backend_as_a_service.others
+    aliasFor: tools.backend_as_a_service.others
 
   - key: other_tools.date_management
-    aliasFor: tools_others.date_management
+    aliasFor: tools.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.question
+    aliasFor: tools.date_management.question
   - key: other_tools.date_management.others
-    aliasFor: tools_others.date_management.others
+    aliasFor: tools.date_management.others
 
   - key: other_tools.data_visualization
-    aliasFor: tools_others.data_visualization
+    aliasFor: tools.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.question
+    aliasFor: tools.data_visualization.question
   - key: other_tools.data_visualization.others
-    aliasFor: tools_others.data_visualization.others
+    aliasFor: tools.data_visualization.others
 
   - key: other_tools.graphics_animation
-    aliasFor: tools_others.graphics_animation
+    aliasFor: tools.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.question
+    aliasFor: tools.graphics_animation.question
   - key: other_tools.graphics_animation.others
-    aliasFor: tools_others.graphics_animation.others
+    aliasFor: tools.graphics_animation.others
 
   - key: other_tools.data_fetching
-    aliasFor: tools_others.data_fetching
+    aliasFor: tools.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.question
+    aliasFor: tools.data_fetching.question
   - key: other_tools.data_fetching.others
-    aliasFor: tools_others.data_fetching.others
+    aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools_others.backend_frameworks
+    aliasFor: tools.backend_frameworks
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools_others.backend_frameworks.description
+    aliasFor: tools.backend_frameworks.description
   - key: other_tools.backend_frameworks.others
-    aliasFor: tools_others.backend_frameworks.others
+    aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: Alat-alat AI
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Dari alat-alat AI berikut, yang manakah yang anda sering pakai untuk membantu anda menulis kode?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Layanan Hosting
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Layanan hosting manakah yang pernah anda pakai untuk aplikasi JavaScript?
 
   ###########################################################################
@@ -983,16 +983,16 @@ translations:
   - key: usage.js_ts_balance.question
     t: Bagaimana caramu membagi waktu antara menulis kode JavaScript dan TypeScript?
 
-  - key: tools_others.edge_runtimes
+  - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtime
-  - key: tools_others.edge_runtimes.question
+  - key: tools.edge_runtimes.question
     t: Edge atau serverless runtime mana yang biasa Anda gunakan?
-  - key: tools_others.edge_runtimes.others
+  - key: tools.edge_runtimes.others
     t: Edge Runtime lain
   - key: other_tools.edge_runtimes
-    aliasFor: tools_others.edge_runtimes
+    aliasFor: tools.edge_runtimes
   - key: other_tools.edge_runtimes.description
-    aliasFor: tools_others.edge_runtimes.question
+    aliasFor: tools.edge_runtimes.question
 
   - key: usage.usage_type
     t: Pemakaian JavaScript
