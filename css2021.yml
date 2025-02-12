@@ -260,31 +260,30 @@ translations:
   - key: picks.samuel_kraft.name
     t: Vanilla Extract
   - key: picks.samuel_kraft.bio
-    t: Frontend & design
+    t: Frontend & desainer
   - key: picks.samuel_kraft.description
     t: |
-      Lately I've loved working with Vanilla Extract, it's like CSS Modules but 
-      fully typed with a magical developer experience.
+      Belakangan ini aku suka bekerja menggunakan Vanilla Extract, itu seperti CSS Modules tapi 
+      dapat dukungan type secara menyeluruh dengan pengalaman pengembangan yang ajaib.
 
   - key: picks.sacha_greif.name
     t: Open Props
   - key: picks.sacha_greif.bio
-    t: State of JS and State of CSS creator
+    t: Pencipta State of JS dan State of CSS
   - key: picks.sacha_greif.description
     t: |
-      It's really cool to see the feedback loop between new CSS features and new 
-      projects taking advantage of them! And I think Adam Argyle's Open Props 
-      is a great use of Custom Properties (CSS variables).
+      Senang melihat siklus umpan balik antara fitur baru css dan proyek baru yang menerima manfaatnya! Dan menurutku Open Props buatan Adam Argyle  
+      merupakan contoh yang bagus dalam menggunakan Custom Properties (CSS variables).
 
   - key: picks.ahmad_shadeed.name
     t: Container Queries
   - key: picks.ahmad_shadeed.bio
-    t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    t: Pengarang [Debugging CSS](https://debuggingcss.com/), Menulis di  [ishadeed.com](http://ishadeed.com)
   - key: picks.ahmad_shadeed.description
     t: |
-      CSS container queries again! We got the chance to play with them in a browser. 
-      Thanks to Miriam Suzanne for moving this forward! 
-      I can't wait to use them without a flag.
+      CSS container queries lagi! Kita punya kesempatan untuk bermain dengannya di peramban. 
+      Itu berkat Miriam Suzanne yang terus membuat kemajuan! 
+      Aku tidak sabar untuk menggunakannya tanpa flag.
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -296,28 +295,28 @@ translations:
   - key: picks.adam_argyle.name
     t: CSS Noise
   - key: picks.adam_argyle.bio
-    t: CSS at Google
+    t: CSS di Google
   - key: picks.adam_argyle.description
     t: |
-      CSS generated texture and randomness makes for unique and 
-      interesting paint jobs in your design. 
-      Noise tools have made the technique accessible.
+      CSS menciptakan tekstur dan keserampangan yang membuat tugas mewarnai menjadi unik dan menarik 
+      di dalam desainmu. 
+      Noise tools telah membuat teknik ini jadi lebih mudah dijangkau.
 
   - key: picks.stephanie_walter.name
     t: Miriam Suzanne
   - key: picks.stephanie_walter.bio
-    t: UX Researcher and CSS lover
+    t: Peneliti UX dan penggiat CSS
   - key: picks.stephanie_walter.description
     t: |
-      Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
+      Miriam adalah seorang seniman dan aktivis yang mengambangkan perangkat lunak dan seni yang merayakan kompleksitas queer dari pengalaman manusia. Dia seorang ahli CSS, dan dia telah menghasilkan karya yang bagus dalam spesifikasi untuk CSS Container Queries.
 
   - key: picks.michelle_barker.name
-    t: “Building a Color Scheme” by Adam Argyle
+    t: “Building a Color Scheme” oleh Adam Argyle
   - key: picks.michelle_barker.bio
     t: Senior Front End Developer
   - key: picks.michelle_barker.description
     t: |
-      I love this article because although custom properties have been around for a while now, it really takes them to a different level and showcases their power. I hope it makes some people think of them in a different way, as more than simple variables.
+      Saya suka artikel ini karena meskipun custom properties sudah ada sejak lama, tapi itu masih bisa ditingkatkan ke level yang berbeda dan menunjukkan kemampuannya. Saya harap ini bisa mengubah cara pikir orang-orang dalam menyikapinya, setidaknya lebih dari sebuah variabel sederhana.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -328,10 +327,10 @@ translations:
   - key: picks.kilian_valkhof.name
     t: prefers-reduced-data
   - key: picks.kilian_valkhof.bio
-    t: Web developer and creator of Polypane
+    t: Pengembang web dan pencipta Polypane
   - key: picks.kilian_valkhof.description
     t: |
-      We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
+      Kita butuh lebih banyak pengembang untuk meminta pada browser tentang fitur ini, dan untuk menyadari betapa jauh perbedaannya. dengan 64% responden yang belum tahu akan ini, ada banyak yang perlu kita lakukan!
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -385,11 +384,11 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Tingkatkan keterampilanmu dengan kursus rekayasa front-end yang modern dan mendalam.
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Browser untuk pengembang yang ambisius. Dibuat responsif, aksesibel dengan mudah dan cepat.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome untuk dukungannya terhadap pekerjaan kami.
 
   ###########################################################################
   # FAQ/About
@@ -397,68 +396,67 @@ translations:
 
   - key: about.content
     t: >
-      The 2021 State of CSS survey ran from October 5 to November 2 2021, and collected 8714 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      Survei State of CSS berjalan dari 5 Oktober sampai 2 November 2021, dan mendapatkan 8714 respon. Survei ini dijalankan oleh saya, [Sacha Greif](https://sachagreif.com/), dengan bantuan dari sebuah tim dari banyak kontributor sumber terbuka dan konsultan. 
+
+      Logo dan kaos untuk tahun ini dirancang dan dianimasikan oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Tujuan Survei 
+
+      Survei ini, bersama dengan survei [State of JavaScript](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
 
-      This year's logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan. 
 
-      ### Survey Goals
+      ### Perancangan Survei 
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Survei ini didesain berdasarkan survei tahun lalu, dengan periode umpan balik terbuka yang didiskusikan [di GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
 
+      Semua pertanyaan suvei adalah opsional. 
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      ### Audiens Survei
 
-      ### Survey Design
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah milis khusu) dan lalu lintas media sosial. 
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+      ### Perwakilan & Inklusivitas
 
-      All survey questions were optional. 
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-      ### Representativeness & Inclusivity
-
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+      Sementara kami percaya bahwa penting untuk memberikan suara bagi setiap komunitas, nyatanya sebuah survei terbuka seperti yang ini, akan selalu sulit untuk mewakili semua orang, terutama ketika beroperasi lewat sistem sudah membawa bias masing-masing. 
 
 
-      In order to counter-balance this, we are implementing three distinct strategies:
+      Untuk menyeimbangi ini, kami mengimplementasikan tiga strategi berbeda:
 
 
-      - **Outreach**: this year, we reached out to 23 organizations representing BIPOC and LGBTQ developers in the hopes of partnering up. While very few of them replied, we will keep looking for ways to reach out beyond our current audience.
+      - **Outreach**: tahun ini, kami menghubungi 23 organisasi yang mereprentasikan pengembang BIPOC dan LGBTQ dengan tujuan untuk bekerja sama. Meski hanya sediki yang membalas, kami akan tetap mencoba untuk menghubungi di luar dari audiens kami yang sekarang.
 
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha mempermudah untuk mewakili suara dari segmen demografi manapun, tak peduli seberapa kecil dalam data kami.
 
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+      - **Penurunan Penghalang**: membuat surveinya terlalu panjang, tidak dapat diakses, lambat untuk dimuat, hanya berbahasa Inggris, dll. semuanya dapat berkontribusi dalam membuat suatu "pajak upaya" yang menghalangi sebagian anggota komunitas yang tidak dapat menanggungnya. Memperbaiki masalah-masalh tersebut dapat menurunkan penghalang masuk dan membuat audiens lebih beragam. 
 
-      ### Project Funding
+      ### Pendanaan proyek
 
-      Funding from this project comes from a variety of sources:
-
-
-      - **T-shirt sales**. 
-
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
-
-      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the survey.
+      Pendanaan proyek ini datang dari beberapa sumber:
 
 
-      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      - **Penjualan kaos**. 
 
-      ### Technical Overview
+      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      - **Pendanaan Lainnya**: tahun ini, tim [Google Chrome](https://www.google.com/chrome/) menyisakan sejumlah uang untuk mempekerjakan seorang [konsultan aksesibilitas](https://fossheim.io/) untuk mengerjakan survei.
 
-      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+      Terlepas dari sumber pendanaan yang tertera di atas, sebagian besar survei ini masih didanai oleh dana pribadi, maka dari itu setiap kontribusi dan sponsor akan sangat membantu kami. Saya sangat ingin bekerja sama dengan para vendor browser, karena mereka memegang peran kunci dalam ekosistem web.  
 
-      - **Data API**: Node.js GraphQL API. 
+      ### Ikhtisar Teknis
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Koleksi data**: Aplikasi custom [Vulcan.js](http://vulcanjs.org/).
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Penyimpanan/pemrosesan data**: MongoDB & MongoDB Aggregations
+
+      - **Data API**: API GraphQL Node.js
+
+      - **Situs hasil**: Aplikasi React [Gatsby](https://www.gatsbyjs.com/).
+
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka dataviz React.
+
+      - **Tulisan**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
