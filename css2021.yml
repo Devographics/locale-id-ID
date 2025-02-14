@@ -263,8 +263,8 @@ translations:
     t: Frontend & desainer
   - key: picks.samuel_kraft.description
     t: |
-      Belakangan ini aku suka bekerja menggunakan Vanilla Extract, itu seperti CSS Modules tapi 
-      dapat dukungan type secara menyeluruh dengan pengalaman pengembangan yang ajaib.
+      Belakangan ini aku suka bekerja menggunakan Vanilla Extract, mirip seperti CSS Modules tapi 
+      memiliki dukungan type secara menyeluruh dengan pengalaman pengembangan yang menakjubkan.
 
   - key: picks.sacha_greif.name
     t: Open Props
@@ -425,7 +425,7 @@ translations:
       Untuk menyeimbangi ini, kami mengimplementasikan tiga strategi berbeda:
 
 
-      - **Outreach**: tahun ini, kami menghubungi 23 organisasi yang mereprentasikan pengembang BIPOC dan LGBTQ dengan tujuan untuk bekerja sama. Meski hanya sediki yang membalas, kami akan tetap mencoba untuk menghubungi di luar dari audiens kami yang sekarang.
+      - **Jangkauan**: tahun ini, kami menjangkau 23 organisasi yang mereprentasikan pengembang BIPOC dan LGBTQ dengan tujuan untuk bekerja sama. Meski hanya sediki yang membalas, kami akan tetap mencoba untuk menjangkau di luar dari audiens kami yang sekarang.
 
       - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha mempermudah untuk mewakili suara dari segmen demografi manapun, tak peduli seberapa kecil dalam data kami.
 
