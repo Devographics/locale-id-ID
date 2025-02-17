@@ -1,0 +1,462 @@
+locale: id-ID
+translations:
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.results.description
+    t: Edisi 2021 dari survey pengembang tahunan tentang tren-tren terbaru di ekosistem CSS.
+
+  - key: introduction.css2021
+    t: |
+
+      <span class="first-letter">A</span>pakah tukang kayu harus belajar cara baru untuk memotong kayu setiap beberapa tahu sekali? Apakah pelukis merasa seperti penipu karena masih memakai cat minyak? Atau hanya perasaan kita sebagai pengembang front-end yang harus merasakan perubahan ini?
+
+      Dengan adanya container queries dan lain-lain yang akan dirilis, semua terasa bergerak begitu cepat. Dan karena kita juga perlu mengikuti perkembangannya, kami menyisihkan waktu untuk memberikan hasil survei ini beberapa kemampuan baru!
+
+      Yang berarti sekarang kita bisa melakukan referensi silang pada dua titik data, contohnya gaji tahunan berdasarkan tingkat pengalaman; atau jenis kelamin berdasarkan negara. Anda akan melihat beberapa penjabaran ini dalam hasil survei, tapi kami mengajak Anda untuk menjelajahi data lebih jauh dengan menggunakan [API kami](https://api.stateofjs.com/) atau dengan [mengunduh data kami](https://www.kaggle.com/sachag/state-of-css). Beritahu kami jika ingin membuat visualisasi datamu sendiri!
+
+      Baiklah, mari kita lihat apa yang disiapkan CSS untuk tahun ini!
+
+      *Catatan: kami mengundur survei [State of JavaScript](http://stateofjs.com/) 2021 ke bulan Januari 2022 dikarenakan kurangnya waktu. sampai jumpa setelah liburan!*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Kaos
+
+  - key: sections.tshirt.description
+    t: |
+      ## Dukung Survei ini Dengan Kaos State Of CSS 
+
+      Di antara kualitas video yang buruk, kaset yang besar, dan harus memutar balik, tidak ada yang dapat dirindukan dari era VHS. Namun satu hal yang kami *rindukan* adalah visual 90an yang dulu menghiasi kaset VHS yang kosong. 
+
+      Namun, berkat dari seniman bertalenta Christopher Kirk-Nielsen anda dapat menikmati semua kekerenan retro ini sambil juga merayakan kecintaan anda akan CSS dalam waktu yang bersamaan!
+
+  - key: tshirt.about
+    t: Tentang kaos ini
+
+  - key: tshirt.description
+    t: |
+      Kami menggunakan kaos tri-blend berkualitas tinggi yang sangat lembut dengan bentuk ramping yang dicetak dari mitra kami di Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Dapatkan
+
+  - key: tshirt.price
+    t: USD $29 + pengiriman
+
+  - key: tshirt.designer.heading
+    t: Tentang perancang kaos
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Berasal dari Prancis namun sekarang tinggal di Amerika Serikat, Chris bukan hanya seorang pengembang front-end yang menakjubkan, namun juga seorang ilustrator bertalenta dengan spesialisasi dalam bidang visual retro. Kami mendorong anda untuk melihat [desain kaos lainnya darinya](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      Survei tahun ini mencapai **8,714** pengembang di seluruh dunia, dan untuk membantu menyorot perbedaan suara dan wawasan yang mendalam, kami melakukan upaya khusus untuk menyediakan cara baru dalam penjabaran data.
+
+  - key: sections.features.description
+    t: |
+      Sifat dinamis CSS tidak menunjukkan tanda-tanda akan berhenti, sebagai pengembang yang berusaha untuk mengadopsi sebagian fitur baru sembari menantikan inovasi-inovasi baru untuk beberapa tahun ke depan.
+
+  - key: sections.technologies.description
+    t: |
+      Dengan hampir 50% responden yang senang menggunakan satu atau lebih pustaka CSS-in-JS, bisa dikatakan kalau kategori mulai unjuk gigi. Mungkin kedua sisi dunia front-end tidak terpisah begitu jauh?
+
+  - key: sections.tools_others.description
+    t: |
+      Memilih sebuah teknologi kerap kali melalui rangakain pilihan sulit antara prioritas, dan tahun ini kita berusaha menangkap proses ini menggunakan pertanyaan format bracket.
+
+  - key: sections.environments.description
+    t: |
+      Aksesibilitas selalu jadi pertimbangan saat mengembangkan aplikasi berbasis web, 
+      tetapi banyak pengembang yang sekarang sadar akan pentingnya mendahulukan fitur itu.
+
+  - key: sections.resources.description
+    t: |
+      Blog yang disorot, podcast, dan situs web adalah awal yang bagus, tapi tahun ini kami memutuskan untuk selangkah lebih jauh lagi 
+      dan bahkan menyorot orang-orang yang membangun komunitas CSS!
+
+  - key: sections.opinions.description
+    t: |
+      Baik itu hal yang merepotkan, atau fitur hilang yang diharapkan untuk segera bisa digunakan, 
+      ini adalah kesempatan Anda untuk membagikan keluhan seputar CSS!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Jika Anda tertarik untuk mempelajari lebih lanjut, kami telah [menulis sebuah postingan blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) tentang dinamika jenis kelamin pada survei.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      Anda dapat menjelajahi keseluruhan dataset jawaban pertanyaan ini pada [proyek sampingan ini](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      Bagan ini menggabungkan campuran dari referensi, parameter URL, dan jawaban bebas. 
+
+      - State of JS: mailis [State of JS](https://stateofjs.com).
+
+      - State of CSS: mailis State of CSS; juga mencocokkan `email`, `dengan email`, dll.
+
+      - Work: mencocokkan `kerja`, `kolega`, `rekan kerja`, dll.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Dengan peningkatan **{value}** pada tahun 2021, CSS comparison functions telah menjadi bagian kunci dari setiap toolkit pengembang CSS.
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.tool_satisfaction_award.comment
+    t: PostCSS meraih posisi pertama lagi dengan rasio retensi **{value}**.
+
+  - key: award.tool_interest_award.comment
+    t: Dengan rasio **{value}**, menjadikan CSS Modules sebagai yang paling menarik perhatian para pengembang pada tahun ini.
+
+  # - key: award.most_write_ins_award.comment
+  #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2021
+    t: |
+      <span class="first-line">Caramu menulis CSS akan segera berubah</span>
+
+      Dalam beberapa tahun ini, terdapat banyak inovasi dalam gaya menulis untuk web yang terjadi di tempat lain: pada preprocessor, Kerangka kerja JavaScript, atau compiler.  Untuk memastikan, CSS sendiri juga mendapat peningkatan seperti [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) atau [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Akan tetapi kita masih menggunakan pustaka dan pembantu lainnya dalam akitivitas sehar-hari. 
+
+      Tapi akan datang sebuah perubahan. Inti bahasa CSS akan berguncang dan mengalami pembaharuan, dan kita berada di garda terdepan dari mempercepat evolusinya.
+
+      [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) akan membawa era baru dalam desain responsive, dan [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) akan membuat kerangka kerja, tema dan kelola basis kode yang kompleks jadi jauh lebih mudah.
+
+      Kalau kita perhatikan lebih dalam, kita juga bisa melihat [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) yang akan dirilis, yang membolehkan kita menggabungkan media, container dan supports queries menjadi kesatuan at-rule.
+
+      Semoga saja, 2022 adalah tahun di mana kita akhirnya melihat pergerakan dalam native CSS nesting. Kita yang bekerja memakai tool seperti Sass dan PostCSS sudah tidak bisa membayangkan cara kerja yang lain.
+
+      Dengan adanya semua ini berarti 2022 kemungkinan akan menjadi tahun di mana terjadi perubahan dari cara menulis dasar CSS. Ini adalah masa yang mendebarkan, dan kita semua menantikan semua implementasi luar biasa yang akan datang.
+
+  - key: conclusion.css2021.bio
+    t: Pengembang Web dan Pencipta Polypane
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Pilihan 2021 Saya: "
+  - key: picks.intro
+    t: Kita menanyakan berbagai anggota dari anggota komunitas CSS untuk membagikan “pilihan tahun ini” mereka
+
+  - key: picks.george_francis.name
+    t: CSS Paint API
+  - key: picks.george_francis.bio
+    t: Pengembang, penulis, dan seniman generatif.
+  - key: picks.george_francis.description
+    t: |
+      Paint API membolehkan kita untuk membuat gambar secara terprogram, 
+      dan memakainya pada CSS kita. Itu membuka dunia kreatifitas baru, 
+      dan aku sangat bersemangat untuk itu!
+
+  - key: picks.cassidy_williams.name
+    t: Lynn Fisher
+  - key: picks.cassidy_williams.bio
+    t: Developer advocate, pengajar, dan penasihat startup.
+  - key: picks.cassidy_williams.description
+    t: |
+      Saya pasti akan memilih Lynn Fisher. Dia terus membuat kejutan dan membuat komunitas CSS kagum dengan proyek dan eksperimen kreatifnya, 
+      dan aku suka mengetahui banyak orang yang bisa darinya!
+
+  - key: picks.josh_comeau.name
+    t: Amelia Wattenberger
+  - key: picks.josh_comeau.bio
+    t: Pengembang aplikasi dan pencipta [CSS for JavaScript Developers](https://css-for-js.dev/).
+  - key: picks.josh_comeau.description
+    t: |
+      Amelia membuat postingan blog yang menakjubkan seputar CSS dan JS. 
+      Periksa postingannya tentang cara kerja persentase di CSS!
+
+  - key: picks.kevin_j_powell.name
+    t: Stephanie Eckles
+  - key: picks.kevin_j_powell.bio
+    t: CSS Evangelist
+  - key: picks.kevin_j_powell.description
+    t: |
+      Aku terus takjub pada inisiatif Stephanie dalam membagikan pengetahuan tentang teknik CSS modern, 
+      dan juga antusiasnya pada CSS.
+
+  - key: picks.manuel_matuzovic.name
+    t: aspect-ratio
+  - key: picks.manuel_matuzovic.bio
+    t: Pengembang Front-end dari Vienna, dan pencipta [htmhell.dev](https://htmhell.dev).
+  - key: picks.manuel_matuzovic.description
+    t: |
+      Semua prambanan besar sudah mendukung aspect-ratio sejak 2021. 
+      Awalnya Saya meremehkannya, 
+      tapi ternyata ada banyak situasi di mana ini sangat berguna.
+
+  - key: picks.gift_egwuenu.name
+    t: Kevin Powell
+  - key: picks.gift_egwuenu.bio
+    t: Pengembang Frontend dan Pembuat konten
+  - key: picks.gift_egwuenu.description
+    t: |
+      Kevin membuat konten CSS di YouTube dan saya sangat suka menonton videonya. 
+      Dia hebat dalam menjelaskan konsep CSS 
+      dengan mudah dan menyenangkan.
+
+  - key: picks.eric_w_bailey.name
+    t: Miriam Suzanne
+  - key: picks.eric_w_bailey.bio
+    t: Inclusive Design dan \#a11y advocate.
+  - key: picks.eric_w_bailey.description
+    t: |
+      CSS akan berubah dari bagus menjadi luar biasa. 
+      Pekerjaan Miriam dalam Container Queries dan Cascade Layers 
+      akan mengubah cara penulisan CSS.
+
+  - key: picks.samuel_kraft.name
+    t: Vanilla Extract
+  - key: picks.samuel_kraft.bio
+    t: Frontend & desainer
+  - key: picks.samuel_kraft.description
+    t: |
+      Belakangan ini aku suka bekerja menggunakan Vanilla Extract, mirip seperti CSS Modules tapi 
+      memiliki dukungan type secara menyeluruh dengan pengalaman pengembangan yang menakjubkan.
+
+  - key: picks.sacha_greif.name
+    t: Open Props
+  - key: picks.sacha_greif.bio
+    t: Pencipta State of JS dan State of CSS
+  - key: picks.sacha_greif.description
+    t: |
+      Senang melihat siklus umpan balik antara fitur baru css dan proyek baru yang menerima manfaatnya! Dan menurutku Open Props buatan Adam Argyle  
+      merupakan contoh yang bagus dalam menggunakan Custom Properties (CSS variables).
+
+  - key: picks.ahmad_shadeed.name
+    t: Container Queries
+  - key: picks.ahmad_shadeed.bio
+    t: Pengarang [Debugging CSS](https://debuggingcss.com/), Menulis di  [ishadeed.com](http://ishadeed.com)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      CSS container queries lagi! Kita punya kesempatan untuk bermain dengannya di peramban. 
+      Itu berkat Miriam Suzanne yang terus membuat kemajuan! 
+      Aku tidak sabar untuk menggunakannya tanpa flag.
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  - key: picks.adam_argyle.name
+    t: CSS Noise
+  - key: picks.adam_argyle.bio
+    t: CSS di Google
+  - key: picks.adam_argyle.description
+    t: |
+      CSS menciptakan tekstur dan keserampangan yang membuat tugas mewarnai menjadi unik dan menarik 
+      di dalam desainmu. 
+      Noise tools telah membuat teknik ini jadi lebih mudah dijangkau.
+
+  - key: picks.stephanie_walter.name
+    t: Miriam Suzanne
+  - key: picks.stephanie_walter.bio
+    t: Peneliti UX dan penggiat CSS
+  - key: picks.stephanie_walter.description
+    t: |
+      Miriam adalah seorang seniman dan aktivis yang mengambangkan perangkat lunak dan seni yang merayakan kompleksitas queer dari pengalaman manusia. Dia seorang ahli CSS, dan dia telah menghasilkan karya yang bagus dalam spesifikasi untuk CSS Container Queries.
+
+  - key: picks.michelle_barker.name
+    t: “Building a Color Scheme” oleh Adam Argyle
+  - key: picks.michelle_barker.bio
+    t: Senior Front End Developer
+  - key: picks.michelle_barker.description
+    t: |
+      Saya suka artikel ini karena meskipun custom properties sudah ada sejak lama, tapi itu masih bisa ditingkatkan ke level yang berbeda dan menunjukkan kemampuannya. Saya harap ini bisa mengubah cara pikir orang-orang dalam menyikapinya, setidaknya lebih dari sebuah variabel sederhana.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: prefers-reduced-data
+  - key: picks.kilian_valkhof.bio
+    t: Pengembang web dan pencipta Polypane
+  - key: picks.kilian_valkhof.description
+    t: |
+      Kita butuh lebih banyak pengembang untuk meminta pada browser tentang fitur ini, dan untuk menyadari betapa jauh perbedaannya. dengan 64% responden yang belum tahu akan ini, ada banyak yang perlu kita lakukan!
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software.
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+  #       notably bringing flex gap to WebKit,
+  #       which means that soon it will be available on all modern browsers.
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid
+  #       triggering dizziness and discomfort.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Tingkatkan keterampilanmu dengan kursus rekayasa front-end yang modern dan mendalam.
+  - key: sponsors.polypane.description
+    t: Browser untuk pengembang yang ambisius. Dibuat responsif, aksesibel dengan mudah dan cepat.
+  - key: sponsors.google_chrome.description
+    t: Terima kasih kepada tim Google Chrome untuk dukungannya terhadap pekerjaan kami.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      Survei State of CSS berjalan dari 5 Oktober sampai 2 November 2021, dan mendapatkan 8714 respon. Survei ini dijalankan oleh saya, [Sacha Greif](https://sachagreif.com/), dengan bantuan dari sebuah tim dari banyak kontributor sumber terbuka dan konsultan. 
+
+      Logo dan kaos untuk tahun ini dirancang dan dianimasikan oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Tujuan Survei 
+
+      Survei ini, bersama dengan survei [State of JavaScript](https://stateofjs.com/), dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
+
+
+      Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan. 
+
+      ### Perancangan Survei 
+
+      Survei ini didesain berdasarkan survei tahun lalu, dengan periode umpan balik terbuka yang didiskusikan [di GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+
+      Semua pertanyaan suvei adalah opsional. 
+
+      ### Audiens Survei
+
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah milis khusu) dan lalu lintas media sosial. 
+
+      ### Perwakilan & Inklusivitas
+
+      Sementara kami percaya bahwa penting untuk memberikan suara bagi setiap komunitas, nyatanya sebuah survei terbuka seperti yang ini, akan selalu sulit untuk mewakili semua orang, terutama ketika beroperasi lewat sistem sudah membawa bias masing-masing. 
+
+
+      Untuk menyeimbangi ini, kami mengimplementasikan tiga strategi berbeda:
+
+
+      - **Jangkauan**: tahun ini, kami menjangkau 23 organisasi yang mereprentasikan pengembang BIPOC dan LGBTQ dengan tujuan untuk bekerja sama. Meski hanya sediki yang membalas, kami akan tetap mencoba untuk menjangkau di luar dari audiens kami yang sekarang.
+
+      - **Analisis Data**: lewat fitur-fitur seperti facet dan varian, kami selalu berusaha mempermudah untuk mewakili suara dari segmen demografi manapun, tak peduli seberapa kecil dalam data kami.
+
+      - **Penurunan Penghalang**: membuat surveinya terlalu panjang, tidak dapat diakses, lambat untuk dimuat, hanya berbahasa Inggris, dll. semuanya dapat berkontribusi dalam membuat suatu "pajak upaya" yang menghalangi sebagian anggota komunitas yang tidak dapat menanggungnya. Memperbaiki masalah-masalh tersebut dapat menurunkan penghalang masuk dan membuat audiens lebih beragam. 
+
+      ### Pendanaan proyek
+
+      Pendanaan proyek ini datang dari beberapa sumber:
+
+
+      - **Penjualan kaos**. 
+
+      - **Pranala sponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah setiap halaman disediakan oleh mitra kami [Frontend Masters](https://frontendmasters.com/).
+
+      - **Pendanaan Lainnya**: tahun ini, tim [Google Chrome](https://www.google.com/chrome/) menyisakan sejumlah uang untuk mempekerjakan seorang [konsultan aksesibilitas](https://fossheim.io/) untuk mengerjakan survei.
+
+
+      Terlepas dari sumber pendanaan yang tertera di atas, sebagian besar survei ini masih didanai oleh dana pribadi, maka dari itu setiap kontribusi dan sponsor akan sangat membantu kami. Saya sangat ingin bekerja sama dengan para vendor browser, karena mereka memegang peran kunci dalam ekosistem web.  
+
+      ### Ikhtisar Teknis
+
+      Anda dapat mempelajari ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+      - **Koleksi data**: Aplikasi custom [Vulcan.js](http://vulcanjs.org/).
+
+      - **Penyimpanan/pemrosesan data**: MongoDB & MongoDB Aggregations
+
+      - **Data API**: API GraphQL Node.js
+
+      - **Situs hasil**: Aplikasi React [Gatsby](https://www.gatsbyjs.com/).
+
+      - **Visualisasi Data**: [Nivo](https://nivo.rocks/) pustaka dataviz React.
+
+      - **Tulisan**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) dan [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
