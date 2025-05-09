@@ -230,9 +230,9 @@ translations:
 
       Saya tidak sendirian dalam perjalanan ini; Saya adalah bagian dari banyaknya pengembang JavaScript yang baru mulai mempelajari TypeScript beserta kelebihannya untuk tim yang ingin menciptakan sistem front-end yang dapat berkembang dan dapat dipelihara. Yang membuatku kagum adalah betapa cepatnya perkembangan kepopuleran TypeScript! Aku senang melihat sebagian besar responden telah menggunakan TypeScript dalam pekerjaan sehari-hari mereka.
 
-      Saat ini, stack pilihanku untuk pekerjaan dan juga proyek pribadi adalah React, TypeScript, Vite, dan Jest. Tim besar dan yang berkembang dengan cepat telah bertaruh menggunakan tool ini dan carilah ahli dari area ini saat anda sedang merekrut pengembang front-end. Jadi tidak heran jika mereka telah diadopsi secara luas dan bahkan dipertahankan oleh organisasi lain.
+      Saat ini, stack pilihanku untuk pekerjaan dan juga proyek pribadi adalah React, TypeScript, Vite, dan Jest. Tim besar dan yang berkembang dengan cepat telah bertaruh menggunakan tool ini dan carilah ahli dari area ini saat kamu sedang merekrut pengembang front-end. Jadi tidak heran jika mereka telah diadopsi secara luas dan bahkan dipertahankan oleh organisasi lain.
 
-      Jika anda sepertiku, anda lebih memilih fokus untuk menguasai sedikit tool yang esensial ketimbang terus-menerus bereksperimen dengan kerangka kerja dan pustaka baru. Dan bagi saya, sebaiknya anda tidak mengadopsi versi terbaru dari tool front-end hingga mereka mencapai rilisan yang stabil dan isu yang ada telah diselesaikan. Anda tidak sendirian, dan ada begitu banyak keuntungan untuk mereka yang memilih jalan yang sudah teruji.
+      Jika kamu sepertiku, kamu lebih memilih fokus untuk menguasai sedikit tool yang esensial ketimbang terus-menerus bereksperimen dengan kerangka kerja dan pustaka baru. Dan bagi saya, sebaiknya kamu tidak mengadopsi versi terbaru dari tool front-end hingga mereka mencapai rilisan yang stabil dan isu yang ada telah diselesaikan. Kamu tidak sendirian, dan ada begitu banyak keuntungan untuk mereka yang memilih jalan yang sudah teruji.
 
   - key: conclusion.js2024.shaundai_person.bio
     t: Front end Senior Software Engineer (Netflix) dan instruktor kursus
@@ -242,9 +242,9 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2024 Pick: "
+    t: "Pilihan 2024 Saya: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: Kami meminta anggota dari komunitas JavaScript untuk membagikan “pilihan tahun ini” mereka
 
   - key: picks.jack_herrington.name
     t: TanStack
@@ -252,65 +252,65 @@ translations:
     t: Coder & YouTuber
   - key: picks.jack_herrington.description
     t: |
-      Tanstack, a banquet of practical, high quality, battle tested libraries, culminating in the TanStack Start framework.
+      Tanstack, sebuah perpaduan pustaka yang praktis, berkualitas, teruji, semua itu ada pada kerangka kerja TanStack Start.
 
   - key: picks.josefine_schaefer.name
     t: Arisa Fukuzaki
   - key: picks.josefine_schaefer.bio
-    t: Accessibility Engineer
+    t: Insinyur Aksesibilitas
   - key: picks.josefine_schaefer.description
     t: |
-      Arisa is am amazing tech educator, mentor, docs & DevRel engineer who's super passionate about JS frameworks, community work and supporting women in tech. She's one to watch!
+      Arisa adalah pengajar teknologi yang hebat, mentor, docs & DevRel engineer yang sangat bergairah dengan kerangka kerja Javascript, kegiatan komunitas dan mendukung perempuan dalam bidang teknologi. Dia patut dicontoh!
 
   - key: picks.cassie_evans.name
     t: gsap-video-export
   - key: picks.cassie_evans.bio
-    t: Does a little bit of everything at GSAP
+    t: Melakukan banyak hal dengan GSAP
   - key: picks.cassie_evans.description
     t: |
-      Chris made this super handy tool to export your GSAP animations to video. It's made my life much easier and my videos much smoother - no more low quality screen recordings for me!
+      Chris membuat tool serbaguna untuk mengekspor animasi GSAP menjadi video. Tool ini sangat mempermudah dan videoku menjadi jauh lebih halus - tidak ada lagi rekaman video berkualitas rendah!
 
   - key: picks.tania_rascia.name
     t: Cassidy Williams
   - key: picks.tania_rascia.bio
-    t: Self-taught principal engineer, accomplished tech blogger, and professionally trained chef
+    t: principal engineer otodidak, blogger teknologi ternama, dan koki profesional
   - key: picks.tania_rascia.description
     t: |
-      Cassidy's been writing on her blog since 2009, has an incredibly unique style and so many cool, niche interests (I'm proud to own her StackOverflow copy/paste keyboard!). She puts out a great newsletter every week, makes the best developer memes, and does it all while being a new mom, which is beyond impressive.
+      Cassidy telah menulis blognya semenjak 2009, menulis dengan gaya yang sangat unik, keren, dan menarik (Saya bangga mendapatkan keyboard copy/paste StackOverflow miliknya!). Dia merilis artikel yang luar biasa setiap minggunya, menciptakan meme pengembang terbaik, dan melakukan semua itu selagi menjadi seorang ibu, yang membuatnya jadi lebih luar biasa lagi.
 
   - key: picks.salma_alam_naylor.name
     t: The Breedling
   - key: picks.salma_alam_naylor.bio
-    t: Live streamer, software engineer, and developer educator
+    t: Live streamer, software engineer, dan edukator pengembang
   - key: picks.salma_alam_naylor.description
     t: |
-      Web technology isn't just for websites. The Breedling is an in-browser visualisation tool to accompany live music gigs by the band of the same name, mixing video and RIVE animations with WebGL shaders, utilising an old BBC experimental library VideoContext.
+      Teknologi Web bukan hanya untuk situs web. The Breedling adalah sebuah tool visualisasi yang berada di dalam peramban untuk menemani pertunjukan musik secara langsung oleh band dengan nama yang sama, menggabungkan video dan animasi RIVE dengan memakai WebGL shaders, memanfaatkan sebuah pustaka lama dari BBC yaitu VideoContext.
 
   - key: picks.wes_bos.name
     t: Transformers.js
   - key: picks.wes_bos.bio
-    t: Podcaster and educator
+    t: Podcaster dan edukator
   - key: picks.wes_bos.description
     t: |
-      Transformers.js is a library for working on AI models in JavaScript. It does it all - Computer vision, audio, image generation, chat-bot generation, and more.
+      Transformers.js adalah sebuah pustaka untuk mengerjakan model AI dengan JavaScript. pustaka ini bisa melakukan segalanya - mulai dari Visi komputer, audio, pembuatan gambar, pembuatan chat-bot, dan banyak lagi.
 
-      It works in the browser, via WASM or WebGPU, and on the server with Node.js, Bun or Deno. Running AI models on device is pretty exciting, and this library is a great way to get started without all the pain of trying to get Python running.
+      Pustaka ini berjalan di peramban, dengan menggunakan WASM atau WebGPU, dan pada server dengan Node.js, Bun atau Deno. Menjalankan model AI pada sebuah perangkat itu sangat menakjubkan, dan pustaka ini membolehkan kita memulai tanpa perlu repot dan bahkan menjalankan Python.
 
   - key: picks.shaundai_person.name
     t: Shruti Kapoor
   - key: picks.shaundai_person.bio
-    t: Front end Senior Software Engineer (Netflix) and course instructor
+    t: Front end Senior Software Engineer (Netflix) dan course instructor
   - key: picks.shaundai_person.description
     t: |
-      My Pick of the Year is my friend Shruti Kapoor. Shruti has a way of explaining even the trickiest technical JS concepts in very easy-to-understand way.  In her fun and engaging YouTube videos and conference talks, she teaches her audience the most critical parts of JavaScript development without a lot of fluff.
+      Pilihanku untuk tahun ini adalah temanku Shruti Kapoor. Shruti memiliki cara untuk menjelaskan konsep teknis dalam Javascript dengan bahasa yang sangat amat mudah untuk dipahami. Dalam video Youtube-nya yang seru dan menarik, dan juga pada pembicaraan konferensi, dia mengajarkan audiennya bagian penting dalam Javascript secara akurat.
 
   - key: picks.michelle_bakels.name
     t: v0
   - key: picks.michelle_bakels.bio
-    t: Software developer, community builder, and React Miami organizer at G2i
+    t: Software developer, community builder, dan penyelenggara React Miami di G2i
   - key: picks.michelle_bakels.description
     t: |
-      While AI coding companions are here to stay, they can still run into issues with keeping up with the latest developments in our ecosystem. v0 isn’t only the best tool for generating UI, but it also has the strongest context for providing valuable and relevant coding assistance in our current state of JavaScript.
+      Meski sobat AI coding masih berada di sisi kita, mereka juga bisa mengalami kendala dalam mengikuti kemajuan dalam ekosistem pengembangan kita. v0 bukan hanya tool yang hebat dalam membuat UI, tetapi juga memiliki konteks yang kuat untuk menawarkan bantuan yang relevan dan berharga dalam kondisi Javascript saat ini.
 
   - key: picks.sacha_greif.name
     t: Bluesky
@@ -318,7 +318,7 @@ translations:
     t: Maintainer, State of JS
   - key: picks.sacha_greif.description
     t: |
-      With X's slow descent into madness, it felt like the front end community had been left without a home. So it's great to see so many of us finally converging towards a new platform in the form of Bluesky.
+      Dengan X yang perlahan semakin kacau, rasanya komunitas front end telah ditinggalkan tanpa sebuah tempat tinggal. Jadi senang rasanya melihat banyak dari kita yang akhirnya pindah menuju platform baru dalam bentuk Bluesky.
 
   - key: picks.dominik_dorfmeister.name
     t: Knip
@@ -326,31 +326,31 @@ translations:
     t: Software Engineer @ Sentry, React Query maintainer
   - key: picks.dominik_dorfmeister.description
     t: |
-      Knip is an amazing tool that analyzes your code and tells you what you can get rid of. It’s fast (so you can run it in CI), understands many frameworks and libraries out of the box, and works seamlessly in monorepos, too.
+      Knip adalah tool hebat dalam menganalisa kode yang kamu buat dan memberitahu apa yang bisa kamu buang. Itu sangat cepat (kamu bisa menjalankannya dengan CI), sudah mengerti banyak kerangka kerja dan pustaka, dan juga dapat bekerja dengan baik dalam monorepo.
 
   - key: picks.sebastien_lorber.name
     t: Rspack
   - key: picks.sebastien_lorber.bio
-    t: This Week In React creator, Docusaurus maintainer
+    t: Pencipta This Week In React, Docusaurus maintainer
   - key: picks.sebastien_lorber.description
     t: |
-      The Rspack bundler is an almost drop-in replacement for Webpack. Implemented in Rust, it's much faster than Webpack and consumes less memory. All Webpack projects should try it out immediately, considering how easy it is to adopt!
+      Rspack bundler adalah tool yang dibuat untuk menggantikan Webpack. Dibuat dengan Rust, tool ini jauh lebih cepat dari Webpack dan menggunakan lebih sedikit memory. Semua proyek Webpack harus segera mencobanya, mengingat betapa mudahnya tool ini untuk di adopsi!
 
   ###########################################################################
   # Sponsors
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Tingkatkan keterampilan anda dengan kursus rekayasa front-end yang mendalam dan modern.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Terima kasih kepada tim Google Chrome untuk mendukung kami.
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: Temukan pekerjaan pengembang anda di Jepang hari ini.
   - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
+    t: konferensi teknologi yang fokus dalam bidang web.
   - key: sponsors.gitnation.description
     t: |
-      Learn latest trends directly from early-adopters and tech authors at GitNation.com
+      Pelajari tren terbaru langsung dari pengadopsi awal dan penulis teknologi di GitNation.com
 
   ###########################################################################
   # FAQ/About
@@ -358,45 +358,45 @@ translations:
 
   - key: about.content
     t: |
-      The 2024 State of JavaScript survey ran from November 13 to December 10 2024, and collected 14,015 responses. The results were published on December 16, 2024. The survey is run by [Devographics](https://devographics.com/), a collective consisting of me ([Sacha Greif](https://sachagreif.com/)) and [Eric Burel](https://www.lbke.fr/), as well as invited experts and open-source contributors. 
+      Survei State of JS 2024 berlangsung dari 13 November hingga 10 December 2024, dan mendapatkan 14,015 respon. Hasil survei telah dipublikasikan pada 16 December, 2024. Survei ini dikelola oleh [Devographics](https://devographics.com/), sebuah kolektif yang terdiri dari saya ([Sacha Greif](https://sachagreif.com/)) dan [Eric Burel](https://www.lbke.fr/), dan juga beberapa ahli dan kontributor open-source.
 
-      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo dan kaos State of JavaScript didesain oleh [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### Tujuan Survei
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Survei ini dibuat untuk mengidentifikasi tren-tren mendatang dalam ekosistem pengembangan web untuk membantu para pengembang membuat pilihan teknologi. 
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+      Maka dari itu, survei-survei ini berfokus pada mengantisipasi apa yang akan datang di beberapa tahun yang akan datang alih-alih menganalisa apa yang populer pada saat ini, yang merupakan alasan kenapa fitur-fitur atau teknologi yang saat ini banyak digunakan tidak selalu disertakan.
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Perlu dipertimbangkan juga bahwa ini hanya **gambaran dari sebagian pengembang tertentu**, dan tidak bermaksud untuk mewakili seluruh ekosistem. 
 
-      ### Survey Design
+      ### Perancangan Survei
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=+label%3A%22State+of+JS+2024%22+). 
+      Survei ini dirancang berdasarkan survei tahun lalu, dengan tambahan dari periode umpan balik yang didiskusikan [di GitHub](https://github.com/Devographics/surveys/issues?q=+label%3A%22State+of+JS+2024%22+). 
 
-      All survey questions were optional. 
+      Semua pertanyaan survei bersifat opsional. 
 
-      ### Survey Audience
+      ### Audien Survei
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Survei ini dibuat terbuka secara daring dan para responden tidak disaring atau dipilih dengan cara apapun. Para responden merupakan campuran dari responden dari survei yang lalu (diberitahu lewat sebuah milis khusus) dan lalu lintas media sosial. 
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadata page's "Sources" chart. 
+      Catatan bahwa kerangka kerja, pustaka, dll. bebas dalam mengajak audiensnya untuk berpartisipasi dalam survei dan bahkan beberapa memanfaatkannya melalui spanduk, tweet, dll. rincian sumber kunjungan dapat dilihat pada halaman Metadata, bagan "Sumber". 
 
-      ### Project Funding
+      ### Pendanaan proyek
 
-      Funding from this project comes from a variety of sources:
+      Pembiyaan proyek ini datang dari beberapa sumber:
 
-      - **T-shirt sales**. 
+      - **Penjualan kaos**. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [TokyoDev](https://tokyodev.com/).
+      - **Pranala bersponsor**: pranala yang mengarah ke sumber daya yang direkomendasikan di bawah tiap halaman diberikan oleh mitra kami [Frontend Masters](https://frontendmasters.com/) dan [TokyoDev](https://tokyodev.com/).
 
-      - **Direct Funding**: this year, [Google](https://www.google.com/) funded my work on the survey. 
+      - **Pendanaan langsung**: pada tahun ini, [Google](https://www.google.com/) mendanai karya saya pada suyvei ini. 
 
-      Any contribution or sponsorship is greatly appreciated. we would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      Kami sangat menghargai setiap kontribusi dan sponsor. Saya ingin secara khusus bekerja lebih erat dengan lebih banyak vendor browser, karena mereka memainkan peran yang sungguh penting dalam ekosistem web.  
 
-      ### Technical Overview
+      ### Ikhtisar Teknis
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+      Anda dapat menemukan sebuah ikhtisar teknis yang lebih mendalam tentang bagaimana survei ini dikelola [di sini](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
 
   ###########################################################################
   # Takeaways
@@ -406,33 +406,33 @@ translations:
 
   - key: user_info.country.takeaway.js2024
     t: >
-      As usual, the U.S. represented a large share of respondents, and also topped the ranking in terms of median income.
+      Seperti biasa, Amerika Serikat menjadi responden terbesar, dan juga meraih peringkat teratas dalam rata-rata pendapatan gaji.
 
   - key: user_info.age.takeaway.js2024
     t: >
-      With a mean age of 33.5 years old, the average State of JS respondent turned out to be slightly younger than State of CSS (34.9) and State of HTML (35.8).
+      Dengan rata-rata berumur 33.5 tahun, rata-rata responden State of JS ternyata sedikit lebih muda daripada State of CSS (34.9) dan State of HTML (35.8).
 
-      As expected, age and income are positively correlated; and it's encouraging to see more gender diversity in younger age brackets, as that could indicate changing demographics
+      Sesuai ekspektasi, umur dan gaji itu saling berhubungan; dan itu mendorong keberagaman jenis kelamin pada braket umur yang lebih muda, karena itu dapat mengindikasikan perubahan demografis
 
-      Interestingly, younger respondents were far more likely to suffer from cognitive and visual impairments, while older respondents were more affected by hearing and mobility impairments.
+      Menariknya, responden yang lebih muda lebih tidak begitu terdampak oleh gangguan kognitif dan visual, sementara responden yang lebih tua lebih terdampak oleh gangguan pendengaran dan mobilitas.
 
   - key: user_info.years_of_experience.takeaway.js2024
     t: >
-      51% of respondents had 10 years of experience or less – which means a majority of survey takers haven't known the world before modern JavaScript frameworks.
+      51% responden memiliki 10 tahun pengalaman atau kurang – yang berarti mayoritas audiens belum tahu zaman sebelum kerangka kerja modern Javascript.
 
-      Similarly to age, less experienced brackets also showed more gender diversity
+      Sama seperti umur, braket pengalaman yang lebih sedikit juga menunjukkan keberagaman jenis kelamin yang lebih beragam.
 
   - key: user_info.company_size.takeaway.js2024
     t: >
-      Larger companies continue to represent a sizeable proportion of respondents, while company size continues to be correlated with income level.
+      Perusahaan besar masih mengambil porsi besar dalam responden, bersamaan dengan ukuran perusahaan yang berhubungan dengan tingkat pendapatan gaji.
 
   - key: user_info.yearly_salary.takeaway.js2024
     t: >
-      While we often hear tales of six-figure salaries out of Silicon Valley, the reality is that most front-end developers throughout the world earn far less, as becomes apparent when directly comparing the U.S. and the rest of the world.
+      Meski kita sering mendengar kisah dari gaji 6 digit di Silicon Valley, realitanya adalah sebagian besar pengembang front-end di seluruh dunia menghasilkan jauh lebih sedikit, jika dibandingkan antara Amerika Serikat dengan seluruh dunia.
 
   - key: user_info.job_title.takeaway.js2024
     t: >
-      It seems like the JavaScript ecosystem features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
+      Kelihatannya ekosistem JavaScript  features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
 
 
       In terms of demographics, fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
