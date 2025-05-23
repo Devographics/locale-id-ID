@@ -424,65 +424,65 @@ translations:
 
   - key: user_info.company_size.takeaway.js2024
     t: >
-      Perusahaan besar masih mengambil porsi besar dalam responden, bersamaan dengan ukuran perusahaan yang berhubungan dengan tingkat pendapatan gaji.
+      Perusahaan besar masih mengambil porsi besar sebagai responden, begitu pula dengan ukuran perusahaan yang berhubungan dengan tingkat pendapatan gaji.
 
   - key: user_info.yearly_salary.takeaway.js2024
     t: >
-      Meski kita sering mendengar kisah dari gaji 6 digit di Silicon Valley, realitanya adalah sebagian besar pengembang front-end di seluruh dunia menghasilkan jauh lebih sedikit, jika dibandingkan antara Amerika Serikat dengan seluruh dunia.
+      Meski kita sering mendengar kisah gaji 6 digit di Silicon Valley, realitanya sebagian besar pengembang front-end di seluruh dunia menghasilkan jauh lebih sedikit, jika dibandingkan antara Amerika Serikat dengan seluruh dunia.
 
   - key: user_info.job_title.takeaway.js2024
     t: >
-      Kelihatannya ekosistem JavaScript  features as many different job titles as front end frameworks. But one clear trend is that anything with "engineer" in it will earn you more – even compared to CEOs, CTOs, and founders. "Developers" on the other hand are clearly at the bottom of the ladder, and might consider printing new business cards…
+      Sepertinya ekosistem JavaScript menimbulkan begitu banyak jenis pekerjaan seperti halnya kerangka kerja. Tapi satu tren yang pasti adalah bahwa "insinyur" akan menghasilkan lebih – bahkan jika dibandingkan dengan CEO, CTO, dan founder. "Pengembang" di sisi lain jelas berada di posisi terbawah, dan mungkin sebaiknya mempertimbangkan untuk mencetak kartu nama baru…
 
 
-      In terms of demographics, fullstack and frontend positions were staffed by the youngest respondents on average, and frontend job titles were also correlated with a significantly higher proportion of women.
+      Dari sisi demografis, posisi fullstack dan frontend rata-rata diisi oleh responden muda, dan jenis pekerjaan frontend juga berhubungan dengan proporsi wanita yang lebih tinggi.
 
   - key: user_info.higher_education_degree.takeaway.js2024
     t: >
-      While having a degree will ensure you earn more, turns out it doesn't necessarily have to be related to programming.
+      Meski mempunyai gelar akademik menjaminkan pendapatan yang lebih banyak, ternyata tidak perlu harus berhubungan dengan pemrograman.
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      We saw a small increase in the proportion of women and non-binary respondents compared to 2023, partly due to [renewed outreach efforts](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) this year.
+      Kami melihat sedikit peningkatan dalam proposi responden wanita dan non biner jika dibandingkan tahun 2023, sebagian karena [upaya penjangkauan yang diperbarui](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) pada tahun ini.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
-      Non-white respondents were more likely to be younger and have less experience – which could explain why they also tend to earn less; and hopefully points to ongoing diversification in the industry's younger corners.
+      Responden yang bukan berkulit putih kebanyakan masih muda dan memiliki pengalaman yang lebih sedikit – yang di mana menjelaskan mengapa pendapatan mereka lebih rendah; dan semoga dapat menunjukkan keanekaragaman dalam industri dari sisi anak muda.
 
   - key: user_info.disability_status.takeaway.js2024
     t: >
-      Whether permanent or temporary, disabilities are a part of our daily lives for many of us – especially as we age, in the case of hearing and mobility impairments. 
+      Baik itu permanen atau pun sementara, gangguan disabilitas adalah bagian dari kehidupan bagi banyak orang – apalagi disaat kita mulai menua, biasanya gangguan pendengaran dan mobilitas. 
 
-      The fact that many respondents who suffer from visual and cognitive impairments were relatively young could also explain why those disabilities were correlated with a income levels.
+      Faktanya banyak responden yang menderita dari gangguan visual dan kognitif berumur cukup muda juga menjelaskan mengapa gangguan disabilitas dapat berhubungan dengan tingkat pendapatan.
 
   # features
 
   - key: features.language_pain_points.takeaway.js2024
     t: >
-      When asked what aspect of JavaScript they struggled with the most, respondents overwhelmingly mentioned the lack of a built-in type system – with browser support issues a distant second.
+      Saat ditanya apa aspek dari JavaScript yang paling sulit, responden banyak yang menyebutkan tentang kurangnya type system yang built-in – dengan dukungan peramban berada jauh di urutan kedua.
 
   - key: features.browser_apis_pain_points.takeaway.js2024
     t: >
-      Unsurprisingly, poor browser support was the top obstacle regarding browsers and their APIs. Safari was also highlighted as a common pain point, and so was the overall lack of documentation about browser features.
+      Tidak heran, kurangnya dukungan peramban adalah rintangan terbesar dalam peramban dan API mereka. Safari juga disorot sebagai titik bermasalah, dan begitu pula dengan kurangnya keseluruhan dokumentasi tentang fitur peramban.     
 
   - key: features.reading_list.takeaway.js2024
     t: >
-      The Reading List lets you save items you want to learn more about after the survey is complete. 
+      Daftar bacaan membolehkanmu untuk menyimpan daftar yang ingin anda pelajari lebih lanjut setelah survei selesai diisi.
 
-      This year, `error.cause`, Logical Assignment, and `Object.groupBy()` were the features that most triggered respondents' curiosity.
+      Tahun ini, logika `error.cause`, dan `Object.groupBy()` adalah fitur yang banyak dilirik oleh responden.
 
   # tools
 
   - key: tools.all_tools_experience.takeaway.js2024
     t: >
-      Webpack is the most-used JavaScript tool, but not the most-loved. That title instead belongs to Vite, with 56% of positive opinions (note that remaining neutral was also an option this year). Astoundingly, Vite was also the third most used tool overall despite having only been around for a relatively short time!
+      Webpack adalah tool JavaScript yang paling banyak dipakai, tetapi tidak menjadi yang paling disukai. Gelar itu malah dipegang oleh Vite, dengan 56% opini positif (catatan bahwa pada tahun ini tetap netral juga termasuk sebuah pilihan). Yang luar biasanya lagi, Vite juga meraih peringkat ketiga sebagai tool yang paling banyak dipakai meski masih dianggap anak baru!
 
 
-      React on the other hand came in second not only in the most-used list, but also in the most-loved rankings – which is quite the staying power for a project that is over 10 years old! It's also worth nothing that React sports the highest proportion of users actively picking a sentiment.
+      Di sisi lain, React mendapat peringkat kedua tidak hanya dalam daftar yang paling banyak dipakai, tetapi juga dalam daftar peringkat yang paling disukai – yang di mana itu dianggap hebat untuk sebuah proyek yang sudah berumur lebih dari 10 tahun! Perlu diketahui bahwa React memiliki proporsi sentimen pengguna aktif tertinggi.
 
   - key: tools.tools_arrows.takeaway.js2024
     t: >
-      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+      Pustaka JavaScript biasanya lambat laun akan menampilkan sebuah pola "bumerang":  didorong dengan respon positif di awal boosted (garis ke kanan), pengguna yang meningkat (garis ke atas), kemudian pengguna dihadapi dengan kasus ekstrem dan permasalahan dunia nyata, lalu opini merosot ke arah negatif (garis berbelok kiri).
 
 
       So it's always interesting to see projects that manage to buck this trend, such as Vue and Angular, which have both managed to gain positive opinions again even after a couple years of less favorable results.
