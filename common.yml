@@ -285,7 +285,7 @@ translations:
   - key: sections.resources.title
     t: Sumber
   - key: sections.resources.description
-    t: Sumber {topic} apa yang Anda gunakan?
+    t: Sumber apa yang Anda gunakan?
 
   - key: sections.opinions.title
     t: Opini
@@ -1478,7 +1478,7 @@ translations:
     t: Status Disabilitas
   - key: user_info.disability_status.question
     t: >
-      Mana dari pilihan disabilitas ini yang pernah Anda alami? 
+      Mana dari pilihan disabilitas ini yang pernah Anda alami?
   - key: user_info.disability_status.prompt
     t: >
       Mohon centang semua yang sesuai. Perhatikan bahwa ini termasuk disabilitas sementara atau cedera. # disability status (other)
@@ -1579,7 +1579,7 @@ translations:
     t: Bagaimana cara Kami bisa mengembangkan survei ini?
   - key: user_info.how_can_we_improve.question
     t: Bagaimana lagi kami dapat meningkatkan survei ini?
-  
+
   ###########################################################################
   # Usage
   ###########################################################################
@@ -1695,9 +1695,6 @@ translations:
     t: Survei tambahan yang tidak disebutkan di atas
   - key: options.other_surveys.na
     t: 🚫 Tidak ada
-
-
-
 
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
