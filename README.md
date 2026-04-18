@@ -1,6 +1,6 @@
 # locale-id-ID
 
-Repo ini berisi berkas-berkas bahasa Indonesia untuk State of Js/CSS/dll.
+Repo ini berisi berkas-berkas bahasa Indonesia untuk survei State of JS/CSS/dll.
 
 ## Cara berkontribusi
 
@@ -21,20 +21,36 @@ dan menemukan string yang belum diterjemahkan, atau menggunakan API kami untuk
 mendapatkan data lebih misalnya persentasi penyelesaian untuk sebuah locale tertentu
 atau sebuah daftar dari semua string yang belum diterjemahkan:
 
-[https://graphiql-internal.devographics.com/]
+[https://graphiql.devographics.com/]
 
-### 3. mendapatkan penghargaan
+Contoh sampel survei:
 
-Anda dapat menambahkan nama anda di sini:
+```graphql
+query GetLocaleData {
+  locale(localeId: ru_RU) {
+    completion
+    totalCount
+    translatedCount
+    translators
+    untranslatedKeys
+  }
+}
+```
 
-- https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
+### 3. Mendapatkan penghargaan
+
+Setiap penerjemah akan mendapatkan penghargaan dalam situs manapun yang menggunakan terjemahannya, dimulai dari aplikasi pengambilan surveinya. Untuk mendapatkan penghargaan, tambahkan username Github Anda di dalam array `translators` dalam file `config.yml`.
+
+Nama dapat ditambahkan di sini:
+
+- https://github.com/Devographics/locale-id-ID/blob/main/config.yml#L3
 
 ### 4. Membuat perubahan anda terlihat
 
 Untuk saat ini tidak ada hook terotomasi untuk memperbarui aplikasi produksi
 ketika sudah selesai menerjemahkan, jadi untuk sekarang cara terbaik adalah untuk
-mengirimkan kepada saya sebuah pesan pribadi di Discord untuk memberitahu saya ketika
-anda sudah selesai.
+mengirimkan pesan pribadi kepada saya (`sachaG`) di Discord untuk memberitahu saya ketika
+Anda sudah selesai.
 
 ## Berkas-berkas penerjemahan
 
@@ -44,7 +60,7 @@ String-string berikut berkaitan dengan aplikasi yang dipakai untuk mengisi surve
 
 - `surveys.yml`
 - `accounts.yml`
-- `surveys.yml`
+- `state_of_js_2020_survey.yml`
 
 ### Aplikasi hasil
 
@@ -52,8 +68,8 @@ String-string hanya muncul dalam situs web statis yang menampilkan hasil dan
 statistik survei.
 
 - `results.yml`
-- `state_of_css.yml`
-- `state_of_js.yml`
+- `state_of_css_2020.yml`
+- `state_of_js_2020.yml`
 
 ### Dua-duanya
 
